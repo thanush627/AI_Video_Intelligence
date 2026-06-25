@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: video_ai_postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: video_ai
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - ./database/postgres:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: video_ai_chromadb
+    restart: unless-stopped
+
+    ports:
+      - "8001:8000"
+
+    volumes:
+      - ./database/chromadb:/chroma/chroma
+
+  redis:
+    image: redis:7-alpine
+    container_name: video_ai_redis
+    restart: unless-stopped
+
+    ports:
+      - "6379:6379"
+
+networks:
+  default:
+    name: ai_video_network
