@@ -1,0 +1,1424 @@
+[
+  {
+    "embedding_id": "bicycle_track_18_rank_1",
+    "embedding_index": 0,
+    "track_id": "bicycle_track_18",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000102.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_18\\rank_1_frame_000102.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_18_rank_2",
+    "embedding_index": 1,
+    "track_id": "bicycle_track_18",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000067.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_18\\rank_2_frame_000067.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_18_rank_3",
+    "embedding_index": 2,
+    "track_id": "bicycle_track_18",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000066.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_18\\rank_3_frame_000066.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_189_rank_1",
+    "embedding_index": 3,
+    "track_id": "bicycle_track_189",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000304.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_189\\rank_1_frame_000304.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_189_rank_2",
+    "embedding_index": 4,
+    "track_id": "bicycle_track_189",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000305.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_189\\rank_2_frame_000305.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_189_rank_3",
+    "embedding_index": 5,
+    "track_id": "bicycle_track_189",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000307.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_189\\rank_3_frame_000307.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_195_rank_1",
+    "embedding_index": 6,
+    "track_id": "bicycle_track_195",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000310.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_195\\rank_1_frame_000310.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_195_rank_2",
+    "embedding_index": 7,
+    "track_id": "bicycle_track_195",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000311.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_195\\rank_2_frame_000311.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_195_rank_3",
+    "embedding_index": 8,
+    "track_id": "bicycle_track_195",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000312.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_195\\rank_3_frame_000312.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_40_rank_1",
+    "embedding_index": 9,
+    "track_id": "bicycle_track_40",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000131.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_40\\rank_1_frame_000131.jpg"
+  },
+  {
+    "embedding_id": "bicycle_track_40_rank_2",
+    "embedding_index": 10,
+    "track_id": "bicycle_track_40",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000126.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_40\\rank_2_frame_000126.jpg"
+  },
+  {
+    "embedding_id": "bus_track_128_rank_1",
+    "embedding_index": 11,
+    "track_id": "bus_track_128",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000240.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_128\\rank_1_frame_000240.jpg"
+  },
+  {
+    "embedding_id": "bus_track_128_rank_2",
+    "embedding_index": 12,
+    "track_id": "bus_track_128",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000232.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_128\\rank_2_frame_000232.jpg"
+  },
+  {
+    "embedding_id": "bus_track_128_rank_3",
+    "embedding_index": 13,
+    "track_id": "bus_track_128",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000234.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_128\\rank_3_frame_000234.jpg"
+  },
+  {
+    "embedding_id": "bus_track_138_rank_1",
+    "embedding_index": 14,
+    "track_id": "bus_track_138",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000235.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_138\\rank_1_frame_000235.jpg"
+  },
+  {
+    "embedding_id": "bus_track_148_rank_1",
+    "embedding_index": 15,
+    "track_id": "bus_track_148",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000269.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_148\\rank_1_frame_000269.jpg"
+  },
+  {
+    "embedding_id": "bus_track_148_rank_2",
+    "embedding_index": 16,
+    "track_id": "bus_track_148",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000266.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_148\\rank_2_frame_000266.jpg"
+  },
+  {
+    "embedding_id": "bus_track_148_rank_3",
+    "embedding_index": 17,
+    "track_id": "bus_track_148",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000246.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_148\\rank_3_frame_000246.jpg"
+  },
+  {
+    "embedding_id": "bus_track_177_rank_1",
+    "embedding_index": 18,
+    "track_id": "bus_track_177",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000287.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_177\\rank_1_frame_000287.jpg"
+  },
+  {
+    "embedding_id": "bus_track_177_rank_2",
+    "embedding_index": 19,
+    "track_id": "bus_track_177",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000301.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_177\\rank_2_frame_000301.jpg"
+  },
+  {
+    "embedding_id": "bus_track_177_rank_3",
+    "embedding_index": 20,
+    "track_id": "bus_track_177",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000302.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_177\\rank_3_frame_000302.jpg"
+  },
+  {
+    "embedding_id": "bus_track_178_rank_1",
+    "embedding_index": 21,
+    "track_id": "bus_track_178",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000289.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_178\\rank_1_frame_000289.jpg"
+  },
+  {
+    "embedding_id": "bus_track_20_rank_1",
+    "embedding_index": 22,
+    "track_id": "bus_track_20",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000114.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_20\\rank_1_frame_000114.jpg"
+  },
+  {
+    "embedding_id": "bus_track_20_rank_2",
+    "embedding_index": 23,
+    "track_id": "bus_track_20",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000087.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_20\\rank_2_frame_000087.jpg"
+  },
+  {
+    "embedding_id": "bus_track_20_rank_3",
+    "embedding_index": 24,
+    "track_id": "bus_track_20",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000088.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_20\\rank_3_frame_000088.jpg"
+  },
+  {
+    "embedding_id": "bus_track_33_rank_1",
+    "embedding_index": 25,
+    "track_id": "bus_track_33",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000110.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_33\\rank_1_frame_000110.jpg"
+  },
+  {
+    "embedding_id": "bus_track_33_rank_2",
+    "embedding_index": 26,
+    "track_id": "bus_track_33",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000111.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_33\\rank_2_frame_000111.jpg"
+  },
+  {
+    "embedding_id": "bus_track_66_rank_1",
+    "embedding_index": 27,
+    "track_id": "bus_track_66",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000181.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_66\\rank_1_frame_000181.jpg"
+  },
+  {
+    "embedding_id": "bus_track_66_rank_2",
+    "embedding_index": 28,
+    "track_id": "bus_track_66",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000180.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_66\\rank_2_frame_000180.jpg"
+  },
+  {
+    "embedding_id": "bus_track_66_rank_3",
+    "embedding_index": 29,
+    "track_id": "bus_track_66",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000191.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_66\\rank_3_frame_000191.jpg"
+  },
+  {
+    "embedding_id": "bus_track_72_rank_1",
+    "embedding_index": 30,
+    "track_id": "bus_track_72",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000209.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_72\\rank_1_frame_000209.jpg"
+  },
+  {
+    "embedding_id": "bus_track_72_rank_2",
+    "embedding_index": 31,
+    "track_id": "bus_track_72",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000208.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_72\\rank_2_frame_000208.jpg"
+  },
+  {
+    "embedding_id": "bus_track_72_rank_3",
+    "embedding_index": 32,
+    "track_id": "bus_track_72",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000222.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_72\\rank_3_frame_000222.jpg"
+  },
+  {
+    "embedding_id": "car_track_1_rank_1",
+    "embedding_index": 33,
+    "track_id": "car_track_1",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000004.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_1\\rank_1_frame_000004.jpg"
+  },
+  {
+    "embedding_id": "car_track_1_rank_2",
+    "embedding_index": 34,
+    "track_id": "car_track_1",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000003.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_1\\rank_2_frame_000003.jpg"
+  },
+  {
+    "embedding_id": "car_track_1_rank_3",
+    "embedding_index": 35,
+    "track_id": "car_track_1",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000000.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_1\\rank_3_frame_000000.jpg"
+  },
+  {
+    "embedding_id": "car_track_13_rank_1",
+    "embedding_index": 36,
+    "track_id": "car_track_13",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000062.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_13\\rank_1_frame_000062.jpg"
+  },
+  {
+    "embedding_id": "car_track_13_rank_2",
+    "embedding_index": 37,
+    "track_id": "car_track_13",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000064.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_13\\rank_2_frame_000064.jpg"
+  },
+  {
+    "embedding_id": "car_track_13_rank_3",
+    "embedding_index": 38,
+    "track_id": "car_track_13",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000063.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_13\\rank_3_frame_000063.jpg"
+  },
+  {
+    "embedding_id": "car_track_17_rank_1",
+    "embedding_index": 39,
+    "track_id": "car_track_17",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000054.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_17\\rank_1_frame_000054.jpg"
+  },
+  {
+    "embedding_id": "car_track_6_rank_1",
+    "embedding_index": 40,
+    "track_id": "car_track_6",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000019.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_6\\rank_1_frame_000019.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_114_rank_1",
+    "embedding_index": 41,
+    "track_id": "pedestrian_track_114",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000218.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_114\\rank_1_frame_000218.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_117_rank_1",
+    "embedding_index": 42,
+    "track_id": "pedestrian_track_117",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000220.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_117\\rank_1_frame_000220.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_117_rank_2",
+    "embedding_index": 43,
+    "track_id": "pedestrian_track_117",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000222.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_117\\rank_2_frame_000222.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_132_rank_1",
+    "embedding_index": 44,
+    "track_id": "pedestrian_track_132",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000231.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_132\\rank_1_frame_000231.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_132_rank_2",
+    "embedding_index": 45,
+    "track_id": "pedestrian_track_132",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000232.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_132\\rank_2_frame_000232.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_139_rank_1",
+    "embedding_index": 46,
+    "track_id": "pedestrian_track_139",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000257.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_139\\rank_1_frame_000257.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_139_rank_2",
+    "embedding_index": 47,
+    "track_id": "pedestrian_track_139",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000252.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_139\\rank_2_frame_000252.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_139_rank_3",
+    "embedding_index": 48,
+    "track_id": "pedestrian_track_139",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000255.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_139\\rank_3_frame_000255.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_141_rank_1",
+    "embedding_index": 49,
+    "track_id": "pedestrian_track_141",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000237.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_141\\rank_1_frame_000237.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_141_rank_2",
+    "embedding_index": 50,
+    "track_id": "pedestrian_track_141",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000236.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_141\\rank_2_frame_000236.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_141_rank_3",
+    "embedding_index": 51,
+    "track_id": "pedestrian_track_141",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000238.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_141\\rank_3_frame_000238.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_158_rank_1",
+    "embedding_index": 52,
+    "track_id": "pedestrian_track_158",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000252.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_158\\rank_1_frame_000252.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_158_rank_2",
+    "embedding_index": 53,
+    "track_id": "pedestrian_track_158",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000251.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_158\\rank_2_frame_000251.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_164_rank_1",
+    "embedding_index": 54,
+    "track_id": "pedestrian_track_164",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000271.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_164\\rank_1_frame_000271.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_164_rank_2",
+    "embedding_index": 55,
+    "track_id": "pedestrian_track_164",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000272.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_164\\rank_2_frame_000272.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_164_rank_3",
+    "embedding_index": 56,
+    "track_id": "pedestrian_track_164",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000257.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_164\\rank_3_frame_000257.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_19_rank_1",
+    "embedding_index": 57,
+    "track_id": "pedestrian_track_19",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000061.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_19\\rank_1_frame_000061.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_19_rank_2",
+    "embedding_index": 58,
+    "track_id": "pedestrian_track_19",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000060.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_19\\rank_2_frame_000060.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_197_rank_1",
+    "embedding_index": 59,
+    "track_id": "pedestrian_track_197",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000320.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_197\\rank_1_frame_000320.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_197_rank_2",
+    "embedding_index": 60,
+    "track_id": "pedestrian_track_197",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000328.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_197\\rank_2_frame_000328.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_197_rank_3",
+    "embedding_index": 61,
+    "track_id": "pedestrian_track_197",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000314.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_197\\rank_3_frame_000314.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_206_rank_1",
+    "embedding_index": 62,
+    "track_id": "pedestrian_track_206",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000324.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_206\\rank_1_frame_000324.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_206_rank_2",
+    "embedding_index": 63,
+    "track_id": "pedestrian_track_206",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000323.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_206\\rank_2_frame_000323.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_206_rank_3",
+    "embedding_index": 64,
+    "track_id": "pedestrian_track_206",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000322.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_206\\rank_3_frame_000322.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_208_rank_1",
+    "embedding_index": 65,
+    "track_id": "pedestrian_track_208",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000315.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_208\\rank_1_frame_000315.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_208_rank_2",
+    "embedding_index": 66,
+    "track_id": "pedestrian_track_208",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000328.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_208\\rank_2_frame_000328.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_214_rank_1",
+    "embedding_index": 67,
+    "track_id": "pedestrian_track_214",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000323.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_214\\rank_1_frame_000323.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_214_rank_2",
+    "embedding_index": 68,
+    "track_id": "pedestrian_track_214",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000326.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_214\\rank_2_frame_000326.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_214_rank_3",
+    "embedding_index": 69,
+    "track_id": "pedestrian_track_214",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000327.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_214\\rank_3_frame_000327.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_23_rank_1",
+    "embedding_index": 70,
+    "track_id": "pedestrian_track_23",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000099.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_23\\rank_1_frame_000099.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_23_rank_2",
+    "embedding_index": 71,
+    "track_id": "pedestrian_track_23",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000104.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_23\\rank_2_frame_000104.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_23_rank_3",
+    "embedding_index": 72,
+    "track_id": "pedestrian_track_23",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000103.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_23\\rank_3_frame_000103.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_232_rank_1",
+    "embedding_index": 73,
+    "track_id": "pedestrian_track_232",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000342.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_232\\rank_1_frame_000342.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_232_rank_2",
+    "embedding_index": 74,
+    "track_id": "pedestrian_track_232",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000359.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_232\\rank_2_frame_000359.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_232_rank_3",
+    "embedding_index": 75,
+    "track_id": "pedestrian_track_232",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000358.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_232\\rank_3_frame_000358.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_234_rank_1",
+    "embedding_index": 76,
+    "track_id": "pedestrian_track_234",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000343.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_234\\rank_1_frame_000343.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_240_rank_1",
+    "embedding_index": 77,
+    "track_id": "pedestrian_track_240",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000348.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_240\\rank_1_frame_000348.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_240_rank_2",
+    "embedding_index": 78,
+    "track_id": "pedestrian_track_240",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000356.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_240\\rank_2_frame_000356.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_240_rank_3",
+    "embedding_index": 79,
+    "track_id": "pedestrian_track_240",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000349.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_240\\rank_3_frame_000349.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_25_rank_1",
+    "embedding_index": 80,
+    "track_id": "pedestrian_track_25",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000140.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_25\\rank_1_frame_000140.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_25_rank_2",
+    "embedding_index": 81,
+    "track_id": "pedestrian_track_25",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000102.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_25\\rank_2_frame_000102.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_25_rank_3",
+    "embedding_index": 82,
+    "track_id": "pedestrian_track_25",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000111.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_25\\rank_3_frame_000111.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_265_rank_1",
+    "embedding_index": 83,
+    "track_id": "pedestrian_track_265",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000386.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_265\\rank_1_frame_000386.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_265_rank_2",
+    "embedding_index": 84,
+    "track_id": "pedestrian_track_265",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000379.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_265\\rank_2_frame_000379.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_265_rank_3",
+    "embedding_index": 85,
+    "track_id": "pedestrian_track_265",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000388.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_265\\rank_3_frame_000388.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_272_rank_1",
+    "embedding_index": 86,
+    "track_id": "pedestrian_track_272",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000380.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_272\\rank_1_frame_000380.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_272_rank_2",
+    "embedding_index": 87,
+    "track_id": "pedestrian_track_272",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000382.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_272\\rank_2_frame_000382.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_272_rank_3",
+    "embedding_index": 88,
+    "track_id": "pedestrian_track_272",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000383.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_272\\rank_3_frame_000383.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_277_rank_1",
+    "embedding_index": 89,
+    "track_id": "pedestrian_track_277",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000384.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_277\\rank_1_frame_000384.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_278_rank_1",
+    "embedding_index": 90,
+    "track_id": "pedestrian_track_278",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000392.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_278\\rank_1_frame_000392.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_278_rank_2",
+    "embedding_index": 91,
+    "track_id": "pedestrian_track_278",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000393.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_278\\rank_2_frame_000393.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_278_rank_3",
+    "embedding_index": 92,
+    "track_id": "pedestrian_track_278",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000386.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_278\\rank_3_frame_000386.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_279_rank_1",
+    "embedding_index": 93,
+    "track_id": "pedestrian_track_279",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000393.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_279\\rank_1_frame_000393.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_279_rank_2",
+    "embedding_index": 94,
+    "track_id": "pedestrian_track_279",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000394.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_279\\rank_2_frame_000394.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_279_rank_3",
+    "embedding_index": 95,
+    "track_id": "pedestrian_track_279",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000392.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_279\\rank_3_frame_000392.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_28_rank_1",
+    "embedding_index": 96,
+    "track_id": "pedestrian_track_28",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000116.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_28\\rank_1_frame_000116.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_28_rank_2",
+    "embedding_index": 97,
+    "track_id": "pedestrian_track_28",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000117.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_28\\rank_2_frame_000117.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_28_rank_3",
+    "embedding_index": 98,
+    "track_id": "pedestrian_track_28",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000105.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_28\\rank_3_frame_000105.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_283_rank_1",
+    "embedding_index": 99,
+    "track_id": "pedestrian_track_283",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000391.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_283\\rank_1_frame_000391.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_283_rank_2",
+    "embedding_index": 100,
+    "track_id": "pedestrian_track_283",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000390.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_283\\rank_2_frame_000390.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_283_rank_3",
+    "embedding_index": 101,
+    "track_id": "pedestrian_track_283",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000389.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_283\\rank_3_frame_000389.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_284_rank_1",
+    "embedding_index": 102,
+    "track_id": "pedestrian_track_284",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000392.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_284\\rank_1_frame_000392.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_284_rank_2",
+    "embedding_index": 103,
+    "track_id": "pedestrian_track_284",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000390.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_284\\rank_2_frame_000390.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_285_rank_1",
+    "embedding_index": 104,
+    "track_id": "pedestrian_track_285",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000394.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_285\\rank_1_frame_000394.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_285_rank_2",
+    "embedding_index": 105,
+    "track_id": "pedestrian_track_285",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000392.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_285\\rank_2_frame_000392.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_285_rank_3",
+    "embedding_index": 106,
+    "track_id": "pedestrian_track_285",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000391.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_285\\rank_3_frame_000391.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_29_rank_1",
+    "embedding_index": 107,
+    "track_id": "pedestrian_track_29",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000105.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_29\\rank_1_frame_000105.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_29_rank_2",
+    "embedding_index": 108,
+    "track_id": "pedestrian_track_29",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000104.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_29\\rank_2_frame_000104.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_31_rank_1",
+    "embedding_index": 109,
+    "track_id": "pedestrian_track_31",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000109.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_31\\rank_1_frame_000109.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_31_rank_2",
+    "embedding_index": 110,
+    "track_id": "pedestrian_track_31",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000110.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_31\\rank_2_frame_000110.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_37_rank_1",
+    "embedding_index": 111,
+    "track_id": "pedestrian_track_37",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000120.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_37\\rank_1_frame_000120.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_37_rank_2",
+    "embedding_index": 112,
+    "track_id": "pedestrian_track_37",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000126.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_37\\rank_2_frame_000126.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_37_rank_3",
+    "embedding_index": 113,
+    "track_id": "pedestrian_track_37",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000119.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_37\\rank_3_frame_000119.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_39_rank_1",
+    "embedding_index": 114,
+    "track_id": "pedestrian_track_39",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000132.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_39\\rank_1_frame_000132.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_39_rank_2",
+    "embedding_index": 115,
+    "track_id": "pedestrian_track_39",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000131.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_39\\rank_2_frame_000131.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_39_rank_3",
+    "embedding_index": 116,
+    "track_id": "pedestrian_track_39",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000130.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_39\\rank_3_frame_000130.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_48_rank_1",
+    "embedding_index": 117,
+    "track_id": "pedestrian_track_48",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000149.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_48\\rank_1_frame_000149.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_48_rank_2",
+    "embedding_index": 118,
+    "track_id": "pedestrian_track_48",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000151.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_48\\rank_2_frame_000151.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_48_rank_3",
+    "embedding_index": 119,
+    "track_id": "pedestrian_track_48",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000141.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_48\\rank_3_frame_000141.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_56_rank_1",
+    "embedding_index": 120,
+    "track_id": "pedestrian_track_56",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000174.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_56\\rank_1_frame_000174.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_96_rank_1",
+    "embedding_index": 121,
+    "track_id": "pedestrian_track_96",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000211.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_96\\rank_1_frame_000211.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_97_rank_1",
+    "embedding_index": 122,
+    "track_id": "pedestrian_track_97",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000218.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_97\\rank_1_frame_000218.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_97_rank_2",
+    "embedding_index": 123,
+    "track_id": "pedestrian_track_97",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000221.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_97\\rank_2_frame_000221.jpg"
+  },
+  {
+    "embedding_id": "pedestrian_track_97_rank_3",
+    "embedding_index": 124,
+    "track_id": "pedestrian_track_97",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000217.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_97\\rank_3_frame_000217.jpg"
+  },
+  {
+    "embedding_id": "people_track_146_rank_1",
+    "embedding_index": 125,
+    "track_id": "people_track_146",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000243.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_146\\rank_1_frame_000243.jpg"
+  },
+  {
+    "embedding_id": "people_track_146_rank_2",
+    "embedding_index": 126,
+    "track_id": "people_track_146",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000244.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_146\\rank_2_frame_000244.jpg"
+  },
+  {
+    "embedding_id": "people_track_15_rank_1",
+    "embedding_index": 127,
+    "track_id": "people_track_15",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000044.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_15\\rank_1_frame_000044.jpg"
+  },
+  {
+    "embedding_id": "people_track_15_rank_2",
+    "embedding_index": 128,
+    "track_id": "people_track_15",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000043.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_15\\rank_2_frame_000043.jpg"
+  },
+  {
+    "embedding_id": "people_track_16_rank_1",
+    "embedding_index": 129,
+    "track_id": "people_track_16",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000048.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_16\\rank_1_frame_000048.jpg"
+  },
+  {
+    "embedding_id": "people_track_16_rank_2",
+    "embedding_index": 130,
+    "track_id": "people_track_16",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000049.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_16\\rank_2_frame_000049.jpg"
+  },
+  {
+    "embedding_id": "people_track_176_rank_1",
+    "embedding_index": 131,
+    "track_id": "people_track_176",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000286.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_176\\rank_1_frame_000286.jpg"
+  },
+  {
+    "embedding_id": "people_track_2_rank_1",
+    "embedding_index": 132,
+    "track_id": "people_track_2",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000005.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_2\\rank_1_frame_000005.jpg"
+  },
+  {
+    "embedding_id": "people_track_2_rank_2",
+    "embedding_index": 133,
+    "track_id": "people_track_2",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000003.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_2\\rank_2_frame_000003.jpg"
+  },
+  {
+    "embedding_id": "people_track_2_rank_3",
+    "embedding_index": 134,
+    "track_id": "people_track_2",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000002.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_2\\rank_3_frame_000002.jpg"
+  },
+  {
+    "embedding_id": "people_track_215_rank_1",
+    "embedding_index": 135,
+    "track_id": "people_track_215",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000323.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_215\\rank_1_frame_000323.jpg"
+  },
+  {
+    "embedding_id": "people_track_223_rank_1",
+    "embedding_index": 136,
+    "track_id": "people_track_223",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000332.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_223\\rank_1_frame_000332.jpg"
+  },
+  {
+    "embedding_id": "people_track_223_rank_2",
+    "embedding_index": 137,
+    "track_id": "people_track_223",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000333.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_223\\rank_2_frame_000333.jpg"
+  },
+  {
+    "embedding_id": "people_track_223_rank_3",
+    "embedding_index": 138,
+    "track_id": "people_track_223",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000337.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_223\\rank_3_frame_000337.jpg"
+  },
+  {
+    "embedding_id": "people_track_238_rank_1",
+    "embedding_index": 139,
+    "track_id": "people_track_238",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000345.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_238\\rank_1_frame_000345.jpg"
+  },
+  {
+    "embedding_id": "people_track_238_rank_2",
+    "embedding_index": 140,
+    "track_id": "people_track_238",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000346.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_238\\rank_2_frame_000346.jpg"
+  },
+  {
+    "embedding_id": "people_track_24_rank_1",
+    "embedding_index": 141,
+    "track_id": "people_track_24",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000099.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_24\\rank_1_frame_000099.jpg"
+  },
+  {
+    "embedding_id": "people_track_24_rank_2",
+    "embedding_index": 142,
+    "track_id": "people_track_24",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000100.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_24\\rank_2_frame_000100.jpg"
+  },
+  {
+    "embedding_id": "people_track_286_rank_1",
+    "embedding_index": 143,
+    "track_id": "people_track_286",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000391.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_286\\rank_1_frame_000391.jpg"
+  },
+  {
+    "embedding_id": "people_track_286_rank_2",
+    "embedding_index": 144,
+    "track_id": "people_track_286",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000392.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_286\\rank_2_frame_000392.jpg"
+  },
+  {
+    "embedding_id": "people_track_35_rank_1",
+    "embedding_index": 145,
+    "track_id": "people_track_35",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000111.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_35\\rank_1_frame_000111.jpg"
+  },
+  {
+    "embedding_id": "people_track_73_rank_1",
+    "embedding_index": 146,
+    "track_id": "people_track_73",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000186.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_73\\rank_1_frame_000186.jpg"
+  },
+  {
+    "embedding_id": "people_track_76_rank_1",
+    "embedding_index": 147,
+    "track_id": "people_track_76",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000188.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_76\\rank_1_frame_000188.jpg"
+  },
+  {
+    "embedding_id": "people_track_99_rank_1",
+    "embedding_index": 148,
+    "track_id": "people_track_99",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000212.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_99\\rank_1_frame_000212.jpg"
+  },
+  {
+    "embedding_id": "people_track_99_rank_2",
+    "embedding_index": 149,
+    "track_id": "people_track_99",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000213.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_99\\rank_2_frame_000213.jpg"
+  },
+  {
+    "embedding_id": "van_track_106_rank_1",
+    "embedding_index": 150,
+    "track_id": "van_track_106",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000216.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_106\\rank_1_frame_000216.jpg"
+  },
+  {
+    "embedding_id": "van_track_106_rank_2",
+    "embedding_index": 151,
+    "track_id": "van_track_106",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000222.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_106\\rank_2_frame_000222.jpg"
+  },
+  {
+    "embedding_id": "van_track_106_rank_3",
+    "embedding_index": 152,
+    "track_id": "van_track_106",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000223.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_106\\rank_3_frame_000223.jpg"
+  },
+  {
+    "embedding_id": "van_track_69_rank_1",
+    "embedding_index": 153,
+    "track_id": "van_track_69",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000181.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_69\\rank_1_frame_000181.jpg"
+  },
+  {
+    "embedding_id": "van_track_69_rank_2",
+    "embedding_index": 154,
+    "track_id": "van_track_69",
+    "video_id": "test_video",
+    "rank": 2,
+    "image_name": "rank_2_frame_000180.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_69\\rank_2_frame_000180.jpg"
+  },
+  {
+    "embedding_id": "van_track_69_rank_3",
+    "embedding_index": 155,
+    "track_id": "van_track_69",
+    "video_id": "test_video",
+    "rank": 3,
+    "image_name": "rank_3_frame_000212.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_69\\rank_3_frame_000212.jpg"
+  },
+  {
+    "embedding_id": "van_track_77_rank_1",
+    "embedding_index": 156,
+    "track_id": "van_track_77",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000189.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_77\\rank_1_frame_000189.jpg"
+  },
+  {
+    "embedding_id": "van_track_83_rank_1",
+    "embedding_index": 157,
+    "track_id": "van_track_83",
+    "video_id": "test_video",
+    "rank": 1,
+    "image_name": "rank_1_frame_000195.jpg",
+    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_83\\rank_1_frame_000195.jpg"
+  }
+]

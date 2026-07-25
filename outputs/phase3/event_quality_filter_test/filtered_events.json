@@ -1,0 +1,2303 @@
+{
+  "summary": {
+    "input_events": 54,
+    "accepted_events": 40,
+    "rejected_events": 14,
+    "acceptance_rate": 0.7407,
+    "accepted_type_counts": {
+      "track_semantic_event": 35,
+      "relationship_event": 5
+    },
+    "quality_label_counts": {
+      "high": 32,
+      "medium": 7,
+      "low": 1
+    },
+    "rejected_reason_counts": {
+      "hard_reject": 14
+    },
+    "minimum_quality_score": 0.5,
+    "minimum_track_duration": 0.1,
+    "minimum_relationship_frames": 4
+  },
+  "accepted_events": [
+    {
+      "event_id": "composite_event_000001",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        1
+      ],
+      "class_names": [
+        "car"
+      ],
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.6006,
+      "duration_seconds": 0.6006,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "white"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "top_right_to_bottom_left",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1411,
+        "normalized_y": 0.7165
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.0943,
+        "normalized_y": 0.7564
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "white car moved top right to bottom left within the left bottom region",
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "medium_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000002",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        2
+      ],
+      "class_names": [
+        "people"
+      ],
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 0.2002,
+      "duration_seconds": 0.2002,
+      "reliability_status": "reliable",
+      "colour_attributes": {},
+      "motion_state": "slow_moving",
+      "motion_direction": "right_to_left",
+      "start_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8746,
+        "normalized_y": 0.9562
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8553,
+        "normalized_y": 0.955
+      },
+      "region_transition": "remained_in_right_bottom",
+      "description": "people moved right to left within the right bottom region",
+      "quality_score": 0.72,
+      "quality_label": "medium",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000003",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        13
+      ],
+      "class_names": [
+        "car"
+      ],
+      "start_time_seconds": 0.9009,
+      "end_time_seconds": 2.8695,
+      "duration_seconds": 1.9686,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "white"
+      },
+      "motion_state": "moving",
+      "motion_direction": "right_to_left",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "middle",
+        "combined": "center_middle",
+        "normalized_x": 0.3981,
+        "normalized_y": 0.6623
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1722,
+        "normalized_y": 0.7424
+      },
+      "region_transition": "center_middle_to_left_bottom",
+      "description": "white car moved from the center middle region to the left bottom region",
+      "quality_score": 1.0,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "long_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000004",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        18
+      ],
+      "class_names": [
+        "bicycle"
+      ],
+      "start_time_seconds": 1.9353,
+      "end_time_seconds": 4.004,
+      "duration_seconds": 2.0687,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "black"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "top_left_to_bottom_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5871,
+        "normalized_y": 0.9033
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.6065,
+        "normalized_y": 0.9446
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "black bicycle moved top left to bottom right within the center bottom region",
+      "quality_score": 1.0,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "long_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000006",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        20
+      ],
+      "class_names": [
+        "bus"
+      ],
+      "start_time_seconds": 2.5692,
+      "end_time_seconds": 4.3377,
+      "duration_seconds": 1.7684,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4708,
+        "normalized_y": 0.689
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4636,
+        "normalized_y": 0.6829
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "gray bus remained stationary in the center bottom region",
+      "quality_score": 1.0,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "long_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000007",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        23
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 3.3033,
+      "end_time_seconds": 3.4701,
+      "duration_seconds": 0.1668,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2173,
+        "normalized_y": 0.7349
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2238,
+        "normalized_y": 0.7432
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing black upper clothing and gray lower clothing remained stationary in the left bottom region",
+      "quality_score": 0.81,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "minimum_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000008",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        25
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 3.3367,
+      "end_time_seconds": 4.6713,
+      "duration_seconds": 1.3347,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "black"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3203,
+        "normalized_y": 0.7374
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3774,
+        "normalized_y": 0.76
+      },
+      "region_transition": "left_bottom_to_center_bottom",
+      "description": "pedestrian wearing black upper clothing and black lower clothing moved from the left bottom region to the center bottom region",
+      "quality_score": 1.0,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "long_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000009",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        28
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 3.4701,
+      "end_time_seconds": 4.0374,
+      "duration_seconds": 0.5672,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "gray",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2994,
+        "normalized_y": 0.7221
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.309,
+        "normalized_y": 0.7206
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing gray upper clothing and gray lower clothing remained stationary in the left bottom region",
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "medium_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000012",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        37
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 3.9373,
+      "end_time_seconds": 4.9383,
+      "duration_seconds": 1.001,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "black"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2508,
+        "normalized_y": 0.7259
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3062,
+        "normalized_y": 0.7487
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing black upper clothing and black lower clothing moved left to right within the left bottom region",
+      "quality_score": 1.0,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "long_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000013",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        39
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 4.004,
+      "end_time_seconds": 4.4711,
+      "duration_seconds": 0.4671,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "gray",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.323,
+        "normalized_y": 0.7291
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3305,
+        "normalized_y": 0.7364
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing gray upper clothing and gray lower clothing remained stationary in the left bottom region",
+      "quality_score": 0.87,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000014",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        48
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 4.7047,
+      "end_time_seconds": 5.1718,
+      "duration_seconds": 0.4671,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "black"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1292,
+        "normalized_y": 0.7413
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1594,
+        "normalized_y": 0.7457
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing black upper clothing and black lower clothing moved left to right within the left bottom region",
+      "quality_score": 0.87,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000016",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        66
+      ],
+      "class_names": [
+        "bus"
+      ],
+      "start_time_seconds": 6.006,
+      "end_time_seconds": 6.7734,
+      "duration_seconds": 0.7674,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "white"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "top_left_to_bottom_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.573,
+        "normalized_y": 0.6885
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.6018,
+        "normalized_y": 0.7137
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "white bus moved top left to bottom right within the center bottom region",
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "medium_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000017",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        69
+      ],
+      "class_names": [
+        "van"
+      ],
+      "start_time_seconds": 6.006,
+      "end_time_seconds": 7.0737,
+      "duration_seconds": 1.0677,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "object_color": "red"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "bottom_right_to_top_left",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4533,
+        "normalized_y": 0.8577
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4073,
+        "normalized_y": 0.8196
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "red van moved bottom right to top left within the center bottom region",
+      "quality_score": 0.82,
+      "quality_label": "high",
+      "quality_reasons": [
+        "review_track",
+        "long_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000018",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        72
+      ],
+      "class_names": [
+        "bus"
+      ],
+      "start_time_seconds": 6.1061,
+      "end_time_seconds": 7.4074,
+      "duration_seconds": 1.3013,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "blue"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "right_to_left",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2499,
+        "normalized_y": 0.8029
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2271,
+        "normalized_y": 0.8051
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "blue bus moved right to left within the left bottom region",
+      "quality_score": 1.0,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "long_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000019",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        97
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 7.0404,
+      "end_time_seconds": 7.4408,
+      "duration_seconds": 0.4004,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "gray",
+        "lower_color": "gray"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5223,
+        "normalized_y": 0.7849
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5588,
+        "normalized_y": 0.7957
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing gray upper clothing and gray lower clothing moved left to right within the center bottom region",
+      "quality_score": 0.87,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000020",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        106
+      ],
+      "class_names": [
+        "van"
+      ],
+      "start_time_seconds": 7.2072,
+      "end_time_seconds": 7.4408,
+      "duration_seconds": 0.2336,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "object_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3874,
+        "normalized_y": 0.8481
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3763,
+        "normalized_y": 0.8448
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "gray van remained stationary in the center bottom region",
+      "quality_score": 0.69,
+      "quality_label": "medium",
+      "quality_reasons": [
+        "review_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000022",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        128
+      ],
+      "class_names": [
+        "bus"
+      ],
+      "start_time_seconds": 7.6076,
+      "end_time_seconds": 8.1081,
+      "duration_seconds": 0.5005,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "white"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.6388,
+        "normalized_y": 0.7072
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.7019,
+        "normalized_y": 0.7262
+      },
+      "region_transition": "center_bottom_to_right_bottom",
+      "description": "white bus moved from the center bottom region to the right bottom region",
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "medium_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000024",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        139
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 7.8745,
+      "end_time_seconds": 8.6086,
+      "duration_seconds": 0.7341,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "white",
+        "lower_color": "gray"
+      },
+      "motion_state": "moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4234,
+        "normalized_y": 0.7479
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5106,
+        "normalized_y": 0.7669
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing white upper clothing and gray lower clothing moved left to right within the center bottom region",
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "medium_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000026",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        148
+      ],
+      "class_names": [
+        "bus"
+      ],
+      "start_time_seconds": 8.1081,
+      "end_time_seconds": 10.6773,
+      "duration_seconds": 2.5692,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "black"
+      },
+      "motion_state": "moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5927,
+        "normalized_y": 0.7252
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.9566,
+        "normalized_y": 0.7953
+      },
+      "region_transition": "center_bottom_to_right_bottom",
+      "description": "black bus moved from the center bottom region to the right bottom region",
+      "quality_score": 1.0,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "long_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000028",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        164
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 8.5752,
+      "end_time_seconds": 9.1091,
+      "duration_seconds": 0.5339,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "blue",
+        "lower_color": "gray"
+      },
+      "motion_state": "moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5236,
+        "normalized_y": 0.7662
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.59,
+        "normalized_y": 0.7874
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing blue upper clothing and gray lower clothing moved left to right within the center bottom region",
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "medium_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000029",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        177
+      ],
+      "class_names": [
+        "bus"
+      ],
+      "start_time_seconds": 9.5762,
+      "end_time_seconds": 10.1768,
+      "duration_seconds": 0.6006,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "white"
+      },
+      "motion_state": "moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8757,
+        "normalized_y": 0.7673
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.9595,
+        "normalized_y": 0.7857
+      },
+      "region_transition": "remained_in_right_bottom",
+      "description": "white bus moved left to right within the right bottom region",
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "medium_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000030",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        189
+      ],
+      "class_names": [
+        "bicycle"
+      ],
+      "start_time_seconds": 10.1435,
+      "end_time_seconds": 10.2436,
+      "duration_seconds": 0.1001,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "object_color": "black"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.9133,
+        "normalized_y": 0.8751
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.9358,
+        "normalized_y": 0.8902
+      },
+      "region_transition": "remained_in_right_bottom",
+      "description": "black bicycle moved left to right within the right bottom region",
+      "quality_score": 0.81,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "minimum_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000031",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        197
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 10.3437,
+      "end_time_seconds": 11.0444,
+      "duration_seconds": 0.7007,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "gray",
+        "lower_color": "gray"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4826,
+        "normalized_y": 0.8361
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5447,
+        "normalized_y": 0.8341
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing gray upper clothing and gray lower clothing moved left to right within the center bottom region",
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "medium_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000032",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        206
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 10.4771,
+      "end_time_seconds": 10.8442,
+      "duration_seconds": 0.367,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "gray"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5422,
+        "normalized_y": 0.8331
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5626,
+        "normalized_y": 0.8293
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing black upper clothing and gray lower clothing moved left to right within the center bottom region",
+      "quality_score": 0.87,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000033",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        208
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 10.5105,
+      "end_time_seconds": 10.9443,
+      "duration_seconds": 0.4338,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5295,
+        "normalized_y": 0.8283
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5291,
+        "normalized_y": 0.8189
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing black upper clothing and gray lower clothing remained stationary in the center bottom region",
+      "quality_score": 0.69,
+      "quality_label": "medium",
+      "quality_reasons": [
+        "review_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000034",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        214
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 10.7774,
+      "end_time_seconds": 10.9109,
+      "duration_seconds": 0.1335,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "blue",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5151,
+        "normalized_y": 0.8083
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5263,
+        "normalized_y": 0.8053
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing blue upper clothing and gray lower clothing remained stationary in the center bottom region",
+      "quality_score": 0.81,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "minimum_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000035",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        223
+      ],
+      "class_names": [
+        "people"
+      ],
+      "start_time_seconds": 11.0777,
+      "end_time_seconds": 11.2779,
+      "duration_seconds": 0.2002,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "blue",
+        "lower_color": "blue"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3956,
+        "normalized_y": 0.9275
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4247,
+        "normalized_y": 0.929
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "people wearing blue upper clothing and blue lower clothing moved left to right within the center bottom region",
+      "quality_score": 0.87,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000036",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        232
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 11.4114,
+      "end_time_seconds": 11.9786,
+      "duration_seconds": 0.5672,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "blue",
+        "lower_color": "blue"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.279,
+        "normalized_y": 0.7568
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3275,
+        "normalized_y": 0.7892
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing blue upper clothing and blue lower clothing moved left to right within the left bottom region",
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "medium_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000037",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        240
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 11.6116,
+      "end_time_seconds": 11.8785,
+      "duration_seconds": 0.2669,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "white",
+        "lower_color": "white"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3265,
+        "normalized_y": 0.778
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3516,
+        "normalized_y": 0.7795
+      },
+      "region_transition": "left_bottom_to_center_bottom",
+      "description": "pedestrian wearing white upper clothing and white lower clothing moved from the left bottom region to the center bottom region",
+      "quality_score": 0.87,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000038",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        265
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 12.5792,
+      "end_time_seconds": 12.9463,
+      "duration_seconds": 0.367,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "blue",
+        "lower_color": "blue"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3498,
+        "normalized_y": 0.8129
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3469,
+        "normalized_y": 0.8142
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing blue upper clothing and blue lower clothing remained stationary in the center bottom region",
+      "quality_score": 0.87,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000039",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        272
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 12.6793,
+      "end_time_seconds": 12.7794,
+      "duration_seconds": 0.1001,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "black"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "top_to_bottom",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4573,
+        "normalized_y": 0.7806
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4636,
+        "normalized_y": 0.8113
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing black upper clothing and black lower clothing moved top to bottom within the center bottom region",
+      "quality_score": 0.81,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "minimum_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000040",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        278
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 12.8795,
+      "end_time_seconds": 13.1798,
+      "duration_seconds": 0.3003,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "blue",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3593,
+        "normalized_y": 0.8086
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3521,
+        "normalized_y": 0.8175
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing blue upper clothing and gray lower clothing remained stationary in the center bottom region",
+      "quality_score": 0.87,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000041",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        279
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 12.9463,
+      "end_time_seconds": 13.1798,
+      "duration_seconds": 0.2336,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "white",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4903,
+        "normalized_y": 0.7701
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4993,
+        "normalized_y": 0.7767
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing white upper clothing and gray lower clothing remained stationary in the center bottom region",
+      "quality_score": 0.87,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "short_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000042",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        283
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 12.9796,
+      "end_time_seconds": 13.1131,
+      "duration_seconds": 0.1335,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "black"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4761,
+        "normalized_y": 0.81
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4802,
+        "normalized_y": 0.8146
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing black upper clothing and black lower clothing remained stationary in the center bottom region",
+      "quality_score": 0.81,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "minimum_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000044",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        285
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 13.013,
+      "end_time_seconds": 13.1798,
+      "duration_seconds": 0.1668,
+      "reliability_status": "reliable",
+      "colour_attributes": {
+        "upper_color": "gray",
+        "lower_color": "white"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4623,
+        "normalized_y": 0.7567
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.468,
+        "normalized_y": 0.7672
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing gray upper clothing and white lower clothing remained stationary in the center bottom region",
+      "quality_score": 0.81,
+      "quality_label": "high",
+      "quality_reasons": [
+        "reliable_track",
+        "minimum_valid_duration",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ]
+    },
+    {
+      "event_id": "composite_event_000045",
+      "event_type": "relationship_event",
+      "track_ids": [
+        25,
+        28
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near"
+      ],
+      "start_time_seconds": 3.4701333333333335,
+      "end_time_seconds": 3.7037,
+      "duration_seconds": 0.23356666666666648,
+      "shared_frames": 8,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "description": "A pedestrian and a pedestrian remained near each other",
+      "quality_score": 0.67,
+      "quality_label": "medium",
+      "quality_reasons": [
+        "good_temporal_support",
+        "strong_near_evidence",
+        "semantic_relationship"
+      ]
+    },
+    {
+      "event_id": "composite_event_000047",
+      "event_type": "relationship_event",
+      "track_ids": [
+        37,
+        39
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near"
+      ],
+      "start_time_seconds": 4.0040000000000004,
+      "end_time_seconds": 4.471133333333333,
+      "duration_seconds": 0.46713333333333296,
+      "shared_frames": 8,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "description": "A pedestrian and a pedestrian remained near each other",
+      "quality_score": 0.67,
+      "quality_label": "medium",
+      "quality_reasons": [
+        "good_temporal_support",
+        "strong_near_evidence",
+        "semantic_relationship"
+      ]
+    },
+    {
+      "event_id": "composite_event_000052",
+      "event_type": "relationship_event",
+      "track_ids": [
+        283,
+        285
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near",
+        "overlapping"
+      ],
+      "start_time_seconds": 13.013,
+      "end_time_seconds": 13.113100000000001,
+      "duration_seconds": 0.10010000000000119,
+      "shared_frames": 4,
+      "near_ratio": 1.0,
+      "overlap_ratio": 1.0,
+      "description": "A pedestrian and a pedestrian overlapped while visible together",
+      "quality_score": 0.71,
+      "quality_label": "medium",
+      "quality_reasons": [
+        "minimum_temporal_support",
+        "strong_near_evidence",
+        "strong_overlap_evidence",
+        "semantic_relationship"
+      ]
+    },
+    {
+      "event_id": "composite_event_000053",
+      "event_type": "relationship_event",
+      "track_ids": [
+        279,
+        283
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near",
+        "overlapping"
+      ],
+      "start_time_seconds": 12.979633333333334,
+      "end_time_seconds": 13.046366666666668,
+      "duration_seconds": 0.06673333333333353,
+      "shared_frames": 4,
+      "near_ratio": 1.0,
+      "overlap_ratio": 1.0,
+      "description": "A pedestrian and a pedestrian overlapped while visible together",
+      "quality_score": 0.71,
+      "quality_label": "medium",
+      "quality_reasons": [
+        "minimum_temporal_support",
+        "strong_near_evidence",
+        "strong_overlap_evidence",
+        "semantic_relationship"
+      ]
+    },
+    {
+      "event_id": "composite_event_000054",
+      "event_type": "relationship_event",
+      "track_ids": [
+        279,
+        285
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near"
+      ],
+      "start_time_seconds": 13.046366666666668,
+      "end_time_seconds": 13.179833333333333,
+      "duration_seconds": 0.1334666666666653,
+      "shared_frames": 5,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "description": "A pedestrian and a pedestrian remained near each other",
+      "quality_score": 0.59,
+      "quality_label": "low",
+      "quality_reasons": [
+        "moderate_temporal_support",
+        "strong_near_evidence",
+        "semantic_relationship"
+      ]
+    }
+  ],
+  "rejected_events": [
+    {
+      "event_id": "composite_event_000005",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        19
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 2.002,
+      "end_time_seconds": 2.0354,
+      "duration_seconds": 0.0334,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "gray",
+        "lower_color": "black"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1075,
+        "normalized_y": 0.6966
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1079,
+        "normalized_y": 0.6953
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing gray upper clothing and black lower clothing remained stationary in the left bottom region",
+      "quality_score": 0.57,
+      "quality_label": "low",
+      "quality_reasons": [
+        "review_track",
+        "too_short",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000010",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        29
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 3.4701,
+      "end_time_seconds": 3.5035,
+      "duration_seconds": 0.0334,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "black"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3135,
+        "normalized_y": 0.7319
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3161,
+        "normalized_y": 0.7313
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing black upper clothing and black lower clothing remained stationary in the left bottom region",
+      "quality_score": 0.57,
+      "quality_label": "low",
+      "quality_reasons": [
+        "review_track",
+        "too_short",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000011",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        31
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 3.637,
+      "end_time_seconds": 3.6703,
+      "duration_seconds": 0.0334,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "gray",
+        "lower_color": "black"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1308,
+        "normalized_y": 0.6952
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1307,
+        "normalized_y": 0.6956
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing gray upper clothing and black lower clothing remained stationary in the left bottom region",
+      "quality_score": 0.57,
+      "quality_label": "low",
+      "quality_reasons": [
+        "review_track",
+        "too_short",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000015",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        56
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 5.7391,
+      "end_time_seconds": 5.8058,
+      "duration_seconds": 0.0667,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8083,
+        "normalized_y": 0.7217
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8096,
+        "normalized_y": 0.7196
+      },
+      "region_transition": "remained_in_right_bottom",
+      "description": "pedestrian wearing black upper clothing and gray lower clothing remained stationary in the right bottom region",
+      "quality_score": 0.57,
+      "quality_label": "low",
+      "quality_reasons": [
+        "review_track",
+        "too_short",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000021",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        117
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 7.3407,
+      "end_time_seconds": 7.4074,
+      "duration_seconds": 0.0667,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "black"
+      },
+      "motion_state": "slow_moving",
+      "motion_direction": "bottom_right_to_top_left",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3896,
+        "normalized_y": 0.8035
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3812,
+        "normalized_y": 0.7726
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing black upper clothing and black lower clothing moved bottom right to top left within the center bottom region",
+      "quality_score": 0.57,
+      "quality_label": "low",
+      "quality_reasons": [
+        "review_track",
+        "too_short",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000023",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        132
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 7.7077,
+      "end_time_seconds": 7.7411,
+      "duration_seconds": 0.0334,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "gray",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5948,
+        "normalized_y": 0.8091
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5997,
+        "normalized_y": 0.8127
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing gray upper clothing and gray lower clothing remained stationary in the center bottom region",
+      "quality_score": 0.57,
+      "quality_label": "low",
+      "quality_reasons": [
+        "review_track",
+        "too_short",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000025",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        141
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 7.8745,
+      "end_time_seconds": 7.9413,
+      "duration_seconds": 0.0667,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "gray"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4032,
+        "normalized_y": 0.8152
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4036,
+        "normalized_y": 0.8192
+      },
+      "region_transition": "remained_in_center_bottom",
+      "description": "pedestrian wearing black upper clothing and gray lower clothing remained stationary in the center bottom region",
+      "quality_score": 0.57,
+      "quality_label": "low",
+      "quality_reasons": [
+        "review_track",
+        "too_short",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000027",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        158
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 8.375,
+      "end_time_seconds": 8.4084,
+      "duration_seconds": 0.0334,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "gray",
+        "lower_color": "black"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.0344,
+        "normalized_y": 0.8415
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.0393,
+        "normalized_y": 0.8476
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing gray upper clothing and black lower clothing remained stationary in the left bottom region",
+      "quality_score": 0.57,
+      "quality_label": "low",
+      "quality_reasons": [
+        "review_track",
+        "too_short",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000043",
+      "event_type": "track_semantic_event",
+      "track_ids": [
+        284
+      ],
+      "class_names": [
+        "pedestrian"
+      ],
+      "start_time_seconds": 13.013,
+      "end_time_seconds": 13.0797,
+      "duration_seconds": 0.0667,
+      "reliability_status": "review",
+      "colour_attributes": {
+        "upper_color": "black",
+        "lower_color": "black"
+      },
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.0938,
+        "normalized_y": 0.8711
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.106,
+        "normalized_y": 0.8581
+      },
+      "region_transition": "remained_in_left_bottom",
+      "description": "pedestrian wearing black upper clothing and black lower clothing remained stationary in the left bottom region",
+      "quality_score": 0.57,
+      "quality_label": "low",
+      "quality_reasons": [
+        "review_track",
+        "too_short",
+        "colour_attributes",
+        "motion_attributes",
+        "spatial_attributes"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000046",
+      "event_type": "relationship_event",
+      "track_ids": [
+        28,
+        37
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near"
+      ],
+      "start_time_seconds": 3.9706333333333332,
+      "end_time_seconds": 4.0040000000000004,
+      "duration_seconds": 0.03336666666666721,
+      "shared_frames": 3,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "description": "A pedestrian and a pedestrian remained near each other",
+      "quality_score": 0.35,
+      "quality_label": "low",
+      "quality_reasons": [
+        "insufficient_temporal_support",
+        "strong_near_evidence",
+        "semantic_relationship"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000048",
+      "event_type": "relationship_event",
+      "track_ids": [
+        139,
+        141
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near",
+        "overlapping"
+      ],
+      "start_time_seconds": 7.874533333333334,
+      "end_time_seconds": 7.9412666666666665,
+      "duration_seconds": 0.06673333333333265,
+      "shared_frames": 3,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.6667,
+      "description": "A pedestrian and a pedestrian overlapped while visible together",
+      "quality_score": 0.55,
+      "quality_label": "low",
+      "quality_reasons": [
+        "insufficient_temporal_support",
+        "strong_near_evidence",
+        "strong_overlap_evidence",
+        "semantic_relationship"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000049",
+      "event_type": "relationship_event",
+      "track_ids": [
+        197,
+        206
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near"
+      ],
+      "start_time_seconds": 10.477133333333333,
+      "end_time_seconds": 10.710700000000001,
+      "duration_seconds": 0.23356666666666825,
+      "shared_frames": 3,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "description": "A pedestrian and a pedestrian remained near each other",
+      "quality_score": 0.35,
+      "quality_label": "low",
+      "quality_reasons": [
+        "insufficient_temporal_support",
+        "strong_near_evidence",
+        "semantic_relationship"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000050",
+      "event_type": "relationship_event",
+      "track_ids": [
+        206,
+        214
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near"
+      ],
+      "start_time_seconds": 10.777433333333333,
+      "end_time_seconds": 10.844166666666666,
+      "duration_seconds": 0.06673333333333353,
+      "shared_frames": 3,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "description": "A pedestrian and a pedestrian remained near each other",
+      "quality_score": 0.35,
+      "quality_label": "low",
+      "quality_reasons": [
+        "insufficient_temporal_support",
+        "strong_near_evidence",
+        "semantic_relationship"
+      ],
+      "rejection_reason": "hard_reject"
+    },
+    {
+      "event_id": "composite_event_000051",
+      "event_type": "relationship_event",
+      "track_ids": [
+        265,
+        278
+      ],
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "relationship_types": [
+        "near",
+        "overlapping"
+      ],
+      "start_time_seconds": 12.879533333333333,
+      "end_time_seconds": 12.946266666666666,
+      "duration_seconds": 0.06673333333333353,
+      "shared_frames": 3,
+      "near_ratio": 1.0,
+      "overlap_ratio": 1.0,
+      "description": "A pedestrian and a pedestrian overlapped while visible together",
+      "quality_score": 0.55,
+      "quality_label": "low",
+      "quality_reasons": [
+        "insufficient_temporal_support",
+        "strong_near_evidence",
+        "strong_overlap_evidence",
+        "semantic_relationship"
+      ],
+      "rejection_reason": "hard_reject"
+    }
+  ]
+}

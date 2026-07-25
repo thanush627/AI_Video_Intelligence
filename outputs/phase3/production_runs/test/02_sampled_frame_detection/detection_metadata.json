@@ -1,0 +1,1438 @@
+{
+  "summary": {
+    "processed_frames": 44,
+    "total_detections": 90,
+    "class_counts": {
+      "car": 3,
+      "people": 11,
+      "pedestrian": 48,
+      "bicycle": 5,
+      "bus": 17,
+      "van": 6
+    }
+  },
+  "frames": [
+    {
+      "sample_number": 1,
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "motion_level": "low",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000001_src_000000.jpg",
+      "detection_count": 2,
+      "detections": [
+        {
+          "class_id": 3,
+          "class_name": "car",
+          "confidence": 0.7648534178733826,
+          "bounding_box": {
+            "x1": 0.0,
+            "y1": 847.3170166015625,
+            "x2": 722.51708984375,
+            "y2": 1216.7225341796875
+          }
+        },
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.3978419005870819,
+          "bounding_box": {
+            "x1": 2183.3974609375,
+            "y1": 1315.4305419921875,
+            "x2": 2293.2919921875,
+            "y2": 1438.5596923828125
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 2,
+      "frame_index": 15,
+      "timestamp_seconds": 0.5005000000000001,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000002_src_000015.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.6088379621505737,
+          "bounding_box": {
+            "x1": 0.0,
+            "y1": 853.107177734375,
+            "x2": 420.9632873535156,
+            "y2": 1309.821044921875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 3,
+      "frame_index": 45,
+      "timestamp_seconds": 1.5015,
+      "motion_level": "low",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000003_src_000045.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 3,
+          "class_name": "car",
+          "confidence": 0.6591992974281311,
+          "bounding_box": {
+            "x1": 633.0411376953125,
+            "y1": 813.5494384765625,
+            "x2": 1130.137939453125,
+            "y2": 1130.0294189453125
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 4,
+      "frame_index": 60,
+      "timestamp_seconds": 2.0020000000000002,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000004_src_000060.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 3,
+          "class_name": "car",
+          "confidence": 0.8067886829376221,
+          "bounding_box": {
+            "x1": 273.2439270019531,
+            "y1": 787.177734375,
+            "x2": 1046.509033203125,
+            "y2": 1230.8681640625
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6015921831130981,
+          "bounding_box": {
+            "x1": 252.4691619873047,
+            "y1": 954.7706298828125,
+            "x2": 300.23980712890625,
+            "y2": 1050.8612060546875
+          }
+        },
+        {
+          "class_id": 2,
+          "class_name": "bicycle",
+          "confidence": 0.52716064453125,
+          "bounding_box": {
+            "x1": 1464.2825927734375,
+            "y1": 1205.354736328125,
+            "x2": 1545.1434326171875,
+            "y2": 1396.66552734375
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 5,
+      "frame_index": 75,
+      "timestamp_seconds": 2.5025,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000005_src_000075.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sample_number": 6,
+      "frame_index": 90,
+      "timestamp_seconds": 3.003,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000006_src_000090.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.7479622960090637,
+          "bounding_box": {
+            "x1": 1113.028076171875,
+            "y1": 948.5240478515625,
+            "x2": 1299.464111328125,
+            "y2": 1039.2938232421875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 7,
+      "frame_index": 105,
+      "timestamp_seconds": 3.5035000000000003,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000007_src_000105.jpg",
+      "detection_count": 4,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.5787158012390137,
+          "bounding_box": {
+            "x1": 746.72900390625,
+            "y1": 1001.277099609375,
+            "x2": 789.253173828125,
+            "y2": 1082.455810546875
+          }
+        },
+        {
+          "class_id": 2,
+          "class_name": "bicycle",
+          "confidence": 0.5723522305488586,
+          "bounding_box": {
+            "x1": 1496.974853515625,
+            "y1": 1215.13818359375,
+            "x2": 1583.903076171875,
+            "y2": 1395.94921875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.5168668031692505,
+          "bounding_box": {
+            "x1": 785.420166015625,
+            "y1": 996.4808349609375,
+            "x2": 836.30859375,
+            "y2": 1107.6844482421875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.39258238673210144,
+          "bounding_box": {
+            "x1": 776.7298583984375,
+            "y1": 952.0286865234375,
+            "x2": 814.4498291015625,
+            "y2": 1021.8153076171875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 8,
+      "frame_index": 120,
+      "timestamp_seconds": 4.0040000000000004,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000008_src_000120.jpg",
+      "detection_count": 5,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6929008364677429,
+          "bounding_box": {
+            "x1": 628.7364501953125,
+            "y1": 1003.955322265625,
+            "x2": 686.3062744140625,
+            "y2": 1115.703369140625
+          }
+        },
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.5116958618164062,
+          "bounding_box": {
+            "x1": 1507.905517578125,
+            "y1": 1307.228759765625,
+            "x2": 1599.082763671875,
+            "y2": 1419.173095703125
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.4603835940361023,
+          "bounding_box": {
+            "x1": 807.6085205078125,
+            "y1": 1008.634765625,
+            "x2": 849.2071533203125,
+            "y2": 1091.59619140625
+          }
+        },
+        {
+          "class_id": 2,
+          "class_name": "bicycle",
+          "confidence": 0.4300745725631714,
+          "bounding_box": {
+            "x1": 1092.482177734375,
+            "y1": 919.4638671875,
+            "x2": 1240.406982421875,
+            "y2": 1060.850341796875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.35285577178001404,
+          "bounding_box": {
+            "x1": 769.5894165039062,
+            "y1": 995.66259765625,
+            "x2": 806.7295532226562,
+            "y2": 1081.37353515625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 9,
+      "frame_index": 135,
+      "timestamp_seconds": 4.5045,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000009_src_000135.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sample_number": 10,
+      "frame_index": 150,
+      "timestamp_seconds": 5.005,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000010_src_000150.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 2,
+          "class_name": "bicycle",
+          "confidence": 0.47657328844070435,
+          "bounding_box": {
+            "x1": 319.0596008300781,
+            "y1": 985.755126953125,
+            "x2": 455.1686096191406,
+            "y2": 1149.783935546875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 11,
+      "frame_index": 165,
+      "timestamp_seconds": 5.5055000000000005,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000011_src_000165.jpg",
+      "detection_count": 2,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6546902656555176,
+          "bounding_box": {
+            "x1": 2014.691650390625,
+            "y1": 1007.04931640625,
+            "x2": 2050.66796875,
+            "y2": 1058.357421875
+          }
+        },
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.48249515891075134,
+          "bounding_box": {
+            "x1": 1211.131103515625,
+            "y1": 1037.5125732421875,
+            "x2": 1282.861083984375,
+            "y2": 1148.6993408203125
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 12,
+      "frame_index": 180,
+      "timestamp_seconds": 6.006,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000012_src_000180.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.8295385241508484,
+          "bounding_box": {
+            "x1": 1385.099365234375,
+            "y1": 934.642578125,
+            "x2": 1548.958251953125,
+            "y2": 1048.33154296875
+          }
+        },
+        {
+          "class_id": 4,
+          "class_name": "van",
+          "confidence": 0.7044474482536316,
+          "bounding_box": {
+            "x1": 1117.07958984375,
+            "y1": 1173.927978515625,
+            "x2": 1201.61865234375,
+            "y2": 1298.9677734375
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.44844850897789,
+          "bounding_box": {
+            "x1": 44.1317024230957,
+            "y1": 1040.4478759765625,
+            "x2": 120.34956359863281,
+            "y2": 1159.8856201171875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 13,
+      "frame_index": 195,
+      "timestamp_seconds": 6.5065,
+      "motion_level": "medium",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000013_src_000195.jpg",
+      "detection_count": 2,
+      "detections": [
+        {
+          "class_id": 4,
+          "class_name": "van",
+          "confidence": 0.4942052364349365,
+          "bounding_box": {
+            "x1": 1152.848876953125,
+            "y1": 1053.9208984375,
+            "x2": 1213.018310546875,
+            "y2": 1148.10693359375
+          }
+        },
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.3960043787956238,
+          "bounding_box": {
+            "x1": 2494.702392578125,
+            "y1": 883.668212890625,
+            "x2": 2558.225830078125,
+            "y2": 915.756591796875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 14,
+      "frame_index": 205,
+      "timestamp_seconds": 6.840166666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000014_src_000205.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sample_number": 15,
+      "frame_index": 211,
+      "timestamp_seconds": 7.040366666666666,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000015_src_000211.jpg",
+      "detection_count": 5,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6993349194526672,
+          "bounding_box": {
+            "x1": 1253.513916015625,
+            "y1": 1081.517822265625,
+            "x2": 1298.868896484375,
+            "y2": 1166.873291015625
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6031489968299866,
+          "bounding_box": {
+            "x1": 1314.86865234375,
+            "y1": 1083.67333984375,
+            "x2": 1362.73486328125,
+            "y2": 1176.98876953125
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.5398134589195251,
+          "bounding_box": {
+            "x1": 1191.809814453125,
+            "y1": 1117.0721435546875,
+            "x2": 1257.639892578125,
+            "y2": 1233.5667724609375
+          }
+        },
+        {
+          "class_id": 4,
+          "class_name": "van",
+          "confidence": 0.4108039140701294,
+          "bounding_box": {
+            "x1": 373.41046142578125,
+            "y1": 1252.793701171875,
+            "x2": 454.85614013671875,
+            "y2": 1333.919677734375
+          }
+        },
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.3694136440753937,
+          "bounding_box": {
+            "x1": 418.02618408203125,
+            "y1": 1121.839599609375,
+            "x2": 540.6774291992188,
+            "y2": 1242.27197265625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 16,
+      "frame_index": 217,
+      "timestamp_seconds": 7.240566666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000016_src_000217.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 4,
+          "class_name": "van",
+          "confidence": 0.6804959774017334,
+          "bounding_box": {
+            "x1": 1335.47607421875,
+            "y1": 1111.6822509765625,
+            "x2": 1396.3291015625,
+            "y2": 1190.3253173828125
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.4258480966091156,
+          "bounding_box": {
+            "x1": 1005.9541015625,
+            "y1": 1114.5146484375,
+            "x2": 1073.050537109375,
+            "y2": 1259.9482421875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.3621705174446106,
+          "bounding_box": {
+            "x1": 1345.200927734375,
+            "y1": 1079.5621337890625,
+            "x2": 1392.376220703125,
+            "y2": 1172.7952880859375
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 17,
+      "frame_index": 223,
+      "timestamp_seconds": 7.440766666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000017_src_000223.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6036511659622192,
+          "bounding_box": {
+            "x1": 1402.21435546875,
+            "y1": 1096.600341796875,
+            "x2": 1461.01806640625,
+            "y2": 1197.115478515625
+          }
+        },
+        {
+          "class_id": 4,
+          "class_name": "van",
+          "confidence": 0.6008446216583252,
+          "bounding_box": {
+            "x1": 1437.8603515625,
+            "y1": 1134.66455078125,
+            "x2": 1477.66259765625,
+            "y2": 1216.107421875
+          }
+        },
+        {
+          "class_id": 4,
+          "class_name": "van",
+          "confidence": 0.45614129304885864,
+          "bounding_box": {
+            "x1": 932.0369262695312,
+            "y1": 1155.4708251953125,
+            "x2": 995.6815795898438,
+            "y2": 1275.6356201171875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 18,
+      "frame_index": 229,
+      "timestamp_seconds": 7.6409666666666665,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000018_src_000229.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.6276971101760864,
+          "bounding_box": {
+            "x1": 1597.772216796875,
+            "y1": 955.9957275390625,
+            "x2": 1702.564208984375,
+            "y2": 1085.5018310546875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 19,
+      "frame_index": 235,
+      "timestamp_seconds": 7.841166666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000019_src_000235.jpg",
+      "detection_count": 5,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.7625092267990112,
+          "bounding_box": {
+            "x1": 1632.3721923828125,
+            "y1": 962.3018798828125,
+            "x2": 1796.3157958984375,
+            "y2": 1095.2557373046875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.5212751626968384,
+          "bounding_box": {
+            "x1": 1053.9317626953125,
+            "y1": 1027.1375732421875,
+            "x2": 1099.9202880859375,
+            "y2": 1123.7330322265625
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.4584333598613739,
+          "bounding_box": {
+            "x1": 1096.774169921875,
+            "y1": 1027.9752197265625,
+            "x2": 1209.508544921875,
+            "y2": 1219.0526123046875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.38785648345947266,
+          "bounding_box": {
+            "x1": 987.4415893554688,
+            "y1": 1093.5111083984375,
+            "x2": 1075.609130859375,
+            "y2": 1253.0679931640625
+          }
+        },
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.38280048966407776,
+          "bounding_box": {
+            "x1": 1258.865966796875,
+            "y1": 941.957275390625,
+            "x2": 1459.970947265625,
+            "y2": 1087.813720703125
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 20,
+      "frame_index": 241,
+      "timestamp_seconds": 8.041366666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000020_src_000241.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.5792538523674011,
+          "bounding_box": {
+            "x1": 1113.3568115234375,
+            "y1": 1033.51025390625,
+            "x2": 1158.9661865234375,
+            "y2": 1129.806640625
+          }
+        },
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.4341150224208832,
+          "bounding_box": {
+            "x1": 435.48577880859375,
+            "y1": 1169.78125,
+            "x2": 544.078369140625,
+            "y2": 1315.56884765625
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.38276880979537964,
+          "bounding_box": {
+            "x1": 1179.150634765625,
+            "y1": 1021.32080078125,
+            "x2": 1292.601806640625,
+            "y2": 1223.44873046875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 21,
+      "frame_index": 247,
+      "timestamp_seconds": 8.241566666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000021_src_000247.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.7228695750236511,
+          "bounding_box": {
+            "x1": 1479.613525390625,
+            "y1": 959.016845703125,
+            "x2": 1610.573974609375,
+            "y2": 1130.1162109375
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.67798912525177,
+          "bounding_box": {
+            "x1": 1173.1162109375,
+            "y1": 1036.4251708984375,
+            "x2": 1217.94287109375,
+            "y2": 1140.2669677734375
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.5124437808990479,
+          "bounding_box": {
+            "x1": 1209.907958984375,
+            "y1": 1035.19970703125,
+            "x2": 1253.372314453125,
+            "y2": 1141.6572265625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 22,
+      "frame_index": 253,
+      "timestamp_seconds": 8.441766666666666,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000022_src_000253.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6852356791496277,
+          "bounding_box": {
+            "x1": 1230.51318359375,
+            "y1": 1044.6636962890625,
+            "x2": 1274.4716796875,
+            "y2": 1145.2899169921875
+          }
+        },
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.42619436979293823,
+          "bounding_box": {
+            "x1": 1123.648681640625,
+            "y1": 1105.10205078125,
+            "x2": 1223.80078125,
+            "y2": 1236.7841796875
+          }
+        },
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.3521675169467926,
+          "bounding_box": {
+            "x1": 1522.3214111328125,
+            "y1": 962.2177734375,
+            "x2": 1695.7591552734375,
+            "y2": 1142.402587890625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 23,
+      "frame_index": 259,
+      "timestamp_seconds": 8.641966666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000023_src_000259.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6858178377151489,
+          "bounding_box": {
+            "x1": 1341.966796875,
+            "y1": 1079.6756591796875,
+            "x2": 1381.31396484375,
+            "y2": 1160.1483154296875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 24,
+      "frame_index": 265,
+      "timestamp_seconds": 8.842166666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000024_src_000265.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sample_number": 25,
+      "frame_index": 271,
+      "timestamp_seconds": 9.042366666666666,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000025_src_000271.jpg",
+      "detection_count": 2,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6194288730621338,
+          "bounding_box": {
+            "x1": 1458.62939453125,
+            "y1": 1060.66064453125,
+            "x2": 1521.908203125,
+            "y2": 1183.40283203125
+          }
+        },
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.5280609130859375,
+          "bounding_box": {
+            "x1": 1698.931640625,
+            "y1": 984.8428955078125,
+            "x2": 1911.078125,
+            "y2": 1150.5457763671875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 26,
+      "frame_index": 277,
+      "timestamp_seconds": 9.242566666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000026_src_000277.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sample_number": 27,
+      "frame_index": 283,
+      "timestamp_seconds": 9.442766666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000027_src_000283.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sample_number": 28,
+      "frame_index": 289,
+      "timestamp_seconds": 9.642966666666666,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000028_src_000289.jpg",
+      "detection_count": 2,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.47371917963027954,
+          "bounding_box": {
+            "x1": 2150.12158203125,
+            "y1": 1033.107421875,
+            "x2": 2389.44677734375,
+            "y2": 1183.924072265625
+          }
+        },
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.4556141793727875,
+          "bounding_box": {
+            "x1": 1410.0736083984375,
+            "y1": 1151.734130859375,
+            "x2": 1490.3599853515625,
+            "y2": 1281.896240234375
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 29,
+      "frame_index": 295,
+      "timestamp_seconds": 9.843166666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000029_src_000295.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sample_number": 30,
+      "frame_index": 301,
+      "timestamp_seconds": 10.043366666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000030_src_000301.jpg",
+      "detection_count": 2,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.8632063865661621,
+          "bounding_box": {
+            "x1": 2309.93310546875,
+            "y1": 1039.860595703125,
+            "x2": 2558.40283203125,
+            "y2": 1205.425048828125
+          }
+        },
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.7371600866317749,
+          "bounding_box": {
+            "x1": 2001.994140625,
+            "y1": 1015.781494140625,
+            "x2": 2192.9501953125,
+            "y2": 1187.497802734375
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 31,
+      "frame_index": 307,
+      "timestamp_seconds": 10.243566666666666,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000031_src_000307.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.7693203687667847,
+          "bounding_box": {
+            "x1": 2080.48583984375,
+            "y1": 1024.58984375,
+            "x2": 2335.74365234375,
+            "y2": 1209.24560546875
+          }
+        },
+        {
+          "class_id": 2,
+          "class_name": "bicycle",
+          "confidence": 0.6325672268867493,
+          "bounding_box": {
+            "x1": 2305.96337890625,
+            "y1": 1156.778076171875,
+            "x2": 2480.03369140625,
+            "y2": 1404.262451171875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.4545100927352905,
+          "bounding_box": {
+            "x1": 913.1001586914062,
+            "y1": 1046.299560546875,
+            "x2": 950.7901000976562,
+            "y2": 1138.205322265625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 32,
+      "frame_index": 313,
+      "timestamp_seconds": 10.443766666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000032_src_000313.jpg",
+      "detection_count": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.7856221795082092,
+          "bounding_box": {
+            "x1": 2170.41064453125,
+            "y1": 1031.558349609375,
+            "x2": 2458.40283203125,
+            "y2": 1194.286865234375
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.40696805715560913,
+          "bounding_box": {
+            "x1": 1233.04541015625,
+            "y1": 1161.257568359375,
+            "x2": 1277.7255859375,
+            "y2": 1243.731201171875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.3877990245819092,
+          "bounding_box": {
+            "x1": 1365.140380859375,
+            "y1": 1156.379638671875,
+            "x2": 1402.141845703125,
+            "y2": 1239.163330078125
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.3512010872364044,
+          "bounding_box": {
+            "x1": 94.47239685058594,
+            "y1": 949.2606201171875,
+            "x2": 124.13298034667969,
+            "y2": 1006.4498291015625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 33,
+      "frame_index": 319,
+      "timestamp_seconds": 10.643966666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000033_src_000319.jpg",
+      "detection_count": 2,
+      "detections": [
+        {
+          "class_id": 6,
+          "class_name": "bus",
+          "confidence": 0.7184979319572449,
+          "bounding_box": {
+            "x1": 2313.702880859375,
+            "y1": 1051.970703125,
+            "x2": 2558.663818359375,
+            "y2": 1262.123046875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.3862091302871704,
+          "bounding_box": {
+            "x1": 169.47412109375,
+            "y1": 950.6593627929688,
+            "x2": 203.2244873046875,
+            "y2": 1012.101806640625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 34,
+      "frame_index": 325,
+      "timestamp_seconds": 10.844166666666666,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000034_src_000325.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.4298955500125885,
+          "bounding_box": {
+            "x1": 1410.915283203125,
+            "y1": 1144.968994140625,
+            "x2": 1472.058349609375,
+            "y2": 1246.139404296875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.40571486949920654,
+          "bounding_box": {
+            "x1": 1300.347900390625,
+            "y1": 1076.0631103515625,
+            "x2": 1370.363037109375,
+            "y2": 1232.0577392578125
+          }
+        },
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.40460771322250366,
+          "bounding_box": {
+            "x1": 0.0,
+            "y1": 1071.3076171875,
+            "x2": 94.44937896728516,
+            "y2": 1188.184326171875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 35,
+      "frame_index": 331,
+      "timestamp_seconds": 11.044366666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000035_src_000331.jpg",
+      "detection_count": 5,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.5967971682548523,
+          "bounding_box": {
+            "x1": 1235.377197265625,
+            "y1": 1259.163330078125,
+            "x2": 1343.029541015625,
+            "y2": 1406.600341796875
+          }
+        },
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.5096853971481323,
+          "bounding_box": {
+            "x1": 952.7269287109375,
+            "y1": 1237.326904296875,
+            "x2": 1053.4620361328125,
+            "y2": 1430.365966796875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.4377482235431671,
+          "bounding_box": {
+            "x1": 1367.29736328125,
+            "y1": 1159.494140625,
+            "x2": 1417.104248046875,
+            "y2": 1241.27734375
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.39924266934394836,
+          "bounding_box": {
+            "x1": 1462.379638671875,
+            "y1": 1160.97021484375,
+            "x2": 1507.544677734375,
+            "y2": 1238.0029296875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.3769448697566986,
+          "bounding_box": {
+            "x1": 1562.3328857421875,
+            "y1": 1132.86865234375,
+            "x2": 1609.1304931640625,
+            "y2": 1214.31982421875
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 36,
+      "frame_index": 337,
+      "timestamp_seconds": 11.244566666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000036_src_000337.jpg",
+      "detection_count": 2,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.5183733701705933,
+          "bounding_box": {
+            "x1": 1022.2166137695312,
+            "y1": 1242.71875,
+            "x2": 1129.906005859375,
+            "y2": 1431.25390625
+          }
+        },
+        {
+          "class_id": 1,
+          "class_name": "people",
+          "confidence": 0.4461074471473694,
+          "bounding_box": {
+            "x1": 2026.441162109375,
+            "y1": 1230.5595703125,
+            "x2": 2112.127685546875,
+            "y2": 1376.367431640625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 37,
+      "frame_index": 343,
+      "timestamp_seconds": 11.444766666666666,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000037_src_000343.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.5311564803123474,
+          "bounding_box": {
+            "x1": 1531.8563232421875,
+            "y1": 1121.852783203125,
+            "x2": 1608.6580810546875,
+            "y2": 1242.534912109375
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 38,
+      "frame_index": 349,
+      "timestamp_seconds": 11.644966666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000038_src_000349.jpg",
+      "detection_count": 2,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6302649974822998,
+          "bounding_box": {
+            "x1": 907.533203125,
+            "y1": 1086.936767578125,
+            "x2": 958.778564453125,
+            "y2": 1194.895751953125
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.4666822552680969,
+          "bounding_box": {
+            "x1": 828.9674682617188,
+            "y1": 1071.6331787109375,
+            "x2": 867.4868774414062,
+            "y2": 1171.3004150390625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 39,
+      "frame_index": 355,
+      "timestamp_seconds": 11.845166666666668,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000039_src_000355.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.3599390387535095,
+          "bounding_box": {
+            "x1": 0.0,
+            "y1": 1196.7431640625,
+            "x2": 24.622034072875977,
+            "y2": 1401.5439453125
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 40,
+      "frame_index": 361,
+      "timestamp_seconds": 12.045366666666666,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000040_src_000361.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.36136341094970703,
+          "bounding_box": {
+            "x1": 1641.03759765625,
+            "y1": 1158.473876953125,
+            "x2": 1673.13671875,
+            "y2": 1234.045166015625
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 41,
+      "frame_index": 367,
+      "timestamp_seconds": 12.245566666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000041_src_000367.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sample_number": 42,
+      "frame_index": 373,
+      "timestamp_seconds": 12.445766666666668,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000042_src_000373.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.601962685585022,
+          "bounding_box": {
+            "x1": 1522.585205078125,
+            "y1": 1106.7611083984375,
+            "x2": 1556.936279296875,
+            "y2": 1178.5379638671875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.4742472767829895,
+          "bounding_box": {
+            "x1": 799.5013427734375,
+            "y1": 1090.6102294921875,
+            "x2": 834.9755859375,
+            "y2": 1172.1942138671875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.45001494884490967,
+          "bounding_box": {
+            "x1": 1582.7188720703125,
+            "y1": 1147.3948974609375,
+            "x2": 1624.5111083984375,
+            "y2": 1225.1065673828125
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 43,
+      "frame_index": 379,
+      "timestamp_seconds": 12.645966666666666,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000043_src_000379.jpg",
+      "detection_count": 4,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.6533603072166443,
+          "bounding_box": {
+            "x1": 857.9924926757812,
+            "y1": 1090.4134521484375,
+            "x2": 928.5529174804688,
+            "y2": 1223.0015869140625
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.4806327819824219,
+          "bounding_box": {
+            "x1": 829.6878662109375,
+            "y1": 1071.229248046875,
+            "x2": 872.8797607421875,
+            "y2": 1167.602294921875
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.41265618801116943,
+          "bounding_box": {
+            "x1": 1125.2049560546875,
+            "y1": 1029.89111328125,
+            "x2": 1210.8985595703125,
+            "y2": 1217.67041015625
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.3837200999259949,
+          "bounding_box": {
+            "x1": 1694.439208984375,
+            "y1": 1143.94140625,
+            "x2": 1731.657958984375,
+            "y2": 1227.66845703125
+          }
+        }
+      ]
+    },
+    {
+      "sample_number": 44,
+      "frame_index": 385,
+      "timestamp_seconds": 12.846166666666667,
+      "motion_level": "high",
+      "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\01_frame_extraction\\frames\\frame_000044_src_000385.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "pedestrian",
+          "confidence": 0.39572057127952576,
+          "bounding_box": {
+            "x1": 856.4013671875,
+            "y1": 1096.717041015625,
+            "x2": 953.59375,
+            "y2": 1233.912353515625
+          }
+        }
+      ]
+    }
+  ]
+}

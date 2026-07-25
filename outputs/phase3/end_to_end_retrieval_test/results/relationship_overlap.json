@@ -1,0 +1,197 @@
+{
+  "success": true,
+  "pipeline": "end_to_end_event_retrieval",
+  "source_video": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+  "query": "pedestrians overlapping",
+  "summary": {
+    "query": "pedestrians overlapping",
+    "match_found": true,
+    "retrieved_event_count": 2,
+    "generated_clip_count": 2,
+    "failed_clip_count": 0,
+    "processing_time_seconds": 9.2451
+  },
+  "timings": {
+    "retrieval_seconds": 0.1911,
+    "response_building_seconds": 0.0001,
+    "clip_generation_seconds": 9.0533,
+    "total_seconds": 9.2451
+  },
+  "retrieval": {
+    "success": true,
+    "query": "pedestrians overlapping",
+    "intent": "relationship_event",
+    "intent_confidence": 1.0,
+    "intent_terms": [
+      "overlapping"
+    ],
+    "match_found": true,
+    "result_count": 2,
+    "summary": "Found 2 matching events for \"pedestrians overlapping\". The best match is: A pedestrian and a pedestrian overlapped while visible together. The event occurred from 12.98 seconds to 13.05 seconds.",
+    "best_match": {
+      "rank": 1,
+      "event_id": "composite_event_000053",
+      "event_type": "relationship_event",
+      "description": "A pedestrian and a pedestrian overlapped while visible together. The event occurred from 12.98 seconds to 13.05 seconds.",
+      "class_names": [
+        "pedestrian",
+        "pedestrian"
+      ],
+      "track_ids": [
+        279,
+        283
+      ],
+      "start_time_seconds": 12.9796,
+      "end_time_seconds": 13.0464,
+      "duration_seconds": 0.0667,
+      "start_timestamp": "00:12.980",
+      "end_timestamp": "00:13.046",
+      "similarity": 0.7753,
+      "hybrid_score": 1.0721,
+      "rerank_adjustment": 0.2968,
+      "quality_score": 0.71,
+      "quality_label": "medium",
+      "evidence_clip": {
+        "available": true,
+        "status": "generated",
+        "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000053_10.980_to_13.213.mp4",
+        "clip_filename": "composite_event_000053_10.980_to_13.213.mp4",
+        "clip_start_time_seconds": 10.9796,
+        "clip_end_time_seconds": 13.2132,
+        "clip_duration_seconds": 2.2356,
+        "clip_start_timestamp": "00:10.980",
+        "clip_end_timestamp": "00:13.213"
+      }
+    },
+    "results": [
+      {
+        "rank": 1,
+        "event_id": "composite_event_000053",
+        "event_type": "relationship_event",
+        "description": "A pedestrian and a pedestrian overlapped while visible together. The event occurred from 12.98 seconds to 13.05 seconds.",
+        "class_names": [
+          "pedestrian",
+          "pedestrian"
+        ],
+        "track_ids": [
+          279,
+          283
+        ],
+        "start_time_seconds": 12.9796,
+        "end_time_seconds": 13.0464,
+        "duration_seconds": 0.0667,
+        "start_timestamp": "00:12.980",
+        "end_timestamp": "00:13.046",
+        "similarity": 0.7753,
+        "hybrid_score": 1.0721,
+        "rerank_adjustment": 0.2968,
+        "quality_score": 0.71,
+        "quality_label": "medium",
+        "evidence_clip": {
+          "available": true,
+          "status": "generated",
+          "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000053_10.980_to_13.213.mp4",
+          "clip_filename": "composite_event_000053_10.980_to_13.213.mp4",
+          "clip_start_time_seconds": 10.9796,
+          "clip_end_time_seconds": 13.2132,
+          "clip_duration_seconds": 2.2356,
+          "clip_start_timestamp": "00:10.980",
+          "clip_end_timestamp": "00:13.213"
+        }
+      },
+      {
+        "rank": 2,
+        "event_id": "composite_event_000052",
+        "event_type": "relationship_event",
+        "description": "A pedestrian and a pedestrian overlapped while visible together. The event occurred from 13.01 seconds to 13.11 seconds.",
+        "class_names": [
+          "pedestrian",
+          "pedestrian"
+        ],
+        "track_ids": [
+          283,
+          285
+        ],
+        "start_time_seconds": 13.013,
+        "end_time_seconds": 13.1131,
+        "duration_seconds": 0.1001,
+        "start_timestamp": "00:13.013",
+        "end_timestamp": "00:13.113",
+        "similarity": 0.7664,
+        "hybrid_score": 1.0632,
+        "rerank_adjustment": 0.2968,
+        "quality_score": 0.71,
+        "quality_label": "medium",
+        "evidence_clip": {
+          "available": true,
+          "status": "generated",
+          "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000052_11.013_to_13.213.mp4",
+          "clip_filename": "composite_event_000052_11.013_to_13.213.mp4",
+          "clip_start_time_seconds": 11.013,
+          "clip_end_time_seconds": 13.2132,
+          "clip_duration_seconds": 2.2022,
+          "clip_start_timestamp": "00:11.013",
+          "clip_end_timestamp": "00:13.213"
+        }
+      }
+    ]
+  },
+  "clip_generation": {
+    "success": true,
+    "query": "pedestrians overlapping",
+    "requested_events": 2,
+    "generated_clip_count": 2,
+    "failed_clip_count": 0,
+    "clips": [
+      {
+        "success": true,
+        "status": "generated",
+        "event_id": "composite_event_000053",
+        "source_video_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+        "source_video_name": "test.mp4",
+        "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000053_10.980_to_13.213.mp4",
+        "clip_filename": "composite_event_000053_10.980_to_13.213.mp4",
+        "codec": "mp4v",
+        "fps": 29.97003,
+        "width": 2560,
+        "height": 1440,
+        "start_frame": 329,
+        "end_frame": 395,
+        "frames_written": 67,
+        "event_start_time_seconds": 12.9796,
+        "event_end_time_seconds": 13.0464,
+        "clip_start_time_seconds": 10.9796,
+        "clip_end_time_seconds": 13.2132,
+        "requested_clip_duration_seconds": 2.2336,
+        "actual_clip_duration_seconds": 2.2356,
+        "clip_start_timestamp": "00:10.980",
+        "clip_end_timestamp": "00:13.213"
+      },
+      {
+        "success": true,
+        "status": "generated",
+        "event_id": "composite_event_000052",
+        "source_video_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+        "source_video_name": "test.mp4",
+        "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000052_11.013_to_13.213.mp4",
+        "clip_filename": "composite_event_000052_11.013_to_13.213.mp4",
+        "codec": "mp4v",
+        "fps": 29.97003,
+        "width": 2560,
+        "height": 1440,
+        "start_frame": 330,
+        "end_frame": 395,
+        "frames_written": 66,
+        "event_start_time_seconds": 13.013,
+        "event_end_time_seconds": 13.1131,
+        "clip_start_time_seconds": 11.013,
+        "clip_end_time_seconds": 13.2132,
+        "requested_clip_duration_seconds": 2.2002,
+        "actual_clip_duration_seconds": 2.2022,
+        "clip_start_timestamp": "00:11.013",
+        "clip_end_timestamp": "00:13.213"
+      }
+    ],
+    "failures": []
+  }
+}

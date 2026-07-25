@@ -1,0 +1,726 @@
+{
+  "test_name": "retrieval_response_builder",
+  "query_count": 8,
+  "responses": [
+    {
+      "success": true,
+      "query": "blue bus between 5 and 8 seconds",
+      "intent": "object_event",
+      "intent_confidence": 1.0,
+      "intent_terms": [
+        "bus"
+      ],
+      "match_found": true,
+      "result_count": 1,
+      "summary": "Found 1 matching event for \"blue bus between 5 and 8 seconds\". The best match is: blue bus moved right to left within the left bottom region. The event occurred from 6.11 seconds to 7.41 seconds.",
+      "best_match": {
+        "rank": 1,
+        "event_id": "composite_event_000018",
+        "event_type": "track_semantic_event",
+        "description": "blue bus moved right to left within the left bottom region. The event occurred from 6.11 seconds to 7.41 seconds.",
+        "class_names": [
+          "bus"
+        ],
+        "track_ids": [
+          72
+        ],
+        "start_time_seconds": 6.1061,
+        "end_time_seconds": 7.4074,
+        "duration_seconds": 1.3013,
+        "start_timestamp": "00:06.106",
+        "end_timestamp": "00:07.407",
+        "similarity": 0.689,
+        "hybrid_score": 1.009,
+        "rerank_adjustment": 0.32,
+        "quality_score": 1.0,
+        "quality_label": "high"
+      },
+      "results": [
+        {
+          "rank": 1,
+          "event_id": "composite_event_000018",
+          "event_type": "track_semantic_event",
+          "description": "blue bus moved right to left within the left bottom region. The event occurred from 6.11 seconds to 7.41 seconds.",
+          "class_names": [
+            "bus"
+          ],
+          "track_ids": [
+            72
+          ],
+          "start_time_seconds": 6.1061,
+          "end_time_seconds": 7.4074,
+          "duration_seconds": 1.3013,
+          "start_timestamp": "00:06.106",
+          "end_timestamp": "00:07.407",
+          "similarity": 0.689,
+          "hybrid_score": 1.009,
+          "rerank_adjustment": 0.32,
+          "quality_score": 1.0,
+          "quality_label": "high"
+        }
+      ]
+    },
+    {
+      "success": true,
+      "query": "pedestrians after 10 seconds",
+      "intent": "object_event",
+      "intent_confidence": 1.0,
+      "intent_terms": [
+        "pedestrians"
+      ],
+      "match_found": true,
+      "result_count": 5,
+      "summary": "Found 5 matching events for \"pedestrians after 10 seconds\". The best match is: pedestrian wearing black upper clothing and black lower clothing remained stationary in the center bottom region. The event occurred from 12.98 seconds to 13.11 seconds.",
+      "best_match": {
+        "rank": 1,
+        "event_id": "composite_event_000042",
+        "event_type": "track_semantic_event",
+        "description": "pedestrian wearing black upper clothing and black lower clothing remained stationary in the center bottom region. The event occurred from 12.98 seconds to 13.11 seconds.",
+        "class_names": [
+          "pedestrian"
+        ],
+        "track_ids": [
+          283
+        ],
+        "start_time_seconds": 12.9796,
+        "end_time_seconds": 13.1131,
+        "duration_seconds": 0.1335,
+        "start_timestamp": "00:12.980",
+        "end_timestamp": "00:13.113",
+        "similarity": 0.6205,
+        "hybrid_score": 0.8053,
+        "rerank_adjustment": 0.1848,
+        "quality_score": 0.81,
+        "quality_label": "high"
+      },
+      "results": [
+        {
+          "rank": 1,
+          "event_id": "composite_event_000042",
+          "event_type": "track_semantic_event",
+          "description": "pedestrian wearing black upper clothing and black lower clothing remained stationary in the center bottom region. The event occurred from 12.98 seconds to 13.11 seconds.",
+          "class_names": [
+            "pedestrian"
+          ],
+          "track_ids": [
+            283
+          ],
+          "start_time_seconds": 12.9796,
+          "end_time_seconds": 13.1131,
+          "duration_seconds": 0.1335,
+          "start_timestamp": "00:12.980",
+          "end_timestamp": "00:13.113",
+          "similarity": 0.6205,
+          "hybrid_score": 0.8053,
+          "rerank_adjustment": 0.1848,
+          "quality_score": 0.81,
+          "quality_label": "high"
+        },
+        {
+          "rank": 2,
+          "event_id": "composite_event_000037",
+          "event_type": "track_semantic_event",
+          "description": "pedestrian wearing white upper clothing and white lower clothing moved from the left bottom region to the center bottom region. The event occurred from 11.61 seconds to 11.88 seconds.",
+          "class_names": [
+            "pedestrian"
+          ],
+          "track_ids": [
+            240
+          ],
+          "start_time_seconds": 11.6116,
+          "end_time_seconds": 11.8785,
+          "duration_seconds": 0.2669,
+          "start_timestamp": "00:11.612",
+          "end_timestamp": "00:11.878",
+          "similarity": 0.5938,
+          "hybrid_score": 0.7834,
+          "rerank_adjustment": 0.1896,
+          "quality_score": 0.87,
+          "quality_label": "high"
+        },
+        {
+          "rank": 3,
+          "event_id": "composite_event_000032",
+          "event_type": "track_semantic_event",
+          "description": "pedestrian wearing black upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 10.48 seconds to 10.84 seconds.",
+          "class_names": [
+            "pedestrian"
+          ],
+          "track_ids": [
+            206
+          ],
+          "start_time_seconds": 10.4771,
+          "end_time_seconds": 10.8442,
+          "duration_seconds": 0.3671,
+          "start_timestamp": "00:10.477",
+          "end_timestamp": "00:10.844",
+          "similarity": 0.5917,
+          "hybrid_score": 0.7813,
+          "rerank_adjustment": 0.1896,
+          "quality_score": 0.87,
+          "quality_label": "high"
+        },
+        {
+          "rank": 4,
+          "event_id": "composite_event_000031",
+          "event_type": "track_semantic_event",
+          "description": "pedestrian wearing gray upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 10.34 seconds to 11.04 seconds.",
+          "class_names": [
+            "pedestrian"
+          ],
+          "track_ids": [
+            197
+          ],
+          "start_time_seconds": 10.3437,
+          "end_time_seconds": 11.0444,
+          "duration_seconds": 0.7007,
+          "start_timestamp": "00:10.344",
+          "end_timestamp": "00:11.044",
+          "similarity": 0.5823,
+          "hybrid_score": 0.7783,
+          "rerank_adjustment": 0.196,
+          "quality_score": 0.95,
+          "quality_label": "high"
+        },
+        {
+          "rank": 5,
+          "event_id": "composite_event_000041",
+          "event_type": "track_semantic_event",
+          "description": "pedestrian wearing white upper clothing and gray lower clothing remained stationary in the center bottom region. The event occurred from 12.95 seconds to 13.18 seconds.",
+          "class_names": [
+            "pedestrian"
+          ],
+          "track_ids": [
+            279
+          ],
+          "start_time_seconds": 12.9463,
+          "end_time_seconds": 13.1798,
+          "duration_seconds": 0.2335,
+          "start_timestamp": "00:12.946",
+          "end_timestamp": "00:13.180",
+          "similarity": 0.5873,
+          "hybrid_score": 0.7769,
+          "rerank_adjustment": 0.1896,
+          "quality_score": 0.87,
+          "quality_label": "high"
+        }
+      ]
+    },
+    {
+      "success": true,
+      "query": "vehicles before 5 seconds",
+      "intent": "object_event",
+      "intent_confidence": 1.0,
+      "intent_terms": [
+        "vehicles"
+      ],
+      "match_found": true,
+      "result_count": 4,
+      "summary": "Found 4 matching events for \"vehicles before 5 seconds\". The best match is: white car moved top right to bottom left within the left bottom region. The event occurred from 0.00 seconds to 0.60 seconds.",
+      "best_match": {
+        "rank": 1,
+        "event_id": "composite_event_000001",
+        "event_type": "track_semantic_event",
+        "description": "white car moved top right to bottom left within the left bottom region. The event occurred from 0.00 seconds to 0.60 seconds.",
+        "class_names": [
+          "car"
+        ],
+        "track_ids": [
+          1
+        ],
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.6006,
+        "duration_seconds": 0.6006,
+        "start_timestamp": "00:00.000",
+        "end_timestamp": "00:00.601",
+        "similarity": 0.6633,
+        "hybrid_score": 0.8193,
+        "rerank_adjustment": 0.156,
+        "quality_score": 0.95,
+        "quality_label": "high"
+      },
+      "results": [
+        {
+          "rank": 1,
+          "event_id": "composite_event_000001",
+          "event_type": "track_semantic_event",
+          "description": "white car moved top right to bottom left within the left bottom region. The event occurred from 0.00 seconds to 0.60 seconds.",
+          "class_names": [
+            "car"
+          ],
+          "track_ids": [
+            1
+          ],
+          "start_time_seconds": 0.0,
+          "end_time_seconds": 0.6006,
+          "duration_seconds": 0.6006,
+          "start_timestamp": "00:00.000",
+          "end_timestamp": "00:00.601",
+          "similarity": 0.6633,
+          "hybrid_score": 0.8193,
+          "rerank_adjustment": 0.156,
+          "quality_score": 0.95,
+          "quality_label": "high"
+        },
+        {
+          "rank": 2,
+          "event_id": "composite_event_000003",
+          "event_type": "track_semantic_event",
+          "description": "white car moved from the center middle region to the left bottom region. The event occurred from 0.90 seconds to 2.87 seconds.",
+          "class_names": [
+            "car"
+          ],
+          "track_ids": [
+            13
+          ],
+          "start_time_seconds": 0.9009,
+          "end_time_seconds": 2.8695,
+          "duration_seconds": 1.9686,
+          "start_timestamp": "00:00.901",
+          "end_timestamp": "00:02.870",
+          "similarity": 0.6471,
+          "hybrid_score": 0.8071,
+          "rerank_adjustment": 0.16,
+          "quality_score": 1.0,
+          "quality_label": "high"
+        },
+        {
+          "rank": 3,
+          "event_id": "composite_event_000004",
+          "event_type": "track_semantic_event",
+          "description": "black bicycle moved top left to bottom right within the center bottom region. The event occurred from 1.94 seconds to 4.00 seconds.",
+          "class_names": [
+            "bicycle"
+          ],
+          "track_ids": [
+            18
+          ],
+          "start_time_seconds": 1.9353,
+          "end_time_seconds": 4.004,
+          "duration_seconds": 2.0687,
+          "start_timestamp": "00:01.935",
+          "end_timestamp": "00:04.004",
+          "similarity": 0.5949,
+          "hybrid_score": 0.7549,
+          "rerank_adjustment": 0.16,
+          "quality_score": 1.0,
+          "quality_label": "high"
+        },
+        {
+          "rank": 4,
+          "event_id": "composite_event_000006",
+          "event_type": "track_semantic_event",
+          "description": "gray bus remained stationary in the center bottom region. The event occurred from 2.57 seconds to 4.34 seconds.",
+          "class_names": [
+            "bus"
+          ],
+          "track_ids": [
+            20
+          ],
+          "start_time_seconds": 2.5692,
+          "end_time_seconds": 4.3377,
+          "duration_seconds": 1.7685,
+          "start_timestamp": "00:02.569",
+          "end_timestamp": "00:04.338",
+          "similarity": 0.5911,
+          "hybrid_score": 0.7511,
+          "rerank_adjustment": 0.16,
+          "quality_score": 1.0,
+          "quality_label": "high"
+        }
+      ]
+    },
+    {
+      "success": true,
+      "query": "white car in the first 3 seconds",
+      "intent": "object_event",
+      "intent_confidence": 1.0,
+      "intent_terms": [
+        "car"
+      ],
+      "match_found": true,
+      "result_count": 2,
+      "summary": "Found 2 matching events for \"white car in the first 3 seconds\". The best match is: white car moved top right to bottom left within the left bottom region. The event occurred from 0.00 seconds to 0.60 seconds.",
+      "best_match": {
+        "rank": 1,
+        "event_id": "composite_event_000001",
+        "event_type": "track_semantic_event",
+        "description": "white car moved top right to bottom left within the left bottom region. The event occurred from 0.00 seconds to 0.60 seconds.",
+        "class_names": [
+          "car"
+        ],
+        "track_ids": [
+          1
+        ],
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.6006,
+        "duration_seconds": 0.6006,
+        "start_timestamp": "00:00.000",
+        "end_timestamp": "00:00.601",
+        "similarity": 0.6725,
+        "hybrid_score": 0.9885,
+        "rerank_adjustment": 0.316,
+        "quality_score": 0.95,
+        "quality_label": "high"
+      },
+      "results": [
+        {
+          "rank": 1,
+          "event_id": "composite_event_000001",
+          "event_type": "track_semantic_event",
+          "description": "white car moved top right to bottom left within the left bottom region. The event occurred from 0.00 seconds to 0.60 seconds.",
+          "class_names": [
+            "car"
+          ],
+          "track_ids": [
+            1
+          ],
+          "start_time_seconds": 0.0,
+          "end_time_seconds": 0.6006,
+          "duration_seconds": 0.6006,
+          "start_timestamp": "00:00.000",
+          "end_timestamp": "00:00.601",
+          "similarity": 0.6725,
+          "hybrid_score": 0.9885,
+          "rerank_adjustment": 0.316,
+          "quality_score": 0.95,
+          "quality_label": "high"
+        },
+        {
+          "rank": 2,
+          "event_id": "composite_event_000003",
+          "event_type": "track_semantic_event",
+          "description": "white car moved from the center middle region to the left bottom region. The event occurred from 0.90 seconds to 2.87 seconds.",
+          "class_names": [
+            "car"
+          ],
+          "track_ids": [
+            13
+          ],
+          "start_time_seconds": 0.9009,
+          "end_time_seconds": 2.8695,
+          "duration_seconds": 1.9686,
+          "start_timestamp": "00:00.901",
+          "end_timestamp": "00:02.870",
+          "similarity": 0.6539,
+          "hybrid_score": 0.9739,
+          "rerank_adjustment": 0.32,
+          "quality_score": 1.0,
+          "quality_label": "high"
+        }
+      ]
+    },
+    {
+      "success": true,
+      "query": "pedestrian moving left to right between 7 and 9 seconds",
+      "intent": "object_event",
+      "intent_confidence": 1.0,
+      "intent_terms": [
+        "pedestrian"
+      ],
+      "match_found": true,
+      "result_count": 3,
+      "summary": "Found 3 matching events for \"pedestrian moving left to right between 7 and 9 seconds\". The best match is: pedestrian wearing white upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.87 seconds to 8.61 seconds.",
+      "best_match": {
+        "rank": 1,
+        "event_id": "composite_event_000024",
+        "event_type": "track_semantic_event",
+        "description": "pedestrian wearing white upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.87 seconds to 8.61 seconds.",
+        "class_names": [
+          "pedestrian"
+        ],
+        "track_ids": [
+          139
+        ],
+        "start_time_seconds": 7.8745,
+        "end_time_seconds": 8.6086,
+        "duration_seconds": 0.7341,
+        "start_timestamp": "00:07.874",
+        "end_timestamp": "00:08.609",
+        "similarity": 0.6381,
+        "hybrid_score": 1.1141,
+        "rerank_adjustment": 0.476,
+        "quality_score": 0.95,
+        "quality_label": "high"
+      },
+      "results": [
+        {
+          "rank": 1,
+          "event_id": "composite_event_000024",
+          "event_type": "track_semantic_event",
+          "description": "pedestrian wearing white upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.87 seconds to 8.61 seconds.",
+          "class_names": [
+            "pedestrian"
+          ],
+          "track_ids": [
+            139
+          ],
+          "start_time_seconds": 7.8745,
+          "end_time_seconds": 8.6086,
+          "duration_seconds": 0.7341,
+          "start_timestamp": "00:07.874",
+          "end_timestamp": "00:08.609",
+          "similarity": 0.6381,
+          "hybrid_score": 1.1141,
+          "rerank_adjustment": 0.476,
+          "quality_score": 0.95,
+          "quality_label": "high"
+        },
+        {
+          "rank": 2,
+          "event_id": "composite_event_000019",
+          "event_type": "track_semantic_event",
+          "description": "pedestrian wearing gray upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.04 seconds to 7.44 seconds.",
+          "class_names": [
+            "pedestrian"
+          ],
+          "track_ids": [
+            97
+          ],
+          "start_time_seconds": 7.0404,
+          "end_time_seconds": 7.4408,
+          "duration_seconds": 0.4004,
+          "start_timestamp": "00:07.040",
+          "end_timestamp": "00:07.441",
+          "similarity": 0.6323,
+          "hybrid_score": 1.1019,
+          "rerank_adjustment": 0.4696,
+          "quality_score": 0.87,
+          "quality_label": "high"
+        },
+        {
+          "rank": 3,
+          "event_id": "composite_event_000028",
+          "event_type": "track_semantic_event",
+          "description": "pedestrian wearing blue upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 8.58 seconds to 9.11 seconds.",
+          "class_names": [
+            "pedestrian"
+          ],
+          "track_ids": [
+            164
+          ],
+          "start_time_seconds": 8.5752,
+          "end_time_seconds": 9.1091,
+          "duration_seconds": 0.5339,
+          "start_timestamp": "00:08.575",
+          "end_timestamp": "00:09.109",
+          "similarity": 0.5535,
+          "hybrid_score": 1.0295,
+          "rerank_adjustment": 0.476,
+          "quality_score": 0.95,
+          "quality_label": "high"
+        }
+      ]
+    },
+    {
+      "success": true,
+      "query": "pedestrians near each other",
+      "intent": "relationship_event",
+      "intent_confidence": 1.0,
+      "intent_terms": [
+        "near"
+      ],
+      "match_found": true,
+      "result_count": 3,
+      "summary": "Found 3 matching events for \"pedestrians near each other\". The best match is: A pedestrian and a pedestrian remained near each other. The event occurred from 4.00 seconds to 4.47 seconds.",
+      "best_match": {
+        "rank": 1,
+        "event_id": "composite_event_000047",
+        "event_type": "relationship_event",
+        "description": "A pedestrian and a pedestrian remained near each other. The event occurred from 4.00 seconds to 4.47 seconds.",
+        "class_names": [
+          "pedestrian",
+          "pedestrian"
+        ],
+        "track_ids": [
+          37,
+          39
+        ],
+        "start_time_seconds": 4.004,
+        "end_time_seconds": 4.4711,
+        "duration_seconds": 0.4671,
+        "start_timestamp": "00:04.004",
+        "end_timestamp": "00:04.471",
+        "similarity": 0.7317,
+        "hybrid_score": 1.0253,
+        "rerank_adjustment": 0.2936,
+        "quality_score": 0.67,
+        "quality_label": "medium"
+      },
+      "results": [
+        {
+          "rank": 1,
+          "event_id": "composite_event_000047",
+          "event_type": "relationship_event",
+          "description": "A pedestrian and a pedestrian remained near each other. The event occurred from 4.00 seconds to 4.47 seconds.",
+          "class_names": [
+            "pedestrian",
+            "pedestrian"
+          ],
+          "track_ids": [
+            37,
+            39
+          ],
+          "start_time_seconds": 4.004,
+          "end_time_seconds": 4.4711,
+          "duration_seconds": 0.4671,
+          "start_timestamp": "00:04.004",
+          "end_timestamp": "00:04.471",
+          "similarity": 0.7317,
+          "hybrid_score": 1.0253,
+          "rerank_adjustment": 0.2936,
+          "quality_score": 0.67,
+          "quality_label": "medium"
+        },
+        {
+          "rank": 2,
+          "event_id": "composite_event_000045",
+          "event_type": "relationship_event",
+          "description": "A pedestrian and a pedestrian remained near each other. The event occurred from 3.47 seconds to 3.70 seconds.",
+          "class_names": [
+            "pedestrian",
+            "pedestrian"
+          ],
+          "track_ids": [
+            25,
+            28
+          ],
+          "start_time_seconds": 3.4701,
+          "end_time_seconds": 3.7037,
+          "duration_seconds": 0.2336,
+          "start_timestamp": "00:03.470",
+          "end_timestamp": "00:03.704",
+          "similarity": 0.7266,
+          "hybrid_score": 1.0202,
+          "rerank_adjustment": 0.2936,
+          "quality_score": 0.67,
+          "quality_label": "medium"
+        },
+        {
+          "rank": 3,
+          "event_id": "composite_event_000054",
+          "event_type": "relationship_event",
+          "description": "A pedestrian and a pedestrian remained near each other. The event occurred from 13.05 seconds to 13.18 seconds.",
+          "class_names": [
+            "pedestrian",
+            "pedestrian"
+          ],
+          "track_ids": [
+            279,
+            285
+          ],
+          "start_time_seconds": 13.0464,
+          "end_time_seconds": 13.1798,
+          "duration_seconds": 0.1335,
+          "start_timestamp": "00:13.046",
+          "end_timestamp": "00:13.180",
+          "similarity": 0.7227,
+          "hybrid_score": 1.0099,
+          "rerank_adjustment": 0.2872,
+          "quality_score": 0.59,
+          "quality_label": "low"
+        }
+      ]
+    },
+    {
+      "success": true,
+      "query": "pedestrians overlapping",
+      "intent": "relationship_event",
+      "intent_confidence": 1.0,
+      "intent_terms": [
+        "overlapping"
+      ],
+      "match_found": true,
+      "result_count": 2,
+      "summary": "Found 2 matching events for \"pedestrians overlapping\". The best match is: A pedestrian and a pedestrian overlapped while visible together. The event occurred from 12.98 seconds to 13.05 seconds.",
+      "best_match": {
+        "rank": 1,
+        "event_id": "composite_event_000053",
+        "event_type": "relationship_event",
+        "description": "A pedestrian and a pedestrian overlapped while visible together. The event occurred from 12.98 seconds to 13.05 seconds.",
+        "class_names": [
+          "pedestrian",
+          "pedestrian"
+        ],
+        "track_ids": [
+          279,
+          283
+        ],
+        "start_time_seconds": 12.9796,
+        "end_time_seconds": 13.0464,
+        "duration_seconds": 0.0667,
+        "start_timestamp": "00:12.980",
+        "end_timestamp": "00:13.046",
+        "similarity": 0.7753,
+        "hybrid_score": 1.0721,
+        "rerank_adjustment": 0.2968,
+        "quality_score": 0.71,
+        "quality_label": "medium"
+      },
+      "results": [
+        {
+          "rank": 1,
+          "event_id": "composite_event_000053",
+          "event_type": "relationship_event",
+          "description": "A pedestrian and a pedestrian overlapped while visible together. The event occurred from 12.98 seconds to 13.05 seconds.",
+          "class_names": [
+            "pedestrian",
+            "pedestrian"
+          ],
+          "track_ids": [
+            279,
+            283
+          ],
+          "start_time_seconds": 12.9796,
+          "end_time_seconds": 13.0464,
+          "duration_seconds": 0.0667,
+          "start_timestamp": "00:12.980",
+          "end_timestamp": "00:13.046",
+          "similarity": 0.7753,
+          "hybrid_score": 1.0721,
+          "rerank_adjustment": 0.2968,
+          "quality_score": 0.71,
+          "quality_label": "medium"
+        },
+        {
+          "rank": 2,
+          "event_id": "composite_event_000052",
+          "event_type": "relationship_event",
+          "description": "A pedestrian and a pedestrian overlapped while visible together. The event occurred from 13.01 seconds to 13.11 seconds.",
+          "class_names": [
+            "pedestrian",
+            "pedestrian"
+          ],
+          "track_ids": [
+            283,
+            285
+          ],
+          "start_time_seconds": 13.013,
+          "end_time_seconds": 13.1131,
+          "duration_seconds": 0.1001,
+          "start_timestamp": "00:13.013",
+          "end_timestamp": "00:13.113",
+          "similarity": 0.7664,
+          "hybrid_score": 1.0632,
+          "rerank_adjustment": 0.2968,
+          "quality_score": 0.71,
+          "quality_label": "medium"
+        }
+      ]
+    },
+    {
+      "success": true,
+      "query": "purple truck between 50 and 60 seconds",
+      "intent": "object_event",
+      "intent_confidence": 1.0,
+      "intent_terms": [
+        "truck"
+      ],
+      "match_found": false,
+      "result_count": 0,
+      "summary": "No matching events were found for \"purple truck between 50 and 60 seconds\".",
+      "best_match": null,
+      "results": []
+    }
+  ]
+}

@@ -1,0 +1,3414 @@
+{
+  "summary": {
+    "analyzed_tracks": 69,
+    "color_counts": {
+      "gray": 85,
+      "black": 130,
+      "white": 32,
+      "pink": 1,
+      "blue": 19
+    }
+  },
+  "tracks": {
+    "1": {
+      "track_id": 1,
+      "class_name": "car",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_1\\rank_1_frame_000004.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.476,
+              "black": 0.2838,
+              "white": 0.233
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_1\\rank_2_frame_000003.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.4685,
+              "black": 0.2683,
+              "white": 0.256
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_1\\rank_3_frame_000000.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.4072,
+              "white": 0.341,
+              "black": 0.2415
+            }
+          }
+        }
+      ]
+    },
+    "2": {
+      "track_id": 2,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_2\\rank_1_frame_000005.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9193,
+                "blue": 0.2293,
+                "white": 0.0499
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 1.0,
+                "blue": 0.4873,
+                "white": 0.0
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_2\\rank_2_frame_000003.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9106,
+                "blue": 0.2942,
+                "white": 0.0513
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9985,
+                "blue": 0.4117,
+                "white": 0.0
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_2\\rank_3_frame_000002.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8924,
+                "blue": 0.2724,
+                "white": 0.0657
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 1.0,
+                "blue": 0.4152,
+                "white": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    "6": {
+      "track_id": 6,
+      "class_name": "car",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_6\\rank_1_frame_000019.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.4311,
+              "black": 0.3533,
+              "white": 0.2014
+            }
+          }
+        }
+      ]
+    },
+    "13": {
+      "track_id": 13,
+      "class_name": "car",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_13\\rank_1_frame_000062.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.3537,
+              "gray": 0.3191,
+              "white": 0.314
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_13\\rank_2_frame_000064.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.367,
+              "gray": 0.3189,
+              "white": 0.305
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_13\\rank_3_frame_000063.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.3599,
+              "gray": 0.3166,
+              "white": 0.3107
+            }
+          }
+        }
+      ]
+    },
+    "15": {
+      "track_id": 15,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_15\\rank_1_frame_000044.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6659,
+                "blue": 0.4275,
+                "gray": 0.3181
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8841,
+                "blue": 0.1379,
+                "gray": 0.104
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_15\\rank_2_frame_000043.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7367,
+                "blue": 0.4561,
+                "gray": 0.2583
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.877,
+                "blue": 0.1414,
+                "gray": 0.104
+              }
+            }
+          }
+        }
+      ]
+    },
+    "16": {
+      "track_id": 16,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_16\\rank_1_frame_000048.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.6024,
+                "gray": 0.2483,
+                "black": 0.1343
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6953,
+                "gray": 0.2802,
+                "blue": 0.0543
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_16\\rank_2_frame_000049.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.5928,
+                "gray": 0.2553,
+                "black": 0.1379
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6954,
+                "gray": 0.2834,
+                "blue": 0.0512
+              }
+            }
+          }
+        }
+      ]
+    },
+    "17": {
+      "track_id": 17,
+      "class_name": "car",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_17\\rank_1_frame_000054.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.3584,
+              "white": 0.3194,
+              "gray": 0.3083
+            }
+          }
+        }
+      ]
+    },
+    "18": {
+      "track_id": 18,
+      "class_name": "bicycle",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_18\\rank_1_frame_000102.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.7937,
+              "gray": 0.2063,
+              "white": 0.0
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_18\\rank_2_frame_000067.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.8191,
+              "gray": 0.1809,
+              "white": 0.0
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_18\\rank_3_frame_000066.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.8231,
+              "gray": 0.1769,
+              "white": 0.0
+            }
+          }
+        }
+      ]
+    },
+    "19": {
+      "track_id": 19,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_19\\rank_1_frame_000061.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.7901,
+                "white": 0.1695,
+                "purple": 0.1178
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6554,
+                "black": 0.3423,
+                "blue": 0.0572
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_19\\rank_2_frame_000060.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6187,
+                "white": 0.3251,
+                "purple": 0.1261
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.73,
+                "gray": 0.1872,
+                "blue": 0.132
+              }
+            }
+          }
+        }
+      ]
+    },
+    "20": {
+      "track_id": 20,
+      "class_name": "bus",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_20\\rank_1_frame_000114.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.5272,
+              "white": 0.2916,
+              "gray": 0.1675
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_20\\rank_2_frame_000087.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.4233,
+              "gray": 0.3912,
+              "white": 0.1833
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_20\\rank_3_frame_000088.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.4285,
+              "gray": 0.397,
+              "white": 0.1711
+            }
+          }
+        }
+      ]
+    },
+    "23": {
+      "track_id": 23,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_23\\rank_1_frame_000099.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9425,
+                "gray": 0.0575,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5488,
+                "gray": 0.4364,
+                "white": 0.0148
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_23\\rank_2_frame_000104.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9449,
+                "gray": 0.0551,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5441,
+                "gray": 0.4146,
+                "white": 0.0413
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_23\\rank_3_frame_000103.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8788,
+                "gray": 0.1212,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.527,
+                "black": 0.4282,
+                "white": 0.0448
+              }
+            }
+          }
+        }
+      ]
+    },
+    "24": {
+      "track_id": 24,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_24\\rank_1_frame_000099.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5222,
+                "gray": 0.4771,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.604,
+                "black": 0.396,
+                "blue": 0.0007
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_24\\rank_2_frame_000100.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5025,
+                "gray": 0.4975,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.598,
+                "black": 0.402,
+                "blue": 0.0022
+              }
+            }
+          }
+        }
+      ]
+    },
+    "25": {
+      "track_id": 25,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_25\\rank_1_frame_000140.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.3644,
+                "black": 0.3023,
+                "gray": 0.2503
+              }
+            },
+            "lower_body": {
+              "primary_color": "pink",
+              "color_scores": {
+                "pink": 0.5235,
+                "white": 0.4124,
+                "gray": 0.041
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_25\\rank_2_frame_000102.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6351,
+                "gray": 0.3638,
+                "white": 0.0011
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5153,
+                "gray": 0.3976,
+                "white": 0.0871
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_25\\rank_3_frame_000111.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8337,
+                "gray": 0.1654,
+                "white": 0.0008
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8619,
+                "gray": 0.1117,
+                "white": 0.0265
+              }
+            }
+          }
+        }
+      ]
+    },
+    "28": {
+      "track_id": 28,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_28\\rank_1_frame_000116.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.7739,
+                "black": 0.2261,
+                "blue": 0.0047
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9639,
+                "black": 0.0256,
+                "white": 0.0105
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_28\\rank_2_frame_000117.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.7778,
+                "black": 0.2222,
+                "blue": 0.0038
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9851,
+                "black": 0.0089,
+                "white": 0.006
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_28\\rank_3_frame_000105.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.7202,
+                "black": 0.1637,
+                "white": 0.1116
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6414,
+                "black": 0.2738,
+                "white": 0.0833
+              }
+            }
+          }
+        }
+      ]
+    },
+    "29": {
+      "track_id": 29,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_29\\rank_1_frame_000105.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6866,
+                "gray": 0.3134,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.4934,
+                "gray": 0.3788,
+                "white": 0.1278
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_29\\rank_2_frame_000104.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6476,
+                "gray": 0.3524,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5964,
+                "gray": 0.3345,
+                "white": 0.069
+              }
+            }
+          }
+        }
+      ]
+    },
+    "31": {
+      "track_id": 31,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_31\\rank_1_frame_000109.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.8481,
+                "purple": 0.1221,
+                "white": 0.096
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6375,
+                "gray": 0.205,
+                "blue": 0.1855
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_31\\rank_2_frame_000110.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.8651,
+                "purple": 0.1081,
+                "white": 0.0923
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6054,
+                "gray": 0.25,
+                "blue": 0.1695
+              }
+            }
+          }
+        }
+      ]
+    },
+    "33": {
+      "track_id": 33,
+      "class_name": "bus",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_33\\rank_1_frame_000110.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.9366,
+              "blue": 0.1328,
+              "gray": 0.0301
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_33\\rank_2_frame_000111.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.9347,
+              "blue": 0.1326,
+              "gray": 0.0313
+            }
+          }
+        }
+      ]
+    },
+    "35": {
+      "track_id": 35,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_35\\rank_1_frame_000111.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9625,
+                "blue": 0.1003,
+                "gray": 0.0139
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8894,
+                "blue": 0.1857,
+                "gray": 0.0524
+              }
+            }
+          }
+        }
+      ]
+    },
+    "37": {
+      "track_id": 37,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_37\\rank_1_frame_000120.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8054,
+                "gray": 0.1946,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8073,
+                "gray": 0.164,
+                "white": 0.0288
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_37\\rank_2_frame_000126.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8839,
+                "gray": 0.1161,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6661,
+                "gray": 0.3,
+                "white": 0.0339
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_37\\rank_3_frame_000119.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8349,
+                "gray": 0.1651,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6462,
+                "gray": 0.2797,
+                "white": 0.0742
+              }
+            }
+          }
+        }
+      ]
+    },
+    "39": {
+      "track_id": 39,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_39\\rank_1_frame_000132.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9261,
+                "black": 0.0652,
+                "white": 0.0087
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9403,
+                "white": 0.0514,
+                "black": 0.0083
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_39\\rank_2_frame_000131.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9174,
+                "black": 0.0768,
+                "white": 0.0058
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9694,
+                "white": 0.0236,
+                "black": 0.0069
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_39\\rank_3_frame_000130.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9025,
+                "black": 0.0975,
+                "blue": 0.0135
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.934,
+                "black": 0.042,
+                "white": 0.024
+              }
+            }
+          }
+        }
+      ]
+    },
+    "40": {
+      "track_id": 40,
+      "class_name": "bicycle",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_40\\rank_1_frame_000131.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.5281,
+              "gray": 0.206,
+              "pink": 0.1684
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_40\\rank_2_frame_000126.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.428,
+              "gray": 0.3399,
+              "black": 0.1893
+            }
+          }
+        }
+      ]
+    },
+    "48": {
+      "track_id": 48,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_48\\rank_1_frame_000149.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9683,
+                "gray": 0.0317,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6338,
+                "gray": 0.3427,
+                "white": 0.0235
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_48\\rank_2_frame_000151.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9699,
+                "gray": 0.0301,
+                "pink": 0.0006
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6464,
+                "gray": 0.3333,
+                "white": 0.0203
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_48\\rank_3_frame_000141.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9681,
+                "gray": 0.0319,
+                "pink": 0.0003
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7715,
+                "gray": 0.1952,
+                "white": 0.0333
+              }
+            }
+          }
+        }
+      ]
+    },
+    "56": {
+      "track_id": 56,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_56\\rank_1_frame_000174.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5982,
+                "gray": 0.3456,
+                "pink": 0.0474
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5298,
+                "black": 0.4702,
+                "white": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    "66": {
+      "track_id": 66,
+      "class_name": "bus",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_66\\rank_1_frame_000181.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.5894,
+              "gray": 0.2423,
+              "black": 0.1624
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_66\\rank_2_frame_000180.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.6027,
+              "gray": 0.2341,
+              "black": 0.158
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_66\\rank_3_frame_000191.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.6053,
+              "gray": 0.2294,
+              "black": 0.1607
+            }
+          }
+        }
+      ]
+    },
+    "69": {
+      "track_id": 69,
+      "class_name": "van",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_69\\rank_1_frame_000181.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.6163,
+              "gray": 0.2296,
+              "red": 0.1182
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_69\\rank_2_frame_000180.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.6068,
+              "gray": 0.2338,
+              "red": 0.1198
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_69\\rank_3_frame_000212.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.5544,
+              "gray": 0.3042,
+              "red": 0.1039
+            }
+          }
+        }
+      ]
+    },
+    "72": {
+      "track_id": 72,
+      "class_name": "bus",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_72\\rank_1_frame_000209.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.4136,
+              "gray": 0.3595,
+              "blue": 0.2979
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_72\\rank_2_frame_000208.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.4996,
+              "blue": 0.3567,
+              "gray": 0.2821
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_72\\rank_3_frame_000222.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.6719,
+              "blue": 0.3007,
+              "gray": 0.1495
+            }
+          }
+        }
+      ]
+    },
+    "73": {
+      "track_id": 73,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_73\\rank_1_frame_000186.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7038,
+                "blue": 0.2474,
+                "gray": 0.1506
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7062,
+                "gray": 0.2859,
+                "blue": 0.0431
+              }
+            }
+          }
+        }
+      ]
+    },
+    "76": {
+      "track_id": 76,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_76\\rank_1_frame_000188.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.4987,
+                "black": 0.4242,
+                "blue": 0.1843
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5164,
+                "black": 0.4078,
+                "blue": 0.3586
+              }
+            }
+          }
+        }
+      ]
+    },
+    "77": {
+      "track_id": 77,
+      "class_name": "van",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_77\\rank_1_frame_000189.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.6125,
+              "black": 0.3856,
+              "blue": 0.0113
+            }
+          }
+        }
+      ]
+    },
+    "83": {
+      "track_id": 83,
+      "class_name": "van",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_83\\rank_1_frame_000195.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.7685,
+              "white": 0.1982,
+              "blue": 0.0438
+            }
+          }
+        }
+      ]
+    },
+    "96": {
+      "track_id": 96,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_96\\rank_1_frame_000211.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.8245,
+                "white": 0.1162,
+                "black": 0.0593
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9116,
+                "black": 0.0568,
+                "white": 0.0316
+              }
+            }
+          }
+        }
+      ]
+    },
+    "97": {
+      "track_id": 97,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_97\\rank_1_frame_000218.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.8851,
+                "white": 0.0725,
+                "black": 0.0416
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9002,
+                "black": 0.0751,
+                "white": 0.0247
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_97\\rank_2_frame_000221.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9345,
+                "blue": 0.0379,
+                "white": 0.0336
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9107,
+                "black": 0.0688,
+                "blue": 0.0607
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_97\\rank_3_frame_000217.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.8698,
+                "black": 0.1211,
+                "white": 0.0091
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.8385,
+                "black": 0.1549,
+                "white": 0.0065
+              }
+            }
+          }
+        }
+      ]
+    },
+    "99": {
+      "track_id": 99,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_99\\rank_1_frame_000212.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9927,
+                "blue": 0.0516,
+                "gray": 0.0059
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 1.0,
+                "blue": 0.0181,
+                "white": 0.0
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_99\\rank_2_frame_000213.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8628,
+                "gray": 0.1339,
+                "blue": 0.0096
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7852,
+                "blue": 0.3399,
+                "gray": 0.2051
+              }
+            }
+          }
+        }
+      ]
+    },
+    "106": {
+      "track_id": 106,
+      "class_name": "van",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_106\\rank_1_frame_000216.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.5444,
+              "black": 0.2933,
+              "red": 0.1205
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_106\\rank_2_frame_000222.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.5075,
+              "black": 0.3724,
+              "red": 0.0927
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_106\\rank_3_frame_000223.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.5591,
+              "black": 0.3084,
+              "red": 0.1054
+            }
+          }
+        }
+      ]
+    },
+    "114": {
+      "track_id": 114,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_114\\rank_1_frame_000218.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.889,
+                "gray": 0.0685,
+                "white": 0.0425
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6942,
+                "gray": 0.274,
+                "white": 0.0318
+              }
+            }
+          }
+        }
+      ]
+    },
+    "117": {
+      "track_id": 117,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_117\\rank_1_frame_000220.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.898,
+                "gray": 0.0815,
+                "blue": 0.0277
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.4109,
+                "gray": 0.3806,
+                "red": 0.1604
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_117\\rank_2_frame_000222.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9979,
+                "blue": 0.1185,
+                "gray": 0.0021
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8457,
+                "gray": 0.0659,
+                "red": 0.053
+              }
+            }
+          }
+        }
+      ]
+    },
+    "128": {
+      "track_id": 128,
+      "class_name": "bus",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_128\\rank_1_frame_000240.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.6182,
+              "gray": 0.2079,
+              "black": 0.1716
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_128\\rank_2_frame_000232.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.6477,
+              "gray": 0.1852,
+              "black": 0.1643
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_128\\rank_3_frame_000234.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.6307,
+              "gray": 0.1949,
+              "black": 0.1703
+            }
+          }
+        }
+      ]
+    },
+    "132": {
+      "track_id": 132,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_132\\rank_1_frame_000231.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.8235,
+                "black": 0.1765,
+                "white": 0.0
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.9528,
+                "black": 0.0397,
+                "blue": 0.0342
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_132\\rank_2_frame_000232.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.7773,
+                "black": 0.2059,
+                "blue": 0.0469
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.8718,
+                "black": 0.1211,
+                "blue": 0.0413
+              }
+            }
+          }
+        }
+      ]
+    },
+    "138": {
+      "track_id": 138,
+      "class_name": "bus",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_138\\rank_1_frame_000235.jpg",
+          "color_analysis": {
+            "primary_color": "gray",
+            "color_scores": {
+              "gray": 0.4796,
+              "black": 0.3251,
+              "white": 0.1686
+            }
+          }
+        }
+      ]
+    },
+    "139": {
+      "track_id": 139,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_139\\rank_1_frame_000257.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.7132,
+                "gray": 0.2056,
+                "black": 0.079
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6548,
+                "black": 0.3247,
+                "white": 0.0206
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_139\\rank_2_frame_000252.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.5998,
+                "gray": 0.2826,
+                "black": 0.1145
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6408,
+                "black": 0.3372,
+                "blue": 0.0294
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_139\\rank_3_frame_000255.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.671,
+                "gray": 0.2435,
+                "black": 0.0855
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6688,
+                "black": 0.2965,
+                "white": 0.0346
+              }
+            }
+          }
+        }
+      ]
+    },
+    "141": {
+      "track_id": 141,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_141\\rank_1_frame_000237.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5931,
+                "gray": 0.3417,
+                "white": 0.0652
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6904,
+                "black": 0.3096,
+                "white": 0.0
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_141\\rank_2_frame_000236.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6046,
+                "gray": 0.3737,
+                "white": 0.0217
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6125,
+                "black": 0.3875,
+                "white": 0.0
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_141\\rank_3_frame_000238.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5718,
+                "gray": 0.3519,
+                "white": 0.0763
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.7429,
+                "black": 0.247,
+                "white": 0.0101
+              }
+            }
+          }
+        }
+      ]
+    },
+    "146": {
+      "track_id": 146,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_146\\rank_1_frame_000243.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7709,
+                "blue": 0.6477,
+                "gray": 0.0627
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.3804,
+                "pink": 0.2788,
+                "gray": 0.2533
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_146\\rank_2_frame_000244.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6791,
+                "blue": 0.6512,
+                "gray": 0.1186
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.4978,
+                "pink": 0.2527,
+                "gray": 0.2368
+              }
+            }
+          }
+        }
+      ]
+    },
+    "148": {
+      "track_id": 148,
+      "class_name": "bus",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_148\\rank_1_frame_000269.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.4596,
+              "black": 0.3082,
+              "gray": 0.2281
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_148\\rank_2_frame_000266.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.488,
+              "black": 0.2895,
+              "gray": 0.2176
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_148\\rank_3_frame_000246.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.5818,
+              "white": 0.2577,
+              "gray": 0.1584
+            }
+          }
+        }
+      ]
+    },
+    "158": {
+      "track_id": 158,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_158\\rank_1_frame_000252.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6406,
+                "pink": 0.2811,
+                "red": 0.086
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5315,
+                "gray": 0.4524,
+                "pink": 0.0591
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_158\\rank_2_frame_000251.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5893,
+                "black": 0.2433,
+                "pink": 0.2056
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5902,
+                "black": 0.4015,
+                "pink": 0.0266
+              }
+            }
+          }
+        }
+      ]
+    },
+    "164": {
+      "track_id": 164,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_164\\rank_1_frame_000271.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7757,
+                "blue": 0.34,
+                "gray": 0.1043
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.4868,
+                "gray": 0.3949,
+                "blue": 0.1779
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_164\\rank_2_frame_000272.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7554,
+                "blue": 0.3266,
+                "gray": 0.1463
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.4923,
+                "gray": 0.356,
+                "white": 0.1432
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_164\\rank_3_frame_000257.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6241,
+                "gray": 0.3241,
+                "blue": 0.3207
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.481,
+                "black": 0.4786,
+                "blue": 0.2298
+              }
+            }
+          }
+        }
+      ]
+    },
+    "176": {
+      "track_id": 176,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_176\\rank_1_frame_000286.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.601,
+                "blue": 0.5563,
+                "black": 0.2719
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6819,
+                "blue": 0.3729,
+                "black": 0.2667
+              }
+            }
+          }
+        }
+      ]
+    },
+    "177": {
+      "track_id": 177,
+      "class_name": "bus",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_177\\rank_1_frame_000287.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.6521,
+              "gray": 0.2186,
+              "black": 0.1229
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_177\\rank_2_frame_000301.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.6463,
+              "gray": 0.2113,
+              "black": 0.1361
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_177\\rank_3_frame_000302.jpg",
+          "color_analysis": {
+            "primary_color": "white",
+            "color_scores": {
+              "white": 0.6431,
+              "gray": 0.2036,
+              "black": 0.1456
+            }
+          }
+        }
+      ]
+    },
+    "178": {
+      "track_id": 178,
+      "class_name": "bus",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_178\\rank_1_frame_000289.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.6807,
+              "gray": 0.255,
+              "white": 0.0631
+            }
+          }
+        }
+      ]
+    },
+    "189": {
+      "track_id": 189,
+      "class_name": "bicycle",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_189\\rank_1_frame_000304.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.8556,
+              "pink": 0.0929,
+              "gray": 0.0467
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_189\\rank_2_frame_000305.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.8684,
+              "pink": 0.0682,
+              "gray": 0.0566
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_189\\rank_3_frame_000307.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.8812,
+              "gray": 0.076,
+              "pink": 0.0355
+            }
+          }
+        }
+      ]
+    },
+    "195": {
+      "track_id": 195,
+      "class_name": "bicycle",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_195\\rank_1_frame_000310.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.5082,
+              "gray": 0.4822,
+              "blue": 0.0605
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_195\\rank_2_frame_000311.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.4957,
+              "gray": 0.4951,
+              "blue": 0.0581
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_195\\rank_3_frame_000312.jpg",
+          "color_analysis": {
+            "primary_color": "black",
+            "color_scores": {
+              "black": 0.5053,
+              "gray": 0.4847,
+              "blue": 0.0549
+            }
+          }
+        }
+      ]
+    },
+    "197": {
+      "track_id": 197,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_197\\rank_1_frame_000320.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5573,
+                "red": 0.2227,
+                "white": 0.1306
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6814,
+                "black": 0.2998,
+                "white": 0.0188
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_197\\rank_2_frame_000328.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.62,
+                "red": 0.1237,
+                "white": 0.1113
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6367,
+                "black": 0.3581,
+                "white": 0.0052
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_197\\rank_3_frame_000314.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6485,
+                "red": 0.1358,
+                "white": 0.0958
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6301,
+                "gray": 0.3636,
+                "white": 0.0063
+              }
+            }
+          }
+        }
+      ]
+    },
+    "206": {
+      "track_id": 206,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_206\\rank_1_frame_000324.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8329,
+                "gray": 0.1241,
+                "white": 0.043
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5848,
+                "black": 0.3706,
+                "white": 0.0447
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_206\\rank_2_frame_000323.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8877,
+                "gray": 0.0719,
+                "white": 0.0404
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6337,
+                "black": 0.3255,
+                "white": 0.0408
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_206\\rank_3_frame_000322.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.857,
+                "gray": 0.1194,
+                "white": 0.0235
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.4795,
+                "black": 0.476,
+                "white": 0.0445
+              }
+            }
+          }
+        }
+      ]
+    },
+    "208": {
+      "track_id": 208,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_208\\rank_1_frame_000315.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7103,
+                "gray": 0.2043,
+                "white": 0.0853
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5974,
+                "gray": 0.3606,
+                "white": 0.0421
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_208\\rank_2_frame_000328.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.3857,
+                "gray": 0.3199,
+                "blue": 0.2138
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.639,
+                "black": 0.1867,
+                "red": 0.1192
+              }
+            }
+          }
+        }
+      ]
+    },
+    "214": {
+      "track_id": 214,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_214\\rank_1_frame_000323.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6798,
+                "blue": 0.4979,
+                "gray": 0.2071
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6509,
+                "red": 0.148,
+                "black": 0.1207
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_214\\rank_2_frame_000326.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5634,
+                "blue": 0.4806,
+                "gray": 0.264
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6846,
+                "red": 0.1432,
+                "black": 0.0787
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_214\\rank_3_frame_000327.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5602,
+                "blue": 0.5332,
+                "gray": 0.2645
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.662,
+                "red": 0.1699,
+                "black": 0.081
+              }
+            }
+          }
+        }
+      ]
+    },
+    "215": {
+      "track_id": 215,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_215\\rank_1_frame_000323.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9824,
+                "blue": 0.0601,
+                "gray": 0.0147
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6502,
+                "gray": 0.2115,
+                "white": 0.1383
+              }
+            }
+          }
+        }
+      ]
+    },
+    "223": {
+      "track_id": 223,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_223\\rank_1_frame_000332.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.6518,
+                "gray": 0.6051,
+                "black": 0.1712
+              }
+            },
+            "lower_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.6609,
+                "gray": 0.4803,
+                "black": 0.272
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_223\\rank_2_frame_000333.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.6894,
+                "gray": 0.5824,
+                "black": 0.1754
+              }
+            },
+            "lower_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.6949,
+                "gray": 0.4234,
+                "black": 0.285
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_223\\rank_3_frame_000337.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.7259,
+                "gray": 0.6338,
+                "black": 0.1427
+              }
+            },
+            "lower_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.6868,
+                "gray": 0.554,
+                "black": 0.1776
+              }
+            }
+          }
+        }
+      ]
+    },
+    "232": {
+      "track_id": 232,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_232\\rank_1_frame_000342.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8278,
+                "blue": 0.1728,
+                "pink": 0.0475
+              }
+            },
+            "lower_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.5204,
+                "blue": 0.3764,
+                "gray": 0.0815
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_232\\rank_2_frame_000359.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.736,
+                "black": 0.2899,
+                "white": 0.2058
+              }
+            },
+            "lower_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.423,
+                "gray": 0.2812,
+                "black": 0.2545
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_232\\rank_3_frame_000358.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.6823,
+                "black": 0.3688,
+                "white": 0.2354
+              }
+            },
+            "lower_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.417,
+                "black": 0.3244,
+                "blue": 0.2338
+              }
+            }
+          }
+        }
+      ]
+    },
+    "234": {
+      "track_id": 234,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_234\\rank_1_frame_000343.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5016,
+                "black": 0.4118,
+                "white": 0.0867
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6366,
+                "black": 0.2033,
+                "white": 0.1303
+              }
+            }
+          }
+        }
+      ]
+    },
+    "238": {
+      "track_id": 238,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_238\\rank_1_frame_000345.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.9044,
+                "white": 0.0425,
+                "black": 0.0398
+              }
+            },
+            "lower_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.7692,
+                "gray": 0.1747,
+                "white": 0.0654
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_238\\rank_2_frame_000346.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.9153,
+                "black": 0.0538,
+                "white": 0.0395
+              }
+            },
+            "lower_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.7754,
+                "gray": 0.1653,
+                "white": 0.0641
+              }
+            }
+          }
+        }
+      ]
+    },
+    "240": {
+      "track_id": 240,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_240\\rank_1_frame_000348.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.5577,
+                "gray": 0.3734,
+                "black": 0.0642
+              }
+            },
+            "lower_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.6281,
+                "black": 0.2291,
+                "gray": 0.1416
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_240\\rank_2_frame_000356.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.6145,
+                "gray": 0.335,
+                "black": 0.0505
+              }
+            },
+            "lower_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.6342,
+                "black": 0.1946,
+                "gray": 0.1712
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_240\\rank_3_frame_000349.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.5982,
+                "gray": 0.3367,
+                "black": 0.0651
+              }
+            },
+            "lower_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.6186,
+                "black": 0.2385,
+                "gray": 0.1429
+              }
+            }
+          }
+        }
+      ]
+    },
+    "265": {
+      "track_id": 265,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_265\\rank_1_frame_000386.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.5432,
+                "white": 0.2562,
+                "gray": 0.1892
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6092,
+                "blue": 0.363,
+                "black": 0.0442
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_265\\rank_2_frame_000379.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.6468,
+                "black": 0.3634,
+                "white": 0.2206
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.4524,
+                "blue": 0.3654,
+                "black": 0.2333
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_265\\rank_3_frame_000388.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.4489,
+                "gray": 0.2799,
+                "white": 0.2485
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6184,
+                "blue": 0.3117,
+                "black": 0.1058
+              }
+            }
+          }
+        }
+      ]
+    },
+    "272": {
+      "track_id": 272,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_272\\rank_1_frame_000380.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6103,
+                "white": 0.2299,
+                "black": 0.1563
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5777,
+                "gray": 0.3279,
+                "white": 0.0944
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_272\\rank_2_frame_000382.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9188,
+                "white": 0.0488,
+                "gray": 0.0324
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7778,
+                "gray": 0.1777,
+                "white": 0.0446
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_272\\rank_3_frame_000383.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.984,
+                "gray": 0.0105,
+                "white": 0.0056
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.9031,
+                "gray": 0.0962,
+                "white": 0.0007
+              }
+            }
+          }
+        }
+      ]
+    },
+    "277": {
+      "track_id": 277,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_277\\rank_1_frame_000384.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5305,
+                "gray": 0.3024,
+                "white": 0.1671
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5597,
+                "black": 0.366,
+                "white": 0.0743
+              }
+            }
+          }
+        }
+      ]
+    },
+    "278": {
+      "track_id": 278,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_278\\rank_1_frame_000392.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6076,
+                "blue": 0.4733,
+                "gray": 0.1562
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5338,
+                "blue": 0.2368,
+                "black": 0.202
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_278\\rank_2_frame_000393.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.5436,
+                "black": 0.4822,
+                "gray": 0.1947
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5061,
+                "blue": 0.3163,
+                "black": 0.2591
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_278\\rank_3_frame_000386.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.4973,
+                "black": 0.277,
+                "white": 0.2681
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6698,
+                "blue": 0.2102,
+                "black": 0.1278
+              }
+            }
+          }
+        }
+      ]
+    },
+    "279": {
+      "track_id": 279,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_279\\rank_1_frame_000393.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.6214,
+                "gray": 0.3635,
+                "blue": 0.0151
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.4819,
+                "black": 0.3922,
+                "white": 0.1259
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_279\\rank_2_frame_000394.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.5679,
+                "gray": 0.4095,
+                "black": 0.0181
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.4615,
+                "gray": 0.4548,
+                "white": 0.083
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_279\\rank_3_frame_000392.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.6835,
+                "gray": 0.3013,
+                "blue": 0.0269
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.5118,
+                "black": 0.266,
+                "white": 0.2205
+              }
+            }
+          }
+        }
+      ]
+    },
+    "283": {
+      "track_id": 283,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_283\\rank_1_frame_000391.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5333,
+                "gray": 0.2723,
+                "white": 0.1944
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5752,
+                "gray": 0.4125,
+                "white": 0.0123
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_283\\rank_2_frame_000390.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.7572,
+                "gray": 0.136,
+                "white": 0.1069
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6337,
+                "gray": 0.3569,
+                "white": 0.0094
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_283\\rank_3_frame_000389.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.8133,
+                "gray": 0.1181,
+                "white": 0.0686
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6538,
+                "gray": 0.3372,
+                "blue": 0.0115
+              }
+            }
+          }
+        }
+      ]
+    },
+    "284": {
+      "track_id": 284,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_284\\rank_1_frame_000392.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5411,
+                "blue": 0.3436,
+                "gray": 0.227
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.553,
+                "gray": 0.4111,
+                "blue": 0.0149
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_284\\rank_2_frame_000390.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.5932,
+                "gray": 0.3793,
+                "blue": 0.0508
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6028,
+                "gray": 0.3558,
+                "pink": 0.0329
+              }
+            }
+          }
+        }
+      ]
+    },
+    "285": {
+      "track_id": 285,
+      "class_name": "pedestrian",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_285\\rank_1_frame_000394.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6208,
+                "black": 0.2722,
+                "white": 0.1069
+              }
+            },
+            "lower_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.4361,
+                "gray": 0.375,
+                "black": 0.1833
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_285\\rank_2_frame_000392.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6659,
+                "white": 0.2281,
+                "black": 0.106
+              }
+            },
+            "lower_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.447,
+                "white": 0.3333,
+                "black": 0.2151
+              }
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_285\\rank_3_frame_000391.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "gray",
+              "color_scores": {
+                "gray": 0.6699,
+                "white": 0.1728,
+                "black": 0.1564
+              }
+            },
+            "lower_body": {
+              "primary_color": "white",
+              "color_scores": {
+                "white": 0.417,
+                "gray": 0.3793,
+                "black": 0.2037
+              }
+            }
+          }
+        }
+      ]
+    },
+    "286": {
+      "track_id": 286,
+      "class_name": "people",
+      "crop_color_results": [
+        {
+          "rank": 1,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_286\\rank_1_frame_000391.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.8754,
+                "gray": 0.1082,
+                "black": 0.0351
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6782,
+                "blue": 0.2439,
+                "gray": 0.1029
+              }
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_286\\rank_2_frame_000392.jpg",
+          "color_analysis": {
+            "upper_body": {
+              "primary_color": "blue",
+              "color_scores": {
+                "blue": 0.8541,
+                "gray": 0.111,
+                "black": 0.0387
+              }
+            },
+            "lower_body": {
+              "primary_color": "black",
+              "color_scores": {
+                "black": 0.6872,
+                "blue": 0.2228,
+                "gray": 0.1156
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

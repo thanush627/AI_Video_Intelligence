@@ -1,0 +1,240 @@
+{
+  "summary": {
+    "usable_tracks": 44,
+    "frames_with_objects": 278,
+    "analyzed_pairs": 71,
+    "detected_relationships": 10,
+    "relationship_type_counts": {
+      "near": 10,
+      "overlapping": 4
+    },
+    "near_threshold": 0.08,
+    "minimum_shared_frames": 3
+  },
+  "relationships": [
+    {
+      "relationship_id": "relationship_000001",
+      "track_a_id": 25,
+      "track_a_class": "pedestrian",
+      "track_b_id": 28,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near"
+      ],
+      "shared_frames": 8,
+      "near_frames": 8,
+      "overlap_frames": 0,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "average_normalized_distance": 0.02222,
+      "minimum_normalized_distance": 0.021356,
+      "maximum_iou": 0.0,
+      "first_frame": 104,
+      "last_frame": 111,
+      "first_timestamp": 3.4701333333333335,
+      "last_timestamp": 3.7037
+    },
+    {
+      "relationship_id": "relationship_000002",
+      "track_a_id": 28,
+      "track_a_class": "pedestrian",
+      "track_b_id": 37,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near"
+      ],
+      "shared_frames": 3,
+      "near_frames": 3,
+      "overlap_frames": 0,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "average_normalized_distance": 0.049288,
+      "minimum_normalized_distance": 0.04616,
+      "maximum_iou": 0.0,
+      "first_frame": 120,
+      "last_frame": 119,
+      "first_timestamp": 4.0040000000000004,
+      "last_timestamp": 3.9706333333333332
+    },
+    {
+      "relationship_id": "relationship_000003",
+      "track_a_id": 37,
+      "track_a_class": "pedestrian",
+      "track_b_id": 39,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near"
+      ],
+      "shared_frames": 8,
+      "near_frames": 8,
+      "overlap_frames": 0,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "average_normalized_distance": 0.046799,
+      "minimum_normalized_distance": 0.04151,
+      "maximum_iou": 0.0,
+      "first_frame": 120,
+      "last_frame": 134,
+      "first_timestamp": 4.0040000000000004,
+      "last_timestamp": 4.471133333333333
+    },
+    {
+      "relationship_id": "relationship_000004",
+      "track_a_id": 139,
+      "track_a_class": "pedestrian",
+      "track_b_id": 141,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near",
+        "overlapping"
+      ],
+      "shared_frames": 3,
+      "near_frames": 3,
+      "overlap_frames": 2,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.6667,
+      "average_normalized_distance": 0.039711,
+      "minimum_normalized_distance": 0.037423,
+      "maximum_iou": 0.0261,
+      "first_frame": 236,
+      "last_frame": 238,
+      "first_timestamp": 7.874533333333334,
+      "last_timestamp": 7.9412666666666665
+    },
+    {
+      "relationship_id": "relationship_000005",
+      "track_a_id": 197,
+      "track_a_class": "pedestrian",
+      "track_b_id": 206,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near"
+      ],
+      "shared_frames": 3,
+      "near_frames": 3,
+      "overlap_frames": 0,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "average_normalized_distance": 0.032361,
+      "minimum_normalized_distance": 0.027317,
+      "maximum_iou": 0.0,
+      "first_frame": 314,
+      "last_frame": 321,
+      "first_timestamp": 10.477133333333333,
+      "last_timestamp": 10.710700000000001
+    },
+    {
+      "relationship_id": "relationship_000006",
+      "track_a_id": 206,
+      "track_a_class": "pedestrian",
+      "track_b_id": 214,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near"
+      ],
+      "shared_frames": 3,
+      "near_frames": 3,
+      "overlap_frames": 0,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "average_normalized_distance": 0.038544,
+      "minimum_normalized_distance": 0.038095,
+      "maximum_iou": 0.0,
+      "first_frame": 323,
+      "last_frame": 325,
+      "first_timestamp": 10.777433333333333,
+      "last_timestamp": 10.844166666666666
+    },
+    {
+      "relationship_id": "relationship_000007",
+      "track_a_id": 265,
+      "track_a_class": "pedestrian",
+      "track_b_id": 278,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near",
+        "overlapping"
+      ],
+      "shared_frames": 3,
+      "near_frames": 3,
+      "overlap_frames": 3,
+      "near_ratio": 1.0,
+      "overlap_ratio": 1.0,
+      "average_normalized_distance": 0.012052,
+      "minimum_normalized_distance": 0.010451,
+      "maximum_iou": 0.4493,
+      "first_frame": 386,
+      "last_frame": 388,
+      "first_timestamp": 12.879533333333333,
+      "last_timestamp": 12.946266666666666
+    },
+    {
+      "relationship_id": "relationship_000008",
+      "track_a_id": 283,
+      "track_a_class": "pedestrian",
+      "track_b_id": 285,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near",
+        "overlapping"
+      ],
+      "shared_frames": 4,
+      "near_frames": 4,
+      "overlap_frames": 4,
+      "near_ratio": 1.0,
+      "overlap_ratio": 1.0,
+      "average_normalized_distance": 0.030723,
+      "minimum_normalized_distance": 0.028007,
+      "maximum_iou": 0.1014,
+      "first_frame": 390,
+      "last_frame": 393,
+      "first_timestamp": 13.013,
+      "last_timestamp": 13.113100000000001
+    },
+    {
+      "relationship_id": "relationship_000009",
+      "track_a_id": 279,
+      "track_a_class": "pedestrian",
+      "track_b_id": 283,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near",
+        "overlapping"
+      ],
+      "shared_frames": 4,
+      "near_frames": 4,
+      "overlap_frames": 4,
+      "near_ratio": 1.0,
+      "overlap_ratio": 1.0,
+      "average_normalized_distance": 0.022529,
+      "minimum_normalized_distance": 0.020724,
+      "maximum_iou": 0.1144,
+      "first_frame": 391,
+      "last_frame": 389,
+      "first_timestamp": 13.046366666666668,
+      "last_timestamp": 12.979633333333334
+    },
+    {
+      "relationship_id": "relationship_000010",
+      "track_a_id": 279,
+      "track_a_class": "pedestrian",
+      "track_b_id": 285,
+      "track_b_class": "pedestrian",
+      "relationship_types": [
+        "near"
+      ],
+      "shared_frames": 5,
+      "near_frames": 5,
+      "overlap_frames": 0,
+      "near_ratio": 1.0,
+      "overlap_ratio": 0.0,
+      "average_normalized_distance": 0.029867,
+      "minimum_normalized_distance": 0.027695,
+      "maximum_iou": 0.0,
+      "first_frame": 391,
+      "last_frame": 395,
+      "first_timestamp": 13.046366666666668,
+      "last_timestamp": 13.179833333333333
+    }
+  ]
+}

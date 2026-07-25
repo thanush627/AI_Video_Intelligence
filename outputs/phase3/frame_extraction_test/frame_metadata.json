@@ -1,0 +1,398 @@
+[
+  {
+    "sample_number": 1,
+    "frame_index": 0,
+    "timestamp_seconds": 0.0,
+    "motion_score": 0.0,
+    "motion_level": "low",
+    "sampling_fps": 1.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000001_src_000000.jpg"
+  },
+  {
+    "sample_number": 2,
+    "frame_index": 15,
+    "timestamp_seconds": 0.5005000000000001,
+    "motion_score": 2.8339583333333334,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000002_src_000015.jpg"
+  },
+  {
+    "sample_number": 3,
+    "frame_index": 45,
+    "timestamp_seconds": 1.5015,
+    "motion_score": 1.5261111111111112,
+    "motion_level": "low",
+    "sampling_fps": 1.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000003_src_000045.jpg"
+  },
+  {
+    "sample_number": 4,
+    "frame_index": 60,
+    "timestamp_seconds": 2.0020000000000002,
+    "motion_score": 4.443159722222222,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000004_src_000060.jpg"
+  },
+  {
+    "sample_number": 5,
+    "frame_index": 75,
+    "timestamp_seconds": 2.5025,
+    "motion_score": 6.605347222222222,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000005_src_000075.jpg"
+  },
+  {
+    "sample_number": 6,
+    "frame_index": 90,
+    "timestamp_seconds": 3.003,
+    "motion_score": 4.16046875,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000006_src_000090.jpg"
+  },
+  {
+    "sample_number": 7,
+    "frame_index": 105,
+    "timestamp_seconds": 3.5035000000000003,
+    "motion_score": 2.91015625,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000007_src_000105.jpg"
+  },
+  {
+    "sample_number": 8,
+    "frame_index": 120,
+    "timestamp_seconds": 4.0040000000000004,
+    "motion_score": 4.108888888888889,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000008_src_000120.jpg"
+  },
+  {
+    "sample_number": 9,
+    "frame_index": 135,
+    "timestamp_seconds": 4.5045,
+    "motion_score": 5.142916666666666,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000009_src_000135.jpg"
+  },
+  {
+    "sample_number": 10,
+    "frame_index": 150,
+    "timestamp_seconds": 5.005,
+    "motion_score": 6.398819444444444,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000010_src_000150.jpg"
+  },
+  {
+    "sample_number": 11,
+    "frame_index": 165,
+    "timestamp_seconds": 5.5055000000000005,
+    "motion_score": 6.424045138888889,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000011_src_000165.jpg"
+  },
+  {
+    "sample_number": 12,
+    "frame_index": 180,
+    "timestamp_seconds": 6.006,
+    "motion_score": 8.44828125,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000012_src_000180.jpg"
+  },
+  {
+    "sample_number": 13,
+    "frame_index": 195,
+    "timestamp_seconds": 6.5065,
+    "motion_score": 10.95138888888889,
+    "motion_level": "medium",
+    "sampling_fps": 2.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000013_src_000195.jpg"
+  },
+  {
+    "sample_number": 14,
+    "frame_index": 205,
+    "timestamp_seconds": 6.840166666666667,
+    "motion_score": 12.121805555555556,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000014_src_000205.jpg"
+  },
+  {
+    "sample_number": 15,
+    "frame_index": 211,
+    "timestamp_seconds": 7.040366666666666,
+    "motion_score": 13.191996527777778,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000015_src_000211.jpg"
+  },
+  {
+    "sample_number": 16,
+    "frame_index": 217,
+    "timestamp_seconds": 7.240566666666667,
+    "motion_score": 13.729895833333334,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000016_src_000217.jpg"
+  },
+  {
+    "sample_number": 17,
+    "frame_index": 223,
+    "timestamp_seconds": 7.440766666666667,
+    "motion_score": 14.746892361111112,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000017_src_000223.jpg"
+  },
+  {
+    "sample_number": 18,
+    "frame_index": 229,
+    "timestamp_seconds": 7.6409666666666665,
+    "motion_score": 15.963090277777777,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000018_src_000229.jpg"
+  },
+  {
+    "sample_number": 19,
+    "frame_index": 235,
+    "timestamp_seconds": 7.841166666666667,
+    "motion_score": 16.359010416666667,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000019_src_000235.jpg"
+  },
+  {
+    "sample_number": 20,
+    "frame_index": 241,
+    "timestamp_seconds": 8.041366666666667,
+    "motion_score": 16.692864583333332,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000020_src_000241.jpg"
+  },
+  {
+    "sample_number": 21,
+    "frame_index": 247,
+    "timestamp_seconds": 8.241566666666667,
+    "motion_score": 16.46407986111111,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000021_src_000247.jpg"
+  },
+  {
+    "sample_number": 22,
+    "frame_index": 253,
+    "timestamp_seconds": 8.441766666666666,
+    "motion_score": 16.88253472222222,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000022_src_000253.jpg"
+  },
+  {
+    "sample_number": 23,
+    "frame_index": 259,
+    "timestamp_seconds": 8.641966666666667,
+    "motion_score": 18.159930555555555,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000023_src_000259.jpg"
+  },
+  {
+    "sample_number": 24,
+    "frame_index": 265,
+    "timestamp_seconds": 8.842166666666667,
+    "motion_score": 18.666371527777777,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000024_src_000265.jpg"
+  },
+  {
+    "sample_number": 25,
+    "frame_index": 271,
+    "timestamp_seconds": 9.042366666666666,
+    "motion_score": 18.976145833333334,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000025_src_000271.jpg"
+  },
+  {
+    "sample_number": 26,
+    "frame_index": 277,
+    "timestamp_seconds": 9.242566666666667,
+    "motion_score": 19.77203125,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000026_src_000277.jpg"
+  },
+  {
+    "sample_number": 27,
+    "frame_index": 283,
+    "timestamp_seconds": 9.442766666666667,
+    "motion_score": 19.420069444444444,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000027_src_000283.jpg"
+  },
+  {
+    "sample_number": 28,
+    "frame_index": 289,
+    "timestamp_seconds": 9.642966666666666,
+    "motion_score": 19.317013888888887,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000028_src_000289.jpg"
+  },
+  {
+    "sample_number": 29,
+    "frame_index": 295,
+    "timestamp_seconds": 9.843166666666667,
+    "motion_score": 19.19295138888889,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000029_src_000295.jpg"
+  },
+  {
+    "sample_number": 30,
+    "frame_index": 301,
+    "timestamp_seconds": 10.043366666666667,
+    "motion_score": 19.055503472222224,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000030_src_000301.jpg"
+  },
+  {
+    "sample_number": 31,
+    "frame_index": 307,
+    "timestamp_seconds": 10.243566666666666,
+    "motion_score": 21.179444444444446,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000031_src_000307.jpg"
+  },
+  {
+    "sample_number": 32,
+    "frame_index": 313,
+    "timestamp_seconds": 10.443766666666667,
+    "motion_score": 21.718489583333334,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000032_src_000313.jpg"
+  },
+  {
+    "sample_number": 33,
+    "frame_index": 319,
+    "timestamp_seconds": 10.643966666666667,
+    "motion_score": 21.632326388888888,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000033_src_000319.jpg"
+  },
+  {
+    "sample_number": 34,
+    "frame_index": 325,
+    "timestamp_seconds": 10.844166666666666,
+    "motion_score": 22.199618055555554,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000034_src_000325.jpg"
+  },
+  {
+    "sample_number": 35,
+    "frame_index": 331,
+    "timestamp_seconds": 11.044366666666667,
+    "motion_score": 22.143385416666668,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000035_src_000331.jpg"
+  },
+  {
+    "sample_number": 36,
+    "frame_index": 337,
+    "timestamp_seconds": 11.244566666666667,
+    "motion_score": 22.366493055555555,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000036_src_000337.jpg"
+  },
+  {
+    "sample_number": 37,
+    "frame_index": 343,
+    "timestamp_seconds": 11.444766666666666,
+    "motion_score": 22.909791666666667,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000037_src_000343.jpg"
+  },
+  {
+    "sample_number": 38,
+    "frame_index": 349,
+    "timestamp_seconds": 11.644966666666667,
+    "motion_score": 19.728090277777778,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000038_src_000349.jpg"
+  },
+  {
+    "sample_number": 39,
+    "frame_index": 355,
+    "timestamp_seconds": 11.845166666666668,
+    "motion_score": 19.25213541666667,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000039_src_000355.jpg"
+  },
+  {
+    "sample_number": 40,
+    "frame_index": 361,
+    "timestamp_seconds": 12.045366666666666,
+    "motion_score": 17.49763888888889,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000040_src_000361.jpg"
+  },
+  {
+    "sample_number": 41,
+    "frame_index": 367,
+    "timestamp_seconds": 12.245566666666667,
+    "motion_score": 16.430086805555554,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000041_src_000367.jpg"
+  },
+  {
+    "sample_number": 42,
+    "frame_index": 373,
+    "timestamp_seconds": 12.445766666666668,
+    "motion_score": 15.075416666666667,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000042_src_000373.jpg"
+  },
+  {
+    "sample_number": 43,
+    "frame_index": 379,
+    "timestamp_seconds": 12.645966666666666,
+    "motion_score": 13.799947916666667,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000043_src_000379.jpg"
+  },
+  {
+    "sample_number": 44,
+    "frame_index": 385,
+    "timestamp_seconds": 12.846166666666667,
+    "motion_score": 12.204392361111111,
+    "motion_level": "high",
+    "sampling_fps": 5.0,
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\frame_extraction_test\\frames\\frame_000044_src_000385.jpg"
+  }
+]

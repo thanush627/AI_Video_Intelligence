@@ -1,0 +1,1035 @@
+{
+  "summary": {
+    "document_count": 40,
+    "source": "filtered_composite_events"
+  },
+  "documents": [
+    {
+      "document_id": "composite_event_000001",
+      "text": "white car moved top right to bottom left within the left bottom region. The event occurred from 0.00 seconds to 0.60 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000001",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "track_ids": [
+          1
+        ],
+        "class_names": [
+          "car"
+        ],
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.6006,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "white"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "top_right_to_bottom_left",
+        "region_transition": "remained_in_left_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000002",
+      "text": "people moved right to left within the right bottom region. The event occurred from 0.00 seconds to 0.20 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000002",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.72,
+        "quality_label": "medium",
+        "track_ids": [
+          2
+        ],
+        "class_names": [
+          "people"
+        ],
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.2002,
+        "reliability_status": "reliable",
+        "colour_attributes": {},
+        "motion_state": "slow_moving",
+        "motion_direction": "right_to_left",
+        "region_transition": "remained_in_right_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000003",
+      "text": "white car moved from the center middle region to the left bottom region. The event occurred from 0.90 seconds to 2.87 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000003",
+        "event_type": "track_semantic_event",
+        "quality_score": 1.0,
+        "quality_label": "high",
+        "track_ids": [
+          13
+        ],
+        "class_names": [
+          "car"
+        ],
+        "start_time_seconds": 0.9009,
+        "end_time_seconds": 2.8695,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "white"
+        },
+        "motion_state": "moving",
+        "motion_direction": "right_to_left",
+        "region_transition": "center_middle_to_left_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000004",
+      "text": "black bicycle moved top left to bottom right within the center bottom region. The event occurred from 1.94 seconds to 4.00 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000004",
+        "event_type": "track_semantic_event",
+        "quality_score": 1.0,
+        "quality_label": "high",
+        "track_ids": [
+          18
+        ],
+        "class_names": [
+          "bicycle"
+        ],
+        "start_time_seconds": 1.9353,
+        "end_time_seconds": 4.004,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "black"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "top_left_to_bottom_right",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000006",
+      "text": "gray bus remained stationary in the center bottom region. The event occurred from 2.57 seconds to 4.34 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000006",
+        "event_type": "track_semantic_event",
+        "quality_score": 1.0,
+        "quality_label": "high",
+        "track_ids": [
+          20
+        ],
+        "class_names": [
+          "bus"
+        ],
+        "start_time_seconds": 2.5692,
+        "end_time_seconds": 4.3377,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "gray"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000007",
+      "text": "pedestrian wearing black upper clothing and gray lower clothing remained stationary in the left bottom region. The event occurred from 3.30 seconds to 3.47 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000007",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.81,
+        "quality_label": "high",
+        "track_ids": [
+          23
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 3.3033,
+        "end_time_seconds": 3.4701,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "black",
+          "lower_color": "gray"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_left_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000008",
+      "text": "pedestrian wearing black upper clothing and black lower clothing moved from the left bottom region to the center bottom region. The event occurred from 3.34 seconds to 4.67 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000008",
+        "event_type": "track_semantic_event",
+        "quality_score": 1.0,
+        "quality_label": "high",
+        "track_ids": [
+          25
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 3.3367,
+        "end_time_seconds": 4.6713,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "black",
+          "lower_color": "black"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "left_bottom_to_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000009",
+      "text": "pedestrian wearing gray upper clothing and gray lower clothing remained stationary in the left bottom region. The event occurred from 3.47 seconds to 4.04 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000009",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "track_ids": [
+          28
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 3.4701,
+        "end_time_seconds": 4.0374,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "gray",
+          "lower_color": "gray"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_left_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000012",
+      "text": "pedestrian wearing black upper clothing and black lower clothing moved left to right within the left bottom region. The event occurred from 3.94 seconds to 4.94 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000012",
+        "event_type": "track_semantic_event",
+        "quality_score": 1.0,
+        "quality_label": "high",
+        "track_ids": [
+          37
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 3.9373,
+        "end_time_seconds": 4.9383,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "black",
+          "lower_color": "black"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_left_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000013",
+      "text": "pedestrian wearing gray upper clothing and gray lower clothing remained stationary in the left bottom region. The event occurred from 4.00 seconds to 4.47 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000013",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "track_ids": [
+          39
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 4.004,
+        "end_time_seconds": 4.4711,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "gray",
+          "lower_color": "gray"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_left_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000014",
+      "text": "pedestrian wearing black upper clothing and black lower clothing moved left to right within the left bottom region. The event occurred from 4.70 seconds to 5.17 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000014",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "track_ids": [
+          48
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 4.7047,
+        "end_time_seconds": 5.1718,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "black",
+          "lower_color": "black"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_left_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000016",
+      "text": "white bus moved top left to bottom right within the center bottom region. The event occurred from 6.01 seconds to 6.77 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000016",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "track_ids": [
+          66
+        ],
+        "class_names": [
+          "bus"
+        ],
+        "start_time_seconds": 6.006,
+        "end_time_seconds": 6.7734,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "white"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "top_left_to_bottom_right",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000017",
+      "text": "red van moved bottom right to top left within the center bottom region. The event occurred from 6.01 seconds to 7.07 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000017",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.82,
+        "quality_label": "high",
+        "track_ids": [
+          69
+        ],
+        "class_names": [
+          "van"
+        ],
+        "start_time_seconds": 6.006,
+        "end_time_seconds": 7.0737,
+        "reliability_status": "review",
+        "colour_attributes": {
+          "object_color": "red"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "bottom_right_to_top_left",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000018",
+      "text": "blue bus moved right to left within the left bottom region. The event occurred from 6.11 seconds to 7.41 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000018",
+        "event_type": "track_semantic_event",
+        "quality_score": 1.0,
+        "quality_label": "high",
+        "track_ids": [
+          72
+        ],
+        "class_names": [
+          "bus"
+        ],
+        "start_time_seconds": 6.1061,
+        "end_time_seconds": 7.4074,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "blue"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "right_to_left",
+        "region_transition": "remained_in_left_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000019",
+      "text": "pedestrian wearing gray upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.04 seconds to 7.44 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000019",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "track_ids": [
+          97
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 7.0404,
+        "end_time_seconds": 7.4408,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "gray",
+          "lower_color": "gray"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000020",
+      "text": "gray van remained stationary in the center bottom region. The event occurred from 7.21 seconds to 7.44 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000020",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.69,
+        "quality_label": "medium",
+        "track_ids": [
+          106
+        ],
+        "class_names": [
+          "van"
+        ],
+        "start_time_seconds": 7.2072,
+        "end_time_seconds": 7.4408,
+        "reliability_status": "review",
+        "colour_attributes": {
+          "object_color": "gray"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000022",
+      "text": "white bus moved from the center bottom region to the right bottom region. The event occurred from 7.61 seconds to 8.11 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000022",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "track_ids": [
+          128
+        ],
+        "class_names": [
+          "bus"
+        ],
+        "start_time_seconds": 7.6076,
+        "end_time_seconds": 8.1081,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "white"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "center_bottom_to_right_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000024",
+      "text": "pedestrian wearing white upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.87 seconds to 8.61 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000024",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "track_ids": [
+          139
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 7.8745,
+        "end_time_seconds": 8.6086,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "white",
+          "lower_color": "gray"
+        },
+        "motion_state": "moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000026",
+      "text": "black bus moved from the center bottom region to the right bottom region. The event occurred from 8.11 seconds to 10.68 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000026",
+        "event_type": "track_semantic_event",
+        "quality_score": 1.0,
+        "quality_label": "high",
+        "track_ids": [
+          148
+        ],
+        "class_names": [
+          "bus"
+        ],
+        "start_time_seconds": 8.1081,
+        "end_time_seconds": 10.6773,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "black"
+        },
+        "motion_state": "moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "center_bottom_to_right_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000028",
+      "text": "pedestrian wearing blue upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 8.58 seconds to 9.11 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000028",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "track_ids": [
+          164
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 8.5752,
+        "end_time_seconds": 9.1091,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "blue",
+          "lower_color": "gray"
+        },
+        "motion_state": "moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000029",
+      "text": "white bus moved left to right within the right bottom region. The event occurred from 9.58 seconds to 10.18 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000029",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "track_ids": [
+          177
+        ],
+        "class_names": [
+          "bus"
+        ],
+        "start_time_seconds": 9.5762,
+        "end_time_seconds": 10.1768,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "white"
+        },
+        "motion_state": "moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_right_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000030",
+      "text": "black bicycle moved left to right within the right bottom region. The event occurred from 10.14 seconds to 10.24 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000030",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.81,
+        "quality_label": "high",
+        "track_ids": [
+          189
+        ],
+        "class_names": [
+          "bicycle"
+        ],
+        "start_time_seconds": 10.1435,
+        "end_time_seconds": 10.2436,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "object_color": "black"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_right_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000031",
+      "text": "pedestrian wearing gray upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 10.34 seconds to 11.04 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000031",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "track_ids": [
+          197
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 10.3437,
+        "end_time_seconds": 11.0444,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "gray",
+          "lower_color": "gray"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000032",
+      "text": "pedestrian wearing black upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 10.48 seconds to 10.84 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000032",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "track_ids": [
+          206
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 10.4771,
+        "end_time_seconds": 10.8442,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "black",
+          "lower_color": "gray"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000033",
+      "text": "pedestrian wearing black upper clothing and gray lower clothing remained stationary in the center bottom region. The event occurred from 10.51 seconds to 10.94 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000033",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.69,
+        "quality_label": "medium",
+        "track_ids": [
+          208
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 10.5105,
+        "end_time_seconds": 10.9443,
+        "reliability_status": "review",
+        "colour_attributes": {
+          "upper_color": "black",
+          "lower_color": "gray"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000034",
+      "text": "pedestrian wearing blue upper clothing and gray lower clothing remained stationary in the center bottom region. The event occurred from 10.78 seconds to 10.91 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000034",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.81,
+        "quality_label": "high",
+        "track_ids": [
+          214
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 10.7774,
+        "end_time_seconds": 10.9109,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "blue",
+          "lower_color": "gray"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000035",
+      "text": "people wearing blue upper clothing and blue lower clothing moved left to right within the center bottom region. The event occurred from 11.08 seconds to 11.28 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000035",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "track_ids": [
+          223
+        ],
+        "class_names": [
+          "people"
+        ],
+        "start_time_seconds": 11.0777,
+        "end_time_seconds": 11.2779,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "blue",
+          "lower_color": "blue"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000036",
+      "text": "pedestrian wearing blue upper clothing and blue lower clothing moved left to right within the left bottom region. The event occurred from 11.41 seconds to 11.98 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000036",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "track_ids": [
+          232
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 11.4114,
+        "end_time_seconds": 11.9786,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "blue",
+          "lower_color": "blue"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "remained_in_left_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000037",
+      "text": "pedestrian wearing white upper clothing and white lower clothing moved from the left bottom region to the center bottom region. The event occurred from 11.61 seconds to 11.88 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000037",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "track_ids": [
+          240
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 11.6116,
+        "end_time_seconds": 11.8785,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "white",
+          "lower_color": "white"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "left_to_right",
+        "region_transition": "left_bottom_to_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000038",
+      "text": "pedestrian wearing blue upper clothing and blue lower clothing remained stationary in the center bottom region. The event occurred from 12.58 seconds to 12.95 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000038",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "track_ids": [
+          265
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 12.5792,
+        "end_time_seconds": 12.9463,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "blue",
+          "lower_color": "blue"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000039",
+      "text": "pedestrian wearing black upper clothing and black lower clothing moved top to bottom within the center bottom region. The event occurred from 12.68 seconds to 12.78 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000039",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.81,
+        "quality_label": "high",
+        "track_ids": [
+          272
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 12.6793,
+        "end_time_seconds": 12.7794,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "black",
+          "lower_color": "black"
+        },
+        "motion_state": "slow_moving",
+        "motion_direction": "top_to_bottom",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000040",
+      "text": "pedestrian wearing blue upper clothing and gray lower clothing remained stationary in the center bottom region. The event occurred from 12.88 seconds to 13.18 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000040",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "track_ids": [
+          278
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 12.8795,
+        "end_time_seconds": 13.1798,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "blue",
+          "lower_color": "gray"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000041",
+      "text": "pedestrian wearing white upper clothing and gray lower clothing remained stationary in the center bottom region. The event occurred from 12.95 seconds to 13.18 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000041",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "track_ids": [
+          279
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 12.9463,
+        "end_time_seconds": 13.1798,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "white",
+          "lower_color": "gray"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000042",
+      "text": "pedestrian wearing black upper clothing and black lower clothing remained stationary in the center bottom region. The event occurred from 12.98 seconds to 13.11 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000042",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.81,
+        "quality_label": "high",
+        "track_ids": [
+          283
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 12.9796,
+        "end_time_seconds": 13.1131,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "black",
+          "lower_color": "black"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000044",
+      "text": "pedestrian wearing gray upper clothing and white lower clothing remained stationary in the center bottom region. The event occurred from 13.01 seconds to 13.18 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000044",
+        "event_type": "track_semantic_event",
+        "quality_score": 0.81,
+        "quality_label": "high",
+        "track_ids": [
+          285
+        ],
+        "class_names": [
+          "pedestrian"
+        ],
+        "start_time_seconds": 13.013,
+        "end_time_seconds": 13.1798,
+        "reliability_status": "reliable",
+        "colour_attributes": {
+          "upper_color": "gray",
+          "lower_color": "white"
+        },
+        "motion_state": "stationary",
+        "motion_direction": "stationary",
+        "region_transition": "remained_in_center_bottom"
+      }
+    },
+    {
+      "document_id": "composite_event_000045",
+      "text": "A pedestrian and a pedestrian remained near each other. The event occurred from 3.47 seconds to 3.70 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000045",
+        "event_type": "relationship_event",
+        "quality_score": 0.67,
+        "quality_label": "medium",
+        "track_ids": [
+          25,
+          28
+        ],
+        "class_names": [
+          "pedestrian",
+          "pedestrian"
+        ],
+        "start_time_seconds": 3.4701333333333335,
+        "end_time_seconds": 3.7037,
+        "relationship_types": [
+          "near"
+        ],
+        "shared_frames": 8,
+        "near_ratio": 1.0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "document_id": "composite_event_000047",
+      "text": "A pedestrian and a pedestrian remained near each other. The event occurred from 4.00 seconds to 4.47 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000047",
+        "event_type": "relationship_event",
+        "quality_score": 0.67,
+        "quality_label": "medium",
+        "track_ids": [
+          37,
+          39
+        ],
+        "class_names": [
+          "pedestrian",
+          "pedestrian"
+        ],
+        "start_time_seconds": 4.0040000000000004,
+        "end_time_seconds": 4.471133333333333,
+        "relationship_types": [
+          "near"
+        ],
+        "shared_frames": 8,
+        "near_ratio": 1.0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "document_id": "composite_event_000052",
+      "text": "A pedestrian and a pedestrian overlapped while visible together. The event occurred from 13.01 seconds to 13.11 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000052",
+        "event_type": "relationship_event",
+        "quality_score": 0.71,
+        "quality_label": "medium",
+        "track_ids": [
+          283,
+          285
+        ],
+        "class_names": [
+          "pedestrian",
+          "pedestrian"
+        ],
+        "start_time_seconds": 13.013,
+        "end_time_seconds": 13.113100000000001,
+        "relationship_types": [
+          "near",
+          "overlapping"
+        ],
+        "shared_frames": 4,
+        "near_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "document_id": "composite_event_000053",
+      "text": "A pedestrian and a pedestrian overlapped while visible together. The event occurred from 12.98 seconds to 13.05 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000053",
+        "event_type": "relationship_event",
+        "quality_score": 0.71,
+        "quality_label": "medium",
+        "track_ids": [
+          279,
+          283
+        ],
+        "class_names": [
+          "pedestrian",
+          "pedestrian"
+        ],
+        "start_time_seconds": 12.979633333333334,
+        "end_time_seconds": 13.046366666666668,
+        "relationship_types": [
+          "near",
+          "overlapping"
+        ],
+        "shared_frames": 4,
+        "near_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "document_id": "composite_event_000054",
+      "text": "A pedestrian and a pedestrian remained near each other. The event occurred from 13.05 seconds to 13.18 seconds.",
+      "metadata": {
+        "event_id": "composite_event_000054",
+        "event_type": "relationship_event",
+        "quality_score": 0.59,
+        "quality_label": "low",
+        "track_ids": [
+          279,
+          285
+        ],
+        "class_names": [
+          "pedestrian",
+          "pedestrian"
+        ],
+        "start_time_seconds": 13.046366666666668,
+        "end_time_seconds": 13.179833333333333,
+        "relationship_types": [
+          "near"
+        ],
+        "shared_frames": 5,
+        "near_ratio": 1.0,
+        "overlap_ratio": 0.0
+      }
+    }
+  ]
+}

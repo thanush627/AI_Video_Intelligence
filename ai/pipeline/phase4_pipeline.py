@@ -56,9 +56,9 @@ class Phase4Pipeline:
 
         logger.info("Starting Phase 4 Pipeline...")
 
-        track_folders = sorted(os.listdir(self.representative_crop_dir))
+        track_folders = sorted(os.listdir(self.representative_crop_dir))[:5]
 
-        logger.info(f"Found {len(track_folders)} tracks")
+        logger.info(f"Debug Mode: Processing only {len(track_folders)} tracks")
 
         for track_folder in tqdm(track_folders):
 
@@ -101,13 +101,22 @@ class Phase4Pipeline:
                 batch["images"]
             )
 
+            print("\nRAW QWEN RESPONSE")
+            print(responses)
+
             parsed_metadata = MetadataParser.parse_batch(
                 responses
             )
 
+            print("\nRAW QWEN RESPONSE")
+            print(responses)
+
             valid_metadata = MetadataValidator.filter_valid(
                 parsed_metadata
             )
+
+            print("\nVALID")
+            print(valid_metadata)
 
             for image_path, metadata in zip(
                 batch["image_paths"],

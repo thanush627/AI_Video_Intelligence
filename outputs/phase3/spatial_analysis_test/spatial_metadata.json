@@ -1,0 +1,1129 @@
+{
+  "summary": {
+    "analyzed_tracks": 44,
+    "skipped_tracks": 0,
+    "start_region_counts": {
+      "left_bottom": 15,
+      "right_bottom": 4,
+      "center_middle": 1,
+      "center_bottom": 24
+    },
+    "end_region_counts": {
+      "left_bottom": 14,
+      "right_bottom": 6,
+      "center_bottom": 24
+    },
+    "transition_counts": {
+      "remained_in_left_bottom": 13,
+      "remained_in_right_bottom": 4,
+      "center_middle_to_left_bottom": 1,
+      "remained_in_center_bottom": 22,
+      "left_bottom_to_center_bottom": 2,
+      "center_bottom_to_right_bottom": 2
+    },
+    "frame_width": 2560.0,
+    "frame_height": 1440.0
+  },
+  "tracks": {
+    "1": {
+      "track_id": 1,
+      "class_name": "car",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "top_right_to_bottom_left",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1411,
+        "normalized_y": 0.7165
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.0943,
+        "normalized_y": 0.7564
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "car remained within the left bottom region"
+    },
+    "2": {
+      "track_id": 2,
+      "class_name": "people",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "right_to_left",
+      "start_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8746,
+        "normalized_y": 0.9562
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8553,
+        "normalized_y": 0.955
+      },
+      "region_transition": "remained_in_right_bottom",
+      "horizontal_transition": "remained_right",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "people remained within the right bottom region"
+    },
+    "13": {
+      "track_id": 13,
+      "class_name": "car",
+      "reliability_status": "reliable",
+      "motion_state": "moving",
+      "motion_direction": "right_to_left",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "middle",
+        "combined": "center_middle",
+        "normalized_x": 0.3981,
+        "normalized_y": 0.6623
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1722,
+        "normalized_y": 0.7424
+      },
+      "region_transition": "center_middle_to_left_bottom",
+      "horizontal_transition": "center_to_left",
+      "vertical_transition": "middle_to_bottom",
+      "spatial_description": "car moved from the center middle region to the left bottom region"
+    },
+    "18": {
+      "track_id": 18,
+      "class_name": "bicycle",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "top_left_to_bottom_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5871,
+        "normalized_y": 0.9033
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.6065,
+        "normalized_y": 0.9446
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "bicycle remained within the center bottom region"
+    },
+    "19": {
+      "track_id": 19,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1075,
+        "normalized_y": 0.6966
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1079,
+        "normalized_y": 0.6953
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the left bottom region"
+    },
+    "20": {
+      "track_id": 20,
+      "class_name": "bus",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4708,
+        "normalized_y": 0.689
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4636,
+        "normalized_y": 0.6829
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "bus remained stationary in the center bottom region"
+    },
+    "23": {
+      "track_id": 23,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2173,
+        "normalized_y": 0.7349
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2238,
+        "normalized_y": 0.7432
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the left bottom region"
+    },
+    "25": {
+      "track_id": 25,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3203,
+        "normalized_y": 0.7374
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3774,
+        "normalized_y": 0.76
+      },
+      "region_transition": "left_bottom_to_center_bottom",
+      "horizontal_transition": "left_to_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian moved from the left bottom region to the center bottom region"
+    },
+    "28": {
+      "track_id": 28,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2994,
+        "normalized_y": 0.7221
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.309,
+        "normalized_y": 0.7206
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the left bottom region"
+    },
+    "29": {
+      "track_id": 29,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3135,
+        "normalized_y": 0.7319
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3161,
+        "normalized_y": 0.7313
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the left bottom region"
+    },
+    "31": {
+      "track_id": 31,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1308,
+        "normalized_y": 0.6952
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1307,
+        "normalized_y": 0.6956
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the left bottom region"
+    },
+    "37": {
+      "track_id": 37,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2508,
+        "normalized_y": 0.7259
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3062,
+        "normalized_y": 0.7487
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the left bottom region"
+    },
+    "39": {
+      "track_id": 39,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.323,
+        "normalized_y": 0.7291
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3305,
+        "normalized_y": 0.7364
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the left bottom region"
+    },
+    "48": {
+      "track_id": 48,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1292,
+        "normalized_y": 0.7413
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.1594,
+        "normalized_y": 0.7457
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the left bottom region"
+    },
+    "56": {
+      "track_id": 56,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8083,
+        "normalized_y": 0.7217
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8096,
+        "normalized_y": 0.7196
+      },
+      "region_transition": "remained_in_right_bottom",
+      "horizontal_transition": "remained_right",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the right bottom region"
+    },
+    "66": {
+      "track_id": 66,
+      "class_name": "bus",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "top_left_to_bottom_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.573,
+        "normalized_y": 0.6885
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.6018,
+        "normalized_y": 0.7137
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "bus remained within the center bottom region"
+    },
+    "69": {
+      "track_id": 69,
+      "class_name": "van",
+      "reliability_status": "review",
+      "motion_state": "slow_moving",
+      "motion_direction": "bottom_right_to_top_left",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4533,
+        "normalized_y": 0.8577
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4073,
+        "normalized_y": 0.8196
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "van remained within the center bottom region"
+    },
+    "72": {
+      "track_id": 72,
+      "class_name": "bus",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "right_to_left",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2499,
+        "normalized_y": 0.8029
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.2271,
+        "normalized_y": 0.8051
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "bus remained within the left bottom region"
+    },
+    "97": {
+      "track_id": 97,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5223,
+        "normalized_y": 0.7849
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5588,
+        "normalized_y": 0.7957
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the center bottom region"
+    },
+    "106": {
+      "track_id": 106,
+      "class_name": "van",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3874,
+        "normalized_y": 0.8481
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3763,
+        "normalized_y": 0.8448
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "van remained stationary in the center bottom region"
+    },
+    "117": {
+      "track_id": 117,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "slow_moving",
+      "motion_direction": "bottom_right_to_top_left",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3896,
+        "normalized_y": 0.8035
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3812,
+        "normalized_y": 0.7726
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the center bottom region"
+    },
+    "128": {
+      "track_id": 128,
+      "class_name": "bus",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.6388,
+        "normalized_y": 0.7072
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.7019,
+        "normalized_y": 0.7262
+      },
+      "region_transition": "center_bottom_to_right_bottom",
+      "horizontal_transition": "center_to_right",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "bus moved from the center bottom region to the right bottom region"
+    },
+    "132": {
+      "track_id": 132,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5948,
+        "normalized_y": 0.8091
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5997,
+        "normalized_y": 0.8127
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the center bottom region"
+    },
+    "139": {
+      "track_id": 139,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4234,
+        "normalized_y": 0.7479
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5106,
+        "normalized_y": 0.7669
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the center bottom region"
+    },
+    "141": {
+      "track_id": 141,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4032,
+        "normalized_y": 0.8152
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4036,
+        "normalized_y": 0.8192
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the center bottom region"
+    },
+    "148": {
+      "track_id": 148,
+      "class_name": "bus",
+      "reliability_status": "reliable",
+      "motion_state": "moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5927,
+        "normalized_y": 0.7252
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.9566,
+        "normalized_y": 0.7953
+      },
+      "region_transition": "center_bottom_to_right_bottom",
+      "horizontal_transition": "center_to_right",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "bus moved from the center bottom region to the right bottom region"
+    },
+    "158": {
+      "track_id": 158,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.0344,
+        "normalized_y": 0.8415
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.0393,
+        "normalized_y": 0.8476
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the left bottom region"
+    },
+    "164": {
+      "track_id": 164,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5236,
+        "normalized_y": 0.7662
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.59,
+        "normalized_y": 0.7874
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the center bottom region"
+    },
+    "177": {
+      "track_id": 177,
+      "class_name": "bus",
+      "reliability_status": "reliable",
+      "motion_state": "moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.8757,
+        "normalized_y": 0.7673
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.9595,
+        "normalized_y": 0.7857
+      },
+      "region_transition": "remained_in_right_bottom",
+      "horizontal_transition": "remained_right",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "bus remained within the right bottom region"
+    },
+    "189": {
+      "track_id": 189,
+      "class_name": "bicycle",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.9133,
+        "normalized_y": 0.8751
+      },
+      "end_region": {
+        "horizontal": "right",
+        "vertical": "bottom",
+        "combined": "right_bottom",
+        "normalized_x": 0.9358,
+        "normalized_y": 0.8902
+      },
+      "region_transition": "remained_in_right_bottom",
+      "horizontal_transition": "remained_right",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "bicycle remained within the right bottom region"
+    },
+    "197": {
+      "track_id": 197,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4826,
+        "normalized_y": 0.8361
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5447,
+        "normalized_y": 0.8341
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the center bottom region"
+    },
+    "206": {
+      "track_id": 206,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5422,
+        "normalized_y": 0.8331
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5626,
+        "normalized_y": 0.8293
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the center bottom region"
+    },
+    "208": {
+      "track_id": 208,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5295,
+        "normalized_y": 0.8283
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5291,
+        "normalized_y": 0.8189
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the center bottom region"
+    },
+    "214": {
+      "track_id": 214,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5151,
+        "normalized_y": 0.8083
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.5263,
+        "normalized_y": 0.8053
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the center bottom region"
+    },
+    "223": {
+      "track_id": 223,
+      "class_name": "people",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3956,
+        "normalized_y": 0.9275
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4247,
+        "normalized_y": 0.929
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "people remained within the center bottom region"
+    },
+    "232": {
+      "track_id": 232,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.279,
+        "normalized_y": 0.7568
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3275,
+        "normalized_y": 0.7892
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the left bottom region"
+    },
+    "240": {
+      "track_id": 240,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "left_to_right",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.3265,
+        "normalized_y": 0.778
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3516,
+        "normalized_y": 0.7795
+      },
+      "region_transition": "left_bottom_to_center_bottom",
+      "horizontal_transition": "left_to_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian moved from the left bottom region to the center bottom region"
+    },
+    "265": {
+      "track_id": 265,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3498,
+        "normalized_y": 0.8129
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3469,
+        "normalized_y": 0.8142
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the center bottom region"
+    },
+    "272": {
+      "track_id": 272,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "slow_moving",
+      "motion_direction": "top_to_bottom",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4573,
+        "normalized_y": 0.7806
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4636,
+        "normalized_y": 0.8113
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained within the center bottom region"
+    },
+    "278": {
+      "track_id": 278,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3593,
+        "normalized_y": 0.8086
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.3521,
+        "normalized_y": 0.8175
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the center bottom region"
+    },
+    "279": {
+      "track_id": 279,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4903,
+        "normalized_y": 0.7701
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4993,
+        "normalized_y": 0.7767
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the center bottom region"
+    },
+    "283": {
+      "track_id": 283,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4761,
+        "normalized_y": 0.81
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4802,
+        "normalized_y": 0.8146
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the center bottom region"
+    },
+    "284": {
+      "track_id": 284,
+      "class_name": "pedestrian",
+      "reliability_status": "review",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.0938,
+        "normalized_y": 0.8711
+      },
+      "end_region": {
+        "horizontal": "left",
+        "vertical": "bottom",
+        "combined": "left_bottom",
+        "normalized_x": 0.106,
+        "normalized_y": 0.8581
+      },
+      "region_transition": "remained_in_left_bottom",
+      "horizontal_transition": "remained_left",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the left bottom region"
+    },
+    "285": {
+      "track_id": 285,
+      "class_name": "pedestrian",
+      "reliability_status": "reliable",
+      "motion_state": "stationary",
+      "motion_direction": "stationary",
+      "start_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.4623,
+        "normalized_y": 0.7567
+      },
+      "end_region": {
+        "horizontal": "center",
+        "vertical": "bottom",
+        "combined": "center_bottom",
+        "normalized_x": 0.468,
+        "normalized_y": 0.7672
+      },
+      "region_transition": "remained_in_center_bottom",
+      "horizontal_transition": "remained_center",
+      "vertical_transition": "remained_bottom",
+      "spatial_description": "pedestrian remained stationary in the center bottom region"
+    }
+  }
+}

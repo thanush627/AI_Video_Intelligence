@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "pipeline": "end_to_end_event_retrieval",
+  "source_video": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+  "query": "purple truck between 50 and 60 seconds",
+  "summary": {
+    "query": "purple truck between 50 and 60 seconds",
+    "match_found": false,
+    "retrieved_event_count": 0,
+    "generated_clip_count": 0,
+    "failed_clip_count": 0,
+    "processing_time_seconds": 0.0808
+  },
+  "timings": {
+    "retrieval_seconds": 0.0804,
+    "response_building_seconds": 0.0,
+    "clip_generation_seconds": 0.0,
+    "total_seconds": 0.0808
+  },
+  "retrieval": {
+    "success": true,
+    "query": "purple truck between 50 and 60 seconds",
+    "intent": "object_event",
+    "intent_confidence": 1.0,
+    "intent_terms": [
+      "truck"
+    ],
+    "match_found": false,
+    "result_count": 0,
+    "summary": "No matching events were found for \"purple truck between 50 and 60 seconds\".",
+    "best_match": null,
+    "results": []
+  },
+  "clip_generation": {
+    "success": true,
+    "query": "purple truck between 50 and 60 seconds",
+    "requested_events": 0,
+    "generated_clip_count": 0,
+    "failed_clip_count": 0,
+    "clips": [],
+    "failures": []
+  }
+}

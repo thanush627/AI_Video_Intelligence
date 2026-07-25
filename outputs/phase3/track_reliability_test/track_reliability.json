@@ -1,0 +1,4276 @@
+{
+  "summary": {
+    "total_tracks": 69,
+    "status_counts": {
+      "reliable": 32,
+      "reject": 25,
+      "review": 12
+    },
+    "class_status_counts": {
+      "car": {
+        "reliable": 2,
+        "review": 0,
+        "reject": 2
+      },
+      "people": {
+        "reliable": 2,
+        "review": 0,
+        "reject": 12
+      },
+      "bicycle": {
+        "reliable": 2,
+        "review": 0,
+        "reject": 2
+      },
+      "pedestrian": {
+        "reliable": 20,
+        "review": 10,
+        "reject": 4
+      },
+      "bus": {
+        "reliable": 6,
+        "review": 0,
+        "reject": 3
+      },
+      "van": {
+        "reliable": 0,
+        "review": 2,
+        "reject": 2
+      }
+    }
+  },
+  "tracks": {
+    "1": {
+      "track_id": 1,
+      "class_name": "car",
+      "reliability": {
+        "reliability_score": 0.8885,
+        "status": "reliable",
+        "observation_count": 19,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.7647,
+          "detection_confidence": 0.7954,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 4,
+          "timestamp_seconds": 0.13346666666666668,
+          "confidence": 0.8021821975708008,
+          "sharpness_score": 1.0,
+          "size_score": 0.42012261284722224,
+          "center_score": 0.1460982328034942,
+          "final_score": 0.676812136518289,
+          "bounding_box": {
+            "x1": 0,
+            "y1": 847,
+            "x2": 734,
+            "y2": 1269
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_1\\rank_1_frame_000004.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 3,
+          "timestamp_seconds": 0.10010000000000001,
+          "confidence": 0.8005309700965881,
+          "sharpness_score": 1.0,
+          "size_score": 0.4169704861111111,
+          "center_score": 0.152290640486883,
+          "final_score": 0.67645008133389,
+          "bounding_box": {
+            "x1": 0,
+            "y1": 844,
+            "x2": 739,
+            "y2": 1260
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_1\\rank_2_frame_000003.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 0,
+          "timestamp_seconds": 0.0,
+          "confidence": 0.783598780632019,
+          "sharpness_score": 1.0,
+          "size_score": 0.3613525390625,
+          "center_score": 0.1617544905246584,
+          "final_score": 0.6599731936440064,
+          "bounding_box": {
+            "x1": 0,
+            "y1": 847,
+            "x2": 722,
+            "y2": 1216
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_1\\rank_3_frame_000000.jpg"
+        }
+      ]
+    },
+    "2": {
+      "track_id": 2,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.7446,
+        "status": "reliable",
+        "observation_count": 7,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.4875,
+          "detection_confidence": 0.4916,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 5,
+          "timestamp_seconds": 0.16683333333333333,
+          "confidence": 0.5128743648529053,
+          "sharpness_score": 0.29328433533695664,
+          "size_score": 0.018367513020833334,
+          "center_score": 0.0,
+          "final_score": 0.28214433237956793,
+          "bounding_box": {
+            "x1": 2142,
+            "y1": 1314,
+            "x2": 2253,
+            "y2": 1436
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_2\\rank_1_frame_000005.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 3,
+          "timestamp_seconds": 0.10010000000000001,
+          "confidence": 0.5091601610183716,
+          "sharpness_score": 0.2818106943309741,
+          "size_score": 0.018500434027777776,
+          "center_score": 0.0,
+          "final_score": 0.27781682479564773,
+          "bounding_box": {
+            "x1": 2159,
+            "y1": 1314,
+            "x2": 2269,
+            "y2": 1438
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_2\\rank_2_frame_000003.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 2,
+          "timestamp_seconds": 0.06673333333333334,
+          "confidence": 0.4528923034667969,
+          "sharpness_score": 0.32186121034510445,
+          "size_score": 0.01803656684027778,
+          "center_score": 0.0,
+          "final_score": 0.2652295373410504,
+          "bounding_box": {
+            "x1": 2169,
+            "y1": 1315,
+            "x2": 2278,
+            "y2": 1437
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_2\\rank_3_frame_000002.jpg"
+        }
+      ]
+    },
+    "6": {
+      "track_id": 6,
+      "class_name": "car",
+      "reliability": {
+        "reliability_score": 0.0321,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.125,
+          "crop_consistency": 0.4059,
+          "detection_confidence": 0.3828,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.26,
+        "reasons": [
+          "very_short_vehicle_track",
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 19,
+          "timestamp_seconds": 0.6339666666666667,
+          "confidence": 0.38277697563171387,
+          "sharpness_score": 0.5989850712221568,
+          "size_score": 0.2063720703125,
+          "center_score": 0.0,
+          "final_score": 0.34413147212072476,
+          "bounding_box": {
+            "x1": 0,
+            "y1": 847,
+            "x2": 321,
+            "y2": 1321
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_6\\rank_1_frame_000019.jpg"
+        }
+      ]
+    },
+    "13": {
+      "track_id": 13,
+      "class_name": "car",
+      "reliability": {
+        "reliability_score": 0.9277,
+        "status": "reliable",
+        "observation_count": 43,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.829,
+          "detection_confidence": 0.895,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 62,
+          "timestamp_seconds": 2.0687333333333333,
+          "confidence": 0.8996134996414185,
+          "sharpness_score": 1.0,
+          "size_score": 0.48248291015625,
+          "center_score": 0.34239708867835106,
+          "final_score": 0.75770154518957,
+          "bounding_box": {
+            "x1": 237,
+            "y1": 781,
+            "x2": 1002,
+            "y2": 1246
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_13\\rank_1_frame_000062.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 64,
+          "timestamp_seconds": 2.135466666666667,
+          "confidence": 0.9086337089538574,
+          "sharpness_score": 0.9380262160033975,
+          "size_score": 0.5717149522569445,
+          "center_score": 0.3016351761925873,
+          "final_score": 0.7575483044626693,
+          "bounding_box": {
+            "x1": 151,
+            "y1": 774,
+            "x2": 989,
+            "y2": 1277
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_13\\rank_2_frame_000064.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 63,
+          "timestamp_seconds": 2.1021,
+          "confidence": 0.876620888710022,
+          "sharpness_score": 1.0,
+          "size_score": 0.5306396484375,
+          "center_score": 0.32254013402143544,
+          "final_score": 0.755157305274724,
+          "bounding_box": {
+            "x1": 191,
+            "y1": 775,
+            "x2": 996,
+            "y2": 1261
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_13\\rank_3_frame_000063.jpg"
+        }
+      ]
+    },
+    "15": {
+      "track_id": 15,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.3209,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.5084,
+          "detection_confidence": 0.3919,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.15,
+        "reasons": [
+          "short_group_track"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 44,
+          "timestamp_seconds": 1.4681333333333333,
+          "confidence": 0.4049706757068634,
+          "sharpness_score": 0.27914454886299994,
+          "size_score": 0.011455620659722223,
+          "center_score": 0.426882374259849,
+          "final_score": 0.29809788776941715,
+          "bounding_box": {
+            "x1": 1629,
+            "y1": 1018,
+            "x2": 1711,
+            "y2": 1121
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_15\\rank_1_frame_000044.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 43,
+          "timestamp_seconds": 1.4347666666666667,
+          "confidence": 0.3788692057132721,
+          "sharpness_score": 0.3206792430945504,
+          "size_score": 0.011848958333333333,
+          "center_score": 0.4239385290307446,
+          "final_score": 0.2976780640802248,
+          "bounding_box": {
+            "x1": 1628,
+            "y1": 1020,
+            "x2": 1712,
+            "y2": 1124
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_15\\rank_2_frame_000043.jpg"
+        }
+      ]
+    },
+    "16": {
+      "track_id": 16,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.3756,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.6666,
+          "detection_confidence": 0.4283,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.15,
+        "reasons": [
+          "short_group_track"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 48,
+          "timestamp_seconds": 1.6016000000000001,
+          "confidence": 0.49904707074165344,
+          "sharpness_score": 1.0,
+          "size_score": 0.2434326171875,
+          "center_score": 0.5076276078923945,
+          "final_score": 0.5744494929180206,
+          "bounding_box": {
+            "x1": 588,
+            "y1": 812,
+            "x2": 1119,
+            "y2": 1150
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_16\\rank_1_frame_000048.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 49,
+          "timestamp_seconds": 1.6349666666666667,
+          "confidence": 0.3576014041900635,
+          "sharpness_score": 1.0,
+          "size_score": 0.2586588541666667,
+          "center_score": 0.5000139177163687,
+          "final_score": 0.5197744201668141,
+          "bounding_box": {
+            "x1": 569,
+            "y1": 809,
+            "x2": 1117,
+            "y2": 1157
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_16\\rank_2_frame_000049.jpg"
+        }
+      ]
+    },
+    "17": {
+      "track_id": 17,
+      "class_name": "car",
+      "reliability": {
+        "reliability_score": 0.0743,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.125,
+          "crop_consistency": 0.5422,
+          "detection_confidence": 0.3897,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.26,
+        "reasons": [
+          "very_short_vehicle_track",
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 54,
+          "timestamp_seconds": 1.8018,
+          "confidence": 0.389669269323349,
+          "sharpness_score": 1.0,
+          "size_score": 0.3251925998263889,
+          "center_score": 0.45312996033995623,
+          "final_score": 0.5388757217456108,
+          "bounding_box": {
+            "x1": 455,
+            "y1": 797,
+            "x2": 1081,
+            "y2": 1180
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\car_track_17\\rank_1_frame_000054.jpg"
+        }
+      ]
+    },
+    "18": {
+      "track_id": 18,
+      "class_name": "bicycle",
+      "reliability": {
+        "reliability_score": 0.8189,
+        "status": "reliable",
+        "observation_count": 38,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6293,
+          "detection_confidence": 0.6504,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 102,
+          "timestamp_seconds": 3.4034,
+          "confidence": 0.6870015263557434,
+          "sharpness_score": 0.7601248659994144,
+          "size_score": 0.021695963541666665,
+          "center_score": 0.15710341227389668,
+          "final_score": 0.4927365315915688,
+          "bounding_box": {
+            "x1": 1497,
+            "y1": 1216,
+            "x2": 1583,
+            "y2": 1402
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_18\\rank_1_frame_000102.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 67,
+          "timestamp_seconds": 2.2355666666666667,
+          "confidence": 0.6462283134460449,
+          "sharpness_score": 0.7416653537840703,
+          "size_score": 0.0208740234375,
+          "center_score": 0.17049520298915122,
+          "final_score": 0.4736567489603082,
+          "bounding_box": {
+            "x1": 1470,
+            "y1": 1208,
+            "x2": 1551,
+            "y2": 1398
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_18\\rank_2_frame_000067.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 66,
+          "timestamp_seconds": 2.2022,
+          "confidence": 0.6179420948028564,
+          "sharpness_score": 0.7789677184909389,
+          "size_score": 0.020399305555555556,
+          "center_score": 0.1719357661183356,
+          "final_score": 0.4717889935727388,
+          "bounding_box": {
+            "x1": 1470,
+            "y1": 1208,
+            "x2": 1550,
+            "y2": 1396
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_18\\rank_3_frame_000066.jpg"
+        }
+      ]
+    },
+    "19": {
+      "track_id": 19,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.564,
+        "status": "review",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.6586,
+          "detection_confidence": 0.6318,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 61,
+          "timestamp_seconds": 2.0353666666666665,
+          "confidence": 0.6609100103378296,
+          "sharpness_score": 1.0,
+          "size_score": 0.005928548177083334,
+          "center_score": 0.12385374520417436,
+          "final_score": 0.5341277755511746,
+          "bounding_box": {
+            "x1": 252,
+            "y1": 954,
+            "x2": 299,
+            "y2": 1047
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_19\\rank_1_frame_000061.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 60,
+          "timestamp_seconds": 2.0020000000000002,
+          "confidence": 0.6027001738548279,
+          "sharpness_score": 1.0,
+          "size_score": 0.006446668836805555,
+          "center_score": 0.1219162145133238,
+          "final_score": 0.5106568354862908,
+          "bounding_box": {
+            "x1": 250,
+            "y1": 954,
+            "x2": 299,
+            "y2": 1051
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_19\\rank_2_frame_000060.jpg"
+        }
+      ]
+    },
+    "20": {
+      "track_id": 20,
+      "class_name": "bus",
+      "reliability": {
+        "reliability_score": 0.8908,
+        "status": "reliable",
+        "observation_count": 37,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.7659,
+          "detection_confidence": 0.8052,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 114,
+          "timestamp_seconds": 3.8038,
+          "confidence": 0.8101871609687805,
+          "sharpness_score": 1.0,
+          "size_score": 0.0490478515625,
+          "center_score": 0.6369410174011956,
+          "final_score": 0.6794255873101915,
+          "bounding_box": {
+            "x1": 1077,
+            "y1": 904,
+            "x2": 1323,
+            "y2": 1051
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_20\\rank_1_frame_000114.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 87,
+          "timestamp_seconds": 2.9029000000000003,
+          "confidence": 0.8083873987197876,
+          "sharpness_score": 1.0,
+          "size_score": 0.02148708767361111,
+          "center_score": 0.6155265232040474,
+          "final_score": 0.6699813555032443,
+          "bounding_box": {
+            "x1": 1115,
+            "y1": 949,
+            "x2": 1293,
+            "y2": 1038
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_20\\rank_2_frame_000087.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 88,
+          "timestamp_seconds": 2.9362666666666666,
+          "confidence": 0.7971410751342773,
+          "sharpness_score": 1.0,
+          "size_score": 0.021126302083333333,
+          "center_score": 0.6149004189065663,
+          "final_score": 0.6653167533063625,
+          "bounding_box": {
+            "x1": 1116,
+            "y1": 950,
+            "x2": 1293,
+            "y2": 1038
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_20\\rank_3_frame_000088.jpg"
+        }
+      ]
+    },
+    "23": {
+      "track_id": 23,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.6992,
+        "status": "reliable",
+        "observation_count": 4,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.8,
+          "crop_consistency": 0.5961,
+          "detection_confidence": 0.4519,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 99,
+          "timestamp_seconds": 3.3033,
+          "confidence": 0.6373156309127808,
+          "sharpness_score": 0.9494549255048145,
+          "size_score": 0.0072672526041666664,
+          "center_score": 0.2646417375429213,
+          "final_score": 0.5334396948935874,
+          "bounding_box": {
+            "x1": 527,
+            "y1": 1011,
+            "x2": 584,
+            "y2": 1105
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_23\\rank_1_frame_000099.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 104,
+          "timestamp_seconds": 3.4701333333333335,
+          "confidence": 0.36825063824653625,
+          "sharpness_score": 1.0,
+          "size_score": 0.0045166015625,
+          "center_score": 0.26391624005666336,
+          "final_score": 0.43779101161961403,
+          "bounding_box": {
+            "x1": 550,
+            "y1": 1033,
+            "x2": 595,
+            "y2": 1107
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_23\\rank_2_frame_000104.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 103,
+          "timestamp_seconds": 3.4367666666666667,
+          "confidence": 0.3501306474208832,
+          "sharpness_score": 1.0,
+          "size_score": 0.004844835069444445,
+          "center_score": 0.2616221564328486,
+          "final_score": 0.4302645494471694,
+          "bounding_box": {
+            "x1": 542,
+            "y1": 1030,
+            "x2": 589,
+            "y2": 1106
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_23\\rank_3_frame_000103.jpg"
+        }
+      ]
+    },
+    "24": {
+      "track_id": 24,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.3587,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.6021,
+          "detection_confidence": 0.4401,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.15,
+        "reasons": [
+          "short_group_track"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 99,
+          "timestamp_seconds": 3.3033,
+          "confidence": 0.47842007875442505,
+          "sharpness_score": 1.0,
+          "size_score": 0.0095703125,
+          "center_score": 0.11685829775062206,
+          "final_score": 0.46081083866436334,
+          "bounding_box": {
+            "x1": 1832,
+            "y1": 1219,
+            "x2": 1916,
+            "y2": 1303
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_24\\rank_1_frame_000099.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 100,
+          "timestamp_seconds": 3.336666666666667,
+          "confidence": 0.40171539783477783,
+          "sharpness_score": 1.0,
+          "size_score": 0.0090087890625,
+          "center_score": 0.11273869537311654,
+          "final_score": 0.42939872125237866,
+          "bounding_box": {
+            "x1": 1832,
+            "y1": 1224,
+            "x2": 1913,
+            "y2": 1306
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_24\\rank_2_frame_000100.jpg"
+        }
+      ]
+    },
+    "25": {
+      "track_id": 25,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8197,
+        "status": "reliable",
+        "observation_count": 15,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6739,
+          "detection_confidence": 0.5877,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 140,
+          "timestamp_seconds": 4.671333333333333,
+          "confidence": 0.639310896396637,
+          "sharpness_score": 1.0,
+          "size_score": 0.00643310546875,
+          "center_score": 0.42600384310104855,
+          "final_score": 0.5709115561175621,
+          "bounding_box": {
+            "x1": 940,
+            "y1": 1047,
+            "x2": 991,
+            "y2": 1140
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_25\\rank_1_frame_000140.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 102,
+          "timestamp_seconds": 3.4034,
+          "confidence": 0.5725894570350647,
+          "sharpness_score": 1.0,
+          "size_score": 0.005989583333333334,
+          "center_score": 0.4070045201843524,
+          "final_score": 0.5412843775083455,
+          "bounding_box": {
+            "x1": 804,
+            "y1": 1017,
+            "x2": 852,
+            "y2": 1109
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_25\\rank_2_frame_000102.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 111,
+          "timestamp_seconds": 3.7037,
+          "confidence": 0.5510680675506592,
+          "sharpness_score": 1.0,
+          "size_score": 0.007982042100694444,
+          "center_score": 0.423529473587534,
+          "final_score": 0.5355530564785327,
+          "bounding_box": {
+            "x1": 823,
+            "y1": 1004,
+            "x2": 878,
+            "y2": 1111
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_25\\rank_3_frame_000111.jpg"
+        }
+      ]
+    },
+    "28": {
+      "track_id": 28,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8243,
+        "status": "reliable",
+        "observation_count": 15,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6834,
+          "detection_confidence": 0.5965,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 116,
+          "timestamp_seconds": 3.8705333333333334,
+          "confidence": 0.6029629111289978,
+          "sharpness_score": 1.0,
+          "size_score": 0.0058010525173611115,
+          "center_score": 0.4204480260349889,
+          "final_score": 0.5554125788603196,
+          "bounding_box": {
+            "x1": 771,
+            "y1": 990,
+            "x2": 818,
+            "y2": 1081
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_28\\rank_1_frame_000116.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 117,
+          "timestamp_seconds": 3.9039,
+          "confidence": 0.600674569606781,
+          "sharpness_score": 1.0,
+          "size_score": 0.006646050347222222,
+          "center_score": 0.42437188735535136,
+          "final_score": 0.5552548210154595,
+          "bounding_box": {
+            "x1": 770,
+            "y1": 983,
+            "x2": 820,
+            "y2": 1081
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_28\\rank_2_frame_000117.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 105,
+          "timestamp_seconds": 3.5035000000000003,
+          "confidence": 0.5859681963920593,
+          "sharpness_score": 1.0,
+          "size_score": 0.004340277777777778,
+          "center_score": 0.4005060705372626,
+          "final_score": 0.5453312446929687,
+          "bounding_box": {
+            "x1": 747,
+            "y1": 1001,
+            "x2": 787,
+            "y2": 1081
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_28\\rank_3_frame_000105.jpg"
+        }
+      ]
+    },
+    "29": {
+      "track_id": 29,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.5298,
+        "status": "review",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.6432,
+          "detection_confidence": 0.4844,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 105,
+          "timestamp_seconds": 3.5035000000000003,
+          "confidence": 0.5294739603996277,
+          "sharpness_score": 1.0,
+          "size_score": 0.00665283203125,
+          "center_score": 0.4092775607001491,
+          "final_score": 0.5245117846711235,
+          "bounding_box": {
+            "x1": 786,
+            "y1": 998,
+            "x2": 831,
+            "y2": 1107
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_29\\rank_1_frame_000105.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 104,
+          "timestamp_seconds": 3.4701333333333335,
+          "confidence": 0.43923014402389526,
+          "sharpness_score": 1.0,
+          "size_score": 0.005753580729166667,
+          "center_score": 0.405017092875394,
+          "final_score": 0.4875953376867005,
+          "bounding_box": {
+            "x1": 781,
+            "y1": 1003,
+            "x2": 823,
+            "y2": 1104
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_29\\rank_2_frame_000104.jpg"
+        }
+      ]
+    },
+    "31": {
+      "track_id": 31,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.5486,
+        "status": "review",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.6358,
+          "detection_confidence": 0.5895,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 109,
+          "timestamp_seconds": 3.636966666666667,
+          "confidence": 0.683064341545105,
+          "sharpness_score": 1.0,
+          "size_score": 0.0067097981770833336,
+          "center_score": 0.16488844306456474,
+          "final_score": 0.5493009627131433,
+          "bounding_box": {
+            "x1": 309,
+            "y1": 952,
+            "x2": 360,
+            "y2": 1049
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_31\\rank_1_frame_000109.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 110,
+          "timestamp_seconds": 3.6703333333333332,
+          "confidence": 0.4960238039493561,
+          "sharpness_score": 1.0,
+          "size_score": 0.006510416666666667,
+          "center_score": 0.164218854763156,
+          "final_score": 0.47434443312754915,
+          "bounding_box": {
+            "x1": 309,
+            "y1": 953,
+            "x2": 359,
+            "y2": 1049
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_31\\rank_2_frame_000110.jpg"
+        }
+      ]
+    },
+    "33": {
+      "track_id": 33,
+      "class_name": "bus",
+      "reliability": {
+        "reliability_score": 0.2535,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.25,
+          "crop_consistency": 0.4792,
+          "detection_confidence": 0.5114,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.18,
+        "reasons": [
+          "very_short_vehicle_track",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 110,
+          "timestamp_seconds": 3.6703333333333332,
+          "confidence": 0.5883139371871948,
+          "sharpness_score": 0.19051698576760281,
+          "size_score": 0.029703776041666668,
+          "center_score": 0.15401013449388035,
+          "final_score": 0.311997096699194,
+          "bounding_box": {
+            "x1": 1706,
+            "y1": 1187,
+            "x2": 1856,
+            "y2": 1333
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_33\\rank_1_frame_000110.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 111,
+          "timestamp_seconds": 3.7037,
+          "confidence": 0.43454545736312866,
+          "sharpness_score": 0.1961962913240885,
+          "size_score": 0.029303656684027776,
+          "center_score": 0.1528520004460444,
+          "final_score": 0.2516557871799858,
+          "bounding_box": {
+            "x1": 1708,
+            "y1": 1188,
+            "x2": 1857,
+            "y2": 1333
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_33\\rank_2_frame_000111.jpg"
+        }
+      ]
+    },
+    "35": {
+      "track_id": 35,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.064,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.2,
+          "crop_consistency": 0.3264,
+          "detection_confidence": 0.3804,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.23,
+        "reasons": [
+          "short_group_track",
+          "single_representative_crop",
+          "weak_temporal_persistence",
+          "weak_crop_quality"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 111,
+          "timestamp_seconds": 3.7037,
+          "confidence": 0.3803819715976715,
+          "sharpness_score": 0.19834238235232796,
+          "size_score": 0.027921549479166665,
+          "center_score": 0.1545516766640077,
+          "final_score": 0.2305054456225851,
+          "bounding_box": {
+            "x1": 1709,
+            "y1": 1187,
+            "x2": 1850,
+            "y2": 1333
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_35\\rank_1_frame_000111.jpg"
+        }
+      ]
+    },
+    "37": {
+      "track_id": 37,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8381,
+        "status": "reliable",
+        "observation_count": 12,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.687,
+          "detection_confidence": 0.6599,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 120,
+          "timestamp_seconds": 4.0040000000000004,
+          "confidence": 0.7001807689666748,
+          "sharpness_score": 1.0,
+          "size_score": 0.010359700520833333,
+          "center_score": 0.32293623019493667,
+          "final_score": 0.5805846822200772,
+          "bounding_box": {
+            "x1": 622,
+            "y1": 1001,
+            "x2": 689,
+            "y2": 1115
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_37\\rank_1_frame_000120.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 126,
+          "timestamp_seconds": 4.2042,
+          "confidence": 0.6489467620849609,
+          "sharpness_score": 1.0,
+          "size_score": 0.007215711805555556,
+          "center_score": 0.32341041417945404,
+          "final_score": 0.5595334093220136,
+          "bounding_box": {
+            "x1": 658,
+            "y1": 1027,
+            "x2": 714,
+            "y2": 1122
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_37\\rank_2_frame_000126.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 119,
+          "timestamp_seconds": 3.9706333333333332,
+          "confidence": 0.6304510831832886,
+          "sharpness_score": 1.0,
+          "size_score": 0.012109375,
+          "center_score": 0.3257369936953334,
+          "final_score": 0.5534628573276156,
+          "bounding_box": {
+            "x1": 611,
+            "y1": 988,
+            "x2": 683,
+            "y2": 1112
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_37\\rank_3_frame_000119.jpg"
+        }
+      ]
+    },
+    "39": {
+      "track_id": 39,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8242,
+        "status": "reliable",
+        "observation_count": 12,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6743,
+          "detection_confidence": 0.6096,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 132,
+          "timestamp_seconds": 4.4044,
+          "confidence": 0.6917264461517334,
+          "sharpness_score": 1.0,
+          "size_score": 0.004443359375,
+          "center_score": 0.4261444719263441,
+          "final_score": 0.591500921124645,
+          "bounding_box": {
+            "x1": 817,
+            "y1": 1011,
+            "x2": 859,
+            "y2": 1089
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_39\\rank_1_frame_000132.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 131,
+          "timestamp_seconds": 4.371033333333333,
+          "confidence": 0.5828345417976379,
+          "sharpness_score": 1.0,
+          "size_score": 0.004443359375,
+          "center_score": 0.42583704972133174,
+          "final_score": 0.547898046052255,
+          "bounding_box": {
+            "x1": 814,
+            "y1": 1010,
+            "x2": 856,
+            "y2": 1088
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_39\\rank_2_frame_000131.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 130,
+          "timestamp_seconds": 4.337666666666666,
+          "confidence": 0.554262101650238,
+          "sharpness_score": 1.0,
+          "size_score": 0.004281955295138889,
+          "center_score": 0.42315076630503146,
+          "final_score": 0.5360338466648777,
+          "bounding_box": {
+            "x1": 810,
+            "y1": 1011,
+            "x2": 851,
+            "y2": 1088
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_39\\rank_3_frame_000130.jpg"
+        }
+      ]
+    },
+    "40": {
+      "track_id": 40,
+      "class_name": "bicycle",
+      "reliability": {
+        "reliability_score": 0.3251,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.3333,
+          "crop_consistency": 0.6527,
+          "detection_confidence": 0.5629,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.2,
+        "reasons": [
+          "short_bicycle_track"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 131,
+          "timestamp_seconds": 4.371033333333333,
+          "confidence": 0.6553793549537659,
+          "sharpness_score": 1.0,
+          "size_score": 0.023837619357638888,
+          "center_score": 0.33989300871143824,
+          "final_score": 0.5679032171597499,
+          "bounding_box": {
+            "x1": 1062,
+            "y1": 1093,
+            "x2": 1157,
+            "y2": 1278
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_40\\rank_1_frame_000131.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 126,
+          "timestamp_seconds": 4.2042,
+          "confidence": 0.47051623463630676,
+          "sharpness_score": 1.0,
+          "size_score": 0.03325873480902778,
+          "center_score": 0.3601021077523274,
+          "final_score": 0.49887355697917735,
+          "bounding_box": {
+            "x1": 1079,
+            "y1": 1065,
+            "x2": 1192,
+            "y2": 1282
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_40\\rank_2_frame_000126.jpg"
+        }
+      ]
+    },
+    "48": {
+      "track_id": 48,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.7861,
+        "status": "reliable",
+        "observation_count": 10,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6005,
+          "detection_confidence": 0.5299,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 149,
+          "timestamp_seconds": 4.971633333333333,
+          "confidence": 0.5814445614814758,
+          "sharpness_score": 0.8036450292862144,
+          "size_score": 0.023933919270833333,
+          "center_score": 0.14951752924397577,
+          "final_score": 0.46070349515490694,
+          "bounding_box": {
+            "x1": 329,
+            "y1": 978,
+            "x2": 431,
+            "y2": 1151
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_48\\rank_1_frame_000149.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 151,
+          "timestamp_seconds": 5.038366666666667,
+          "confidence": 0.5995272994041443,
+          "sharpness_score": 0.6673580829051764,
+          "size_score": 0.0228271484375,
+          "center_score": 0.15438718366131055,
+          "final_score": 0.43437394772464843,
+          "bounding_box": {
+            "x1": 339,
+            "y1": 984,
+            "x2": 441,
+            "y2": 1149
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_48\\rank_2_frame_000151.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 141,
+          "timestamp_seconds": 4.7047,
+          "confidence": 0.40879157185554504,
+          "sharpness_score": 0.9853298161092543,
+          "size_score": 0.019813368055555555,
+          "center_score": 0.11506343013348452,
+          "final_score": 0.4310712709006654,
+          "bounding_box": {
+            "x1": 286,
+            "y1": 984,
+            "x2": 374,
+            "y2": 1150
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_48\\rank_3_frame_000141.jpg"
+        }
+      ]
+    },
+    "56": {
+      "track_id": 56,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.4258,
+        "status": "review",
+        "observation_count": 2,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.569,
+          "detection_confidence": 0.7254,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.08,
+        "reasons": [
+          "single_representative_crop"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 174,
+          "timestamp_seconds": 5.8058000000000005,
+          "confidence": 0.7254180908203125,
+          "sharpness_score": 1.0,
+          "size_score": 0.0038736979166666668,
+          "center_score": 0.24139930181278935,
+          "final_score": 0.5771518711833767,
+          "bounding_box": {
+            "x1": 2051,
+            "y1": 1002,
+            "x2": 2093,
+            "y2": 1070
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_56\\rank_1_frame_000174.jpg"
+        }
+      ]
+    },
+    "66": {
+      "track_id": 66,
+      "class_name": "bus",
+      "reliability": {
+        "reliability_score": 0.8982,
+        "status": "reliable",
+        "observation_count": 15,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.77,
+          "detection_confidence": 0.8358,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 181,
+          "timestamp_seconds": 6.039366666666667,
+          "confidence": 0.8567939400672913,
+          "sharpness_score": 1.0,
+          "size_score": 0.025065104166666668,
+          "center_score": 0.5932389824261035,
+          "final_score": 0.6867164442241654,
+          "bounding_box": {
+            "x1": 1386,
+            "y1": 937,
+            "x2": 1551,
+            "y2": 1049
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_66\\rank_1_frame_000181.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 180,
+          "timestamp_seconds": 6.006,
+          "confidence": 0.8291083574295044,
+          "sharpness_score": 1.0,
+          "size_score": 0.025821940104166666,
+          "center_score": 0.5963937608091545,
+          "final_score": 0.6762667951140082,
+          "bounding_box": {
+            "x1": 1383,
+            "y1": 934,
+            "x2": 1550,
+            "y2": 1048
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_66\\rank_2_frame_000180.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 191,
+          "timestamp_seconds": 6.373033333333334,
+          "confidence": 0.8215050101280212,
+          "sharpness_score": 1.0,
+          "size_score": 0.026204427083333332,
+          "center_score": 0.5821172170731534,
+          "final_score": 0.6711604720288482,
+          "bounding_box": {
+            "x1": 1411,
+            "y1": 938,
+            "x2": 1579,
+            "y2": 1053
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_66\\rank_3_frame_000191.jpg"
+        }
+      ]
+    },
+    "69": {
+      "track_id": 69,
+      "class_name": "van",
+      "reliability": {
+        "reliability_score": 0.6119,
+        "status": "review",
+        "observation_count": 3,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.375,
+          "crop_consistency": 0.6678,
+          "detection_confidence": 0.6517,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 181,
+          "timestamp_seconds": 6.039366666666667,
+          "confidence": 0.7211522459983826,
+          "sharpness_score": 0.8636194655661046,
+          "size_score": 0.0117431640625,
+          "center_score": 0.2812043761125468,
+          "final_score": 0.5488950540202612,
+          "bounding_box": {
+            "x1": 1115,
+            "y1": 1174,
+            "x2": 1189,
+            "y2": 1291
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_69\\rank_1_frame_000181.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 180,
+          "timestamp_seconds": 6.006,
+          "confidence": 0.6875907778739929,
+          "sharpness_score": 0.8993978266738892,
+          "size_score": 0.012472873263888889,
+          "center_score": 0.27929312284550956,
+          "final_score": 0.5442743108976738,
+          "bounding_box": {
+            "x1": 1122,
+            "y1": 1174,
+            "x2": 1198,
+            "y2": 1295
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_69\\rank_2_frame_000180.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 212,
+          "timestamp_seconds": 7.073733333333333,
+          "confidence": 0.5464683771133423,
+          "sharpness_score": 1.0,
+          "size_score": 0.005853949652777778,
+          "center_score": 0.33527080489420125,
+          "final_score": 0.5200487615100227,
+          "bounding_box": {
+            "x1": 1016,
+            "y1": 1138,
+            "x2": 1068,
+            "y2": 1221
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_69\\rank_3_frame_000212.jpg"
+        }
+      ]
+    },
+    "72": {
+      "track_id": 72,
+      "class_name": "bus",
+      "reliability": {
+        "reliability_score": 0.7143,
+        "status": "reliable",
+        "observation_count": 5,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.625,
+          "crop_consistency": 0.6782,
+          "detection_confidence": 0.7105,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 209,
+          "timestamp_seconds": 6.973633333333334,
+          "confidence": 0.767015278339386,
+          "sharpness_score": 1.0,
+          "size_score": 0.014934624565972223,
+          "center_score": 0.1993303052616151,
+          "final_score": 0.5896925820381911,
+          "bounding_box": {
+            "x1": 563,
+            "y1": 1095,
+            "x2": 654,
+            "y2": 1216
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_72\\rank_1_frame_000209.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 208,
+          "timestamp_seconds": 6.940266666666667,
+          "confidence": 0.7411125302314758,
+          "sharpness_score": 1.0,
+          "size_score": 0.015181477864583333,
+          "center_score": 0.20137435734650466,
+          "final_score": 0.5796874612674826,
+          "bounding_box": {
+            "x1": 567,
+            "y1": 1094,
+            "x2": 658,
+            "y2": 1217
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_72\\rank_2_frame_000208.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 222,
+          "timestamp_seconds": 7.4074,
+          "confidence": 0.6232445240020752,
+          "sharpness_score": 1.0,
+          "size_score": 0.013530815972222223,
+          "center_score": 0.18147720125785893,
+          "final_score": 0.5292255529839534,
+          "bounding_box": {
+            "x1": 538,
+            "y1": 1101,
+            "x2": 624,
+            "y2": 1217
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_72\\rank_3_frame_000222.jpg"
+        }
+      ]
+    },
+    "73": {
+      "track_id": 73,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.1161,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.2,
+          "crop_consistency": 0.4021,
+          "detection_confidence": 0.5274,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.23,
+        "reasons": [
+          "short_group_track",
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 186,
+          "timestamp_seconds": 6.2062,
+          "confidence": 0.5273829698562622,
+          "sharpness_score": 0.49182268697101195,
+          "size_score": 0.024022081163194445,
+          "center_score": 0.0,
+          "final_score": 0.33871327591789674,
+          "bounding_box": {
+            "x1": 597,
+            "y1": 1348,
+            "x2": 796,
+            "y2": 1437
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_73\\rank_1_frame_000186.jpg"
+        }
+      ]
+    },
+    "76": {
+      "track_id": 76,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.1035,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.2,
+          "crop_consistency": 0.4461,
+          "detection_confidence": 0.3982,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.23,
+        "reasons": [
+          "short_group_track",
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 188,
+          "timestamp_seconds": 6.2729333333333335,
+          "confidence": 0.39817631244659424,
+          "sharpness_score": 0.9653258617545069,
+          "size_score": 0.00482177734375,
+          "center_score": 0.0,
+          "final_score": 0.4015663458860144,
+          "bounding_box": {
+            "x1": 0,
+            "y1": 901,
+            "x2": 45,
+            "y2": 980
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_76\\rank_1_frame_000188.jpg"
+        }
+      ]
+    },
+    "77": {
+      "track_id": 77,
+      "class_name": "van",
+      "reliability": {
+        "reliability_score": 0.118,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.125,
+          "crop_consistency": 0.5305,
+          "detection_confidence": 0.6252,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.26,
+        "reasons": [
+          "very_short_vehicle_track",
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 189,
+          "timestamp_seconds": 6.3063,
+          "confidence": 0.6252403259277344,
+          "sharpness_score": 1.0,
+          "size_score": 0.01213107638888889,
+          "center_score": 0.13117127748511892,
+          "final_score": 0.5221980372716394,
+          "bounding_box": {
+            "x1": 816,
+            "y1": 1247,
+            "x2": 902,
+            "y2": 1351
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_77\\rank_1_frame_000189.jpg"
+        }
+      ]
+    },
+    "83": {
+      "track_id": 83,
+      "class_name": "van",
+      "reliability": {
+        "reliability_score": 0.0905,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.125,
+          "crop_consistency": 0.5277,
+          "detection_confidence": 0.4921,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.26,
+        "reasons": [
+          "very_short_vehicle_track",
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 195,
+          "timestamp_seconds": 6.5065,
+          "confidence": 0.4920804798603058,
+          "sharpness_score": 1.0,
+          "size_score": 0.006374782986111111,
+          "center_score": 0.46669783506692997,
+          "final_score": 0.518111823801384,
+          "bounding_box": {
+            "x1": 1157,
+            "y1": 1053,
+            "x2": 1207,
+            "y2": 1147
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_83\\rank_1_frame_000195.jpg"
+        }
+      ]
+    },
+    "96": {
+      "track_id": 96,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.3568,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.2,
+          "crop_consistency": 0.5847,
+          "detection_confidence": 0.7067,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.08,
+        "reasons": [
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 211,
+          "timestamp_seconds": 7.040366666666666,
+          "confidence": 0.7066695094108582,
+          "sharpness_score": 1.0,
+          "size_score": 0.00518798828125,
+          "center_score": 0.43956686089012953,
+          "final_score": 0.5996404305541128,
+          "bounding_box": {
+            "x1": 1252,
+            "y1": 1081,
+            "x2": 1297,
+            "y2": 1166
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_96\\rank_1_frame_000211.jpg"
+        }
+      ]
+    },
+    "97": {
+      "track_id": 97,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8483,
+        "status": "reliable",
+        "observation_count": 7,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.7063,
+          "detection_confidence": 0.682,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 218,
+          "timestamp_seconds": 7.273933333333334,
+          "confidence": 0.6930036544799805,
+          "sharpness_score": 1.0,
+          "size_score": 0.007310655381944444,
+          "center_score": 0.4159471135970061,
+          "final_score": 0.5910556599079321,
+          "bounding_box": {
+            "x1": 1349,
+            "y1": 1088,
+            "x2": 1404,
+            "y2": 1186
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_97\\rank_1_frame_000218.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 221,
+          "timestamp_seconds": 7.374033333333333,
+          "confidence": 0.6882842779159546,
+          "sharpness_score": 1.0,
+          "size_score": 0.0077473958333333336,
+          "center_score": 0.40939336545267657,
+          "final_score": 0.5882721951509501,
+          "bounding_box": {
+            "x1": 1381,
+            "y1": 1088,
+            "x2": 1437,
+            "y2": 1190
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_97\\rank_2_frame_000221.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 217,
+          "timestamp_seconds": 7.240566666666667,
+          "confidence": 0.664834201335907,
+          "sharpness_score": 1.0,
+          "size_score": 0.004714626736111111,
+          "center_score": 0.40953628337054926,
+          "final_score": 0.5783070483871674,
+          "bounding_box": {
+            "x1": 1342,
+            "y1": 1103,
+            "x2": 1386,
+            "y2": 1182
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_97\\rank_3_frame_000217.jpg"
+        }
+      ]
+    },
+    "99": {
+      "track_id": 99,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.3889,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.5725,
+          "detection_confidence": 0.6357,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.15,
+        "reasons": [
+          "short_group_track"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 212,
+          "timestamp_seconds": 7.073733333333333,
+          "confidence": 0.7304407954216003,
+          "sharpness_score": 0.3851724319513882,
+          "size_score": 0.024169921875,
+          "center_score": 0.09170354048886653,
+          "final_score": 0.4070589416048172,
+          "bounding_box": {
+            "x1": 395,
+            "y1": 1119,
+            "x2": 530,
+            "y2": 1251
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_99\\rank_1_frame_000212.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 213,
+          "timestamp_seconds": 7.1071,
+          "confidence": 0.5409191846847534,
+          "sharpness_score": 0.6038809781919932,
+          "size_score": 0.05237087673611111,
+          "center_score": 0.06764664907502838,
+          "final_score": 0.38795909113037613,
+          "bounding_box": {
+            "x1": 362,
+            "y1": 1110,
+            "x2": 559,
+            "y2": 1306
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_99\\rank_2_frame_000213.jpg"
+        }
+      ]
+    },
+    "106": {
+      "track_id": 106,
+      "class_name": "van",
+      "reliability": {
+        "reliability_score": 0.5565,
+        "status": "review",
+        "observation_count": 3,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.375,
+          "crop_consistency": 0.5924,
+          "detection_confidence": 0.4876,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 216,
+          "timestamp_seconds": 7.2072,
+          "confidence": 0.4682844579219818,
+          "sharpness_score": 0.9072454572276221,
+          "size_score": 0.018351236979166668,
+          "center_score": 0.2685733381837463,
+          "final_score": 0.45808139559909355,
+          "bounding_box": {
+            "x1": 930,
+            "y1": 1166,
+            "x2": 1053,
+            "y2": 1276
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_106\\rank_1_frame_000216.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 222,
+          "timestamp_seconds": 7.4074,
+          "confidence": 0.5449290871620178,
+          "sharpness_score": 0.6862899508660586,
+          "size_score": 0.016677517361111113,
+          "center_score": 0.26454902483205434,
+          "final_score": 0.43256197977835215,
+          "bounding_box": {
+            "x1": 907,
+            "y1": 1166,
+            "x2": 1023,
+            "y2": 1272
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_106\\rank_2_frame_000222.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 223,
+          "timestamp_seconds": 7.440766666666667,
+          "confidence": 0.44971126317977905,
+          "sharpness_score": 0.769109788607802,
+          "size_score": 0.01919487847222222,
+          "center_score": 0.2679470515060879,
+          "final_score": 0.41619298584421976,
+          "bounding_box": {
+            "x1": 902,
+            "y1": 1158,
+            "x2": 1024,
+            "y2": 1274
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\van_track_106\\rank_3_frame_000223.jpg"
+        }
+      ]
+    },
+    "114": {
+      "track_id": 114,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.3482,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.2,
+          "crop_consistency": 0.5764,
+          "detection_confidence": 0.6765,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.08,
+        "reasons": [
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 218,
+          "timestamp_seconds": 7.273933333333334,
+          "confidence": 0.6764652729034424,
+          "sharpness_score": 1.0,
+          "size_score": 0.020887586805555556,
+          "center_score": 0.41942223566525094,
+          "final_score": 0.5876769618722758,
+          "bounding_box": {
+            "x1": 1248,
+            "y1": 1038,
+            "x2": 1325,
+            "y2": 1238
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_114\\rank_1_frame_000218.jpg"
+        }
+      ]
+    },
+    "117": {
+      "track_id": 117,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.523,
+        "status": "review",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.5795,
+          "detection_confidence": 0.5458,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 220,
+          "timestamp_seconds": 7.3406666666666665,
+          "confidence": 0.5601105690002441,
+          "sharpness_score": 0.8278506346377564,
+          "size_score": 0.043619791666666664,
+          "center_score": 0.35469270204881265,
+          "final_score": 0.492934749900192,
+          "bounding_box": {
+            "x1": 917,
+            "y1": 1056,
+            "x2": 1077,
+            "y2": 1257
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_117\\rank_1_frame_000220.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 222,
+          "timestamp_seconds": 7.4074,
+          "confidence": 0.5315607786178589,
+          "sharpness_score": 0.4517617768400373,
+          "size_score": 0.0283447265625,
+          "center_score": 0.40585212063888476,
+          "final_score": 0.3921115190654856,
+          "bounding_box": {
+            "x1": 911,
+            "y1": 1031,
+            "x2": 1040,
+            "y2": 1193
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_117\\rank_2_frame_000222.jpg"
+        }
+      ]
+    },
+    "128": {
+      "track_id": 128,
+      "class_name": "bus",
+      "reliability": {
+        "reliability_score": 0.9009,
+        "status": "reliable",
+        "observation_count": 15,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.7621,
+          "detection_confidence": 0.8613,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 240,
+          "timestamp_seconds": 8.008000000000001,
+          "confidence": 0.8816106915473938,
+          "sharpness_score": 1.0,
+          "size_score": 0.023990885416666666,
+          "center_score": 0.4138909394680256,
+          "final_score": 0.6695260946224946,
+          "bounding_box": {
+            "x1": 1700,
+            "y1": 975,
+            "x2": 1834,
+            "y2": 1107
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_128\\rank_1_frame_000240.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 232,
+          "timestamp_seconds": 7.741066666666667,
+          "confidence": 0.8627011775970459,
+          "sharpness_score": 1.0,
+          "size_score": 0.016621907552083332,
+          "center_score": 0.46953992032792957,
+          "final_score": 0.6688358405984246,
+          "bounding_box": {
+            "x1": 1640,
+            "y1": 961,
+            "x2": 1735,
+            "y2": 1090
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_128\\rank_2_frame_000232.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 234,
+          "timestamp_seconds": 7.8078,
+          "confidence": 0.8395289182662964,
+          "sharpness_score": 1.0,
+          "size_score": 0.01830105251736111,
+          "center_score": 0.4537186571384946,
+          "final_score": 0.6575295763807649,
+          "bounding_box": {
+            "x1": 1660,
+            "y1": 964,
+            "x2": 1763,
+            "y2": 1095
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_128\\rank_3_frame_000234.jpg"
+        }
+      ]
+    },
+    "132": {
+      "track_id": 132,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.5719,
+        "status": "review",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.6771,
+          "detection_confidence": 0.6437,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 231,
+          "timestamp_seconds": 7.7077,
+          "confidence": 0.7021058797836304,
+          "sharpness_score": 0.8772370371738178,
+          "size_score": 0.009845648871527777,
+          "center_score": 0.3542235463532204,
+          "final_score": 0.5552542729341953,
+          "bounding_box": {
+            "x1": 1492,
+            "y1": 1105,
+            "x2": 1553,
+            "y2": 1224
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_132\\rank_1_frame_000231.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 232,
+          "timestamp_seconds": 7.741066666666667,
+          "confidence": 0.585296094417572,
+          "sharpness_score": 1.0,
+          "size_score": 0.008968098958333334,
+          "center_score": 0.34401744661038236,
+          "final_score": 0.5375146745502528,
+          "bounding_box": {
+            "x1": 1506,
+            "y1": 1113,
+            "x2": 1564,
+            "y2": 1227
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_132\\rank_2_frame_000232.jpg"
+        }
+      ]
+    },
+    "138": {
+      "track_id": 138,
+      "class_name": "bus",
+      "reliability": {
+        "reliability_score": 0.0676,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.125,
+          "crop_consistency": 0.5171,
+          "detection_confidence": 0.3934,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.26,
+        "reasons": [
+          "very_short_vehicle_track",
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 235,
+          "timestamp_seconds": 7.841166666666667,
+          "confidence": 0.39344462752342224,
+          "sharpness_score": 1.0,
+          "size_score": 0.03802083333333333,
+          "center_score": 0.5871447105614837,
+          "final_score": 0.5030537242602582,
+          "bounding_box": {
+            "x1": 1262,
+            "y1": 941,
+            "x2": 1454,
+            "y2": 1087
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_138\\rank_1_frame_000235.jpg"
+        }
+      ]
+    },
+    "139": {
+      "track_id": 139,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8754,
+        "status": "reliable",
+        "observation_count": 20,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.7393,
+          "detection_confidence": 0.7681,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 257,
+          "timestamp_seconds": 8.575233333333333,
+          "confidence": 0.773836612701416,
+          "sharpness_score": 1.0,
+          "size_score": 0.00604248046875,
+          "center_score": 0.47001780833322626,
+          "final_score": 0.6312458124243003,
+          "bounding_box": {
+            "x1": 1272,
+            "y1": 1052,
+            "x2": 1317,
+            "y2": 1151
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_139\\rank_1_frame_000257.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 252,
+          "timestamp_seconds": 8.4084,
+          "confidence": 0.7688300609588623,
+          "sharpness_score": 1.0,
+          "size_score": 0.006239149305555556,
+          "center_score": 0.47832125904215617,
+          "final_score": 0.6305280431009794,
+          "bounding_box": {
+            "x1": 1219,
+            "y1": 1045,
+            "x2": 1265,
+            "y2": 1145
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_139\\rank_2_frame_000252.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 255,
+          "timestamp_seconds": 8.5085,
+          "confidence": 0.7615945935249329,
+          "sharpness_score": 1.0,
+          "size_score": 0.00604248046875,
+          "center_score": 0.47288409950640986,
+          "final_score": 0.6267789484296846,
+          "bounding_box": {
+            "x1": 1250,
+            "y1": 1050,
+            "x2": 1295,
+            "y2": 1149
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_139\\rank_3_frame_000255.jpg"
+        }
+      ]
+    },
+    "141": {
+      "track_id": 141,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.6457,
+        "status": "review",
+        "observation_count": 3,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.6,
+          "crop_consistency": 0.6247,
+          "detection_confidence": 0.4913,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 237,
+          "timestamp_seconds": 7.9079,
+          "confidence": 0.5081768035888672,
+          "sharpness_score": 1.0,
+          "size_score": 0.017754448784722224,
+          "center_score": 0.3349226150631771,
+          "final_score": 0.5070600034519679,
+          "bounding_box": {
+            "x1": 989,
+            "y1": 1101,
+            "x2": 1074,
+            "y2": 1255
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_141\\rank_1_frame_000237.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 236,
+          "timestamp_seconds": 7.874533333333334,
+          "confidence": 0.576259434223175,
+          "sharpness_score": 0.8046644226664433,
+          "size_score": 0.019434950086805555,
+          "center_score": 0.34089788229325646,
+          "final_score": 0.48669155171723044,
+          "bounding_box": {
+            "x1": 987,
+            "y1": 1093,
+            "x2": 1076,
+            "y2": 1254
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_141\\rank_2_frame_000236.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 238,
+          "timestamp_seconds": 7.9412666666666665,
+          "confidence": 0.38944557309150696,
+          "sharpness_score": 1.0,
+          "size_score": 0.016886393229166668,
+          "center_score": 0.3338212718043373,
+          "final_score": 0.4592286986530867,
+          "bounding_box": {
+            "x1": 991,
+            "y1": 1104,
+            "x2": 1074,
+            "y2": 1254
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_141\\rank_3_frame_000238.jpg"
+        }
+      ]
+    },
+    "146": {
+      "track_id": 146,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.3348,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.4973,
+          "detection_confidence": 0.478,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.15,
+        "reasons": [
+          "short_group_track"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 243,
+          "timestamp_seconds": 8.1081,
+          "confidence": 0.531233549118042,
+          "sharpness_score": 0.20709834667437707,
+          "size_score": 0.060221354166666664,
+          "center_score": 0.06367202891057222,
+          "final_score": 0.2858630814857302,
+          "bounding_box": {
+            "x1": 2320,
+            "y1": 458,
+            "x2": 2560,
+            "y2": 643
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_146\\rank_1_frame_000243.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 244,
+          "timestamp_seconds": 8.141466666666666,
+          "confidence": 0.42483261227607727,
+          "sharpness_score": 0.35620684620001847,
+          "size_score": 0.058751085069444445,
+          "center_score": 0.07187889294343264,
+          "final_score": 0.28151680741583934,
+          "bounding_box": {
+            "x1": 2314,
+            "y1": 468,
+            "x2": 2552,
+            "y2": 650
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_146\\rank_2_frame_000244.jpg"
+        }
+      ]
+    },
+    "148": {
+      "track_id": 148,
+      "class_name": "bus",
+      "reliability": {
+        "reliability_score": 0.8655,
+        "status": "reliable",
+        "observation_count": 37,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.7288,
+          "detection_confidence": 0.7342,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 269,
+          "timestamp_seconds": 8.975633333333333,
+          "confidence": 0.7566937208175659,
+          "sharpness_score": 1.0,
+          "size_score": 0.051487901475694445,
+          "center_score": 0.3650820547191126,
+          "final_score": 0.6177373768300323,
+          "bounding_box": {
+            "x1": 1685,
+            "y1": 984,
+            "x2": 1888,
+            "y2": 1171
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_148\\rank_1_frame_000269.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 266,
+          "timestamp_seconds": 8.875533333333333,
+          "confidence": 0.7481921315193176,
+          "sharpness_score": 1.0,
+          "size_score": 0.04590793185763889,
+          "center_score": 0.3911132960424465,
+          "final_score": 0.6171254333856218,
+          "bounding_box": {
+            "x1": 1657,
+            "y1": 979,
+            "x2": 1844,
+            "y2": 1160
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_148\\rank_2_frame_000266.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 246,
+          "timestamp_seconds": 8.2082,
+          "confidence": 0.6978200078010559,
+          "sharpness_score": 1.0,
+          "size_score": 0.030205620659722224,
+          "center_score": 0.507383984597043,
+          "final_score": 0.6112767249419233,
+          "bounding_box": {
+            "x1": 1475,
+            "y1": 958,
+            "x2": 1606,
+            "y2": 1128
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_148\\rank_3_frame_000246.jpg"
+        }
+      ]
+    },
+    "158": {
+      "track_id": 158,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.4995,
+        "status": "review",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.5545,
+          "detection_confidence": 0.4658,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 252,
+          "timestamp_seconds": 8.4084,
+          "confidence": 0.40403980016708374,
+          "sharpness_score": 0.9082467877419601,
+          "size_score": 0.0087890625,
+          "center_score": 0.0,
+          "final_score": 0.3904354295023235,
+          "bounding_box": {
+            "x1": 70,
+            "y1": 1166,
+            "x2": 130,
+            "y2": 1274
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_158\\rank_1_frame_000252.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 251,
+          "timestamp_seconds": 8.375033333333333,
+          "confidence": 0.5275435447692871,
+          "sharpness_score": 0.5914269893186286,
+          "size_score": 0.013069661458333333,
+          "center_score": 0.0,
+          "final_score": 0.3614880975290387,
+          "bounding_box": {
+            "x1": 51,
+            "y1": 1145,
+            "x2": 124,
+            "y2": 1277
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_158\\rank_2_frame_000251.jpg"
+        }
+      ]
+    },
+    "164": {
+      "track_id": 164,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8179,
+        "status": "reliable",
+        "observation_count": 10,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6733,
+          "detection_confidence": 0.5797,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 271,
+          "timestamp_seconds": 9.042366666666666,
+          "confidence": 0.6391132473945618,
+          "sharpness_score": 1.0,
+          "size_score": 0.009266493055555556,
+          "center_score": 0.4182811007774686,
+          "final_score": 0.5702407626855561,
+          "bounding_box": {
+            "x1": 1461,
+            "y1": 1061,
+            "x2": 1517,
+            "y2": 1183
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_164\\rank_1_frame_000271.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 272,
+          "timestamp_seconds": 9.075733333333334,
+          "confidence": 0.5627443194389343,
+          "sharpness_score": 1.0,
+          "size_score": 0.008349609375,
+          "center_score": 0.4067376756555383,
+          "final_score": 0.5377783009989044,
+          "bounding_box": {
+            "x1": 1472,
+            "y1": 1072,
+            "x2": 1526,
+            "y2": 1186
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_164\\rank_2_frame_000272.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 257,
+          "timestamp_seconds": 8.575233333333333,
+          "confidence": 0.5373387336730957,
+          "sharpness_score": 1.0,
+          "size_score": 0.005810546875,
+          "center_score": 0.46599423448776445,
+          "final_score": 0.535996738017403,
+          "bounding_box": {
+            "x1": 1319,
+            "y1": 1052,
+            "x2": 1361,
+            "y2": 1154
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_164\\rank_3_frame_000257.jpg"
+        }
+      ]
+    },
+    "176": {
+      "track_id": 176,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.1276,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.2,
+          "crop_consistency": 0.4756,
+          "detection_confidence": 0.4748,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.23,
+        "reasons": [
+          "short_group_track",
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 286,
+          "timestamp_seconds": 9.542866666666667,
+          "confidence": 0.4747886061668396,
+          "sharpness_score": 1.0,
+          "size_score": 0.0191650390625,
+          "center_score": 0.0,
+          "final_score": 0.4437484502792359,
+          "bounding_box": {
+            "x1": 348,
+            "y1": 1173,
+            "x2": 438,
+            "y2": 1330
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_176\\rank_1_frame_000286.jpg"
+        }
+      ]
+    },
+    "177": {
+      "track_id": 177,
+      "class_name": "bus",
+      "reliability": {
+        "reliability_score": 0.8902,
+        "status": "reliable",
+        "observation_count": 18,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.7248,
+          "detection_confidence": 0.8637,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 287,
+          "timestamp_seconds": 9.576233333333333,
+          "confidence": 0.8567094802856445,
+          "sharpness_score": 1.0,
+          "size_score": 0.04697265625,
+          "center_score": 0.07906735870857151,
+          "final_score": 0.6139384271705436,
+          "bounding_box": {
+            "x1": 2124,
+            "y1": 1030,
+            "x2": 2358,
+            "y2": 1178
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_177\\rank_1_frame_000287.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 301,
+          "timestamp_seconds": 10.043366666666667,
+          "confidence": 0.8699700832366943,
+          "sharpness_score": 1.0,
+          "size_score": 0.057291666666666664,
+          "center_score": 0.0,
+          "final_score": 0.6094463666280111,
+          "bounding_box": {
+            "x1": 2304,
+            "y1": 1040,
+            "x2": 2560,
+            "y2": 1205
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_177\\rank_2_frame_000301.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 302,
+          "timestamp_seconds": 10.076733333333333,
+          "confidence": 0.864444375038147,
+          "sharpness_score": 1.0,
+          "size_score": 0.054052734375,
+          "center_score": 0.0,
+          "final_score": 0.6065882968902588,
+          "bounding_box": {
+            "x1": 2317,
+            "y1": 1042,
+            "x2": 2560,
+            "y2": 1206
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_177\\rank_3_frame_000302.jpg"
+        }
+      ]
+    },
+    "178": {
+      "track_id": 178,
+      "class_name": "bus",
+      "reliability": {
+        "reliability_score": 0.0771,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.125,
+          "crop_consistency": 0.5028,
+          "detection_confidence": 0.4627,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.26,
+        "reasons": [
+          "very_short_vehicle_track",
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 289,
+          "timestamp_seconds": 9.642966666666666,
+          "confidence": 0.4626598656177521,
+          "sharpness_score": 1.0,
+          "size_score": 0.013753255208333334,
+          "center_score": 0.298719411551576,
+          "final_score": 0.48262250902150394,
+          "bounding_box": {
+            "x1": 1409,
+            "y1": 1151,
+            "x2": 1487,
+            "y2": 1281
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bus_track_178\\rank_1_frame_000289.jpg"
+        }
+      ]
+    },
+    "189": {
+      "track_id": 189,
+      "class_name": "bicycle",
+      "reliability": {
+        "reliability_score": 0.6769,
+        "status": "reliable",
+        "observation_count": 4,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.6667,
+          "crop_consistency": 0.5427,
+          "detection_confidence": 0.6537,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 304,
+          "timestamp_seconds": 10.143466666666667,
+          "confidence": 0.6101371049880981,
+          "sharpness_score": 0.596022783330636,
+          "size_score": 0.059178331163194445,
+          "center_score": 0.0,
+          "final_score": 0.40489620406053717,
+          "bounding_box": {
+            "x1": 2257,
+            "y1": 1124,
+            "x2": 2418,
+            "y2": 1395
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_189\\rank_1_frame_000304.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 305,
+          "timestamp_seconds": 10.176833333333333,
+          "confidence": 0.7301557660102844,
+          "sharpness_score": 0.39532327931511185,
+          "size_score": 0.05480143229166667,
+          "center_score": 0.0,
+          "final_score": 0.4018534126912251,
+          "bounding_box": {
+            "x1": 2280,
+            "y1": 1138,
+            "x2": 2436,
+            "y2": 1397
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_189\\rank_2_frame_000305.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 307,
+          "timestamp_seconds": 10.243566666666666,
+          "confidence": 0.6207358241081238,
+          "sharpness_score": 0.2856140984904048,
+          "size_score": 0.050587293836805554,
+          "center_score": 0.0,
+          "final_score": 0.3298153130332118,
+          "bounding_box": {
+            "x1": 2320,
+            "y1": 1158,
+            "x2": 2471,
+            "y2": 1405
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_189\\rank_3_frame_000307.jpg"
+        }
+      ]
+    },
+    "195": {
+      "track_id": 195,
+      "class_name": "bicycle",
+      "reliability": {
+        "reliability_score": 0.3725,
+        "status": "reject",
+        "observation_count": 3,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.5,
+          "crop_consistency": 0.4965,
+          "detection_confidence": 0.493,
+          "crop_count": 1.0
+        },
+        "penalty": 0.2,
+        "reasons": [
+          "short_bicycle_track"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 310,
+          "timestamp_seconds": 10.343666666666667,
+          "confidence": 0.6748878955841064,
+          "sharpness_score": 0.46057541486163883,
+          "size_score": 0.09166666666666666,
+          "center_score": 0.17424510781024816,
+          "final_score": 0.4295691114539228,
+          "bounding_box": {
+            "x1": 1292,
+            "y1": 1181,
+            "x2": 1556,
+            "y2": 1437
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_195\\rank_1_frame_000310.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 311,
+          "timestamp_seconds": 10.377033333333333,
+          "confidence": 0.41800326108932495,
+          "sharpness_score": 0.4448736479581207,
+          "size_score": 0.094873046875,
+          "center_score": 0.1765013878989069,
+          "final_score": 0.3238695339850962,
+          "bounding_box": {
+            "x1": 1323,
+            "y1": 1174,
+            "x2": 1591,
+            "y2": 1435
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_195\\rank_2_frame_000311.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 312,
+          "timestamp_seconds": 10.410400000000001,
+          "confidence": 0.38616907596588135,
+          "sharpness_score": 0.32101744014706224,
+          "size_score": 0.09850260416666666,
+          "center_score": 0.1730785910951924,
+          "final_score": 0.2803842999207303,
+          "bounding_box": {
+            "x1": 1363,
+            "y1": 1169,
+            "x2": 1635,
+            "y2": 1436
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\bicycle_track_195\\rank_3_frame_000312.jpg"
+        }
+      ]
+    },
+    "197": {
+      "track_id": 197,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8204,
+        "status": "reliable",
+        "observation_count": 13,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6732,
+          "detection_confidence": 0.592,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 320,
+          "timestamp_seconds": 10.677333333333333,
+          "confidence": 0.6011715531349182,
+          "sharpness_score": 1.0,
+          "size_score": 0.006629774305555555,
+          "center_score": 0.33256427618758155,
+          "final_score": 0.5416792175432156,
+          "bounding_box": {
+            "x1": 1295,
+            "y1": 1153,
+            "x2": 1347,
+            "y2": 1247
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_197\\rank_1_frame_000320.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 328,
+          "timestamp_seconds": 10.944266666666667,
+          "confidence": 0.5939152240753174,
+          "sharpness_score": 1.0,
+          "size_score": 0.004893663194444444,
+          "center_score": 0.32230687626652665,
+          "final_score": 0.5368908537089948,
+          "bounding_box": {
+            "x1": 1368,
+            "y1": 1163,
+            "x2": 1412,
+            "y2": 1245
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_197\\rank_2_frame_000328.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 314,
+          "timestamp_seconds": 10.477133333333333,
+          "confidence": 0.5809503793716431,
+          "sharpness_score": 1.0,
+          "size_score": 0.005227322048611111,
+          "center_score": 0.3276950449225825,
+          "final_score": 0.5325798728967668,
+          "bounding_box": {
+            "x1": 1243,
+            "y1": 1163,
+            "x2": 1290,
+            "y2": 1245
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_197\\rank_3_frame_000314.jpg"
+        }
+      ]
+    },
+    "206": {
+      "track_id": 206,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.827,
+        "status": "reliable",
+        "observation_count": 8,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6785,
+          "detection_confidence": 0.6174,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 324,
+          "timestamp_seconds": 10.8108,
+          "confidence": 0.6429624557495117,
+          "sharpness_score": 1.0,
+          "size_score": 0.007691786024305556,
+          "center_score": 0.33288282992901785,
+          "final_score": 0.5586557639940184,
+          "bounding_box": {
+            "x1": 1407,
+            "y1": 1139,
+            "x2": 1460,
+            "y2": 1246
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_206\\rank_1_frame_000324.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 323,
+          "timestamp_seconds": 10.777433333333333,
+          "confidence": 0.6123999357223511,
+          "sharpness_score": 1.0,
+          "size_score": 0.0067789713541666664,
+          "center_score": 0.3305564208539731,
+          "final_score": 0.5458992316878697,
+          "bounding_box": {
+            "x1": 1401,
+            "y1": 1144,
+            "x2": 1450,
+            "y2": 1246
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_206\\rank_2_frame_000323.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 322,
+          "timestamp_seconds": 10.744066666666667,
+          "confidence": 0.596973180770874,
+          "sharpness_score": 1.0,
+          "size_score": 0.007470703125,
+          "center_score": 0.3355746823912271,
+          "final_score": 0.5406196152920336,
+          "bounding_box": {
+            "x1": 1393,
+            "y1": 1138,
+            "x2": 1444,
+            "y2": 1246
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_206\\rank_3_frame_000322.jpg"
+        }
+      ]
+    },
+    "208": {
+      "track_id": 208,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.5279,
+        "status": "review",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.6251,
+          "detection_confidence": 0.5021,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 315,
+          "timestamp_seconds": 10.5105,
+          "confidence": 0.6159535050392151,
+          "sharpness_score": 1.0,
+          "size_score": 0.00537109375,
+          "center_score": 0.3418310901001054,
+          "final_score": 0.5487302842807018,
+          "bounding_box": {
+            "x1": 1333,
+            "y1": 1147,
+            "x2": 1377,
+            "y2": 1237
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_208\\rank_1_frame_000315.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 328,
+          "timestamp_seconds": 10.944266666666667,
+          "confidence": 0.3882408142089844,
+          "sharpness_score": 0.9883629835199766,
+          "size_score": 0.007758246527777778,
+          "center_score": 0.35988396742758433,
+          "final_score": 0.4579213159832811,
+          "bounding_box": {
+            "x1": 1328,
+            "y1": 1124,
+            "x2": 1380,
+            "y2": 1234
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_208\\rank_2_frame_000328.jpg"
+        }
+      ]
+    },
+    "214": {
+      "track_id": 214,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.7807,
+        "status": "reliable",
+        "observation_count": 5,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6371,
+          "detection_confidence": 0.4477,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 323,
+          "timestamp_seconds": 10.777433333333333,
+          "confidence": 0.4479972720146179,
+          "sharpness_score": 0.9898552108724733,
+          "size_score": 0.015733506944444444,
+          "center_score": 0.38331278089648013,
+          "final_score": 0.48730633004732643,
+          "bounding_box": {
+            "x1": 1278,
+            "y1": 1091,
+            "x2": 1358,
+            "y2": 1236
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_214\\rank_1_frame_000323.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 326,
+          "timestamp_seconds": 10.877533333333334,
+          "confidence": 0.4359937012195587,
+          "sharpness_score": 1.0,
+          "size_score": 0.015751139322916666,
+          "center_score": 0.3893177512335455,
+          "final_score": 0.4859453710374387,
+          "bounding_box": {
+            "x1": 1298,
+            "y1": 1085,
+            "x2": 1377,
+            "y2": 1232
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_214\\rank_2_frame_000326.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 327,
+          "timestamp_seconds": 10.9109,
+          "confidence": 0.45908939838409424,
+          "sharpness_score": 0.9414559590375597,
+          "size_score": 0.015657552083333335,
+          "center_score": 0.3880350856171021,
+          "final_score": 0.4803365223722596,
+          "bounding_box": {
+            "x1": 1308,
+            "y1": 1085,
+            "x2": 1386,
+            "y2": 1233
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_214\\rank_3_frame_000327.jpg"
+        }
+      ]
+    },
+    "215": {
+      "track_id": 215,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.0594,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.2,
+          "crop_consistency": 0.3265,
+          "detection_confidence": 0.3572,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.23,
+        "reasons": [
+          "short_group_track",
+          "single_representative_crop",
+          "weak_temporal_persistence",
+          "weak_crop_quality"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 323,
+          "timestamp_seconds": 10.777433333333333,
+          "confidence": 0.35718876123428345,
+          "sharpness_score": 0.34165096270672896,
+          "size_score": 0.012071397569444444,
+          "center_score": 0.0,
+          "final_score": 0.23070252468428454,
+          "bounding_box": {
+            "x1": 0,
+            "y1": 1074,
+            "x2": 89,
+            "y2": 1174
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_215\\rank_1_frame_000323.jpg"
+        }
+      ]
+    },
+    "223": {
+      "track_id": 223,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.7226,
+        "status": "reliable",
+        "observation_count": 4,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.8,
+          "crop_consistency": 0.6019,
+          "detection_confidence": 0.5602,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 332,
+          "timestamp_seconds": 11.077733333333333,
+          "confidence": 0.6110498309135437,
+          "sharpness_score": 0.8595941343287439,
+          "size_score": 0.024989149305555555,
+          "center_score": 0.12054642813310246,
+          "final_score": 0.48239826002867997,
+          "bounding_box": {
+            "x1": 963,
+            "y1": 1241,
+            "x2": 1061,
+            "y2": 1429
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_223\\rank_1_frame_000332.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 333,
+          "timestamp_seconds": 11.1111,
+          "confidence": 0.5537349581718445,
+          "sharpness_score": 0.8963763872777553,
+          "size_score": 0.023451063368055556,
+          "center_score": 0.11705468874129488,
+          "final_score": 0.467836496072982,
+          "bounding_box": {
+            "x1": 975,
+            "y1": 1248,
+            "x2": 1070,
+            "y2": 1430
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_223\\rank_2_frame_000333.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 337,
+          "timestamp_seconds": 11.244566666666667,
+          "confidence": 0.5158845782279968,
+          "sharpness_score": 0.7634539501072319,
+          "size_score": 0.02537841796875,
+          "center_score": 0.12882874153685175,
+          "final_score": 0.42161731364228444,
+          "bounding_box": {
+            "x1": 1025,
+            "y1": 1242,
+            "x2": 1124,
+            "y2": 1431
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_223\\rank_3_frame_000337.jpg"
+        }
+      ]
+    },
+    "232": {
+      "track_id": 232,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8343,
+        "status": "reliable",
+        "observation_count": 6,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6811,
+          "detection_confidence": 0.6497,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 342,
+          "timestamp_seconds": 11.4114,
+          "confidence": 0.702427864074707,
+          "sharpness_score": 1.0,
+          "size_score": 0.02206488715277778,
+          "center_score": 0.3228503513044435,
+          "final_score": 0.583811675756105,
+          "bounding_box": {
+            "x1": 672,
+            "y1": 991,
+            "x2": 755,
+            "y2": 1187
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_232\\rank_1_frame_000342.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 359,
+          "timestamp_seconds": 11.978633333333333,
+          "confidence": 0.6354201436042786,
+          "sharpness_score": 1.0,
+          "size_score": 0.006087239583333333,
+          "center_score": 0.326896825776258,
+          "final_score": 0.5544200292248168,
+          "bounding_box": {
+            "x1": 816,
+            "y1": 1085,
+            "x2": 860,
+            "y2": 1187
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_232\\rank_2_frame_000359.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 358,
+          "timestamp_seconds": 11.945266666666667,
+          "confidence": 0.6112937927246094,
+          "sharpness_score": 1.0,
+          "size_score": 0.006206597222222222,
+          "center_score": 0.32807004221863834,
+          "final_score": 0.544969342867084,
+          "bounding_box": {
+            "x1": 813,
+            "y1": 1082,
+            "x2": 857,
+            "y2": 1186
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_232\\rank_3_frame_000358.jpg"
+        }
+      ]
+    },
+    "234": {
+      "track_id": 234,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.2988,
+        "status": "reject",
+        "observation_count": 1,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.2,
+          "crop_consistency": 0.5196,
+          "detection_confidence": 0.5145,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.08,
+        "reasons": [
+          "single_representative_crop",
+          "weak_temporal_persistence"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 343,
+          "timestamp_seconds": 11.444766666666666,
+          "confidence": 0.5144564509391785,
+          "sharpness_score": 1.0,
+          "size_score": 0.013129340277777778,
+          "center_score": 0.3206838809063236,
+          "final_score": 0.5065110305671755,
+          "bounding_box": {
+            "x1": 1528,
+            "y1": 1121,
+            "x2": 1608,
+            "y2": 1242
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_234\\rank_1_frame_000343.jpg"
+        }
+      ]
+    },
+    "238": {
+      "track_id": 238,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.3788,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.5824,
+          "detection_confidence": 0.5705,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.15,
+        "reasons": [
+          "short_group_track"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 345,
+          "timestamp_seconds": 11.5115,
+          "confidence": 0.7062729001045227,
+          "sharpness_score": 0.8378431577562468,
+          "size_score": 0.0255126953125,
+          "center_score": 0.11211575803398866,
+          "final_score": 0.5138898522484692,
+          "bounding_box": {
+            "x1": 1027,
+            "y1": 1264,
+            "x2": 1137,
+            "y2": 1435
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_238\\rank_1_frame_000345.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 346,
+          "timestamp_seconds": 11.544866666666667,
+          "confidence": 0.4346820116043091,
+          "sharpness_score": 0.7969108083165952,
+          "size_score": 0.02498508029513889,
+          "center_score": 0.11239473306858982,
+          "final_score": 0.3949567327401887,
+          "bounding_box": {
+            "x1": 1040,
+            "y1": 1266,
+            "x2": 1149,
+            "y2": 1435
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_238\\rank_2_frame_000346.jpg"
+        }
+      ]
+    },
+    "240": {
+      "track_id": 240,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.7312,
+        "status": "reliable",
+        "observation_count": 4,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.8,
+          "crop_consistency": 0.6467,
+          "detection_confidence": 0.5357,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 348,
+          "timestamp_seconds": 11.611600000000001,
+          "confidence": 0.5976743698120117,
+          "sharpness_score": 1.0,
+          "size_score": 0.0056722005208333336,
+          "center_score": 0.34483941692491704,
+          "final_score": 0.541930100567709,
+          "bounding_box": {
+            "x1": 815,
+            "y1": 1069,
+            "x2": 856,
+            "y2": 1171
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_240\\rank_1_frame_000348.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 356,
+          "timestamp_seconds": 11.878533333333333,
+          "confidence": 0.5472021102905273,
+          "sharpness_score": 1.0,
+          "size_score": 0.005616590711805556,
+          "center_score": 0.36807596800891074,
+          "final_score": 0.5252155574599087,
+          "bounding_box": {
+            "x1": 879,
+            "y1": 1071,
+            "x2": 920,
+            "y2": 1172
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_240\\rank_2_frame_000356.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 349,
+          "timestamp_seconds": 11.644966666666667,
+          "confidence": 0.46212226152420044,
+          "sharpness_score": 1.0,
+          "size_score": 0.005425347222222222,
+          "center_score": 0.34755775074601936,
+          "final_score": 0.4880676366660275,
+          "bounding_box": {
+            "x1": 825,
+            "y1": 1071,
+            "x2": 865,
+            "y2": 1171
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_240\\rank_3_frame_000349.jpg"
+        }
+      ]
+    },
+    "265": {
+      "track_id": 265,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8265,
+        "status": "reliable",
+        "observation_count": 6,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6723,
+          "detection_confidence": 0.6242,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 386,
+          "timestamp_seconds": 12.879533333333333,
+          "confidence": 0.6602152585983276,
+          "sharpness_score": 1.0,
+          "size_score": 0.013631184895833334,
+          "center_score": 0.30901229117499707,
+          "final_score": 0.5631641840947473,
+          "bounding_box": {
+            "x1": 847,
+            "y1": 1098,
+            "x2": 922,
+            "y2": 1232
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_265\\rank_1_frame_000386.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 379,
+          "timestamp_seconds": 12.645966666666666,
+          "confidence": 0.6482952833175659,
+          "sharpness_score": 1.0,
+          "size_score": 0.012947591145833333,
+          "center_score": 0.3212977365190345,
+          "final_score": 0.5601022920340482,
+          "bounding_box": {
+            "x1": 856,
+            "y1": 1093,
+            "x2": 930,
+            "y2": 1222
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_265\\rank_2_frame_000379.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 388,
+          "timestamp_seconds": 12.946266666666666,
+          "confidence": 0.564225971698761,
+          "sharpness_score": 1.0,
+          "size_score": 0.0126953125,
+          "center_score": 0.30150590498444085,
+          "final_score": 0.5234553369271706,
+          "bounding_box": {
+            "x1": 852,
+            "y1": 1107,
+            "x2": 924,
+            "y2": 1237
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_265\\rank_3_frame_000388.jpg"
+        }
+      ]
+    },
+    "272": {
+      "track_id": 272,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.6607,
+        "status": "reliable",
+        "observation_count": 3,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 0.6,
+          "crop_consistency": 0.6465,
+          "detection_confidence": 0.5336,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 380,
+          "timestamp_seconds": 12.679333333333334,
+          "confidence": 0.5775142312049866,
+          "sharpness_score": 1.0,
+          "size_score": 0.023036024305555555,
+          "center_score": 0.43303254574532435,
+          "final_score": 0.5505677792049044,
+          "bounding_box": {
+            "x1": 1126,
+            "y1": 1027,
+            "x2": 1214,
+            "y2": 1220
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_272\\rank_1_frame_000380.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 382,
+          "timestamp_seconds": 12.746066666666668,
+          "confidence": 0.5959773063659668,
+          "sharpness_score": 1.0,
+          "size_score": 0.0107421875,
+          "center_score": 0.3808596381854943,
+          "final_score": 0.5476683057742109,
+          "bounding_box": {
+            "x1": 1147,
+            "y1": 1096,
+            "x2": 1207,
+            "y2": 1228
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_272\\rank_2_frame_000382.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 383,
+          "timestamp_seconds": 12.779433333333333,
+          "confidence": 0.42718368768692017,
+          "sharpness_score": 1.0,
+          "size_score": 0.00950927734375,
+          "center_score": 0.374194419570544,
+          "final_score": 0.4789044934790997,
+          "bounding_box": {
+            "x1": 1158,
+            "y1": 1106,
+            "x2": 1215,
+            "y2": 1229
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_272\\rank_3_frame_000383.jpg"
+        }
+      ]
+    },
+    "277": {
+      "track_id": 277,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.3755,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 1,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.5224,
+          "detection_confidence": 0.5439,
+          "crop_count": 0.3333
+        },
+        "penalty": 0.08,
+        "reasons": [
+          "single_representative_crop"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 384,
+          "timestamp_seconds": 12.812800000000001,
+          "confidence": 0.5439038872718811,
+          "sharpness_score": 1.0,
+          "size_score": 0.004949273003472222,
+          "center_score": 0.28033034332364104,
+          "final_score": 0.510600961007993,
+          "bounding_box": {
+            "x1": 1692,
+            "y1": 1133,
+            "x2": 1733,
+            "y2": 1222
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_277\\rank_1_frame_000384.jpg"
+        }
+      ]
+    },
+    "278": {
+      "track_id": 278,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8263,
+        "status": "reliable",
+        "observation_count": 9,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6687,
+          "detection_confidence": 0.6287,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 392,
+          "timestamp_seconds": 13.079733333333333,
+          "confidence": 0.6662079691886902,
+          "sharpness_score": 1.0,
+          "size_score": 0.013899739583333333,
+          "center_score": 0.2962292702752116,
+          "final_score": 0.5636975261334245,
+          "bounding_box": {
+            "x1": 868,
+            "y1": 1121,
+            "x2": 952,
+            "y2": 1243
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_278\\rank_1_frame_000392.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 393,
+          "timestamp_seconds": 13.113100000000001,
+          "confidence": 0.652169942855835,
+          "sharpness_score": 0.8896943424133911,
+          "size_score": 0.01772189670138889,
+          "center_score": 0.3015575102627349,
+          "final_score": 0.5320695686253698,
+          "bounding_box": {
+            "x1": 858,
+            "y1": 1107,
+            "x2": 952,
+            "y2": 1246
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_278\\rank_2_frame_000393.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 386,
+          "timestamp_seconds": 12.879533333333333,
+          "confidence": 0.5678527355194092,
+          "sharpness_score": 1.0,
+          "size_score": 0.016956922743055554,
+          "center_score": 0.32253162101398025,
+          "final_score": 0.5289122219084719,
+          "bounding_box": {
+            "x1": 872,
+            "y1": 1097,
+            "x2": 966,
+            "y2": 1230
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_278\\rank_3_frame_000386.jpg"
+        }
+      ]
+    },
+    "279": {
+      "track_id": 279,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8483,
+        "status": "reliable",
+        "observation_count": 7,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.7076,
+          "detection_confidence": 0.68,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 393,
+          "timestamp_seconds": 13.113100000000001,
+          "confidence": 0.703349232673645,
+          "sharpness_score": 1.0,
+          "size_score": 0.008698187934027778,
+          "center_score": 0.4409491582327453,
+          "final_score": 0.5992217043911754,
+          "bounding_box": {
+            "x1": 1247,
+            "y1": 1062,
+            "x2": 1300,
+            "y2": 1183
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_279\\rank_1_frame_000393.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 394,
+          "timestamp_seconds": 13.146466666666667,
+          "confidence": 0.6798179745674133,
+          "sharpness_score": 1.0,
+          "size_score": 0.008626302083333334,
+          "center_score": 0.44165997105907606,
+          "final_score": 0.5899014459024934,
+          "bounding_box": {
+            "x1": 1250,
+            "y1": 1062,
+            "x2": 1303,
+            "y2": 1182
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_279\\rank_2_frame_000394.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 392,
+          "timestamp_seconds": 13.079733333333333,
+          "confidence": 0.656803548336029,
+          "sharpness_score": 1.0,
+          "size_score": 0.007663302951388889,
+          "center_score": 0.44509434036043627,
+          "final_score": 0.5810182309787548,
+          "bounding_box": {
+            "x1": 1246,
+            "y1": 1063,
+            "x2": 1296,
+            "y2": 1176
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_279\\rank_3_frame_000392.jpg"
+        }
+      ]
+    },
+    "283": {
+      "track_id": 283,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8595,
+        "status": "reliable",
+        "observation_count": 5,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.7171,
+          "detection_confidence": 0.7217,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 391,
+          "timestamp_seconds": 13.046366666666668,
+          "confidence": 0.7294437885284424,
+          "sharpness_score": 1.0,
+          "size_score": 0.018017578125,
+          "center_score": 0.388625186055951,
+          "final_score": 0.6036748089447697,
+          "bounding_box": {
+            "x1": 1182,
+            "y1": 1077,
+            "x2": 1263,
+            "y2": 1241
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_283\\rank_1_frame_000391.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 390,
+          "timestamp_seconds": 13.013,
+          "confidence": 0.7190341949462891,
+          "sharpness_score": 1.0,
+          "size_score": 0.01435546875,
+          "center_score": 0.37953549957385757,
+          "final_score": 0.5974150966645944,
+          "bounding_box": {
+            "x1": 1185,
+            "y1": 1092,
+            "x2": 1257,
+            "y2": 1239
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_283\\rank_2_frame_000390.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 389,
+          "timestamp_seconds": 12.979633333333334,
+          "confidence": 0.7164777517318726,
+          "sharpness_score": 1.0,
+          "size_score": 0.0138671875,
+          "center_score": 0.3786949847696769,
+          "final_score": 0.5961687859082007,
+          "bounding_box": {
+            "x1": 1183,
+            "y1": 1094,
+            "x2": 1254,
+            "y2": 1238
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_283\\rank_3_frame_000389.jpg"
+        }
+      ]
+    },
+    "284": {
+      "track_id": 284,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.5394,
+        "status": "review",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.5788,
+          "detection_confidence": 0.6286,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 392,
+          "timestamp_seconds": 13.079733333333333,
+          "confidence": 0.619445264339447,
+          "sharpness_score": 0.5811583620084143,
+          "size_score": 0.03212890625,
+          "center_score": 0.0,
+          "final_score": 0.3994934774878824,
+          "bounding_box": {
+            "x1": 208,
+            "y1": 1141,
+            "x2": 334,
+            "y2": 1329
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_284\\rank_1_frame_000392.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 390,
+          "timestamp_seconds": 13.013,
+          "confidence": 0.6378005743026733,
+          "sharpness_score": 0.5499323510797837,
+          "size_score": 0.028245713975694444,
+          "center_score": 0.0,
+          "final_score": 0.3982524602861542,
+          "bounding_box": {
+            "x1": 180,
+            "y1": 1166,
+            "x2": 299,
+            "y2": 1341
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_284\\rank_2_frame_000390.jpg"
+        }
+      ]
+    },
+    "285": {
+      "track_id": 285,
+      "class_name": "pedestrian",
+      "reliability": {
+        "reliability_score": 0.8353,
+        "status": "reliable",
+        "observation_count": 6,
+        "representative_crop_count": 3,
+        "component_scores": {
+          "persistence": 1.0,
+          "crop_consistency": 0.6857,
+          "detection_confidence": 0.648,
+          "crop_count": 1.0
+        },
+        "penalty": 0.0,
+        "reasons": [
+          "no_major_quality_issue"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 394,
+          "timestamp_seconds": 13.146466666666667,
+          "confidence": 0.7390181422233582,
+          "sharpness_score": 1.0,
+          "size_score": 0.004500325520833333,
+          "center_score": 0.4656973146540425,
+          "final_score": 0.6163619191916163,
+          "bounding_box": {
+            "x1": 1171,
+            "y1": 1062,
+            "x2": 1213,
+            "y2": 1141
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_285\\rank_1_frame_000394.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 392,
+          "timestamp_seconds": 13.079733333333333,
+          "confidence": 0.6617366671562195,
+          "sharpness_score": 1.0,
+          "size_score": 0.00849609375,
+          "center_score": 0.49623511858362257,
+          "final_score": 0.5908291534000313,
+          "bounding_box": {
+            "x1": 1159,
+            "y1": 1025,
+            "x2": 1217,
+            "y2": 1133
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_285\\rank_2_frame_000392.jpg"
+        },
+        {
+          "rank": 3,
+          "frame_index": 391,
+          "timestamp_seconds": 13.046366666666668,
+          "confidence": 0.5433323979377747,
+          "sharpness_score": 1.0,
+          "size_score": 0.006571451822916667,
+          "center_score": 0.4871324854705542,
+          "final_score": 0.5417171223602764,
+          "bounding_box": {
+            "x1": 1161,
+            "y1": 1038,
+            "x2": 1212,
+            "y2": 1133
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\pedestrian_track_285\\rank_3_frame_000391.jpg"
+        }
+      ]
+    },
+    "286": {
+      "track_id": 286,
+      "class_name": "people",
+      "reliability": {
+        "reliability_score": 0.3469,
+        "status": "reject",
+        "observation_count": 2,
+        "representative_crop_count": 2,
+        "component_scores": {
+          "persistence": 0.4,
+          "crop_consistency": 0.5364,
+          "detection_confidence": 0.4799,
+          "crop_count": 0.6667
+        },
+        "penalty": 0.15,
+        "reasons": [
+          "short_group_track"
+        ]
+      },
+      "selected_crops": [
+        {
+          "rank": 1,
+          "frame_index": 391,
+          "timestamp_seconds": 13.046366666666668,
+          "confidence": 0.5981303453445435,
+          "sharpness_score": 0.729813949703256,
+          "size_score": 0.013519965277777778,
+          "center_score": 0.0,
+          "final_score": 0.42440961861918697,
+          "bounding_box": {
+            "x1": 1,
+            "y1": 1078,
+            "x2": 90,
+            "y2": 1190
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_286\\rank_1_frame_000391.jpg"
+        },
+        {
+          "rank": 2,
+          "frame_index": 392,
+          "timestamp_seconds": 13.079733333333333,
+          "confidence": 0.3616499602794647,
+          "sharpness_score": 0.734227326742651,
+          "size_score": 0.013947211371527778,
+          "center_score": 0.0,
+          "final_score": 0.3310062580717542,
+          "bounding_box": {
+            "x1": 2,
+            "y1": 1078,
+            "x2": 93,
+            "y2": 1191
+          },
+          "crop_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\representative_selection_test\\crops\\people_track_286\\rank_2_frame_000392.jpg"
+        }
+      ]
+    }
+  }
+}

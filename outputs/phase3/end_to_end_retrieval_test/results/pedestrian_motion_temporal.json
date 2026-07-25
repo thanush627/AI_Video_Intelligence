@@ -1,0 +1,248 @@
+{
+  "success": true,
+  "pipeline": "end_to_end_event_retrieval",
+  "source_video": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+  "query": "pedestrian moving left to right between 7 and 9 seconds",
+  "summary": {
+    "query": "pedestrian moving left to right between 7 and 9 seconds",
+    "match_found": true,
+    "retrieved_event_count": 3,
+    "generated_clip_count": 3,
+    "failed_clip_count": 0,
+    "processing_time_seconds": 29.8048
+  },
+  "timings": {
+    "retrieval_seconds": 0.1055,
+    "response_building_seconds": 0.0001,
+    "clip_generation_seconds": 29.6986,
+    "total_seconds": 29.8048
+  },
+  "retrieval": {
+    "success": true,
+    "query": "pedestrian moving left to right between 7 and 9 seconds",
+    "intent": "object_event",
+    "intent_confidence": 1.0,
+    "intent_terms": [
+      "pedestrian"
+    ],
+    "match_found": true,
+    "result_count": 3,
+    "summary": "Found 3 matching events for \"pedestrian moving left to right between 7 and 9 seconds\". The best match is: pedestrian wearing white upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.87 seconds to 8.61 seconds.",
+    "best_match": {
+      "rank": 1,
+      "event_id": "composite_event_000024",
+      "event_type": "track_semantic_event",
+      "description": "pedestrian wearing white upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.87 seconds to 8.61 seconds.",
+      "class_names": [
+        "pedestrian"
+      ],
+      "track_ids": [
+        139
+      ],
+      "start_time_seconds": 7.8745,
+      "end_time_seconds": 8.6086,
+      "duration_seconds": 0.7341,
+      "start_timestamp": "00:07.874",
+      "end_timestamp": "00:08.609",
+      "similarity": 0.6381,
+      "hybrid_score": 1.1141,
+      "rerank_adjustment": 0.476,
+      "quality_score": 0.95,
+      "quality_label": "high",
+      "evidence_clip": {
+        "available": true,
+        "status": "generated",
+        "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000024_5.875_to_10.609.mp4",
+        "clip_filename": "composite_event_000024_5.875_to_10.609.mp4",
+        "clip_start_time_seconds": 5.8745,
+        "clip_end_time_seconds": 10.6086,
+        "clip_duration_seconds": 4.7381,
+        "clip_start_timestamp": "00:05.875",
+        "clip_end_timestamp": "00:10.609"
+      }
+    },
+    "results": [
+      {
+        "rank": 1,
+        "event_id": "composite_event_000024",
+        "event_type": "track_semantic_event",
+        "description": "pedestrian wearing white upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.87 seconds to 8.61 seconds.",
+        "class_names": [
+          "pedestrian"
+        ],
+        "track_ids": [
+          139
+        ],
+        "start_time_seconds": 7.8745,
+        "end_time_seconds": 8.6086,
+        "duration_seconds": 0.7341,
+        "start_timestamp": "00:07.874",
+        "end_timestamp": "00:08.609",
+        "similarity": 0.6381,
+        "hybrid_score": 1.1141,
+        "rerank_adjustment": 0.476,
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "evidence_clip": {
+          "available": true,
+          "status": "generated",
+          "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000024_5.875_to_10.609.mp4",
+          "clip_filename": "composite_event_000024_5.875_to_10.609.mp4",
+          "clip_start_time_seconds": 5.8745,
+          "clip_end_time_seconds": 10.6086,
+          "clip_duration_seconds": 4.7381,
+          "clip_start_timestamp": "00:05.875",
+          "clip_end_timestamp": "00:10.609"
+        }
+      },
+      {
+        "rank": 2,
+        "event_id": "composite_event_000019",
+        "event_type": "track_semantic_event",
+        "description": "pedestrian wearing gray upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 7.04 seconds to 7.44 seconds.",
+        "class_names": [
+          "pedestrian"
+        ],
+        "track_ids": [
+          97
+        ],
+        "start_time_seconds": 7.0404,
+        "end_time_seconds": 7.4408,
+        "duration_seconds": 0.4004,
+        "start_timestamp": "00:07.040",
+        "end_timestamp": "00:07.441",
+        "similarity": 0.6323,
+        "hybrid_score": 1.1019,
+        "rerank_adjustment": 0.4696,
+        "quality_score": 0.87,
+        "quality_label": "high",
+        "evidence_clip": {
+          "available": true,
+          "status": "generated",
+          "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000019_5.040_to_9.441.mp4",
+          "clip_filename": "composite_event_000019_5.040_to_9.441.mp4",
+          "clip_start_time_seconds": 5.0404,
+          "clip_end_time_seconds": 9.4408,
+          "clip_duration_seconds": 4.4044,
+          "clip_start_timestamp": "00:05.040",
+          "clip_end_timestamp": "00:09.441"
+        }
+      },
+      {
+        "rank": 3,
+        "event_id": "composite_event_000028",
+        "event_type": "track_semantic_event",
+        "description": "pedestrian wearing blue upper clothing and gray lower clothing moved left to right within the center bottom region. The event occurred from 8.58 seconds to 9.11 seconds.",
+        "class_names": [
+          "pedestrian"
+        ],
+        "track_ids": [
+          164
+        ],
+        "start_time_seconds": 8.5752,
+        "end_time_seconds": 9.1091,
+        "duration_seconds": 0.5339,
+        "start_timestamp": "00:08.575",
+        "end_timestamp": "00:09.109",
+        "similarity": 0.5535,
+        "hybrid_score": 1.0295,
+        "rerank_adjustment": 0.476,
+        "quality_score": 0.95,
+        "quality_label": "high",
+        "evidence_clip": {
+          "available": true,
+          "status": "generated",
+          "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000028_6.575_to_11.109.mp4",
+          "clip_filename": "composite_event_000028_6.575_to_11.109.mp4",
+          "clip_start_time_seconds": 6.5752,
+          "clip_end_time_seconds": 11.1091,
+          "clip_duration_seconds": 4.5379,
+          "clip_start_timestamp": "00:06.575",
+          "clip_end_timestamp": "00:11.109"
+        }
+      }
+    ]
+  },
+  "clip_generation": {
+    "success": true,
+    "query": "pedestrian moving left to right between 7 and 9 seconds",
+    "requested_events": 3,
+    "generated_clip_count": 3,
+    "failed_clip_count": 0,
+    "clips": [
+      {
+        "success": true,
+        "status": "generated",
+        "event_id": "composite_event_000024",
+        "source_video_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+        "source_video_name": "test.mp4",
+        "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000024_5.875_to_10.609.mp4",
+        "clip_filename": "composite_event_000024_5.875_to_10.609.mp4",
+        "codec": "mp4v",
+        "fps": 29.97003,
+        "width": 2560,
+        "height": 1440,
+        "start_frame": 176,
+        "end_frame": 317,
+        "frames_written": 142,
+        "event_start_time_seconds": 7.8745,
+        "event_end_time_seconds": 8.6086,
+        "clip_start_time_seconds": 5.8745,
+        "clip_end_time_seconds": 10.6086,
+        "requested_clip_duration_seconds": 4.7341,
+        "actual_clip_duration_seconds": 4.7381,
+        "clip_start_timestamp": "00:05.875",
+        "clip_end_timestamp": "00:10.609"
+      },
+      {
+        "success": true,
+        "status": "generated",
+        "event_id": "composite_event_000019",
+        "source_video_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+        "source_video_name": "test.mp4",
+        "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000019_5.040_to_9.441.mp4",
+        "clip_filename": "composite_event_000019_5.040_to_9.441.mp4",
+        "codec": "mp4v",
+        "fps": 29.97003,
+        "width": 2560,
+        "height": 1440,
+        "start_frame": 151,
+        "end_frame": 282,
+        "frames_written": 132,
+        "event_start_time_seconds": 7.0404,
+        "event_end_time_seconds": 7.4408,
+        "clip_start_time_seconds": 5.0404,
+        "clip_end_time_seconds": 9.4408,
+        "requested_clip_duration_seconds": 4.4004,
+        "actual_clip_duration_seconds": 4.4044,
+        "clip_start_timestamp": "00:05.040",
+        "clip_end_timestamp": "00:09.441"
+      },
+      {
+        "success": true,
+        "status": "generated",
+        "event_id": "composite_event_000028",
+        "source_video_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+        "source_video_name": "test.mp4",
+        "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000028_6.575_to_11.109.mp4",
+        "clip_filename": "composite_event_000028_6.575_to_11.109.mp4",
+        "codec": "mp4v",
+        "fps": 29.97003,
+        "width": 2560,
+        "height": 1440,
+        "start_frame": 197,
+        "end_frame": 332,
+        "frames_written": 136,
+        "event_start_time_seconds": 8.5752,
+        "event_end_time_seconds": 9.1091,
+        "clip_start_time_seconds": 6.5752,
+        "clip_end_time_seconds": 11.1091,
+        "requested_clip_duration_seconds": 4.5339,
+        "actual_clip_duration_seconds": 4.5379,
+        "clip_start_timestamp": "00:06.575",
+        "clip_end_timestamp": "00:11.109"
+      }
+    ],
+    "failures": []
+  }
+}

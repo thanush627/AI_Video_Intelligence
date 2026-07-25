@@ -1,0 +1,134 @@
+{
+  "success": true,
+  "pipeline": "end_to_end_event_retrieval",
+  "source_video": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+  "query": "blue bus between 5 and 8 seconds",
+  "summary": {
+    "query": "blue bus between 5 and 8 seconds",
+    "match_found": true,
+    "retrieved_event_count": 1,
+    "generated_clip_count": 1,
+    "failed_clip_count": 0,
+    "processing_time_seconds": 10.5191
+  },
+  "timings": {
+    "retrieval_seconds": 0.2037,
+    "response_building_seconds": 0.0,
+    "clip_generation_seconds": 10.3149,
+    "total_seconds": 10.5191
+  },
+  "retrieval": {
+    "success": true,
+    "query": "blue bus between 5 and 8 seconds",
+    "intent": "object_event",
+    "intent_confidence": 1.0,
+    "intent_terms": [
+      "bus"
+    ],
+    "match_found": true,
+    "result_count": 1,
+    "summary": "Found 1 matching event for \"blue bus between 5 and 8 seconds\". The best match is: blue bus moved right to left within the left bottom region. The event occurred from 6.11 seconds to 7.41 seconds.",
+    "best_match": {
+      "rank": 1,
+      "event_id": "composite_event_000018",
+      "event_type": "track_semantic_event",
+      "description": "blue bus moved right to left within the left bottom region. The event occurred from 6.11 seconds to 7.41 seconds.",
+      "class_names": [
+        "bus"
+      ],
+      "track_ids": [
+        72
+      ],
+      "start_time_seconds": 6.1061,
+      "end_time_seconds": 7.4074,
+      "duration_seconds": 1.3013,
+      "start_timestamp": "00:06.106",
+      "end_timestamp": "00:07.407",
+      "similarity": 0.689,
+      "hybrid_score": 1.009,
+      "rerank_adjustment": 0.32,
+      "quality_score": 1.0,
+      "quality_label": "high",
+      "evidence_clip": {
+        "available": true,
+        "status": "generated",
+        "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000018_4.106_to_9.407.mp4",
+        "clip_filename": "composite_event_000018_4.106_to_9.407.mp4",
+        "clip_start_time_seconds": 4.1061,
+        "clip_end_time_seconds": 9.4074,
+        "clip_duration_seconds": 5.3053,
+        "clip_start_timestamp": "00:04.106",
+        "clip_end_timestamp": "00:09.407"
+      }
+    },
+    "results": [
+      {
+        "rank": 1,
+        "event_id": "composite_event_000018",
+        "event_type": "track_semantic_event",
+        "description": "blue bus moved right to left within the left bottom region. The event occurred from 6.11 seconds to 7.41 seconds.",
+        "class_names": [
+          "bus"
+        ],
+        "track_ids": [
+          72
+        ],
+        "start_time_seconds": 6.1061,
+        "end_time_seconds": 7.4074,
+        "duration_seconds": 1.3013,
+        "start_timestamp": "00:06.106",
+        "end_timestamp": "00:07.407",
+        "similarity": 0.689,
+        "hybrid_score": 1.009,
+        "rerank_adjustment": 0.32,
+        "quality_score": 1.0,
+        "quality_label": "high",
+        "evidence_clip": {
+          "available": true,
+          "status": "generated",
+          "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000018_4.106_to_9.407.mp4",
+          "clip_filename": "composite_event_000018_4.106_to_9.407.mp4",
+          "clip_start_time_seconds": 4.1061,
+          "clip_end_time_seconds": 9.4074,
+          "clip_duration_seconds": 5.3053,
+          "clip_start_timestamp": "00:04.106",
+          "clip_end_timestamp": "00:09.407"
+        }
+      }
+    ]
+  },
+  "clip_generation": {
+    "success": true,
+    "query": "blue bus between 5 and 8 seconds",
+    "requested_events": 1,
+    "generated_clip_count": 1,
+    "failed_clip_count": 0,
+    "clips": [
+      {
+        "success": true,
+        "status": "generated",
+        "event_id": "composite_event_000018",
+        "source_video_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+        "source_video_name": "test.mp4",
+        "clip_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\end_to_end_retrieval_test\\clips\\composite_event_000018_4.106_to_9.407.mp4",
+        "clip_filename": "composite_event_000018_4.106_to_9.407.mp4",
+        "codec": "mp4v",
+        "fps": 29.97003,
+        "width": 2560,
+        "height": 1440,
+        "start_frame": 123,
+        "end_frame": 281,
+        "frames_written": 159,
+        "event_start_time_seconds": 6.1061,
+        "event_end_time_seconds": 7.4074,
+        "clip_start_time_seconds": 4.1061,
+        "clip_end_time_seconds": 9.4074,
+        "requested_clip_duration_seconds": 5.3013,
+        "actual_clip_duration_seconds": 5.3053,
+        "clip_start_timestamp": "00:04.106",
+        "clip_end_timestamp": "00:09.407"
+      }
+    ],
+    "failures": []
+  }
+}

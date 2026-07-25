@@ -70,6 +70,13 @@ class ChromaManager:
                     embeddings[index].tolist()
                 ],
 
+                documents=[
+                    item.get(
+                        "description",
+                        f"{item.get('track_id','')} {item.get('image_name','')}"
+                    )
+                ],
+
                 metadatas=[
                     item
                 ],

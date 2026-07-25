@@ -1,0 +1,2132 @@
+{
+  "summary": {
+    "total_events": 132,
+    "usable_tracks": 44,
+    "skipped_reject_tracks": 30,
+    "skipped_no_time_tracks": 0,
+    "track_status_counts": {
+      "reliable": 32,
+      "review": 12
+    },
+    "event_type_counts": {
+      "object_observed": 44,
+      "object_entered": 44,
+      "object_exited": 44
+    },
+    "source_fps": 29.97002997002997
+  },
+  "events": [
+    {
+      "event_id": "event_000001",
+      "event_type": "object_observed",
+      "track_id": 1,
+      "class_name": "car",
+      "start_time": 0.0,
+      "end_time": 0.6006,
+      "duration": 0.6006,
+      "first_frame": 0,
+      "last_frame": 18,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8885,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.4842
+      },
+      "event_text": "white car observed from 0.00s to 0.60s for 0.60s"
+    },
+    {
+      "event_id": "event_000002",
+      "event_type": "object_entered",
+      "track_id": 1,
+      "class_name": "car",
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8885,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.4842
+      },
+      "event_text": "white car entered the scene at 0.00s"
+    },
+    {
+      "event_id": "event_000004",
+      "event_type": "object_observed",
+      "track_id": 2,
+      "class_name": "people",
+      "start_time": 0.0,
+      "end_time": 0.2002,
+      "duration": 0.2002,
+      "first_frame": 0,
+      "last_frame": 6,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7446,
+      "attributes": {
+        "upper_body_color": "unknown",
+        "lower_body_color": "unknown"
+      },
+      "event_text": "people observed from 0.00s to 0.20s for 0.20s"
+    },
+    {
+      "event_id": "event_000005",
+      "event_type": "object_entered",
+      "track_id": 2,
+      "class_name": "people",
+      "timestamp": 0.0,
+      "frame_index": 0,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7446,
+      "attributes": {
+        "upper_body_color": "unknown",
+        "lower_body_color": "unknown"
+      },
+      "event_text": "people entered the scene at 0.00s"
+    },
+    {
+      "event_id": "event_000006",
+      "event_type": "object_exited",
+      "track_id": 2,
+      "class_name": "people",
+      "timestamp": 0.2002,
+      "frame_index": 6,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7446,
+      "attributes": {
+        "upper_body_color": "unknown",
+        "lower_body_color": "unknown"
+      },
+      "event_text": "people exited the scene at 0.20s"
+    },
+    {
+      "event_id": "event_000003",
+      "event_type": "object_exited",
+      "track_id": 1,
+      "class_name": "car",
+      "timestamp": 0.6006,
+      "frame_index": 18,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8885,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.4842
+      },
+      "event_text": "white car exited the scene at 0.60s"
+    },
+    {
+      "event_id": "event_000007",
+      "event_type": "object_observed",
+      "track_id": 13,
+      "class_name": "car",
+      "start_time": 0.9009,
+      "end_time": 2.8695,
+      "duration": 1.9686,
+      "first_frame": 27,
+      "last_frame": 86,
+      "reliability_status": "reliable",
+      "reliability_score": 0.9277,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.4975
+      },
+      "event_text": "white car observed from 0.90s to 2.87s for 1.97s"
+    },
+    {
+      "event_id": "event_000008",
+      "event_type": "object_entered",
+      "track_id": 13,
+      "class_name": "car",
+      "timestamp": 0.9009,
+      "frame_index": 27,
+      "reliability_status": "reliable",
+      "reliability_score": 0.9277,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.4975
+      },
+      "event_text": "white car entered the scene at 0.90s"
+    },
+    {
+      "event_id": "event_000010",
+      "event_type": "object_observed",
+      "track_id": 18,
+      "class_name": "bicycle",
+      "start_time": 1.9353,
+      "end_time": 4.004,
+      "duration": 2.0687,
+      "first_frame": 58,
+      "last_frame": 120,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8189,
+      "attributes": {
+        "primary_color": "black",
+        "color_confidence": 0.9993
+      },
+      "event_text": "black bicycle observed from 1.94s to 4.00s for 2.07s"
+    },
+    {
+      "event_id": "event_000011",
+      "event_type": "object_entered",
+      "track_id": 18,
+      "class_name": "bicycle",
+      "timestamp": 1.9353,
+      "frame_index": 58,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8189,
+      "attributes": {
+        "primary_color": "black",
+        "color_confidence": 0.9993
+      },
+      "event_text": "black bicycle entered the scene at 1.94s"
+    },
+    {
+      "event_id": "event_000013",
+      "event_type": "object_observed",
+      "track_id": 19,
+      "class_name": "pedestrian",
+      "start_time": 2.002,
+      "end_time": 2.0354,
+      "duration": 0.0334,
+      "first_frame": 60,
+      "last_frame": 61,
+      "reliability_status": "review",
+      "reliability_score": 0.564,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with gray upper clothing and black lower clothing observed from 2.00s to 2.04s for 0.03s"
+    },
+    {
+      "event_id": "event_000014",
+      "event_type": "object_entered",
+      "track_id": 19,
+      "class_name": "pedestrian",
+      "timestamp": 2.002,
+      "frame_index": 60,
+      "reliability_status": "review",
+      "reliability_score": 0.564,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with gray upper clothing and black lower clothing entered the scene at 2.00s"
+    },
+    {
+      "event_id": "event_000015",
+      "event_type": "object_exited",
+      "track_id": 19,
+      "class_name": "pedestrian",
+      "timestamp": 2.0354,
+      "frame_index": 61,
+      "reliability_status": "review",
+      "reliability_score": 0.564,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with gray upper clothing and black lower clothing exited the scene at 2.04s"
+    },
+    {
+      "event_id": "event_000016",
+      "event_type": "object_observed",
+      "track_id": 20,
+      "class_name": "bus",
+      "start_time": 2.5692,
+      "end_time": 4.3377,
+      "duration": 1.7684,
+      "first_frame": 77,
+      "last_frame": 130,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8908,
+      "attributes": {
+        "primary_color": "gray",
+        "color_confidence": 0.3426
+      },
+      "event_text": "gray bus observed from 2.57s to 4.34s for 1.77s"
+    },
+    {
+      "event_id": "event_000017",
+      "event_type": "object_entered",
+      "track_id": 20,
+      "class_name": "bus",
+      "timestamp": 2.5692,
+      "frame_index": 77,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8908,
+      "attributes": {
+        "primary_color": "gray",
+        "color_confidence": 0.3426
+      },
+      "event_text": "gray bus entered the scene at 2.57s"
+    },
+    {
+      "event_id": "event_000009",
+      "event_type": "object_exited",
+      "track_id": 13,
+      "class_name": "car",
+      "timestamp": 2.8695,
+      "frame_index": 86,
+      "reliability_status": "reliable",
+      "reliability_score": 0.9277,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.4975
+      },
+      "event_text": "white car exited the scene at 2.87s"
+    },
+    {
+      "event_id": "event_000019",
+      "event_type": "object_observed",
+      "track_id": 23,
+      "class_name": "pedestrian",
+      "start_time": 3.3033,
+      "end_time": 3.4701,
+      "duration": 0.1668,
+      "first_frame": 99,
+      "last_frame": 104,
+      "reliability_status": "reliable",
+      "reliability_score": 0.6992,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing observed from 3.30s to 3.47s for 0.17s"
+    },
+    {
+      "event_id": "event_000020",
+      "event_type": "object_entered",
+      "track_id": 23,
+      "class_name": "pedestrian",
+      "timestamp": 3.3033,
+      "frame_index": 99,
+      "reliability_status": "reliable",
+      "reliability_score": 0.6992,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing entered the scene at 3.30s"
+    },
+    {
+      "event_id": "event_000022",
+      "event_type": "object_observed",
+      "track_id": 25,
+      "class_name": "pedestrian",
+      "start_time": 3.3367,
+      "end_time": 4.6713,
+      "duration": 1.3347,
+      "first_frame": 100,
+      "last_frame": 140,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8197,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing observed from 3.34s to 4.67s for 1.33s"
+    },
+    {
+      "event_id": "event_000023",
+      "event_type": "object_entered",
+      "track_id": 25,
+      "class_name": "pedestrian",
+      "timestamp": 3.3367,
+      "frame_index": 100,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8197,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing entered the scene at 3.34s"
+    },
+    {
+      "event_id": "event_000021",
+      "event_type": "object_exited",
+      "track_id": 23,
+      "class_name": "pedestrian",
+      "timestamp": 3.4701,
+      "frame_index": 104,
+      "reliability_status": "reliable",
+      "reliability_score": 0.6992,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing exited the scene at 3.47s"
+    },
+    {
+      "event_id": "event_000025",
+      "event_type": "object_observed",
+      "track_id": 28,
+      "class_name": "pedestrian",
+      "start_time": 3.4701,
+      "end_time": 4.0374,
+      "duration": 0.5672,
+      "first_frame": 104,
+      "last_frame": 121,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8243,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing observed from 3.47s to 4.04s for 0.57s"
+    },
+    {
+      "event_id": "event_000026",
+      "event_type": "object_entered",
+      "track_id": 28,
+      "class_name": "pedestrian",
+      "timestamp": 3.4701,
+      "frame_index": 104,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8243,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing entered the scene at 3.47s"
+    },
+    {
+      "event_id": "event_000028",
+      "event_type": "object_observed",
+      "track_id": 29,
+      "class_name": "pedestrian",
+      "start_time": 3.4701,
+      "end_time": 3.5035,
+      "duration": 0.0334,
+      "first_frame": 104,
+      "last_frame": 105,
+      "reliability_status": "review",
+      "reliability_score": 0.5298,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing observed from 3.47s to 3.50s for 0.03s"
+    },
+    {
+      "event_id": "event_000029",
+      "event_type": "object_entered",
+      "track_id": 29,
+      "class_name": "pedestrian",
+      "timestamp": 3.4701,
+      "frame_index": 104,
+      "reliability_status": "review",
+      "reliability_score": 0.5298,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing entered the scene at 3.47s"
+    },
+    {
+      "event_id": "event_000030",
+      "event_type": "object_exited",
+      "track_id": 29,
+      "class_name": "pedestrian",
+      "timestamp": 3.5035,
+      "frame_index": 105,
+      "reliability_status": "review",
+      "reliability_score": 0.5298,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing exited the scene at 3.50s"
+    },
+    {
+      "event_id": "event_000031",
+      "event_type": "object_observed",
+      "track_id": 31,
+      "class_name": "pedestrian",
+      "start_time": 3.637,
+      "end_time": 3.6703,
+      "duration": 0.0334,
+      "first_frame": 109,
+      "last_frame": 110,
+      "reliability_status": "review",
+      "reliability_score": 0.5486,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with gray upper clothing and black lower clothing observed from 3.64s to 3.67s for 0.03s"
+    },
+    {
+      "event_id": "event_000032",
+      "event_type": "object_entered",
+      "track_id": 31,
+      "class_name": "pedestrian",
+      "timestamp": 3.637,
+      "frame_index": 109,
+      "reliability_status": "review",
+      "reliability_score": 0.5486,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with gray upper clothing and black lower clothing entered the scene at 3.64s"
+    },
+    {
+      "event_id": "event_000033",
+      "event_type": "object_exited",
+      "track_id": 31,
+      "class_name": "pedestrian",
+      "timestamp": 3.6703,
+      "frame_index": 110,
+      "reliability_status": "review",
+      "reliability_score": 0.5486,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with gray upper clothing and black lower clothing exited the scene at 3.67s"
+    },
+    {
+      "event_id": "event_000034",
+      "event_type": "object_observed",
+      "track_id": 37,
+      "class_name": "pedestrian",
+      "start_time": 3.9373,
+      "end_time": 4.9383,
+      "duration": 1.001,
+      "first_frame": 118,
+      "last_frame": 148,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8381,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing observed from 3.94s to 4.94s for 1.00s"
+    },
+    {
+      "event_id": "event_000035",
+      "event_type": "object_entered",
+      "track_id": 37,
+      "class_name": "pedestrian",
+      "timestamp": 3.9373,
+      "frame_index": 118,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8381,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing entered the scene at 3.94s"
+    },
+    {
+      "event_id": "event_000012",
+      "event_type": "object_exited",
+      "track_id": 18,
+      "class_name": "bicycle",
+      "timestamp": 4.004,
+      "frame_index": 120,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8189,
+      "attributes": {
+        "primary_color": "black",
+        "color_confidence": 0.9993
+      },
+      "event_text": "black bicycle exited the scene at 4.00s"
+    },
+    {
+      "event_id": "event_000037",
+      "event_type": "object_observed",
+      "track_id": 39,
+      "class_name": "pedestrian",
+      "start_time": 4.004,
+      "end_time": 4.4711,
+      "duration": 0.4671,
+      "first_frame": 120,
+      "last_frame": 134,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8242,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing observed from 4.00s to 4.47s for 0.47s"
+    },
+    {
+      "event_id": "event_000038",
+      "event_type": "object_entered",
+      "track_id": 39,
+      "class_name": "pedestrian",
+      "timestamp": 4.004,
+      "frame_index": 120,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8242,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing entered the scene at 4.00s"
+    },
+    {
+      "event_id": "event_000027",
+      "event_type": "object_exited",
+      "track_id": 28,
+      "class_name": "pedestrian",
+      "timestamp": 4.0374,
+      "frame_index": 121,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8243,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing exited the scene at 4.04s"
+    },
+    {
+      "event_id": "event_000018",
+      "event_type": "object_exited",
+      "track_id": 20,
+      "class_name": "bus",
+      "timestamp": 4.3377,
+      "frame_index": 130,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8908,
+      "attributes": {
+        "primary_color": "gray",
+        "color_confidence": 0.3426
+      },
+      "event_text": "gray bus exited the scene at 4.34s"
+    },
+    {
+      "event_id": "event_000039",
+      "event_type": "object_exited",
+      "track_id": 39,
+      "class_name": "pedestrian",
+      "timestamp": 4.4711,
+      "frame_index": 134,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8242,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing exited the scene at 4.47s"
+    },
+    {
+      "event_id": "event_000024",
+      "event_type": "object_exited",
+      "track_id": 25,
+      "class_name": "pedestrian",
+      "timestamp": 4.6713,
+      "frame_index": 140,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8197,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing exited the scene at 4.67s"
+    },
+    {
+      "event_id": "event_000040",
+      "event_type": "object_observed",
+      "track_id": 48,
+      "class_name": "pedestrian",
+      "start_time": 4.7047,
+      "end_time": 5.1718,
+      "duration": 0.4671,
+      "first_frame": 141,
+      "last_frame": 155,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7861,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing observed from 4.70s to 5.17s for 0.47s"
+    },
+    {
+      "event_id": "event_000041",
+      "event_type": "object_entered",
+      "track_id": 48,
+      "class_name": "pedestrian",
+      "timestamp": 4.7047,
+      "frame_index": 141,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7861,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing entered the scene at 4.70s"
+    },
+    {
+      "event_id": "event_000036",
+      "event_type": "object_exited",
+      "track_id": 37,
+      "class_name": "pedestrian",
+      "timestamp": 4.9383,
+      "frame_index": 148,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8381,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing exited the scene at 4.94s"
+    },
+    {
+      "event_id": "event_000042",
+      "event_type": "object_exited",
+      "track_id": 48,
+      "class_name": "pedestrian",
+      "timestamp": 5.1718,
+      "frame_index": 155,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7861,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing exited the scene at 5.17s"
+    },
+    {
+      "event_id": "event_000043",
+      "event_type": "object_observed",
+      "track_id": 56,
+      "class_name": "pedestrian",
+      "start_time": 5.7391,
+      "end_time": 5.8058,
+      "duration": 0.0667,
+      "first_frame": 172,
+      "last_frame": 174,
+      "reliability_status": "review",
+      "reliability_score": 0.4258,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing observed from 5.74s to 5.81s for 0.07s"
+    },
+    {
+      "event_id": "event_000044",
+      "event_type": "object_entered",
+      "track_id": 56,
+      "class_name": "pedestrian",
+      "timestamp": 5.7391,
+      "frame_index": 172,
+      "reliability_status": "review",
+      "reliability_score": 0.4258,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing entered the scene at 5.74s"
+    },
+    {
+      "event_id": "event_000045",
+      "event_type": "object_exited",
+      "track_id": 56,
+      "class_name": "pedestrian",
+      "timestamp": 5.8058,
+      "frame_index": 174,
+      "reliability_status": "review",
+      "reliability_score": 0.4258,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing exited the scene at 5.81s"
+    },
+    {
+      "event_id": "event_000046",
+      "event_type": "object_observed",
+      "track_id": 66,
+      "class_name": "bus",
+      "start_time": 6.006,
+      "end_time": 6.7734,
+      "duration": 0.7674,
+      "first_frame": 180,
+      "last_frame": 203,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8982,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.7714
+      },
+      "event_text": "white bus observed from 6.01s to 6.77s for 0.77s"
+    },
+    {
+      "event_id": "event_000047",
+      "event_type": "object_entered",
+      "track_id": 66,
+      "class_name": "bus",
+      "timestamp": 6.006,
+      "frame_index": 180,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8982,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.7714
+      },
+      "event_text": "white bus entered the scene at 6.01s"
+    },
+    {
+      "event_id": "event_000049",
+      "event_type": "object_observed",
+      "track_id": 69,
+      "class_name": "van",
+      "start_time": 6.006,
+      "end_time": 7.0737,
+      "duration": 1.0677,
+      "first_frame": 180,
+      "last_frame": 212,
+      "reliability_status": "review",
+      "reliability_score": 0.6119,
+      "attributes": {
+        "primary_color": "red",
+        "color_confidence": 0.3991
+      },
+      "event_text": "red van observed from 6.01s to 7.07s for 1.07s"
+    },
+    {
+      "event_id": "event_000050",
+      "event_type": "object_entered",
+      "track_id": 69,
+      "class_name": "van",
+      "timestamp": 6.006,
+      "frame_index": 180,
+      "reliability_status": "review",
+      "reliability_score": 0.6119,
+      "attributes": {
+        "primary_color": "red",
+        "color_confidence": 0.3991
+      },
+      "event_text": "red van entered the scene at 6.01s"
+    },
+    {
+      "event_id": "event_000052",
+      "event_type": "object_observed",
+      "track_id": 72,
+      "class_name": "bus",
+      "start_time": 6.1061,
+      "end_time": 7.4074,
+      "duration": 1.3013,
+      "first_frame": 183,
+      "last_frame": 222,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7143,
+      "attributes": {
+        "primary_color": "blue",
+        "color_confidence": 0.5901
+      },
+      "event_text": "blue bus observed from 6.11s to 7.41s for 1.30s"
+    },
+    {
+      "event_id": "event_000053",
+      "event_type": "object_entered",
+      "track_id": 72,
+      "class_name": "bus",
+      "timestamp": 6.1061,
+      "frame_index": 183,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7143,
+      "attributes": {
+        "primary_color": "blue",
+        "color_confidence": 0.5901
+      },
+      "event_text": "blue bus entered the scene at 6.11s"
+    },
+    {
+      "event_id": "event_000048",
+      "event_type": "object_exited",
+      "track_id": 66,
+      "class_name": "bus",
+      "timestamp": 6.7734,
+      "frame_index": 203,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8982,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.7714
+      },
+      "event_text": "white bus exited the scene at 6.77s"
+    },
+    {
+      "event_id": "event_000055",
+      "event_type": "object_observed",
+      "track_id": 97,
+      "class_name": "pedestrian",
+      "start_time": 7.0404,
+      "end_time": 7.4408,
+      "duration": 0.4004,
+      "first_frame": 211,
+      "last_frame": 223,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8483,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing observed from 7.04s to 7.44s for 0.40s"
+    },
+    {
+      "event_id": "event_000056",
+      "event_type": "object_entered",
+      "track_id": 97,
+      "class_name": "pedestrian",
+      "timestamp": 7.0404,
+      "frame_index": 211,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8483,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing entered the scene at 7.04s"
+    },
+    {
+      "event_id": "event_000051",
+      "event_type": "object_exited",
+      "track_id": 69,
+      "class_name": "van",
+      "timestamp": 7.0737,
+      "frame_index": 212,
+      "reliability_status": "review",
+      "reliability_score": 0.6119,
+      "attributes": {
+        "primary_color": "red",
+        "color_confidence": 0.3991
+      },
+      "event_text": "red van exited the scene at 7.07s"
+    },
+    {
+      "event_id": "event_000058",
+      "event_type": "object_observed",
+      "track_id": 106,
+      "class_name": "van",
+      "start_time": 7.2072,
+      "end_time": 7.4408,
+      "duration": 0.2336,
+      "first_frame": 216,
+      "last_frame": 223,
+      "reliability_status": "review",
+      "reliability_score": 0.5565,
+      "attributes": {
+        "primary_color": "gray",
+        "color_confidence": 0.4924
+      },
+      "event_text": "gray van observed from 7.21s to 7.44s for 0.23s"
+    },
+    {
+      "event_id": "event_000059",
+      "event_type": "object_entered",
+      "track_id": 106,
+      "class_name": "van",
+      "timestamp": 7.2072,
+      "frame_index": 216,
+      "reliability_status": "review",
+      "reliability_score": 0.5565,
+      "attributes": {
+        "primary_color": "gray",
+        "color_confidence": 0.4924
+      },
+      "event_text": "gray van entered the scene at 7.21s"
+    },
+    {
+      "event_id": "event_000061",
+      "event_type": "object_observed",
+      "track_id": 117,
+      "class_name": "pedestrian",
+      "start_time": 7.3407,
+      "end_time": 7.4074,
+      "duration": 0.0667,
+      "first_frame": 220,
+      "last_frame": 222,
+      "reliability_status": "review",
+      "reliability_score": 0.523,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing observed from 7.34s to 7.41s for 0.07s"
+    },
+    {
+      "event_id": "event_000062",
+      "event_type": "object_entered",
+      "track_id": 117,
+      "class_name": "pedestrian",
+      "timestamp": 7.3407,
+      "frame_index": 220,
+      "reliability_status": "review",
+      "reliability_score": 0.523,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing entered the scene at 7.34s"
+    },
+    {
+      "event_id": "event_000054",
+      "event_type": "object_exited",
+      "track_id": 72,
+      "class_name": "bus",
+      "timestamp": 7.4074,
+      "frame_index": 222,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7143,
+      "attributes": {
+        "primary_color": "blue",
+        "color_confidence": 0.5901
+      },
+      "event_text": "blue bus exited the scene at 7.41s"
+    },
+    {
+      "event_id": "event_000063",
+      "event_type": "object_exited",
+      "track_id": 117,
+      "class_name": "pedestrian",
+      "timestamp": 7.4074,
+      "frame_index": 222,
+      "reliability_status": "review",
+      "reliability_score": 0.523,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing exited the scene at 7.41s"
+    },
+    {
+      "event_id": "event_000057",
+      "event_type": "object_exited",
+      "track_id": 97,
+      "class_name": "pedestrian",
+      "timestamp": 7.4408,
+      "frame_index": 223,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8483,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing exited the scene at 7.44s"
+    },
+    {
+      "event_id": "event_000060",
+      "event_type": "object_exited",
+      "track_id": 106,
+      "class_name": "van",
+      "timestamp": 7.4408,
+      "frame_index": 223,
+      "reliability_status": "review",
+      "reliability_score": 0.5565,
+      "attributes": {
+        "primary_color": "gray",
+        "color_confidence": 0.4924
+      },
+      "event_text": "gray van exited the scene at 7.44s"
+    },
+    {
+      "event_id": "event_000064",
+      "event_type": "object_observed",
+      "track_id": 128,
+      "class_name": "bus",
+      "start_time": 7.6076,
+      "end_time": 8.1081,
+      "duration": 0.5005,
+      "first_frame": 228,
+      "last_frame": 243,
+      "reliability_status": "reliable",
+      "reliability_score": 0.9009,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.5797
+      },
+      "event_text": "white bus observed from 7.61s to 8.11s for 0.50s"
+    },
+    {
+      "event_id": "event_000065",
+      "event_type": "object_entered",
+      "track_id": 128,
+      "class_name": "bus",
+      "timestamp": 7.6076,
+      "frame_index": 228,
+      "reliability_status": "reliable",
+      "reliability_score": 0.9009,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.5797
+      },
+      "event_text": "white bus entered the scene at 7.61s"
+    },
+    {
+      "event_id": "event_000067",
+      "event_type": "object_observed",
+      "track_id": 132,
+      "class_name": "pedestrian",
+      "start_time": 7.7077,
+      "end_time": 7.7411,
+      "duration": 0.0334,
+      "first_frame": 231,
+      "last_frame": 232,
+      "reliability_status": "review",
+      "reliability_score": 0.5719,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing observed from 7.71s to 7.74s for 0.03s"
+    },
+    {
+      "event_id": "event_000068",
+      "event_type": "object_entered",
+      "track_id": 132,
+      "class_name": "pedestrian",
+      "timestamp": 7.7077,
+      "frame_index": 231,
+      "reliability_status": "review",
+      "reliability_score": 0.5719,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing entered the scene at 7.71s"
+    },
+    {
+      "event_id": "event_000069",
+      "event_type": "object_exited",
+      "track_id": 132,
+      "class_name": "pedestrian",
+      "timestamp": 7.7411,
+      "frame_index": 232,
+      "reliability_status": "review",
+      "reliability_score": 0.5719,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing exited the scene at 7.74s"
+    },
+    {
+      "event_id": "event_000070",
+      "event_type": "object_observed",
+      "track_id": 139,
+      "class_name": "pedestrian",
+      "start_time": 7.8745,
+      "end_time": 8.6086,
+      "duration": 0.7341,
+      "first_frame": 236,
+      "last_frame": 258,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8754,
+      "attributes": {
+        "upper_body_color": "white",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with white upper clothing and gray lower clothing observed from 7.87s to 8.61s for 0.73s"
+    },
+    {
+      "event_id": "event_000071",
+      "event_type": "object_entered",
+      "track_id": 139,
+      "class_name": "pedestrian",
+      "timestamp": 7.8745,
+      "frame_index": 236,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8754,
+      "attributes": {
+        "upper_body_color": "white",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with white upper clothing and gray lower clothing entered the scene at 7.87s"
+    },
+    {
+      "event_id": "event_000073",
+      "event_type": "object_observed",
+      "track_id": 141,
+      "class_name": "pedestrian",
+      "start_time": 7.8745,
+      "end_time": 7.9413,
+      "duration": 0.0667,
+      "first_frame": 236,
+      "last_frame": 238,
+      "reliability_status": "review",
+      "reliability_score": 0.6457,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing observed from 7.87s to 7.94s for 0.07s"
+    },
+    {
+      "event_id": "event_000074",
+      "event_type": "object_entered",
+      "track_id": 141,
+      "class_name": "pedestrian",
+      "timestamp": 7.8745,
+      "frame_index": 236,
+      "reliability_status": "review",
+      "reliability_score": 0.6457,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing entered the scene at 7.87s"
+    },
+    {
+      "event_id": "event_000075",
+      "event_type": "object_exited",
+      "track_id": 141,
+      "class_name": "pedestrian",
+      "timestamp": 7.9413,
+      "frame_index": 238,
+      "reliability_status": "review",
+      "reliability_score": 0.6457,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing exited the scene at 7.94s"
+    },
+    {
+      "event_id": "event_000066",
+      "event_type": "object_exited",
+      "track_id": 128,
+      "class_name": "bus",
+      "timestamp": 8.1081,
+      "frame_index": 243,
+      "reliability_status": "reliable",
+      "reliability_score": 0.9009,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.5797
+      },
+      "event_text": "white bus exited the scene at 8.11s"
+    },
+    {
+      "event_id": "event_000076",
+      "event_type": "object_observed",
+      "track_id": 148,
+      "class_name": "bus",
+      "start_time": 8.1081,
+      "end_time": 10.6773,
+      "duration": 2.5692,
+      "first_frame": 243,
+      "last_frame": 320,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8655,
+      "attributes": {
+        "primary_color": "black",
+        "color_confidence": 0.4228
+      },
+      "event_text": "black bus observed from 8.11s to 10.68s for 2.57s"
+    },
+    {
+      "event_id": "event_000077",
+      "event_type": "object_entered",
+      "track_id": 148,
+      "class_name": "bus",
+      "timestamp": 8.1081,
+      "frame_index": 243,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8655,
+      "attributes": {
+        "primary_color": "black",
+        "color_confidence": 0.4228
+      },
+      "event_text": "black bus entered the scene at 8.11s"
+    },
+    {
+      "event_id": "event_000079",
+      "event_type": "object_observed",
+      "track_id": 158,
+      "class_name": "pedestrian",
+      "start_time": 8.375,
+      "end_time": 8.4084,
+      "duration": 0.0334,
+      "first_frame": 251,
+      "last_frame": 252,
+      "reliability_status": "review",
+      "reliability_score": 0.4995,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with gray upper clothing and black lower clothing observed from 8.38s to 8.41s for 0.03s"
+    },
+    {
+      "event_id": "event_000080",
+      "event_type": "object_entered",
+      "track_id": 158,
+      "class_name": "pedestrian",
+      "timestamp": 8.375,
+      "frame_index": 251,
+      "reliability_status": "review",
+      "reliability_score": 0.4995,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with gray upper clothing and black lower clothing entered the scene at 8.38s"
+    },
+    {
+      "event_id": "event_000081",
+      "event_type": "object_exited",
+      "track_id": 158,
+      "class_name": "pedestrian",
+      "timestamp": 8.4084,
+      "frame_index": 252,
+      "reliability_status": "review",
+      "reliability_score": 0.4995,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with gray upper clothing and black lower clothing exited the scene at 8.41s"
+    },
+    {
+      "event_id": "event_000082",
+      "event_type": "object_observed",
+      "track_id": 164,
+      "class_name": "pedestrian",
+      "start_time": 8.5752,
+      "end_time": 9.1091,
+      "duration": 0.5339,
+      "first_frame": 257,
+      "last_frame": 273,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8179,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with blue upper clothing and gray lower clothing observed from 8.58s to 9.11s for 0.53s"
+    },
+    {
+      "event_id": "event_000083",
+      "event_type": "object_entered",
+      "track_id": 164,
+      "class_name": "pedestrian",
+      "timestamp": 8.5752,
+      "frame_index": 257,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8179,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with blue upper clothing and gray lower clothing entered the scene at 8.58s"
+    },
+    {
+      "event_id": "event_000072",
+      "event_type": "object_exited",
+      "track_id": 139,
+      "class_name": "pedestrian",
+      "timestamp": 8.6086,
+      "frame_index": 258,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8754,
+      "attributes": {
+        "upper_body_color": "white",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with white upper clothing and gray lower clothing exited the scene at 8.61s"
+    },
+    {
+      "event_id": "event_000084",
+      "event_type": "object_exited",
+      "track_id": 164,
+      "class_name": "pedestrian",
+      "timestamp": 9.1091,
+      "frame_index": 273,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8179,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with blue upper clothing and gray lower clothing exited the scene at 9.11s"
+    },
+    {
+      "event_id": "event_000085",
+      "event_type": "object_observed",
+      "track_id": 177,
+      "class_name": "bus",
+      "start_time": 9.5762,
+      "end_time": 10.1768,
+      "duration": 0.6006,
+      "first_frame": 287,
+      "last_frame": 305,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8902,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.8347
+      },
+      "event_text": "white bus observed from 9.58s to 10.18s for 0.60s"
+    },
+    {
+      "event_id": "event_000086",
+      "event_type": "object_entered",
+      "track_id": 177,
+      "class_name": "bus",
+      "timestamp": 9.5762,
+      "frame_index": 287,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8902,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.8347
+      },
+      "event_text": "white bus entered the scene at 9.58s"
+    },
+    {
+      "event_id": "event_000088",
+      "event_type": "object_observed",
+      "track_id": 189,
+      "class_name": "bicycle",
+      "start_time": 10.1435,
+      "end_time": 10.2436,
+      "duration": 0.1001,
+      "first_frame": 304,
+      "last_frame": 307,
+      "reliability_status": "reliable",
+      "reliability_score": 0.6769,
+      "attributes": {
+        "primary_color": "black",
+        "color_confidence": 0.8705
+      },
+      "event_text": "black bicycle observed from 10.14s to 10.24s for 0.10s"
+    },
+    {
+      "event_id": "event_000089",
+      "event_type": "object_entered",
+      "track_id": 189,
+      "class_name": "bicycle",
+      "timestamp": 10.1435,
+      "frame_index": 304,
+      "reliability_status": "reliable",
+      "reliability_score": 0.6769,
+      "attributes": {
+        "primary_color": "black",
+        "color_confidence": 0.8705
+      },
+      "event_text": "black bicycle entered the scene at 10.14s"
+    },
+    {
+      "event_id": "event_000087",
+      "event_type": "object_exited",
+      "track_id": 177,
+      "class_name": "bus",
+      "timestamp": 10.1768,
+      "frame_index": 305,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8902,
+      "attributes": {
+        "primary_color": "white",
+        "color_confidence": 0.8347
+      },
+      "event_text": "white bus exited the scene at 10.18s"
+    },
+    {
+      "event_id": "event_000090",
+      "event_type": "object_exited",
+      "track_id": 189,
+      "class_name": "bicycle",
+      "timestamp": 10.2436,
+      "frame_index": 307,
+      "reliability_status": "reliable",
+      "reliability_score": 0.6769,
+      "attributes": {
+        "primary_color": "black",
+        "color_confidence": 0.8705
+      },
+      "event_text": "black bicycle exited the scene at 10.24s"
+    },
+    {
+      "event_id": "event_000091",
+      "event_type": "object_observed",
+      "track_id": 197,
+      "class_name": "pedestrian",
+      "start_time": 10.3437,
+      "end_time": 11.0444,
+      "duration": 0.7007,
+      "first_frame": 310,
+      "last_frame": 331,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8204,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing observed from 10.34s to 11.04s for 0.70s"
+    },
+    {
+      "event_id": "event_000092",
+      "event_type": "object_entered",
+      "track_id": 197,
+      "class_name": "pedestrian",
+      "timestamp": 10.3437,
+      "frame_index": 310,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8204,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing entered the scene at 10.34s"
+    },
+    {
+      "event_id": "event_000094",
+      "event_type": "object_observed",
+      "track_id": 206,
+      "class_name": "pedestrian",
+      "start_time": 10.4771,
+      "end_time": 10.8442,
+      "duration": 0.367,
+      "first_frame": 314,
+      "last_frame": 325,
+      "reliability_status": "reliable",
+      "reliability_score": 0.827,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing observed from 10.48s to 10.84s for 0.37s"
+    },
+    {
+      "event_id": "event_000095",
+      "event_type": "object_entered",
+      "track_id": 206,
+      "class_name": "pedestrian",
+      "timestamp": 10.4771,
+      "frame_index": 314,
+      "reliability_status": "reliable",
+      "reliability_score": 0.827,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing entered the scene at 10.48s"
+    },
+    {
+      "event_id": "event_000097",
+      "event_type": "object_observed",
+      "track_id": 208,
+      "class_name": "pedestrian",
+      "start_time": 10.5105,
+      "end_time": 10.9443,
+      "duration": 0.4338,
+      "first_frame": 315,
+      "last_frame": 328,
+      "reliability_status": "review",
+      "reliability_score": 0.5279,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing observed from 10.51s to 10.94s for 0.43s"
+    },
+    {
+      "event_id": "event_000098",
+      "event_type": "object_entered",
+      "track_id": 208,
+      "class_name": "pedestrian",
+      "timestamp": 10.5105,
+      "frame_index": 315,
+      "reliability_status": "review",
+      "reliability_score": 0.5279,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing entered the scene at 10.51s"
+    },
+    {
+      "event_id": "event_000078",
+      "event_type": "object_exited",
+      "track_id": 148,
+      "class_name": "bus",
+      "timestamp": 10.6773,
+      "frame_index": 320,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8655,
+      "attributes": {
+        "primary_color": "black",
+        "color_confidence": 0.4228
+      },
+      "event_text": "black bus exited the scene at 10.68s"
+    },
+    {
+      "event_id": "event_000100",
+      "event_type": "object_observed",
+      "track_id": 214,
+      "class_name": "pedestrian",
+      "start_time": 10.7774,
+      "end_time": 10.9109,
+      "duration": 0.1335,
+      "first_frame": 323,
+      "last_frame": 327,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7807,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with blue upper clothing and gray lower clothing observed from 10.78s to 10.91s for 0.13s"
+    },
+    {
+      "event_id": "event_000101",
+      "event_type": "object_entered",
+      "track_id": 214,
+      "class_name": "pedestrian",
+      "timestamp": 10.7774,
+      "frame_index": 323,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7807,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with blue upper clothing and gray lower clothing entered the scene at 10.78s"
+    },
+    {
+      "event_id": "event_000096",
+      "event_type": "object_exited",
+      "track_id": 206,
+      "class_name": "pedestrian",
+      "timestamp": 10.8442,
+      "frame_index": 325,
+      "reliability_status": "reliable",
+      "reliability_score": 0.827,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing exited the scene at 10.84s"
+    },
+    {
+      "event_id": "event_000102",
+      "event_type": "object_exited",
+      "track_id": 214,
+      "class_name": "pedestrian",
+      "timestamp": 10.9109,
+      "frame_index": 327,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7807,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with blue upper clothing and gray lower clothing exited the scene at 10.91s"
+    },
+    {
+      "event_id": "event_000099",
+      "event_type": "object_exited",
+      "track_id": 208,
+      "class_name": "pedestrian",
+      "timestamp": 10.9443,
+      "frame_index": 328,
+      "reliability_status": "review",
+      "reliability_score": 0.5279,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with black upper clothing and gray lower clothing exited the scene at 10.94s"
+    },
+    {
+      "event_id": "event_000093",
+      "event_type": "object_exited",
+      "track_id": 197,
+      "class_name": "pedestrian",
+      "timestamp": 11.0444,
+      "frame_index": 331,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8204,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with gray upper clothing and gray lower clothing exited the scene at 11.04s"
+    },
+    {
+      "event_id": "event_000103",
+      "event_type": "object_observed",
+      "track_id": 223,
+      "class_name": "people",
+      "start_time": 11.0777,
+      "end_time": 11.2779,
+      "duration": 0.2002,
+      "first_frame": 332,
+      "last_frame": 338,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7226,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "blue"
+      },
+      "event_text": "people with blue upper clothing and blue lower clothing observed from 11.08s to 11.28s for 0.20s"
+    },
+    {
+      "event_id": "event_000104",
+      "event_type": "object_entered",
+      "track_id": 223,
+      "class_name": "people",
+      "timestamp": 11.0777,
+      "frame_index": 332,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7226,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "blue"
+      },
+      "event_text": "people with blue upper clothing and blue lower clothing entered the scene at 11.08s"
+    },
+    {
+      "event_id": "event_000105",
+      "event_type": "object_exited",
+      "track_id": 223,
+      "class_name": "people",
+      "timestamp": 11.2779,
+      "frame_index": 338,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7226,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "blue"
+      },
+      "event_text": "people with blue upper clothing and blue lower clothing exited the scene at 11.28s"
+    },
+    {
+      "event_id": "event_000106",
+      "event_type": "object_observed",
+      "track_id": 232,
+      "class_name": "pedestrian",
+      "start_time": 11.4114,
+      "end_time": 11.9786,
+      "duration": 0.5672,
+      "first_frame": 342,
+      "last_frame": 359,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8343,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "blue"
+      },
+      "event_text": "pedestrian with blue upper clothing and blue lower clothing observed from 11.41s to 11.98s for 0.57s"
+    },
+    {
+      "event_id": "event_000107",
+      "event_type": "object_entered",
+      "track_id": 232,
+      "class_name": "pedestrian",
+      "timestamp": 11.4114,
+      "frame_index": 342,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8343,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "blue"
+      },
+      "event_text": "pedestrian with blue upper clothing and blue lower clothing entered the scene at 11.41s"
+    },
+    {
+      "event_id": "event_000109",
+      "event_type": "object_observed",
+      "track_id": 240,
+      "class_name": "pedestrian",
+      "start_time": 11.6116,
+      "end_time": 11.8785,
+      "duration": 0.2669,
+      "first_frame": 348,
+      "last_frame": 356,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7312,
+      "attributes": {
+        "upper_body_color": "white",
+        "lower_body_color": "white"
+      },
+      "event_text": "pedestrian with white upper clothing and white lower clothing observed from 11.61s to 11.88s for 0.27s"
+    },
+    {
+      "event_id": "event_000110",
+      "event_type": "object_entered",
+      "track_id": 240,
+      "class_name": "pedestrian",
+      "timestamp": 11.6116,
+      "frame_index": 348,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7312,
+      "attributes": {
+        "upper_body_color": "white",
+        "lower_body_color": "white"
+      },
+      "event_text": "pedestrian with white upper clothing and white lower clothing entered the scene at 11.61s"
+    },
+    {
+      "event_id": "event_000111",
+      "event_type": "object_exited",
+      "track_id": 240,
+      "class_name": "pedestrian",
+      "timestamp": 11.8785,
+      "frame_index": 356,
+      "reliability_status": "reliable",
+      "reliability_score": 0.7312,
+      "attributes": {
+        "upper_body_color": "white",
+        "lower_body_color": "white"
+      },
+      "event_text": "pedestrian with white upper clothing and white lower clothing exited the scene at 11.88s"
+    },
+    {
+      "event_id": "event_000108",
+      "event_type": "object_exited",
+      "track_id": 232,
+      "class_name": "pedestrian",
+      "timestamp": 11.9786,
+      "frame_index": 359,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8343,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "blue"
+      },
+      "event_text": "pedestrian with blue upper clothing and blue lower clothing exited the scene at 11.98s"
+    },
+    {
+      "event_id": "event_000112",
+      "event_type": "object_observed",
+      "track_id": 265,
+      "class_name": "pedestrian",
+      "start_time": 12.5792,
+      "end_time": 12.9463,
+      "duration": 0.367,
+      "first_frame": 377,
+      "last_frame": 388,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8265,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "blue"
+      },
+      "event_text": "pedestrian with blue upper clothing and blue lower clothing observed from 12.58s to 12.95s for 0.37s"
+    },
+    {
+      "event_id": "event_000113",
+      "event_type": "object_entered",
+      "track_id": 265,
+      "class_name": "pedestrian",
+      "timestamp": 12.5792,
+      "frame_index": 377,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8265,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "blue"
+      },
+      "event_text": "pedestrian with blue upper clothing and blue lower clothing entered the scene at 12.58s"
+    },
+    {
+      "event_id": "event_000115",
+      "event_type": "object_observed",
+      "track_id": 272,
+      "class_name": "pedestrian",
+      "start_time": 12.6793,
+      "end_time": 12.7794,
+      "duration": 0.1001,
+      "first_frame": 380,
+      "last_frame": 383,
+      "reliability_status": "reliable",
+      "reliability_score": 0.6607,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing observed from 12.68s to 12.78s for 0.10s"
+    },
+    {
+      "event_id": "event_000116",
+      "event_type": "object_entered",
+      "track_id": 272,
+      "class_name": "pedestrian",
+      "timestamp": 12.6793,
+      "frame_index": 380,
+      "reliability_status": "reliable",
+      "reliability_score": 0.6607,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing entered the scene at 12.68s"
+    },
+    {
+      "event_id": "event_000117",
+      "event_type": "object_exited",
+      "track_id": 272,
+      "class_name": "pedestrian",
+      "timestamp": 12.7794,
+      "frame_index": 383,
+      "reliability_status": "reliable",
+      "reliability_score": 0.6607,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing exited the scene at 12.78s"
+    },
+    {
+      "event_id": "event_000118",
+      "event_type": "object_observed",
+      "track_id": 278,
+      "class_name": "pedestrian",
+      "start_time": 12.8795,
+      "end_time": 13.1798,
+      "duration": 0.3003,
+      "first_frame": 386,
+      "last_frame": 395,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8263,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with blue upper clothing and gray lower clothing observed from 12.88s to 13.18s for 0.30s"
+    },
+    {
+      "event_id": "event_000119",
+      "event_type": "object_entered",
+      "track_id": 278,
+      "class_name": "pedestrian",
+      "timestamp": 12.8795,
+      "frame_index": 386,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8263,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with blue upper clothing and gray lower clothing entered the scene at 12.88s"
+    },
+    {
+      "event_id": "event_000114",
+      "event_type": "object_exited",
+      "track_id": 265,
+      "class_name": "pedestrian",
+      "timestamp": 12.9463,
+      "frame_index": 388,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8265,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "blue"
+      },
+      "event_text": "pedestrian with blue upper clothing and blue lower clothing exited the scene at 12.95s"
+    },
+    {
+      "event_id": "event_000121",
+      "event_type": "object_observed",
+      "track_id": 279,
+      "class_name": "pedestrian",
+      "start_time": 12.9463,
+      "end_time": 13.1798,
+      "duration": 0.2336,
+      "first_frame": 388,
+      "last_frame": 395,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8483,
+      "attributes": {
+        "upper_body_color": "white",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with white upper clothing and gray lower clothing observed from 12.95s to 13.18s for 0.23s"
+    },
+    {
+      "event_id": "event_000122",
+      "event_type": "object_entered",
+      "track_id": 279,
+      "class_name": "pedestrian",
+      "timestamp": 12.9463,
+      "frame_index": 388,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8483,
+      "attributes": {
+        "upper_body_color": "white",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with white upper clothing and gray lower clothing entered the scene at 12.95s"
+    },
+    {
+      "event_id": "event_000124",
+      "event_type": "object_observed",
+      "track_id": 283,
+      "class_name": "pedestrian",
+      "start_time": 12.9796,
+      "end_time": 13.1131,
+      "duration": 0.1335,
+      "first_frame": 389,
+      "last_frame": 393,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8595,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing observed from 12.98s to 13.11s for 0.13s"
+    },
+    {
+      "event_id": "event_000125",
+      "event_type": "object_entered",
+      "track_id": 283,
+      "class_name": "pedestrian",
+      "timestamp": 12.9796,
+      "frame_index": 389,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8595,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing entered the scene at 12.98s"
+    },
+    {
+      "event_id": "event_000127",
+      "event_type": "object_observed",
+      "track_id": 284,
+      "class_name": "pedestrian",
+      "start_time": 13.013,
+      "end_time": 13.0797,
+      "duration": 0.0667,
+      "first_frame": 390,
+      "last_frame": 392,
+      "reliability_status": "review",
+      "reliability_score": 0.5394,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing observed from 13.01s to 13.08s for 0.07s"
+    },
+    {
+      "event_id": "event_000128",
+      "event_type": "object_entered",
+      "track_id": 284,
+      "class_name": "pedestrian",
+      "timestamp": 13.013,
+      "frame_index": 390,
+      "reliability_status": "review",
+      "reliability_score": 0.5394,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing entered the scene at 13.01s"
+    },
+    {
+      "event_id": "event_000130",
+      "event_type": "object_observed",
+      "track_id": 285,
+      "class_name": "pedestrian",
+      "start_time": 13.013,
+      "end_time": 13.1798,
+      "duration": 0.1668,
+      "first_frame": 390,
+      "last_frame": 395,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8353,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "white"
+      },
+      "event_text": "pedestrian with gray upper clothing and white lower clothing observed from 13.01s to 13.18s for 0.17s"
+    },
+    {
+      "event_id": "event_000131",
+      "event_type": "object_entered",
+      "track_id": 285,
+      "class_name": "pedestrian",
+      "timestamp": 13.013,
+      "frame_index": 390,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8353,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "white"
+      },
+      "event_text": "pedestrian with gray upper clothing and white lower clothing entered the scene at 13.01s"
+    },
+    {
+      "event_id": "event_000129",
+      "event_type": "object_exited",
+      "track_id": 284,
+      "class_name": "pedestrian",
+      "timestamp": 13.0797,
+      "frame_index": 392,
+      "reliability_status": "review",
+      "reliability_score": 0.5394,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing exited the scene at 13.08s"
+    },
+    {
+      "event_id": "event_000126",
+      "event_type": "object_exited",
+      "track_id": 283,
+      "class_name": "pedestrian",
+      "timestamp": 13.1131,
+      "frame_index": 393,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8595,
+      "attributes": {
+        "upper_body_color": "black",
+        "lower_body_color": "black"
+      },
+      "event_text": "pedestrian with black upper clothing and black lower clothing exited the scene at 13.11s"
+    },
+    {
+      "event_id": "event_000120",
+      "event_type": "object_exited",
+      "track_id": 278,
+      "class_name": "pedestrian",
+      "timestamp": 13.1798,
+      "frame_index": 395,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8263,
+      "attributes": {
+        "upper_body_color": "blue",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with blue upper clothing and gray lower clothing exited the scene at 13.18s"
+    },
+    {
+      "event_id": "event_000123",
+      "event_type": "object_exited",
+      "track_id": 279,
+      "class_name": "pedestrian",
+      "timestamp": 13.1798,
+      "frame_index": 395,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8483,
+      "attributes": {
+        "upper_body_color": "white",
+        "lower_body_color": "gray"
+      },
+      "event_text": "pedestrian with white upper clothing and gray lower clothing exited the scene at 13.18s"
+    },
+    {
+      "event_id": "event_000132",
+      "event_type": "object_exited",
+      "track_id": 285,
+      "class_name": "pedestrian",
+      "timestamp": 13.1798,
+      "frame_index": 395,
+      "reliability_status": "reliable",
+      "reliability_score": 0.8353,
+      "attributes": {
+        "upper_body_color": "gray",
+        "lower_body_color": "white"
+      },
+      "event_text": "pedestrian with gray upper clothing and white lower clothing exited the scene at 13.18s"
+    }
+  ]
+}

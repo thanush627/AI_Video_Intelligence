@@ -7,11 +7,8 @@ database/chromadb/
 # Datasets
 ai/datasets/
 
-# Outputs
-outputs/
-frames/
-clips/
-uploads/
+outputs/yolo_test/prediction/*.avi
+outputs/bytetrack_test/prediction/*.avi
 
 # Logs
 logs/

@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "pipeline": "phase3_production_pipeline",
+  "completed_at": "2026-07-10T19:11:57",
+  "source_video": "C:\\Users\\thanu\\AI_Video_Intelligence\\test_videos\\test.mp4",
+  "run_root": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test",
+  "database_directory": "C:\\Users\\thanu\\AI_Video_Intelligence\\database\\chromadb\\phase3_events",
+  "collection_name": "event_vectors",
+  "video": {
+    "fps": 29.97002997002997,
+    "frame_width": 2560,
+    "frame_height": 1440,
+    "total_frames": 396,
+    "duration_seconds": 13.2132
+  },
+  "stage_count": 16,
+  "completed_stages": [
+    "video_analysis",
+    "adaptive_sampling",
+    "frame_extraction",
+    "sampled_frame_detection",
+    "object_tracking",
+    "representative_selection",
+    "track_reliability",
+    "color_analysis",
+    "motion_analysis",
+    "spatial_analysis",
+    "relationship_analysis",
+    "atomic_event_generation",
+    "composite_event_generation",
+    "event_quality_filter",
+    "event_embeddings",
+    "chromadb_storage"
+  ],
+  "timings": {
+    "video_analysis": 0.2501,
+    "adaptive_sampling": 9.5153,
+    "frame_extraction": 45.9906,
+    "sampled_frame_detection": 18.2532,
+    "object_tracking": 142.6607,
+    "representative_selection": 12701.3717,
+    "track_reliability": 0.0494,
+    "color_analysis": 15.8992,
+    "motion_analysis": 0.0675,
+    "spatial_analysis": 0.0222,
+    "relationship_analysis": 0.0142,
+    "atomic_event_generation": 0.0367,
+    "composite_event_generation": 0.0572,
+    "event_quality_filter": 0.0264,
+    "event_embeddings": 4.929,
+    "chromadb_storage": 0.4872
+  },
+  "total_processing_seconds": 12939.6494,
+  "important_outputs": {
+    "track_metadata": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\03_object_tracking\\track_metadata.json",
+    "composite_events": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\11_composite_event_generation\\composite_events.json",
+    "retrieval_documents": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\12_event_quality_filter\\retrieval_documents.json",
+    "embeddings_file": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\13_event_embeddings\\event_embeddings.npy",
+    "embedding_metadata": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\13_event_embeddings\\event_embedding_metadata.json"
+  },
+  "summary": {
+    "unique_tracks": 74,
+    "composite_events": 54,
+    "accepted_events": 40,
+    "retrieval_documents": 40,
+    "indexed_records": 40,
+    "collection_count": 40
+  }
+}
