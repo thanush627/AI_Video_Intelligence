@@ -1,0 +1,25 @@
+clip_model: "ViT-B-32"
+clip_pretrained: "laion2b_s34b_b79k"
+
+device: "cuda"
+
+batch_size: 32
+
+normalize_embeddings: true
+
+embedding_dimension: 512
+
+postgres:
+  host: "localhost"
+  port: 5432
+  database: "ai_video"
+  user: "postgres"
+  password: "postgres"
+
+chromadb:
+  host: "localhost"
+  port: 8001
+  collection_name: "image_embeddings"
+
+output:
+  phase5: "outputs/phase5"

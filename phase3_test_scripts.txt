@@ -1,0 +1,1869 @@
+===== test_video_analysis.py =====
+import sys
+from pathlib import Path
+
+# Add project root to Python import path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+from ai.preprocessing.video_analyzer import VideoAnalyzer
+
+VIDEO_PATH = PROJECT_ROOT / "test_videos" / "test.mp4"
+
+analyzer = VideoAnalyzer(VIDEO_PATH)
+metadata = analyzer.analyze()
+
+print("\n" + "=" * 60)
+print("VIDEO ANALYSIS")
+print("=" * 60)
+
+for key, value in metadata.items():
+    print(f"{key:20}: {value}")
+
+print("=" * 60)
+
+===== test_frame_extraction.py =====
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+import yaml
+
+from ai.preprocessing.adaptive_sampler import (
+    AdaptiveFrameSampler,
+)
+
+from ai.preprocessing.frame_extractor import (
+    FrameExtractor,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+    config = yaml.safe_load(file)
+
+
+VIDEO_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["test_video"]
+)
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "frame_extraction_test"
+)
+
+
+motion_config = (
+    config["adaptive_sampling"]["motion"]
+)
+
+sampling_config = (
+    config["adaptive_sampling"]["sampling"]
+)
+
+
+sampler = AdaptiveFrameSampler(
+    video_path=VIDEO_PATH,
+    low_threshold=motion_config["low_threshold"],
+    high_threshold=motion_config["high_threshold"],
+    low_motion_fps=sampling_config["low_motion_fps"],
+    medium_motion_fps=sampling_config[
+        "medium_motion_fps"
+    ],
+    high_motion_fps=sampling_config[
+        "high_motion_fps"
+    ],
+)
+
+
+print("\nRunning adaptive sampling...")
+
+sampling_results = sampler.sample()
+
+
+extractor = FrameExtractor(
+    video_path=VIDEO_PATH,
+    output_dir=OUTPUT_DIR,
+)
+
+
+print("Extracting selected frames...")
+
+extraction_results = extractor.extract(
+    sampling_results["sampled_frames"]
+)
+
+
+print("\n" + "=" * 70)
+print("FRAME EXTRACTION TEST")
+print("=" * 70)
+
+print(
+    "Source frames       :",
+    sampling_results["total_source_frames"],
+)
+
+print(
+    "Selected frames     :",
+    sampling_results["sampled_frame_count"],
+)
+
+print(
+    "Saved frames        :",
+    extraction_results["saved_frame_count"],
+)
+
+print(
+    "Frames directory    :",
+    extraction_results["frames_directory"],
+)
+
+print(
+    "Metadata file       :",
+    extraction_results["metadata_path"],
+)
+
+print("=" * 70)
+
+===== test_adaptive_sampling.py =====
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+import yaml
+
+from ai.preprocessing.adaptive_sampler import AdaptiveFrameSampler
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+with open(CONFIG_PATH, "r", encoding="utf-8") as file:
+    config = yaml.safe_load(file)
+
+
+VIDEO_PATH = PROJECT_ROOT / config["paths"]["test_video"]
+
+motion_config = config["adaptive_sampling"]["motion"]
+sampling_config = config["adaptive_sampling"]["sampling"]
+
+
+sampler = AdaptiveFrameSampler(
+    video_path=VIDEO_PATH,
+    low_threshold=motion_config["low_threshold"],
+    high_threshold=motion_config["high_threshold"],
+    low_motion_fps=sampling_config["low_motion_fps"],
+    medium_motion_fps=sampling_config["medium_motion_fps"],
+    high_motion_fps=sampling_config["high_motion_fps"],
+)
+
+results = sampler.sample()
+
+
+print("\n" + "=" * 70)
+print("ADAPTIVE FRAME SAMPLING TEST")
+print("=" * 70)
+
+print("Source FPS           :", results["source_fps"])
+print("Total source frames  :", results["total_source_frames"])
+print("Sampled frames       :", results["sampled_frame_count"])
+print("Motion counts        :", results["motion_counts"])
+
+print("\nFIRST 10 SAMPLED FRAMES")
+print("-" * 70)
+
+for frame in results["sampled_frames"][:10]:
+    print(
+        f"Frame {frame['frame_index']:4} | "
+        f"Time {frame['timestamp_seconds']:6.2f}s | "
+        f"Motion {frame['motion_score']:6.2f} | "
+        f"Level {frame['motion_level']:6} | "
+        f"Sampling {frame['sampling_fps']:.1f} FPS"
+    )
+
+print("=" * 70)
+
+===== test_sampled_frame_detection.py =====
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+import yaml
+
+from ai.inference.sampled_frame_detector import (
+    SampledFrameDetector,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+    config = yaml.safe_load(file)
+
+
+MODEL_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["model"]
+)
+
+FRAME_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "frame_extraction_test"
+    / "frame_metadata.json"
+)
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "detection_test"
+)
+
+
+detection_config = config["detection"]
+
+
+detector = SampledFrameDetector(
+    model_path=MODEL_PATH,
+    confidence_threshold=detection_config[
+        "confidence_threshold"
+    ],
+    iou_threshold=detection_config[
+        "iou_threshold"
+    ],
+    image_size=detection_config[
+        "image_size"
+    ],
+    device=detection_config["device"],
+)
+
+
+print("\nRunning YOLO detection on sampled frames...\n")
+
+
+results = detector.detect(
+    frame_metadata_path=FRAME_METADATA_PATH,
+    output_dir=OUTPUT_DIR,
+)
+
+
+print("\n" + "=" * 70)
+print("SAMPLED FRAME DETECTION TEST")
+print("=" * 70)
+
+print(
+    "Processed frames :",
+    results["processed_frames"],
+)
+
+print(
+    "Total detections :",
+    results["total_detections"],
+)
+
+print(
+    "Class counts     :",
+    results["class_counts"],
+)
+
+print(
+    "Metadata file    :",
+    results["metadata_path"],
+)
+
+print("=" * 70)
+
+===== test_object_tracking.py =====
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+import yaml
+
+from ai.pipeline.object_tracker import ObjectTracker
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+    config = yaml.safe_load(file)
+
+
+MODEL_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["model"]
+)
+
+VIDEO_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["test_video"]
+)
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "tracking_test"
+)
+
+
+detector_config = config["detection"]
+tracking_config = config["tracking"]
+
+
+tracker = ObjectTracker(
+    model_path=MODEL_PATH,
+    confidence_threshold=detector_config[
+        "confidence_threshold"
+    ],
+    iou_threshold=detector_config[
+        "iou_threshold"
+    ],
+    image_size=detector_config["image_size"],
+    tracker=tracking_config["tracker"],
+    device=detector_config["device"],
+)
+
+
+print("\nRunning YOLO + ByteTrack...\n")
+
+
+results = tracker.track(
+    video_path=VIDEO_PATH,
+    output_dir=OUTPUT_DIR,
+)
+
+
+print("\n" + "=" * 70)
+print("OBJECT TRACKING TEST")
+print("=" * 70)
+
+print(
+    "Processed frames   :",
+    results["processed_frames"],
+)
+
+print(
+    "Frames with tracks :",
+    results["frames_with_tracks"],
+)
+
+print(
+    "Unique tracks      :",
+    results["unique_tracks"],
+)
+
+print(
+    "Metadata file      :",
+    results["metadata_path"],
+)
+
+print("=" * 70)
+
+===== test_track_reliability.py =====
+import sys
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(
+    __file__
+).resolve().parents[1]
+
+sys.path.insert(
+    0,
+    str(PROJECT_ROOT),
+)
+
+
+import yaml
+
+from ai.pipeline.track_reliability import (
+    TrackReliabilityFilter,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+
+    config = yaml.safe_load(file)
+
+
+REPRESENTATIVE_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "representative_selection_test"
+    / "representative_crops.json"
+)
+
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "track_reliability_test"
+)
+
+
+analyzer = TrackReliabilityFilter(
+    representative_metadata_path=(
+        REPRESENTATIVE_METADATA_PATH
+    ),
+    output_dir=OUTPUT_DIR,
+)
+
+
+print(
+    "\nRunning track reliability "
+    "analysis...\n"
+)
+
+
+results = analyzer.analyze()
+
+
+print("\n" + "=" * 70)
+
+print(
+    "TRACK RELIABILITY TEST"
+)
+
+print("=" * 70)
+
+
+print(
+    "Total tracks        :",
+    results["total_tracks"],
+)
+
+
+print(
+    "Status counts       :",
+    results["status_counts"],
+)
+
+
+print(
+    "Class status counts :"
+)
+
+
+for class_name, counts in (
+    results[
+        "class_status_counts"
+    ].items()
+):
+
+    print(
+        f"  {class_name:10} : "
+        f"{counts}"
+    )
+
+
+print(
+    "Metadata file       :",
+    results["metadata_path"],
+)
+
+
+print("=" * 70)
+
+===== test_representative_selection.py =====
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+import yaml
+
+from ai.pipeline.representative_selector import (
+    RepresentativeCropSelector,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+    config = yaml.safe_load(file)
+
+
+VIDEO_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["test_video"]
+)
+
+TRACK_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "tracking_test"
+    / "track_metadata.json"
+)
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "representative_selection_test"
+)
+
+
+selection_config = config[
+    "representative_selection"
+]
+
+
+selector = RepresentativeCropSelector(
+    video_path=VIDEO_PATH,
+    track_metadata_path=TRACK_METADATA_PATH,
+    output_dir=OUTPUT_DIR,
+    max_crops_per_track=selection_config[
+        "max_crops_per_track"
+    ],
+    min_crop_width=selection_config[
+        "min_crop_width"
+    ],
+    min_crop_height=selection_config[
+        "min_crop_height"
+    ],
+    weights=selection_config["weights"],
+)
+
+
+print(
+    "\nSelecting representative crops...\n"
+)
+
+
+results = selector.select()
+
+
+print("\n" + "=" * 70)
+print("REPRESENTATIVE CROP SELECTION TEST")
+print("=" * 70)
+
+print(
+    "Input tracks       :",
+    results["input_tracks"],
+)
+
+print(
+    "Tracks with crops  :",
+    results["tracks_with_crops"],
+)
+
+print(
+    "Total saved crops  :",
+    results["total_saved_crops"],
+)
+
+print(
+    "Crops directory    :",
+    results["crops_directory"],
+)
+
+print(
+    "Metadata file      :",
+    results["metadata_path"],
+)
+
+print("=" * 70)
+
+===== test_color_analysis.py =====
+import sys
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(
+    __file__
+).resolve().parents[1]
+
+sys.path.insert(
+    0,
+    str(PROJECT_ROOT),
+)
+
+
+import yaml
+
+from ai.pipeline.color_analyzer import (
+    ColorAnalyzer,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+
+    config = yaml.safe_load(file)
+
+
+REPRESENTATIVE_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "representative_selection_test"
+    / "representative_crops.json"
+)
+
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "color_analysis_object_aware"
+)
+
+
+analyzer = ColorAnalyzer(
+    representative_metadata_path=(
+        REPRESENTATIVE_METADATA_PATH
+    ),
+    output_dir=OUTPUT_DIR,
+)
+
+
+print(
+    "\nRunning object-aware "
+    "colour analysis...\n"
+)
+
+
+results = analyzer.analyze()
+
+
+print("\n" + "=" * 70)
+
+print(
+    "OBJECT-AWARE COLOUR ANALYSIS"
+)
+
+print("=" * 70)
+
+
+print(
+    "Analyzed tracks     :",
+    results["analyzed_tracks"],
+)
+
+
+print(
+    "Unknown tracks      :",
+    results["unknown_tracks"],
+)
+
+
+print(
+    "Final colour counts :",
+    results["final_color_counts"],
+)
+
+
+print(
+    "Metadata file       :",
+    results["metadata_path"],
+)
+
+
+print("=" * 70)
+
+===== test_motion_analysis.py =====
+import sys
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(
+    __file__
+).resolve().parents[1]
+
+sys.path.insert(
+    0,
+    str(PROJECT_ROOT),
+)
+
+
+import yaml
+
+from ai.event_generation.motion_analyzer import (
+    MotionAnalyzer,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+    config = yaml.safe_load(file)
+
+
+TRACK_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "tracking_test"
+    / "track_metadata.json"
+)
+
+
+RELIABILITY_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "track_reliability_test"
+    / "track_reliability.json"
+)
+
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "motion_analysis_test"
+)
+
+
+SOURCE_FPS = 29.97002997002997
+
+FRAME_WIDTH = 2560
+
+FRAME_HEIGHT = 1440
+
+
+analyzer = MotionAnalyzer(
+    track_metadata_path=(
+        TRACK_METADATA_PATH
+    ),
+    reliability_metadata_path=(
+        RELIABILITY_METADATA_PATH
+    ),
+    output_dir=OUTPUT_DIR,
+    source_fps=SOURCE_FPS,
+    frame_width=FRAME_WIDTH,
+    frame_height=FRAME_HEIGHT,
+    include_review=True,
+)
+
+
+print(
+    "\nRunning track motion "
+    "analysis...\n"
+)
+
+
+results = analyzer.analyze()
+
+
+print("\n" + "=" * 70)
+
+print(
+    "MOTION ANALYSIS TEST"
+)
+
+print("=" * 70)
+
+
+print(
+    "Analyzed tracks            :",
+    results["analyzed_tracks"],
+)
+
+
+print(
+    "Skipped reject tracks      :",
+    results[
+        "skipped_reject_tracks"
+    ],
+)
+
+
+print(
+    "Skipped insufficient tracks:",
+    results[
+        "skipped_insufficient_tracks"
+    ],
+)
+
+
+print(
+    "Motion state counts        :",
+    results[
+        "motion_state_counts"
+    ],
+)
+
+
+print(
+    "Direction counts           :",
+    results[
+        "direction_counts"
+    ],
+)
+
+
+print(
+    "Metadata file              :",
+    results["metadata_path"],
+)
+
+
+print("=" * 70)
+
+===== test_spatial_analysis.py =====
+import sys
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(
+    __file__
+).resolve().parents[1]
+
+sys.path.insert(
+    0,
+    str(PROJECT_ROOT),
+)
+
+
+import yaml
+
+from ai.event_generation.spatial_analyzer import (
+    SpatialAnalyzer,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+
+    config = yaml.safe_load(file)
+
+
+MOTION_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "motion_analysis_test"
+    / "motion_metadata.json"
+)
+
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "spatial_analysis_test"
+)
+
+
+FRAME_WIDTH = 2560
+
+FRAME_HEIGHT = 1440
+
+
+analyzer = SpatialAnalyzer(
+    motion_metadata_path=(
+        MOTION_METADATA_PATH
+    ),
+    output_dir=OUTPUT_DIR,
+    frame_width=FRAME_WIDTH,
+    frame_height=FRAME_HEIGHT,
+)
+
+
+print(
+    "\nRunning single-object "
+    "spatial reasoning...\n"
+)
+
+
+results = analyzer.analyze()
+
+
+print("\n" + "=" * 70)
+
+print(
+    "SPATIAL ANALYSIS TEST"
+)
+
+print("=" * 70)
+
+
+print(
+    "Analyzed tracks     :",
+    results["analyzed_tracks"],
+)
+
+
+print(
+    "Skipped tracks      :",
+    results["skipped_tracks"],
+)
+
+
+print(
+    "Start region counts :",
+    results["start_region_counts"],
+)
+
+
+print(
+    "End region counts   :",
+    results["end_region_counts"],
+)
+
+
+print(
+    "Metadata file       :",
+    results["metadata_path"],
+)
+
+
+print("=" * 70)
+
+===== test_relationship_analysis.py =====
+import sys
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(
+    __file__
+).resolve().parents[1]
+
+sys.path.insert(
+    0,
+    str(PROJECT_ROOT),
+)
+
+
+import yaml
+
+from ai.event_generation.relationship_analyzer import (
+    RelationshipAnalyzer,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+    config = yaml.safe_load(file)
+
+
+OUTPUT_ROOT = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+)
+
+
+TRACK_METADATA_PATH = (
+    OUTPUT_ROOT
+    / "tracking_test"
+    / "track_metadata.json"
+)
+
+
+RELIABILITY_METADATA_PATH = (
+    OUTPUT_ROOT
+    / "track_reliability_test"
+    / "track_reliability.json"
+)
+
+
+MOTION_METADATA_PATH = (
+    OUTPUT_ROOT
+    / "motion_analysis_test"
+    / "motion_metadata.json"
+)
+
+
+OUTPUT_DIR = (
+    OUTPUT_ROOT
+    / "relationship_analysis_test"
+)
+
+
+analyzer = RelationshipAnalyzer(
+    track_metadata_path=(
+        TRACK_METADATA_PATH
+    ),
+    reliability_metadata_path=(
+        RELIABILITY_METADATA_PATH
+    ),
+    motion_metadata_path=(
+        MOTION_METADATA_PATH
+    ),
+    output_dir=OUTPUT_DIR,
+    frame_width=2560,
+    frame_height=1440,
+    include_review=True,
+    near_threshold=0.08,
+    moving_together_threshold=0.06,
+    minimum_shared_frames=3,
+)
+
+
+print(
+    "\nRunning object-to-object "
+    "spatial relationship analysis...\n"
+)
+
+
+results = analyzer.analyze()
+
+
+print("\n" + "=" * 70)
+
+print(
+    "RELATIONSHIP ANALYSIS TEST"
+)
+
+print("=" * 70)
+
+
+print(
+    "Usable tracks          :",
+    results["usable_tracks"],
+)
+
+
+print(
+    "Frames with objects    :",
+    results["frames_with_objects"],
+)
+
+
+print(
+    "Analyzed track pairs   :",
+    results["analyzed_pairs"],
+)
+
+
+print(
+    "Detected relationships :",
+    results[
+        "detected_relationships"
+    ],
+)
+
+
+print(
+    "Relationship counts    :",
+    results[
+        "relationship_type_counts"
+    ],
+)
+
+
+print(
+    "Metadata file          :",
+    results["metadata_path"],
+)
+
+
+print("=" * 70)
+
+===== test_atomic_event_generation.py =====
+import sys
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(
+    __file__
+).resolve().parents[1]
+
+sys.path.insert(
+    0,
+    str(PROJECT_ROOT),
+)
+
+
+import yaml
+
+from ai.event_generation.atomic_event_generator import (
+    AtomicEventGenerator,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+
+    config = yaml.safe_load(file)
+
+
+TRACK_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "tracking_test"
+    / "track_metadata.json"
+)
+
+
+RELIABILITY_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "track_reliability_test"
+    / "track_reliability.json"
+)
+
+
+COLOR_METADATA_PATH = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "color_analysis_object_aware"
+    / "color_metadata.json"
+)
+
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+    / "atomic_event_generation_test"
+)
+
+
+SOURCE_FPS = 29.97002997002997
+
+
+generator = AtomicEventGenerator(
+    track_metadata_path=(
+        TRACK_METADATA_PATH
+    ),
+    reliability_metadata_path=(
+        RELIABILITY_METADATA_PATH
+    ),
+    color_metadata_path=(
+        COLOR_METADATA_PATH
+    ),
+    output_dir=OUTPUT_DIR,
+    source_fps=SOURCE_FPS,
+    include_review=True,
+)
+
+
+print(
+    "\nGenerating atomic "
+    "spatiotemporal events...\n"
+)
+
+
+results = generator.generate()
+
+
+print("\n" + "=" * 70)
+
+print(
+    "ATOMIC EVENT GENERATION TEST"
+)
+
+print("=" * 70)
+
+
+print(
+    "Total events          :",
+    results["total_events"],
+)
+
+
+print(
+    "Usable tracks         :",
+    results["usable_tracks"],
+)
+
+
+print(
+    "Skipped reject tracks :",
+    results[
+        "skipped_reject_tracks"
+    ],
+)
+
+
+print(
+    "Skipped no-time tracks:",
+    results[
+        "skipped_no_time_tracks"
+    ],
+)
+
+
+print(
+    "Track status counts   :",
+    results[
+        "track_status_counts"
+    ],
+)
+
+
+print(
+    "Event type counts     :",
+    results[
+        "event_type_counts"
+    ],
+)
+
+
+print(
+    "Metadata file         :",
+    results["metadata_path"],
+)
+
+
+print("=" * 70)
+
+===== test_composite_event_generation.py =====
+import sys
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(
+    __file__
+).resolve().parents[1]
+
+sys.path.insert(
+    0,
+    str(PROJECT_ROOT),
+)
+
+
+import yaml
+
+from ai.event_generation.composite_event_generator import (
+    CompositeEventGenerator,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+
+    config = yaml.safe_load(file)
+
+
+OUTPUT_ROOT = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+)
+
+
+ATOMIC_EVENTS_PATH = (
+    OUTPUT_ROOT
+    / "atomic_event_generation_test"
+    / "atomic_events.json"
+)
+
+
+COLOR_METADATA_PATH = (
+    OUTPUT_ROOT
+    / "color_analysis_object_aware"
+    / "color_metadata.json"
+)
+
+
+MOTION_METADATA_PATH = (
+    OUTPUT_ROOT
+    / "motion_analysis_test"
+    / "motion_metadata.json"
+)
+
+
+SPATIAL_METADATA_PATH = (
+    OUTPUT_ROOT
+    / "spatial_analysis_test"
+    / "spatial_metadata.json"
+)
+
+
+RELATIONSHIP_METADATA_PATH = (
+    OUTPUT_ROOT
+    / "relationship_analysis_test"
+    / "relationship_metadata.json"
+)
+
+
+OUTPUT_DIR = (
+    OUTPUT_ROOT
+    / "composite_event_generation_test"
+)
+
+
+generator = CompositeEventGenerator(
+    atomic_events_path=(
+        ATOMIC_EVENTS_PATH
+    ),
+    color_metadata_path=(
+        COLOR_METADATA_PATH
+    ),
+    motion_metadata_path=(
+        MOTION_METADATA_PATH
+    ),
+    spatial_metadata_path=(
+        SPATIAL_METADATA_PATH
+    ),
+    relationship_metadata_path=(
+        RELATIONSHIP_METADATA_PATH
+    ),
+    output_dir=OUTPUT_DIR,
+)
+
+
+print(
+    "\nGenerating composite "
+    "semantic events...\n"
+)
+
+
+results = generator.generate()
+
+
+print("\n" + "=" * 70)
+
+print(
+    "COMPOSITE EVENT GENERATION TEST"
+)
+
+print("=" * 70)
+
+
+print(
+    "Total events       :",
+    results["total_events"],
+)
+
+
+print(
+    "Event type counts  :",
+    results[
+        "event_type_counts"
+    ],
+)
+
+
+print(
+    "Metadata file      :",
+    results["metadata_path"],
+)
+
+
+print("=" * 70)
+
+===== test_event_quality_filter.py =====
+import sys
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(
+    __file__
+).resolve().parents[1]
+
+sys.path.insert(
+    0,
+    str(PROJECT_ROOT),
+)
+
+
+import yaml
+
+from ai.retrieval.event_quality_filter import (
+    EventQualityFilter,
+)
+
+
+CONFIG_PATH = (
+    PROJECT_ROOT
+    / "ai"
+    / "configs"
+    / "phase3_config.yaml"
+)
+
+
+with open(
+    CONFIG_PATH,
+    "r",
+    encoding="utf-8",
+) as file:
+
+    config = yaml.safe_load(file)
+
+
+OUTPUT_ROOT = (
+    PROJECT_ROOT
+    / config["paths"]["output_root"]
+)
+
+
+COMPOSITE_EVENTS_PATH = (
+    OUTPUT_ROOT
+    / "composite_event_generation_test"
+    / "composite_events.json"
+)
+
+
+OUTPUT_DIR = (
+    OUTPUT_ROOT
+    / "event_quality_filter_test"
+)
+
+
+quality_filter = EventQualityFilter(
+    composite_events_path=(
+        COMPOSITE_EVENTS_PATH
+    ),
+    output_dir=OUTPUT_DIR,
+    minimum_track_duration=0.10,
+    minimum_relationship_frames=4,
+    minimum_quality_score=0.50,
+    include_review=True,
+)
+
+
+print(
+    "\nFiltering composite events "
+    "and generating retrieval documents...\n"
+)
+
+
+results = quality_filter.process()
+
+
+print("\n" + "=" * 70)
+
+print(
+    "EVENT QUALITY FILTER TEST"
+)
+
+print("=" * 70)
+
+
+print(
+    "Input events          :",
+    results["input_events"],
+)
+
+
+print(
+    "Accepted events       :",
+    results["accepted_events"],
+)
+
+
+print(
+    "Rejected events       :",
+    results["rejected_events"],
+)
+
+
+print(
+    "Accepted type counts  :",
+    results["accepted_type_counts"],
+)
+
+
+print(
+    "Quality label counts  :",
+    results["quality_label_counts"],
+)
+
+
+print(
+    "Rejected reasons      :",
+    results["rejected_reason_counts"],
+)
+
+
+print(
+    "Retrieval documents   :",
+    results["retrieval_documents"],
+)
+
+
+print(
+    "Filtered events file  :",
+    results["filtered_path"],
+)
+
+
+print(
+    "Retrieval docs file   :",
+    results["retrieval_path"],
+)
+
+
+print("=" * 70)
+
+===== test_event_embeddings.py =====
+import sys
+from pathlib import Path
+
+import numpy as np
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+
+from ai.embeddings.event_embedder import EventEmbedder
+
+
+INPUT_FILE = (
+    PROJECT_ROOT
+    / "outputs"
+    / "phase3"
+    / "event_quality_filter_test"
+    / "retrieval_documents.json"
+)
+
+OUTPUT_DIRECTORY = (
+    PROJECT_ROOT
+    / "outputs"
+    / "phase3"
+    / "event_embedding_test"
+)
+
+
+def main():
+
+    print("\n" + "=" * 70)
+    print("CLIP EVENT EMBEDDING TEST")
+    print("=" * 70)
+
+    embedder = EventEmbedder(
+        model_name="ViT-B-32",
+        pretrained="laion2b_s34b_b79k",
+        batch_size=16,
+    )
+
+    result = embedder.generate_embeddings(
+        input_file=INPUT_FILE,
+        output_directory=OUTPUT_DIRECTORY,
+    )
+
+    embeddings = result["embeddings"]
+
+    norms = np.linalg.norm(
+        embeddings,
+        axis=1,
+    )
+
+    print("\n" + "=" * 70)
+    print("EVENT EMBEDDING TEST")
+    print("=" * 70)
+
+    print(
+        f"Input documents     : "
+        f"{len(result['documents'])}"
+    )
+
+    print(
+        f"Generated embeddings: "
+        f"{embeddings.shape[0]}"
+    )
+
+    print(
+        f"Embedding dimension : "
+        f"{embeddings.shape[1]}"
+    )
+
+    print(
+        f"Embedding dtype     : "
+        f"{embeddings.dtype}"
+    )
+
+    print(
+        f"Average vector norm : "
+        f"{norms.mean():.6f}"
+    )
+
+    print(
+        f"Minimum vector norm : "
+        f"{norms.min():.6f}"
+    )
+
+    print(
+        f"Maximum vector norm : "
+        f"{norms.max():.6f}"
+    )
+
+    print(
+        f"Embeddings file     : "
+        f"{result['embeddings_file']}"
+    )
+
+    print(
+        f"Metadata file       : "
+        f"{result['metadata_file']}"
+    )
+
+    print("=" * 70)
+
+    print("\nFIRST 5 EMBEDDED DOCUMENTS")
+    print("-" * 70)
+
+    for index, text in enumerate(
+        result["texts"][:5]
+    ):
+        print(
+            f"{index + 1:2d}. {text}"
+        )
+
+    print("=" * 70)
+
+
+if __name__ == "__main__":
+    main()
+
+===== test_chromadb_storage.py =====
+import sys
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(
+    __file__
+).resolve().parents[1]
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(
+        0,
+        str(PROJECT_ROOT),
+    )
+
+
+from ai.embeddings.chromadb_store import (
+    ChromaDBEventStore,
+)
+
+
+EMBEDDINGS_FILE = (
+    PROJECT_ROOT
+    / "outputs"
+    / "phase3"
+    / "event_embedding_test"
+    / "event_embeddings.npy"
+)
+
+EMBEDDING_METADATA_FILE = (
+    PROJECT_ROOT
+    / "outputs"
+    / "phase3"
+    / "event_embedding_test"
+    / "event_embedding_metadata.json"
+)
+
+RETRIEVAL_DOCUMENTS_FILE = (
+    PROJECT_ROOT
+    / "outputs"
+    / "phase3"
+    / "event_quality_filter_test"
+    / "retrieval_documents.json"
+)
+
+DATABASE_DIRECTORY = (
+    PROJECT_ROOT
+    / "database"
+    / "chromadb"
+    / "phase3_events"
+)
+
+
+def main():
+
+    print("\n" + "=" * 70)
+    print("CHROMADB EVENT STORAGE TEST")
+    print("=" * 70)
+
+    store = ChromaDBEventStore(
+        database_directory=DATABASE_DIRECTORY,
+        collection_name="event_vectors",
+    )
+
+    result = store.index_events(
+        embeddings_file=EMBEDDINGS_FILE,
+        embedding_metadata_file=(
+            EMBEDDING_METADATA_FILE
+        ),
+        retrieval_documents_file=(
+            RETRIEVAL_DOCUMENTS_FILE
+        ),
+    )
+
+    print("\n" + "=" * 70)
+    print("CHROMADB STORAGE TEST")
+    print("=" * 70)
+
+    print(
+        f"Input embeddings    : "
+        f"{result['input_embeddings']}"
+    )
+
+    print(
+        f"Embedding dimension : "
+        f"{result['embedding_dimension']}"
+    )
+
+    print(
+        f"Prepared records    : "
+        f"{result['prepared_records']}"
+    )
+
+    print(
+        f"Collection count    : "
+        f"{result['collection_count']}"
+    )
+
+    print(
+        f"Collection name     : "
+        f"{result['collection_name']}"
+    )
+
+    print(
+        f"Database directory  : "
+        f"{result['database_directory']}"
+    )
+
+    print("=" * 70)
+
+    sample = store.get_sample_records(
+        limit=5
+    )
+
+    print("\nFIRST 5 STORED RECORDS")
+    print("-" * 70)
+
+    for index in range(
+        len(sample["ids"])
+    ):
+        print(
+            f"\nRecord {index + 1}"
+        )
+
+        print(
+            f"ID       : "
+            f"{sample['ids'][index]}"
+        )
+
+        print(
+            f"Document : "
+            f"{sample['documents'][index]}"
+        )
+
+        print(
+            f"Metadata : "
+            f"{sample['metadatas'][index]}"
+        )
+
+    print("\n" + "=" * 70)
+
+
+if __name__ == "__main__":
+    main()
+

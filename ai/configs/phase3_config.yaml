@@ -1,0 +1,50 @@
+project:
+  name: "Agentic Multimodal Retrieval for Long-Horizon Spatiotemporal Event Grounding"
+
+paths:
+  model: "ai/models/yolo/trained/best.pt"
+  test_video: "test_videos/test.mp4"
+  output_root: "outputs/phase3"
+
+video:
+  default_sampling_fps: 2.0
+  min_sampling_fps: 1.0
+  max_sampling_fps: 5.0
+
+adaptive_sampling:
+  enabled: true
+
+  motion:
+    low_threshold: 2.0
+    high_threshold: 12.0
+
+  sampling:
+    low_motion_fps: 1.0
+    medium_motion_fps: 2.0
+    high_motion_fps: 5.0
+
+detection:
+  confidence_threshold: 0.35
+  iou_threshold: 0.50
+  image_size: 640
+  device: "auto"
+
+tracking:
+  tracker: "bytetrack.yaml"
+  persist: true
+
+representative_selection:
+  max_crops_per_track: 3
+  min_crop_width: 40
+  min_crop_height: 40
+
+  weights:
+    confidence: 0.40
+    sharpness: 0.25
+    size: 0.20
+    center: 0.15
+
+output:
+  save_annotated_video: true
+  save_debug_frames: false
+  save_track_metadata: true

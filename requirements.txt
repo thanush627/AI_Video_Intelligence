@@ -1,31 +1,112 @@
+# ===========================
+# Computer Vision
+# ===========================
 ultralytics
 opencv-python
-numpy
-pandas
-torch
-torchvision
-transformers
-accelerate
-chromadb
-langchain
-langgraph
-sentence-transformers
-open_clip_torch
-psycopg2-binary
-fastapi
-uvicorn
-sqlalchemy
-python-multipart
-ffmpeg-python
-moviepy
+opencv-contrib-python
 Pillow
 scikit-image
+imageio
+imageio-ffmpeg
+
+# ===========================
+# Deep Learning
+# ===========================
+torch
+torchvision
+torchaudio
+transformers
+accelerate
+timm
+safetensors
+einops
+
+# ===========================
+# Vision-Language Models
+# ===========================
+sentence-transformers
+open_clip_torch
+
+# ===========================
+# Tracking
+# ===========================
+lapx
+filterpy
+cython
+supervision
+
+# ===========================
+# Numerical Computing
+# ===========================
+numpy
+pandas
 scipy
+
+# ===========================
+# Visualization
+# ===========================
 matplotlib
 seaborn
+
+# ===========================
+# Progress & Utilities
+# ===========================
 tqdm
-openai-whisper
+PyYAML
 python-dotenv
+
+# ===========================
+# Vector Database
+# ===========================
+chromadb
+faiss-cpu
+
+# ===========================
+# LLM Orchestration
+# ===========================
+langchain
+langgraph
+
+# ===========================
+# Backend API
+# ===========================
+fastapi
+uvicorn
+python-multipart
+pydantic
+sqlalchemy
+psycopg2-binary
+
+# ===========================
+# Audio
+# ===========================
+openai-whisper
+ffmpeg-python
+moviepy
+
+# ===========================
+# Cloud
+# ===========================
 boto3
+
+# ===========================
+# Task Queue
+# ===========================
 redis
 celery
+
+# ===========================
+# Logging & Config
+# ===========================
+loguru
+
+# ===========================
+# JSON Validation
+# ===========================
+jsonschema
+
+# ===========================
+# Miscellaneous
+# ===========================
+requests
+typing_extensions

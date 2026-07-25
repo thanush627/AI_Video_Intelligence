@@ -1,0 +1,23 @@
+phase4:
+
+  model: qwen2.5-vl
+
+  batch_size: 8
+
+  device: auto
+
+  max_new_tokens: 256
+
+  temperature: 0.1
+
+  do_sample: false
+
+  save_intermediate_json: true
+
+paths:
+
+  representative_metadata: outputs/phase3/representative_selection_test/representative_crops.json
+
+  representative_crops: outputs/phase3/representative_selection_test/crops
+
+  output_directory: outputs/phase4/test_video

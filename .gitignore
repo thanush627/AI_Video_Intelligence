@@ -1,48 +1,35 @@
-# Python
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# PostgreSQL runtime files
+database/postgres/
 
-# Environment
-.env
+# ChromaDB
+database/chromadb/
+
+# Datasets
+ai/datasets/
+
+# Outputs
+outputs/
+frames/
+clips/
+uploads/
 
 # Logs
 logs/
-*.log
 
-# Generated Outputs
-outputs/
-clips/
-frames/
-uploads/
+# Virtual environment
+venv/
+.venv/
 
-# AI Models
+# Python
+__pycache__/
+*.py[cod]
+
+# Models
 *.pt
 *.pth
 *.ckpt
-*.onnx
-*.engine
+*.bin
+*.safetensors
 
-# Databases
-*.db
-*.sqlite3
-
-# IDE
-.vscode/
-.idea/
-
-# Operating System
-.DS_Store
-Thumbs.db
-
-# Node
-node_modules/
-
-# Flutter
-.flutter-plugins
-.flutter-plugins-dependencies
-.dart_tool/
-build/
+# Environment
+.env
