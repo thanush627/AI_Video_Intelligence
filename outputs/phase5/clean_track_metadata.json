@@ -1,1 +1,1180 @@
-[]
+[
+    {
+        "track_id": "bicycle_track_18",
+        "object_type": "bicycle",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "bicycle_track_189",
+        "object_type": "bicycle",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.967,
+            "attributes": 0.667,
+            "action": 0.667
+        }
+    },
+    {
+        "track_id": "bicycle_track_195",
+        "object_type": "bicycle",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partial",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "bicycle_track_40",
+        "object_type": "bicycle",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.5,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "bus_track_128",
+        "object_type": "bus",
+        "colors": {},
+        "attributes": [
+            "front view of a car",
+            "number plate visible",
+            "renault logo on the front grille"
+        ],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.333,
+            "attributes": 0.333,
+            "action": 0.333
+        }
+    },
+    {
+        "track_id": "bus_track_138",
+        "object_type": "bus",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "gray"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partial",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "bus_track_148",
+        "object_type": "bus",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "gray"
+        },
+        "attributes": [
+            "license plate: 07 zs 377",
+            "license plate: dz 7s 377"
+        ],
+        "action": "",
+        "orientation": "front",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.967,
+            "attributes": 0.667,
+            "action": 0.667
+        }
+    },
+    {
+        "track_id": "bus_track_177",
+        "object_type": "bus",
+        "colors": {},
+        "attributes": [
+            "headlights with yellow illumination",
+            "renault logo on grille"
+        ],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.333,
+            "attributes": 0.333,
+            "action": 0.333
+        }
+    },
+    {
+        "track_id": "bus_track_178",
+        "object_type": "bus",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "bus_track_20",
+        "object_type": "bus",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.3,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "bus_track_33",
+        "object_type": "bus",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.45,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "bus_track_66",
+        "object_type": "bus",
+        "colors": {},
+        "attributes": [
+            "front bumper with fog lights",
+            "front view",
+            "headlights on",
+            "headlights turned off",
+            "license plate visible",
+            "renault logo on front grille"
+        ],
+        "action": "standing",
+        "orientation": "front",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.667,
+            "attributes": 0.667,
+            "action": 0.667
+        }
+    },
+    {
+        "track_id": "bus_track_72",
+        "object_type": "bus",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "gray"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.3,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "car_track_1",
+        "object_type": "car",
+        "colors": {
+            "upper_body": "gray",
+            "lower_body": "white"
+        },
+        "attributes": [
+            "black bumper",
+            "black exhaust pipe",
+            "black roof rack",
+            "black roof rack on top of car",
+            "black side mirrors",
+            "black wheels",
+            "door handle",
+            "front headlights",
+            "hood ornament",
+            "license plate",
+            "nissan logo on front grille",
+            "rearview mirror",
+            "road markings",
+            "side mirrors",
+            "silver rims",
+            "silver rims on wheels",
+            "white suv",
+            "window wipers"
+        ],
+        "action": "",
+        "orientation": "left side view",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.933,
+            "attributes": 0.933,
+            "action": 0.867
+        }
+    },
+    {
+        "track_id": "car_track_13",
+        "object_type": "car",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "gray"
+        },
+        "attributes": [
+            "ford logo",
+            "ford logo on front grille",
+            "front bumper with damage",
+            "front left headlight",
+            "front right headlight",
+            "license plate '34 klf 188'",
+            "license plate with text '34 klf 188'",
+            "license plate with turkish registration",
+            "white van"
+        ],
+        "action": "",
+        "orientation": "front",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.967,
+            "attributes": 0.967,
+            "action": 0.933
+        }
+    },
+    {
+        "track_id": "car_track_17",
+        "object_type": "car",
+        "colors": {
+            "upper_body": "blue",
+            "lower_body": "white"
+        },
+        "attributes": [
+            "ford logo on front grille",
+            "license plate '34 klf 188'",
+            "white van with black accents"
+        ],
+        "action": "standing",
+        "orientation": "front-facing",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 1.0,
+            "attributes": 1.0,
+            "action": 1.0
+        }
+    },
+    {
+        "track_id": "car_track_6",
+        "object_type": "car",
+        "colors": {
+            "upper_body": "gray",
+            "lower_body": "black"
+        },
+        "attributes": [
+            "pink hat"
+        ],
+        "action": "",
+        "orientation": "",
+        "visibility": "partial",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.8,
+            "attributes": 0.9,
+            "action": 0.5
+        }
+    },
+    {
+        "track_id": "pedestrian_track_114",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_117",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partial",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_132",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_139",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.6,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_141",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_158",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_164",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_19",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "pink",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.95,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_197",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_206",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_208",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_214",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "brown"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.967,
+            "attributes": 0.333,
+            "action": 0.333
+        }
+    },
+    {
+        "track_id": "pedestrian_track_23",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_232",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.667,
+            "attributes": 0.333,
+            "action": 0.333
+        }
+    },
+    {
+        "track_id": "pedestrian_track_234",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_240",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.333,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_25",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.3,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_265",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_272",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.633,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_277",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_278",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_279",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "gray",
+            "lower_body": "white"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.933,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_28",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.3,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_283",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partial",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.6,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_284",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.45,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_285",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "beige"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_29",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_31",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "pink",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_37",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.3,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_39",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_48",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "purple",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.3,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_56",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "white"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_96",
+        "object_type": "pedestrian",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "pedestrian_track_97",
+        "object_type": "pedestrian",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "gray"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.6,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_146",
+        "object_type": "people",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partial",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_15",
+        "object_type": "people",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "gray"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partial",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_16",
+        "object_type": "people",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "white"
+        },
+        "attributes": [
+            "ford logo on front grille",
+            "front bumper with a dent",
+            "license plate with turkish registration",
+            "license plate: 34 klf 188"
+        ],
+        "action": "",
+        "orientation": "front view",
+        "visibility": "clear",
+        "confidence": {
+            "object": 0.0,
+            "colors": 1.0,
+            "attributes": 1.0,
+            "action": 1.0
+        }
+    },
+    {
+        "track_id": "people_track_176",
+        "object_type": "people",
+        "colors": {
+            "upper_body": "black",
+            "lower_body": "gray"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partial",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_2",
+        "object_type": "people",
+        "colors": {
+            "upper_body": "blue",
+            "lower_body": "gray"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_215",
+        "object_type": "people",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_223",
+        "object_type": "people",
+        "colors": {
+            "upper_body": "blue",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.3,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_238",
+        "object_type": "people",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_24",
+        "object_type": "people",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_286",
+        "object_type": "people",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_35",
+        "object_type": "people",
+        "colors": {
+            "upper_body": "blue",
+            "lower_body": "blue"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_73",
+        "object_type": "people",
+        "colors": {
+            "upper_body": "blue",
+            "lower_body": "gray"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partial",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_76",
+        "object_type": "people",
+        "colors": {
+            "upper_body": "gray",
+            "lower_body": "black"
+        },
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "partially visible",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.9,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "people_track_99",
+        "object_type": "people",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "van_track_106",
+        "object_type": "van",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "van_track_69",
+        "object_type": "van",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "van_track_77",
+        "object_type": "van",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    },
+    {
+        "track_id": "van_track_83",
+        "object_type": "van",
+        "colors": {},
+        "attributes": [],
+        "action": "",
+        "orientation": "",
+        "visibility": "",
+        "confidence": {
+            "object": 0.0,
+            "colors": 0.0,
+            "attributes": 0.0,
+            "action": 0.0
+        }
+    }
+]
