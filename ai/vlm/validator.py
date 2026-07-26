@@ -6,7 +6,6 @@ logger = logging.getLogger(__name__)
 class MetadataValidator:
 
     REQUIRED_FIELDS = [
-        "object",
         "colors",
         "attributes",
         "action",
@@ -16,7 +15,6 @@ class MetadataValidator:
     ]
 
     CONFIDENCE_FIELDS = [
-        "object",
         "colors",
         "attributes",
         "action"
