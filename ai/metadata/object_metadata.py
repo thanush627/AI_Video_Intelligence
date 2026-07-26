@@ -18,7 +18,7 @@ class ObjectMetadataGenerator:
             {
                 "track_id": track_id,
                 "image": image_name,
-                "object_type": metadata["object"],
+                "object_type": metadata.get("object", "unknown"),
                 "colors": metadata["colors"],
                 "attributes": metadata["attributes"],
                 "action": metadata["action"],

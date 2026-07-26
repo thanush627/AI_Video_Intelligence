@@ -50,6 +50,7 @@ class Phase4Pipeline:
         self.event_generator = EventMetadataGenerator()
         self.statistics_generator = StatisticsGenerator()
         self.exporter = MetadataExporter(self.output_dir)
+
         self.track_class_mapping = self.load_track_class_mapping()
 
     def run(self):
@@ -58,7 +59,7 @@ class Phase4Pipeline:
 
         track_folders = sorted(os.listdir(self.representative_crop_dir))
 
-        logger.info(f"Debug Mode: Processing only {len(track_folders)} tracks")
+        logger.info(f"Processing {len(track_folders)} tracks")
 
         for track_folder in tqdm(track_folders):
 
@@ -108,9 +109,6 @@ class Phase4Pipeline:
                 responses
             )
 
-            print("\nRAW QWEN RESPONSE")
-            print(responses)
-
             valid_metadata = MetadataValidator.filter_valid(
                 parsed_metadata
             )
@@ -127,15 +125,15 @@ class Phase4Pipeline:
                     metadata
                 )
 
-                # Override Qwen object type with the original YOLO class
-                try:
-                    track_number = int(track_id.split("_")[-1])
-                    metadata["object"] = self.track_class_mapping.get(
-                        track_number,
-                        metadata["object"]
-                    )
-                except Exception:
-                    pass
+                # -------------------------------------------------
+                # Use YOLO detected class instead of Qwen object
+                # -------------------------------------------------
+                track_number = int(track_id.split("_")[-1])
+
+                metadata["object"] = self.track_class_mapping.get(
+                    track_number,
+                    "unknown"
+                )
 
                 track_metadata.append(metadata)
 
@@ -156,6 +154,7 @@ class Phase4Pipeline:
             track_id,
             track_metadata
         )
+
         print("Aggregated:")
         print(aggregated)
 
@@ -163,7 +162,7 @@ class Phase4Pipeline:
         print(track_id)
         print(aggregated)
         print("=" * 60)
-        print("Adding track to generator...")
+
         self.track_generator.add(
             track_id,
             aggregated
@@ -174,7 +173,9 @@ class Phase4Pipeline:
         )
 
     def export_all(self):
+
         logger.info("Generating Track Metadata...")
+
         track_metadata = self.track_generator.aggregate()
 
         logger.info("Generating Event Metadata...")
@@ -228,7 +229,6 @@ class Phase4Pipeline:
         print("=" * 70)
         print("Tracks stored:", len(self.track_generator.tracks))
         print("Objects stored:", len(self.object_generator.get()))
-
 
     def load_track_class_mapping(self):
 
