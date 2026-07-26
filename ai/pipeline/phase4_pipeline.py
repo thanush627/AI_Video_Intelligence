@@ -56,7 +56,7 @@ class Phase4Pipeline:
 
         logger.info("Starting Phase 4 Pipeline...")
 
-        track_folders = sorted(os.listdir(self.representative_crop_dir))[:5]
+        track_folders = sorted(os.listdir(self.representative_crop_dir))
 
         logger.info(f"Debug Mode: Processing only {len(track_folders)} tracks")
 

@@ -5,7 +5,6 @@ import torch
 from transformers import (
     AutoProcessor,
     Qwen2_5_VLForConditionalGeneration,
-    BitsAndBytesConfig
 )
 
 from .prompt_templates import (
@@ -36,18 +35,11 @@ class QwenVL:
             trust_remote_code=True
         )
 
-        # 4-bit Quantization Configuration
-        bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_use_double_quant=True,
-        )
+        logger.info("Loading model (FP16)...")
 
-        # Load Model (ONLY ONCE)
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             model_name,
-            quantization_config=bnb_config,
+            torch_dtype=torch.float16,
             device_map="auto",
             low_cpu_mem_usage=True,
             trust_remote_code=True,
