@@ -233,8 +233,7 @@ class Phase4Pipeline:
     def load_track_class_mapping(self):
 
         metadata_file = (
-            Path("/kaggle/working/Phase4_Fix")
-            / "outputs"
+            Path("outputs")
             / "phase3"
             / "production_runs"
             / "test"
