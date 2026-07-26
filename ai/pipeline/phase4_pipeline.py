@@ -149,14 +149,21 @@ class Phase4Pipeline:
             logger.warning(f"No valid metadata for {track_id}")
             return
 
+        print(f"Track: {track_id}")
+        print(f"Collected metadata: {len(track_metadata)}")
+
         aggregated = MetadataAggregator.aggregate(
             track_id,
             track_metadata
         )
+        print("Aggregated:")
+        print(aggregated)
+
         print("=" * 60)
         print(track_id)
         print(aggregated)
         print("=" * 60)
+        print("Adding track to generator...")
         self.track_generator.add(
             track_id,
             aggregated
@@ -219,6 +226,8 @@ class Phase4Pipeline:
         print(semantic)
         print(stats)
         print("=" * 70)
+        print("Tracks stored:", len(self.track_generator.tracks))
+        print("Objects stored:", len(self.object_generator.get()))
 
 
     def load_track_class_mapping(self):

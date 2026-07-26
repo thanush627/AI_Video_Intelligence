@@ -1,32 +1,97 @@
-# PostgreSQL runtime files
+# ==========================
+# PostgreSQL
+# ==========================
 database/postgres/
 
+# ==========================
 # ChromaDB
+# ==========================
 database/chromadb/
 
+# ==========================
 # Datasets
+# ==========================
 ai/datasets/
+datasets/
 
-outputs/yolo_test/prediction/*.avi
-outputs/bytetrack_test/prediction/*.avi
-
-# Logs
-logs/
-
-# Virtual environment
-venv/
-.venv/
-
-# Python
-__pycache__/
-*.py[cod]
-
-# Models
+# ==========================
+# Model Weights
+# ==========================
 *.pt
 *.pth
 *.ckpt
+*.onnx
 *.bin
 *.safetensors
 
-# Environment
+# ==========================
+# Videos
+# ==========================
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Keep sample videos if any
+!sample_videos/
+
+# ==========================
+# Frames
+# ==========================
+frames/
+outputs/frames/
+
+# ==========================
+# Clips
+# ==========================
+clips/
+outputs/clips/
+
+# ==========================
+# YOLO Outputs
+# ==========================
+runs/
+outputs/yolo_test/
+outputs/bytetrack_test/
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+
+# ==========================
+# Virtual Environment
+# ==========================
+venv/
+.venv/
+
+# ==========================
+# Environment Variables
+# ==========================
 .env
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
