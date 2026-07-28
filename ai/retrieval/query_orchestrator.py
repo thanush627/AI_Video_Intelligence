@@ -185,31 +185,19 @@ class QueryOrchestrator:
         results,
         intent,
     ):
-        if intent == "object_event":
-
-            object_results = [
-                result
-                for result in results
-                if self._event_type(
-                    result
-                )
-                == "track_semantic_event"
-            ]
-
-            return object_results
-
         if intent == "relationship_event":
-
-            relationship_results = [
-                result
-                for result in results
-                if self._event_type(
-                    result
-                )
-                == "relationship_event"
+            return [
+                r for r in results
+                if "relationship"
+                in self._event_type(r)
             ]
 
-            return relationship_results
+        if intent == "object_event":
+            return [
+                r for r in results
+                if "relationship"
+                not in self._event_type(r)
+            ]
 
         return results
 
@@ -319,6 +307,8 @@ class QueryOrchestrator:
             )
         )
 
+        print("RAW:", len(raw_results))
+        print("FILTERED:", len(filtered_results))
         final_results = (
             filtered_results[
                 :top_k

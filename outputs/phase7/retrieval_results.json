@@ -1,0 +1,30 @@
+{
+    "query": "person",
+    "generated_at": "2026-07-28 06:29:33",
+    "query_parser": {
+        "raw_query": "person",
+        "object": "person",
+        "color": null,
+        "action": null,
+        "attribute": null,
+        "time_range": null,
+        "query_type": "object",
+        "keywords": [
+            "person"
+        ]
+    },
+    "retrieval_plan": {
+        "strategy": "sql",
+        "use_sql": true,
+        "use_chromadb": false
+    },
+    "statistics": {
+        "query_time_ms": 17.153,
+        "sql_time_ms": 0.251,
+        "vector_time_ms": 0.0,
+        "total_time_ms": 17.153,
+        "results_returned": 0
+    },
+    "total_results": 0,
+    "results": []
+}

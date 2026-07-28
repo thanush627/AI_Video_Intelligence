@@ -15,7 +15,7 @@ CLIP_OUTPUT_DIRECTORY = "clips"
 
 VIDEO_PATH = VIDEO_PATH = r"C:\Users\thanu\AI_Video_Intelligence\test_videos\test.mp4"
 
-QUERY = "person wearing red shirt"
+QUERY = "person"
 
 TOP_K = 5
 MAXIMUM_CLIPS = 5

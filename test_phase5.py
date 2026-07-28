@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from ai.embeddings.embedding_pipeline import EmbeddingPipeline
+from ai.embeddings.chroma_manager import ChromaManager
 
 # -----------------------------
 # Directories
@@ -59,6 +60,19 @@ pipeline.generate_embeddings(
     output_directory=str(OUTPUT_DIR),
 )
 
+print("\nIndexing embeddings into ChromaDB...")
+
+chroma = ChromaManager(
+    db_path="database/chromadb",
+    collection_name="image_embeddings",
+)
+
+chroma.store(
+    embedding_file=OUTPUT_DIR / "image_embeddings.npy",
+    metadata_file=OUTPUT_DIR / "embedding_metadata.json",
+)
+
+print("ChromaDB indexing completed.")
 print("\n")
 print("=" * 60)
 print("Phase 5 Completed Successfully")

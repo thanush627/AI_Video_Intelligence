@@ -814,42 +814,28 @@ class SemanticEventSearch:
         metadata,
     ):
 
-        event_classes = (
-            self._get_event_classes(
-                metadata
-            )
-        )
+        event_classes = self._get_event_classes(metadata)
 
-        requested_classes = set(
-            parsed_query[
-                "classes"
-            ]
-        )
+        requested_classes = set(parsed_query["classes"])
+
+        print("\nDEBUG CLASS MATCH")
+        print("Requested:", requested_classes)
+        print("Event:", event_classes)
+        print("Raw metadata:", metadata.get("class_names"))
 
         if requested_classes:
 
-            if not (
-                event_classes
-                & requested_classes
-            ):
+            print("Intersection:", event_classes & requested_classes)
+
+            if not (event_classes & requested_classes):
 
                 return False
 
-        class_group = (
-            parsed_query[
-                "class_group"
-            ]
-        )
+        class_group = parsed_query["class_group"]
 
-        if (
-            class_group
-            == "vehicle"
-        ):
+        if class_group == "vehicle":
 
-            if not (
-                event_classes
-                & self.VEHICLE_CLASSES
-            ):
+            if not (event_classes & self.VEHICLE_CLASSES):
 
                 return False
 
@@ -1217,51 +1203,36 @@ class SemanticEventSearch:
         metadata,
     ):
 
-        if not self._class_matches(
-            parsed_query,
-            metadata,
-        ):
+        passed = True
 
-            return False
+        if not self._class_matches(parsed_query, metadata):
+            print("FAILED -> CLASS")
+            passed = False
 
-        if not self._color_matches(
-            parsed_query,
-            document,
-        ):
+        if passed and not self._color_matches(parsed_query, document):
+            print("FAILED -> COLOR")
+            passed = False
 
-            return False
+        if passed and not self._motion_matches(parsed_query, document, metadata):
+            print("FAILED -> MOTION")
+            passed = False
 
-        if not self._motion_matches(
-            parsed_query,
-            document,
-            metadata,
-        ):
+        if passed and not self._direction_matches(parsed_query, document):
+            print("FAILED -> DIRECTION")
+            passed = False
 
-            return False
+        if passed and not self._region_matches(parsed_query, document):
+            print("FAILED -> REGION")
+            passed = False
 
-        if not self._direction_matches(
-            parsed_query,
-            document,
-        ):
+        if passed and not self._relationship_matches(parsed_query, document, metadata):
+            print("FAILED -> RELATIONSHIP")
+            passed = False
 
-            return False
+        if passed:
+            print("PASSED ALL FILTERS")
 
-        if not self._region_matches(
-            parsed_query,
-            document,
-        ):
-
-            return False
-
-        if not self._relationship_matches(
-            parsed_query,
-            document,
-            metadata,
-        ):
-
-            return False
-
-        return True
+        return passed
 
 
     def _matches_temporal_filter(
@@ -1619,6 +1590,29 @@ class SemanticEventSearch:
             [[]],
         )[0]
 
+        print("=" * 60)
+        print("DEBUG CHROMADB")
+        print("Returned IDs :", len(ids))
+        print("Returned Docs:", len(documents))
+        print("Returned Meta:", len(metadatas))
+        print("Returned Dist:", len(distances))
+
+        if metadatas:
+            print("\nFIRST METADATA")
+            print(metadatas[0])
+
+            print("\nALL METADATA KEYS")
+            print(list(metadatas[0].keys()))
+
+            print("\nFIRST DOCUMENT")
+            print(documents[0])
+
+        if documents:
+            print("\nFIRST DOCUMENT")
+            print(documents[0])
+
+        print("=" * 60)
+
         results = []
 
         for (
@@ -1866,10 +1860,14 @@ class SemanticEventSearch:
                 ),
             }
 
-            results.append(
-                result
-            )
+            results.append(result)
 
+            print(
+                "APPENDED:",
+                result["class_names"],
+                result["event_id"]
+            )
+        print("RESULTS BEFORE SORT:", len(results))
         results.sort(
             key=lambda item: (
                 float(
@@ -1899,6 +1897,7 @@ class SemanticEventSearch:
                 :actual_top_k
             ]
         )
+        print("FINAL RESULTS:", len(final_results))
 
         for (
             rank,

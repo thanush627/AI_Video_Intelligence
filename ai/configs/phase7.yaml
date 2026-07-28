@@ -1,0 +1,138 @@
+# ==========================================================
+# Phase 7 Configuration
+# Agentic Multimodal Retrieval using LangGraph
+# ==========================================================
+
+project:
+  name: AI Video Intelligence
+  phase: 7
+
+# ==========================================================
+# Retrieval Configuration
+# ==========================================================
+
+retrieval:
+
+  top_k: 10
+
+  duplicate_removal: true
+
+  ranking:
+
+    similarity_weight: 0.40
+
+    metadata_weight: 0.30
+
+    confidence_weight: 0.20
+
+    temporal_weight: 0.10
+
+# ==========================================================
+# Query Parser
+# ==========================================================
+
+query_parser:
+
+  enable_color_detection: true
+
+  enable_action_detection: true
+
+  enable_attribute_detection: true
+
+  enable_time_filter: true
+
+# ==========================================================
+# SQL Retrieval
+# ==========================================================
+
+sql:
+
+  enabled: true
+
+  event_database: outputs/phase6/event_database.json
+
+# ==========================================================
+# ChromaDB
+# ==========================================================
+
+chromadb:
+
+  enabled: true
+
+  path: database/chromadb
+
+  collection_name: video_embeddings
+
+# ==========================================================
+# LangGraph
+# ==========================================================
+
+langgraph:
+
+  enabled: true
+
+# ==========================================================
+# Outputs
+# ==========================================================
+
+outputs:
+
+  directory: outputs/phase7
+
+  retrieval_results: retrieval_results.json
+
+  ranked_results: ranked_results.json
+
+  retrieval_statistics: retrieval_statistics.json
+
+# ==========================================================
+# Performance
+# ==========================================================
+
+performance:
+
+  log_query_time: true
+
+  log_sql_time: true
+
+  log_vector_time: true
+
+  log_total_latency: true
+
+# ==========================================================
+# Logging
+# ==========================================================
+
+logging:
+
+  level: INFO
+
+  save_logs: true
+
+# ==========================================================
+# Testing
+# ==========================================================
+
+testing:
+
+  sample_queries:
+
+    - person
+
+    - red car
+
+    - blue backpack
+
+    - person carrying backpack
+
+    - walking person
+
+    - bicycle
+
+    - bus
+
+    - truck
+
+    - helmet
+
+    - motorcycle

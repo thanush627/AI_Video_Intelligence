@@ -6,7 +6,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000102.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_18\\rank_1_frame_000102.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_18\\rank_1_frame_000102.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bicycle"
   },
   {
     "embedding_id": "bicycle_track_18_rank_2",
@@ -15,7 +25,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000067.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_18\\rank_2_frame_000067.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_18\\rank_2_frame_000067.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bicycle"
   },
   {
     "embedding_id": "bicycle_track_18_rank_3",
@@ -24,7 +44,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000066.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_18\\rank_3_frame_000066.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_18\\rank_3_frame_000066.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bicycle"
   },
   {
     "embedding_id": "bicycle_track_189_rank_1",
@@ -33,7 +63,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000304.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_189\\rank_1_frame_000304.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_189\\rank_1_frame_000304.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bicycle   clear"
   },
   {
     "embedding_id": "bicycle_track_189_rank_2",
@@ -42,7 +82,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000305.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_189\\rank_2_frame_000305.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_189\\rank_2_frame_000305.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bicycle   clear"
   },
   {
     "embedding_id": "bicycle_track_189_rank_3",
@@ -51,7 +101,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000307.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_189\\rank_3_frame_000307.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_189\\rank_3_frame_000307.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bicycle   clear"
   },
   {
     "embedding_id": "bicycle_track_195_rank_1",
@@ -60,7 +120,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000310.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_195\\rank_1_frame_000310.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_195\\rank_1_frame_000310.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "bicycle   partial"
   },
   {
     "embedding_id": "bicycle_track_195_rank_2",
@@ -69,7 +139,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000311.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_195\\rank_2_frame_000311.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_195\\rank_2_frame_000311.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "bicycle   partial"
   },
   {
     "embedding_id": "bicycle_track_195_rank_3",
@@ -78,7 +158,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000312.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_195\\rank_3_frame_000312.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_195\\rank_3_frame_000312.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "bicycle   partial"
   },
   {
     "embedding_id": "bicycle_track_40_rank_1",
@@ -87,7 +177,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000131.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_40\\rank_1_frame_000131.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_40\\rank_1_frame_000131.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bicycle   clear"
   },
   {
     "embedding_id": "bicycle_track_40_rank_2",
@@ -96,7 +196,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000126.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_40\\rank_2_frame_000126.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bicycle_track_40\\rank_2_frame_000126.jpg",
+    "class_names": "bicycle",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bicycle   clear"
   },
   {
     "embedding_id": "bus_track_128_rank_1",
@@ -105,7 +215,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000240.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_128\\rank_1_frame_000240.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_128\\rank_1_frame_000240.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "front view of a car, number plate visible, renault logo on the front grille",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_128_rank_2",
@@ -114,7 +234,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000232.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_128\\rank_2_frame_000232.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_128\\rank_2_frame_000232.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "front view of a car, number plate visible, renault logo on the front grille",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_128_rank_3",
@@ -123,7 +253,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000234.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_128\\rank_3_frame_000234.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_128\\rank_3_frame_000234.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "front view of a car, number plate visible, renault logo on the front grille",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_138_rank_1",
@@ -132,7 +272,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000235.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_138\\rank_1_frame_000235.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_138\\rank_1_frame_000235.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "bus   partial"
   },
   {
     "embedding_id": "bus_track_148_rank_1",
@@ -141,7 +291,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000269.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_148\\rank_1_frame_000269.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_148\\rank_1_frame_000269.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "license plate: 07 zs 377, license plate: dz 7s 377",
+    "action": "",
+    "orientation": "front",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bus  front clear"
   },
   {
     "embedding_id": "bus_track_148_rank_2",
@@ -150,7 +310,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000266.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_148\\rank_2_frame_000266.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_148\\rank_2_frame_000266.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "license plate: 07 zs 377, license plate: dz 7s 377",
+    "action": "",
+    "orientation": "front",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bus  front clear"
   },
   {
     "embedding_id": "bus_track_148_rank_3",
@@ -159,7 +329,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000246.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_148\\rank_3_frame_000246.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_148\\rank_3_frame_000246.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "license plate: 07 zs 377, license plate: dz 7s 377",
+    "action": "",
+    "orientation": "front",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bus  front clear"
   },
   {
     "embedding_id": "bus_track_177_rank_1",
@@ -168,7 +348,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000287.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_177\\rank_1_frame_000287.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_177\\rank_1_frame_000287.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "headlights with yellow illumination, renault logo on grille",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_177_rank_2",
@@ -177,7 +367,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000301.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_177\\rank_2_frame_000301.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_177\\rank_2_frame_000301.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "headlights with yellow illumination, renault logo on grille",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_177_rank_3",
@@ -186,7 +386,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000302.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_177\\rank_3_frame_000302.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_177\\rank_3_frame_000302.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "headlights with yellow illumination, renault logo on grille",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_178_rank_1",
@@ -195,7 +405,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000289.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_178\\rank_1_frame_000289.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_178\\rank_1_frame_000289.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "bus   partially visible"
   },
   {
     "embedding_id": "bus_track_20_rank_1",
@@ -204,7 +424,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000114.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_20\\rank_1_frame_000114.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_20\\rank_1_frame_000114.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_20_rank_2",
@@ -213,7 +443,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000087.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_20\\rank_2_frame_000087.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_20\\rank_2_frame_000087.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_20_rank_3",
@@ -222,7 +462,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000088.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_20\\rank_3_frame_000088.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_20\\rank_3_frame_000088.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_33_rank_1",
@@ -231,7 +481,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000110.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_33\\rank_1_frame_000110.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_33\\rank_1_frame_000110.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "bus   partially visible"
   },
   {
     "embedding_id": "bus_track_33_rank_2",
@@ -240,7 +500,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000111.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_33\\rank_2_frame_000111.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_33\\rank_2_frame_000111.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "bus   partially visible"
   },
   {
     "embedding_id": "bus_track_66_rank_1",
@@ -249,7 +519,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000181.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_66\\rank_1_frame_000181.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_66\\rank_1_frame_000181.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "front bumper with fog lights, front view, headlights on, headlights turned off, license plate visible, renault logo on front grille",
+    "action": "standing",
+    "orientation": "front",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bus standing front clear"
   },
   {
     "embedding_id": "bus_track_66_rank_2",
@@ -258,7 +538,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000180.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_66\\rank_2_frame_000180.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_66\\rank_2_frame_000180.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "front bumper with fog lights, front view, headlights on, headlights turned off, license plate visible, renault logo on front grille",
+    "action": "standing",
+    "orientation": "front",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bus standing front clear"
   },
   {
     "embedding_id": "bus_track_66_rank_3",
@@ -267,7 +557,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000191.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_66\\rank_3_frame_000191.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_66\\rank_3_frame_000191.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "front bumper with fog lights, front view, headlights on, headlights turned off, license plate visible, renault logo on front grille",
+    "action": "standing",
+    "orientation": "front",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "bus standing front clear"
   },
   {
     "embedding_id": "bus_track_72_rank_1",
@@ -276,7 +576,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000209.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_72\\rank_1_frame_000209.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_72\\rank_1_frame_000209.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_72_rank_2",
@@ -285,7 +595,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000208.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_72\\rank_2_frame_000208.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_72\\rank_2_frame_000208.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "bus_track_72_rank_3",
@@ -294,7 +614,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000222.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_72\\rank_3_frame_000222.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\bus_track_72\\rank_3_frame_000222.jpg",
+    "class_names": "bus",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "bus"
   },
   {
     "embedding_id": "car_track_1_rank_1",
@@ -303,7 +633,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000004.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_1\\rank_1_frame_000004.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_1\\rank_1_frame_000004.jpg",
+    "class_names": "car",
+    "event_type": "object_event",
+    "upper_body_color": "gray",
+    "lower_body_color": "white",
+    "attributes": "black bumper, black exhaust pipe, black roof rack, black roof rack on top of car, black side mirrors, black wheels, door handle, front headlights, hood ornament, license plate, nissan logo on front grille, rearview mirror, road markings, side mirrors, silver rims, silver rims on wheels, white suv, window wipers",
+    "action": "",
+    "orientation": "left side view",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "car  left side view clear"
   },
   {
     "embedding_id": "car_track_1_rank_2",
@@ -312,7 +652,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000003.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_1\\rank_2_frame_000003.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_1\\rank_2_frame_000003.jpg",
+    "class_names": "car",
+    "event_type": "object_event",
+    "upper_body_color": "gray",
+    "lower_body_color": "white",
+    "attributes": "black bumper, black exhaust pipe, black roof rack, black roof rack on top of car, black side mirrors, black wheels, door handle, front headlights, hood ornament, license plate, nissan logo on front grille, rearview mirror, road markings, side mirrors, silver rims, silver rims on wheels, white suv, window wipers",
+    "action": "",
+    "orientation": "left side view",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "car  left side view clear"
   },
   {
     "embedding_id": "car_track_1_rank_3",
@@ -321,7 +671,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000000.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_1\\rank_3_frame_000000.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_1\\rank_3_frame_000000.jpg",
+    "class_names": "car",
+    "event_type": "object_event",
+    "upper_body_color": "gray",
+    "lower_body_color": "white",
+    "attributes": "black bumper, black exhaust pipe, black roof rack, black roof rack on top of car, black side mirrors, black wheels, door handle, front headlights, hood ornament, license plate, nissan logo on front grille, rearview mirror, road markings, side mirrors, silver rims, silver rims on wheels, white suv, window wipers",
+    "action": "",
+    "orientation": "left side view",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "car  left side view clear"
   },
   {
     "embedding_id": "car_track_13_rank_1",
@@ -330,7 +690,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000062.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_13\\rank_1_frame_000062.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_13\\rank_1_frame_000062.jpg",
+    "class_names": "car",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "ford logo, ford logo on front grille, front bumper with damage, front left headlight, front right headlight, license plate '34 klf 188', license plate with text '34 klf 188', license plate with turkish registration, white van",
+    "action": "",
+    "orientation": "front",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "car  front clear"
   },
   {
     "embedding_id": "car_track_13_rank_2",
@@ -339,7 +709,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000064.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_13\\rank_2_frame_000064.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_13\\rank_2_frame_000064.jpg",
+    "class_names": "car",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "ford logo, ford logo on front grille, front bumper with damage, front left headlight, front right headlight, license plate '34 klf 188', license plate with text '34 klf 188', license plate with turkish registration, white van",
+    "action": "",
+    "orientation": "front",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "car  front clear"
   },
   {
     "embedding_id": "car_track_13_rank_3",
@@ -348,7 +728,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000063.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_13\\rank_3_frame_000063.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_13\\rank_3_frame_000063.jpg",
+    "class_names": "car",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "ford logo, ford logo on front grille, front bumper with damage, front left headlight, front right headlight, license plate '34 klf 188', license plate with text '34 klf 188', license plate with turkish registration, white van",
+    "action": "",
+    "orientation": "front",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "car  front clear"
   },
   {
     "embedding_id": "car_track_17_rank_1",
@@ -357,7 +747,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000054.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_17\\rank_1_frame_000054.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_17\\rank_1_frame_000054.jpg",
+    "class_names": "car",
+    "event_type": "object_event",
+    "upper_body_color": "blue",
+    "lower_body_color": "white",
+    "attributes": "ford logo on front grille, license plate '34 klf 188', white van with black accents",
+    "action": "standing",
+    "orientation": "front-facing",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "car standing front-facing clear"
   },
   {
     "embedding_id": "car_track_6_rank_1",
@@ -366,7 +766,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000019.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_6\\rank_1_frame_000019.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\car_track_6\\rank_1_frame_000019.jpg",
+    "class_names": "car",
+    "event_type": "object_event",
+    "upper_body_color": "gray",
+    "lower_body_color": "black",
+    "attributes": "pink hat",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "car   partial"
   },
   {
     "embedding_id": "pedestrian_track_114_rank_1",
@@ -375,7 +785,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000218.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_114\\rank_1_frame_000218.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_114\\rank_1_frame_000218.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_117_rank_1",
@@ -384,7 +804,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000220.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_117\\rank_1_frame_000220.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_117\\rank_1_frame_000220.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "pedestrian   partial"
   },
   {
     "embedding_id": "pedestrian_track_117_rank_2",
@@ -393,7 +823,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000222.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_117\\rank_2_frame_000222.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_117\\rank_2_frame_000222.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "pedestrian   partial"
   },
   {
     "embedding_id": "pedestrian_track_132_rank_1",
@@ -402,7 +842,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000231.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_132\\rank_1_frame_000231.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_132\\rank_1_frame_000231.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_132_rank_2",
@@ -411,7 +861,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000232.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_132\\rank_2_frame_000232.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_132\\rank_2_frame_000232.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_139_rank_1",
@@ -420,7 +880,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000257.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_139\\rank_1_frame_000257.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_139\\rank_1_frame_000257.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_139_rank_2",
@@ -429,7 +899,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000252.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_139\\rank_2_frame_000252.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_139\\rank_2_frame_000252.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_139_rank_3",
@@ -438,7 +918,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000255.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_139\\rank_3_frame_000255.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_139\\rank_3_frame_000255.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_141_rank_1",
@@ -447,7 +937,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000237.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_141\\rank_1_frame_000237.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_141\\rank_1_frame_000237.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_141_rank_2",
@@ -456,7 +956,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000236.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_141\\rank_2_frame_000236.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_141\\rank_2_frame_000236.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_141_rank_3",
@@ -465,7 +975,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000238.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_141\\rank_3_frame_000238.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_141\\rank_3_frame_000238.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_158_rank_1",
@@ -474,7 +994,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000252.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_158\\rank_1_frame_000252.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_158\\rank_1_frame_000252.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_158_rank_2",
@@ -483,7 +1013,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000251.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_158\\rank_2_frame_000251.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_158\\rank_2_frame_000251.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_164_rank_1",
@@ -492,7 +1032,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000271.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_164\\rank_1_frame_000271.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_164\\rank_1_frame_000271.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_164_rank_2",
@@ -501,7 +1051,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000272.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_164\\rank_2_frame_000272.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_164\\rank_2_frame_000272.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_164_rank_3",
@@ -510,7 +1070,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000257.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_164\\rank_3_frame_000257.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_164\\rank_3_frame_000257.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_19_rank_1",
@@ -519,7 +1089,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000061.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_19\\rank_1_frame_000061.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_19\\rank_1_frame_000061.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "pink",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_19_rank_2",
@@ -528,7 +1108,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000060.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_19\\rank_2_frame_000060.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_19\\rank_2_frame_000060.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "pink",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_197_rank_1",
@@ -537,7 +1127,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000320.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_197\\rank_1_frame_000320.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_197\\rank_1_frame_000320.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_197_rank_2",
@@ -546,7 +1146,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000328.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_197\\rank_2_frame_000328.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_197\\rank_2_frame_000328.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_197_rank_3",
@@ -555,7 +1165,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000314.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_197\\rank_3_frame_000314.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_197\\rank_3_frame_000314.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_206_rank_1",
@@ -564,7 +1184,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000324.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_206\\rank_1_frame_000324.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_206\\rank_1_frame_000324.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_206_rank_2",
@@ -573,7 +1203,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000323.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_206\\rank_2_frame_000323.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_206\\rank_2_frame_000323.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_206_rank_3",
@@ -582,7 +1222,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000322.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_206\\rank_3_frame_000322.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_206\\rank_3_frame_000322.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_208_rank_1",
@@ -591,7 +1241,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000315.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_208\\rank_1_frame_000315.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_208\\rank_1_frame_000315.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_208_rank_2",
@@ -600,7 +1260,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000328.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_208\\rank_2_frame_000328.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_208\\rank_2_frame_000328.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_214_rank_1",
@@ -609,7 +1279,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000323.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_214\\rank_1_frame_000323.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_214\\rank_1_frame_000323.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "brown",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "pedestrian   clear"
   },
   {
     "embedding_id": "pedestrian_track_214_rank_2",
@@ -618,7 +1298,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000326.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_214\\rank_2_frame_000326.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_214\\rank_2_frame_000326.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "brown",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "pedestrian   clear"
   },
   {
     "embedding_id": "pedestrian_track_214_rank_3",
@@ -627,7 +1317,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000327.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_214\\rank_3_frame_000327.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_214\\rank_3_frame_000327.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "brown",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "pedestrian   clear"
   },
   {
     "embedding_id": "pedestrian_track_23_rank_1",
@@ -636,7 +1336,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000099.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_23\\rank_1_frame_000099.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_23\\rank_1_frame_000099.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_23_rank_2",
@@ -645,7 +1355,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000104.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_23\\rank_2_frame_000104.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_23\\rank_2_frame_000104.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_23_rank_3",
@@ -654,7 +1374,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000103.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_23\\rank_3_frame_000103.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_23\\rank_3_frame_000103.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_232_rank_1",
@@ -663,7 +1393,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000342.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_232\\rank_1_frame_000342.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_232\\rank_1_frame_000342.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "pedestrian   clear"
   },
   {
     "embedding_id": "pedestrian_track_232_rank_2",
@@ -672,7 +1412,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000359.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_232\\rank_2_frame_000359.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_232\\rank_2_frame_000359.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "pedestrian   clear"
   },
   {
     "embedding_id": "pedestrian_track_232_rank_3",
@@ -681,7 +1431,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000358.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_232\\rank_3_frame_000358.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_232\\rank_3_frame_000358.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "pedestrian   clear"
   },
   {
     "embedding_id": "pedestrian_track_234_rank_1",
@@ -690,7 +1450,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000343.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_234\\rank_1_frame_000343.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_234\\rank_1_frame_000343.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_240_rank_1",
@@ -699,7 +1469,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000348.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_240\\rank_1_frame_000348.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_240\\rank_1_frame_000348.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_240_rank_2",
@@ -708,7 +1488,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000356.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_240\\rank_2_frame_000356.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_240\\rank_2_frame_000356.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_240_rank_3",
@@ -717,7 +1507,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000349.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_240\\rank_3_frame_000349.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_240\\rank_3_frame_000349.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_25_rank_1",
@@ -726,7 +1526,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000140.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_25\\rank_1_frame_000140.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_25\\rank_1_frame_000140.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_25_rank_2",
@@ -735,7 +1545,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000102.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_25\\rank_2_frame_000102.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_25\\rank_2_frame_000102.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_25_rank_3",
@@ -744,7 +1564,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000111.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_25\\rank_3_frame_000111.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_25\\rank_3_frame_000111.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_265_rank_1",
@@ -753,7 +1583,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000386.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_265\\rank_1_frame_000386.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_265\\rank_1_frame_000386.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_265_rank_2",
@@ -762,7 +1602,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000379.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_265\\rank_2_frame_000379.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_265\\rank_2_frame_000379.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_265_rank_3",
@@ -771,7 +1621,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000388.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_265\\rank_3_frame_000388.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_265\\rank_3_frame_000388.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_272_rank_1",
@@ -780,7 +1640,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000380.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_272\\rank_1_frame_000380.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_272\\rank_1_frame_000380.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_272_rank_2",
@@ -789,7 +1659,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000382.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_272\\rank_2_frame_000382.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_272\\rank_2_frame_000382.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_272_rank_3",
@@ -798,7 +1678,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000383.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_272\\rank_3_frame_000383.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_272\\rank_3_frame_000383.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_277_rank_1",
@@ -807,7 +1697,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000384.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_277\\rank_1_frame_000384.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_277\\rank_1_frame_000384.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_278_rank_1",
@@ -816,7 +1716,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000392.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_278\\rank_1_frame_000392.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_278\\rank_1_frame_000392.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_278_rank_2",
@@ -825,7 +1735,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000393.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_278\\rank_2_frame_000393.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_278\\rank_2_frame_000393.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_278_rank_3",
@@ -834,7 +1754,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000386.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_278\\rank_3_frame_000386.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_278\\rank_3_frame_000386.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_279_rank_1",
@@ -843,7 +1773,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000393.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_279\\rank_1_frame_000393.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_279\\rank_1_frame_000393.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "gray",
+    "lower_body_color": "white",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_279_rank_2",
@@ -852,7 +1792,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000394.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_279\\rank_2_frame_000394.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_279\\rank_2_frame_000394.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "gray",
+    "lower_body_color": "white",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_279_rank_3",
@@ -861,7 +1811,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000392.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_279\\rank_3_frame_000392.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_279\\rank_3_frame_000392.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "gray",
+    "lower_body_color": "white",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_28_rank_1",
@@ -870,7 +1830,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000116.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_28\\rank_1_frame_000116.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_28\\rank_1_frame_000116.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_28_rank_2",
@@ -879,7 +1849,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000117.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_28\\rank_2_frame_000117.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_28\\rank_2_frame_000117.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_28_rank_3",
@@ -888,7 +1868,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000105.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_28\\rank_3_frame_000105.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_28\\rank_3_frame_000105.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_283_rank_1",
@@ -897,7 +1887,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000391.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_283\\rank_1_frame_000391.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_283\\rank_1_frame_000391.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "pedestrian   partial"
   },
   {
     "embedding_id": "pedestrian_track_283_rank_2",
@@ -906,7 +1906,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000390.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_283\\rank_2_frame_000390.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_283\\rank_2_frame_000390.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "pedestrian   partial"
   },
   {
     "embedding_id": "pedestrian_track_283_rank_3",
@@ -915,7 +1925,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000389.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_283\\rank_3_frame_000389.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_283\\rank_3_frame_000389.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "pedestrian   partial"
   },
   {
     "embedding_id": "pedestrian_track_284_rank_1",
@@ -924,7 +1944,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000392.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_284\\rank_1_frame_000392.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_284\\rank_1_frame_000392.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_284_rank_2",
@@ -933,7 +1963,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000390.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_284\\rank_2_frame_000390.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_284\\rank_2_frame_000390.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_285_rank_1",
@@ -942,7 +1982,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000394.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_285\\rank_1_frame_000394.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_285\\rank_1_frame_000394.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "beige",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_285_rank_2",
@@ -951,7 +2001,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000392.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_285\\rank_2_frame_000392.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_285\\rank_2_frame_000392.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "beige",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_285_rank_3",
@@ -960,7 +2020,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000391.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_285\\rank_3_frame_000391.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_285\\rank_3_frame_000391.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "beige",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_29_rank_1",
@@ -969,7 +2039,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000105.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_29\\rank_1_frame_000105.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_29\\rank_1_frame_000105.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_29_rank_2",
@@ -978,7 +2058,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000104.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_29\\rank_2_frame_000104.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_29\\rank_2_frame_000104.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_31_rank_1",
@@ -987,7 +2077,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000109.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_31\\rank_1_frame_000109.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_31\\rank_1_frame_000109.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "pink",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_31_rank_2",
@@ -996,7 +2096,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000110.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_31\\rank_2_frame_000110.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_31\\rank_2_frame_000110.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "pink",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_37_rank_1",
@@ -1005,7 +2115,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000120.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_37\\rank_1_frame_000120.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_37\\rank_1_frame_000120.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_37_rank_2",
@@ -1014,7 +2134,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000126.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_37\\rank_2_frame_000126.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_37\\rank_2_frame_000126.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_37_rank_3",
@@ -1023,7 +2153,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000119.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_37\\rank_3_frame_000119.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_37\\rank_3_frame_000119.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_39_rank_1",
@@ -1032,7 +2172,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000132.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_39\\rank_1_frame_000132.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_39\\rank_1_frame_000132.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_39_rank_2",
@@ -1041,7 +2191,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000131.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_39\\rank_2_frame_000131.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_39\\rank_2_frame_000131.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_39_rank_3",
@@ -1050,7 +2210,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000130.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_39\\rank_3_frame_000130.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_39\\rank_3_frame_000130.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_48_rank_1",
@@ -1059,7 +2229,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000149.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_48\\rank_1_frame_000149.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_48\\rank_1_frame_000149.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "purple",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_48_rank_2",
@@ -1068,7 +2248,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000151.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_48\\rank_2_frame_000151.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_48\\rank_2_frame_000151.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "purple",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_48_rank_3",
@@ -1077,7 +2267,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000141.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_48\\rank_3_frame_000141.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_48\\rank_3_frame_000141.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "purple",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_56_rank_1",
@@ -1086,7 +2286,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000174.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_56\\rank_1_frame_000174.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_56\\rank_1_frame_000174.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "white",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_96_rank_1",
@@ -1095,7 +2305,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000211.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_96\\rank_1_frame_000211.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_96\\rank_1_frame_000211.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "pedestrian"
   },
   {
     "embedding_id": "pedestrian_track_97_rank_1",
@@ -1104,7 +2324,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000218.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_97\\rank_1_frame_000218.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_97\\rank_1_frame_000218.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_97_rank_2",
@@ -1113,7 +2343,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000221.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_97\\rank_2_frame_000221.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_97\\rank_2_frame_000221.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "pedestrian_track_97_rank_3",
@@ -1122,7 +2362,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000217.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_97\\rank_3_frame_000217.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\pedestrian_track_97\\rank_3_frame_000217.jpg",
+    "class_names": "pedestrian",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "pedestrian   partially visible"
   },
   {
     "embedding_id": "people_track_146_rank_1",
@@ -1131,7 +2381,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000243.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_146\\rank_1_frame_000243.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_146\\rank_1_frame_000243.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "people   partial"
   },
   {
     "embedding_id": "people_track_146_rank_2",
@@ -1140,7 +2400,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000244.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_146\\rank_2_frame_000244.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_146\\rank_2_frame_000244.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "people   partial"
   },
   {
     "embedding_id": "people_track_15_rank_1",
@@ -1149,7 +2419,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000044.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_15\\rank_1_frame_000044.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_15\\rank_1_frame_000044.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "people   partial"
   },
   {
     "embedding_id": "people_track_15_rank_2",
@@ -1158,7 +2438,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000043.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_15\\rank_2_frame_000043.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_15\\rank_2_frame_000043.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "people   partial"
   },
   {
     "embedding_id": "people_track_16_rank_1",
@@ -1167,7 +2457,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000048.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_16\\rank_1_frame_000048.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_16\\rank_1_frame_000048.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "white",
+    "attributes": "ford logo on front grille, front bumper with a dent, license plate with turkish registration, license plate: 34 klf 188",
+    "action": "",
+    "orientation": "front view",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "people  front view clear"
   },
   {
     "embedding_id": "people_track_16_rank_2",
@@ -1176,7 +2476,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000049.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_16\\rank_2_frame_000049.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_16\\rank_2_frame_000049.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "white",
+    "attributes": "ford logo on front grille, front bumper with a dent, license plate with turkish registration, license plate: 34 klf 188",
+    "action": "",
+    "orientation": "front view",
+    "visibility": "clear",
+    "quality_score": 0.0,
+    "description": "people  front view clear"
   },
   {
     "embedding_id": "people_track_176_rank_1",
@@ -1185,7 +2495,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000286.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_176\\rank_1_frame_000286.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_176\\rank_1_frame_000286.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "black",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "people   partial"
   },
   {
     "embedding_id": "people_track_2_rank_1",
@@ -1194,7 +2514,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000005.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_2\\rank_1_frame_000005.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_2\\rank_1_frame_000005.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "blue",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "people   partially visible"
   },
   {
     "embedding_id": "people_track_2_rank_2",
@@ -1203,7 +2533,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000003.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_2\\rank_2_frame_000003.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_2\\rank_2_frame_000003.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "blue",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "people   partially visible"
   },
   {
     "embedding_id": "people_track_2_rank_3",
@@ -1212,7 +2552,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000002.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_2\\rank_3_frame_000002.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_2\\rank_3_frame_000002.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "blue",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "people   partially visible"
   },
   {
     "embedding_id": "people_track_215_rank_1",
@@ -1221,7 +2571,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000323.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_215\\rank_1_frame_000323.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_215\\rank_1_frame_000323.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_223_rank_1",
@@ -1230,7 +2590,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000332.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_223\\rank_1_frame_000332.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_223\\rank_1_frame_000332.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "blue",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_223_rank_2",
@@ -1239,7 +2609,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000333.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_223\\rank_2_frame_000333.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_223\\rank_2_frame_000333.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "blue",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_223_rank_3",
@@ -1248,7 +2628,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000337.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_223\\rank_3_frame_000337.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_223\\rank_3_frame_000337.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "blue",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_238_rank_1",
@@ -1257,7 +2647,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000345.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_238\\rank_1_frame_000345.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_238\\rank_1_frame_000345.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_238_rank_2",
@@ -1266,7 +2666,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000346.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_238\\rank_2_frame_000346.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_238\\rank_2_frame_000346.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_24_rank_1",
@@ -1275,7 +2685,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000099.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_24\\rank_1_frame_000099.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_24\\rank_1_frame_000099.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_24_rank_2",
@@ -1284,7 +2704,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000100.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_24\\rank_2_frame_000100.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_24\\rank_2_frame_000100.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_286_rank_1",
@@ -1293,7 +2723,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000391.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_286\\rank_1_frame_000391.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_286\\rank_1_frame_000391.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_286_rank_2",
@@ -1302,7 +2742,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000392.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_286\\rank_2_frame_000392.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_286\\rank_2_frame_000392.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_35_rank_1",
@@ -1311,7 +2761,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000111.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_35\\rank_1_frame_000111.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_35\\rank_1_frame_000111.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "blue",
+    "lower_body_color": "blue",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "people   partially visible"
   },
   {
     "embedding_id": "people_track_73_rank_1",
@@ -1320,7 +2780,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000186.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_73\\rank_1_frame_000186.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_73\\rank_1_frame_000186.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "blue",
+    "lower_body_color": "gray",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partial",
+    "quality_score": 0.0,
+    "description": "people   partial"
   },
   {
     "embedding_id": "people_track_76_rank_1",
@@ -1329,7 +2799,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000188.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_76\\rank_1_frame_000188.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_76\\rank_1_frame_000188.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "gray",
+    "lower_body_color": "black",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "partially visible",
+    "quality_score": 0.0,
+    "description": "people   partially visible"
   },
   {
     "embedding_id": "people_track_99_rank_1",
@@ -1338,7 +2818,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000212.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_99\\rank_1_frame_000212.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_99\\rank_1_frame_000212.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "people_track_99_rank_2",
@@ -1347,7 +2837,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000213.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_99\\rank_2_frame_000213.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\people_track_99\\rank_2_frame_000213.jpg",
+    "class_names": "people",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "people"
   },
   {
     "embedding_id": "van_track_106_rank_1",
@@ -1356,7 +2856,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000216.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_106\\rank_1_frame_000216.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_106\\rank_1_frame_000216.jpg",
+    "class_names": "van",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "van"
   },
   {
     "embedding_id": "van_track_106_rank_2",
@@ -1365,7 +2875,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000222.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_106\\rank_2_frame_000222.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_106\\rank_2_frame_000222.jpg",
+    "class_names": "van",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "van"
   },
   {
     "embedding_id": "van_track_106_rank_3",
@@ -1374,7 +2894,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000223.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_106\\rank_3_frame_000223.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_106\\rank_3_frame_000223.jpg",
+    "class_names": "van",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "van"
   },
   {
     "embedding_id": "van_track_69_rank_1",
@@ -1383,7 +2913,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000181.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_69\\rank_1_frame_000181.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_69\\rank_1_frame_000181.jpg",
+    "class_names": "van",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "van"
   },
   {
     "embedding_id": "van_track_69_rank_2",
@@ -1392,7 +2932,17 @@
     "video_id": "test_video",
     "rank": 2,
     "image_name": "rank_2_frame_000180.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_69\\rank_2_frame_000180.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_69\\rank_2_frame_000180.jpg",
+    "class_names": "van",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "van"
   },
   {
     "embedding_id": "van_track_69_rank_3",
@@ -1401,7 +2951,17 @@
     "video_id": "test_video",
     "rank": 3,
     "image_name": "rank_3_frame_000212.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_69\\rank_3_frame_000212.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_69\\rank_3_frame_000212.jpg",
+    "class_names": "van",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "van"
   },
   {
     "embedding_id": "van_track_77_rank_1",
@@ -1410,7 +2970,17 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000189.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_77\\rank_1_frame_000189.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_77\\rank_1_frame_000189.jpg",
+    "class_names": "van",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "van"
   },
   {
     "embedding_id": "van_track_83_rank_1",
@@ -1419,6 +2989,16 @@
     "video_id": "test_video",
     "rank": 1,
     "image_name": "rank_1_frame_000195.jpg",
-    "image_path": "outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_83\\rank_1_frame_000195.jpg"
+    "image_path": "C:\\Users\\thanu\\AI_Video_Intelligence\\outputs\\phase3\\production_runs\\test\\04_representative_selection\\crops\\van_track_83\\rank_1_frame_000195.jpg",
+    "class_names": "van",
+    "event_type": "object_event",
+    "upper_body_color": "",
+    "lower_body_color": "",
+    "attributes": "",
+    "action": "",
+    "orientation": "",
+    "visibility": "",
+    "quality_score": 0.0,
+    "description": "van"
   }
 ]

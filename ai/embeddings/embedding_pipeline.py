@@ -26,7 +26,19 @@ class EmbeddingPipeline:
             parents=True,
             exist_ok=True,
         )
+        track_metadata_file = (
+            Path("outputs")
+            / "phase4"
+            / "track_metadata.json"
+        )
 
+        with open(track_metadata_file, "r", encoding="utf-8") as f:
+            track_metadata = json.load(f)
+
+        track_lookup = {}
+
+        for item in track_metadata:
+            track_lookup[item["track_id"]] = item
         embeddings = []
         metadata = []
 
@@ -57,6 +69,8 @@ class EmbeddingPipeline:
 
             embedding_id = f"{track_id}_rank_{rank}"
 
+            track_info = track_lookup.get(track_id, {})
+
             metadata.append(
                 {
                     "embedding_id": embedding_id,
@@ -66,9 +80,69 @@ class EmbeddingPipeline:
                     "rank": rank,
                     "image_name": image_file.name,
                     "image_path": str(image_file),
+
+                    # ---------- Semantic Metadata ----------
+                    "class_names": track_info.get(
+                        "object_type",
+                        ""
+                    ),
+
+                    "event_type": "object_event",
+
+                    "upper_body_color": track_info.get(
+                        "colors",
+                        {}
+                    ).get(
+                        "upper_body",
+                        ""
+                    ),
+
+                    "lower_body_color": track_info.get(
+                        "colors",
+                        {}
+                    ).get(
+                        "lower_body",
+                        ""
+                    ),
+
+                    "attributes": ", ".join(
+                        track_info.get(
+                            "attributes",
+                            []
+                        )
+                    ),
+
+                    "action": track_info.get(
+                        "action",
+                        ""
+                    ),
+
+                    "orientation": track_info.get(
+                        "orientation",
+                        ""
+                    ),
+
+                    "visibility": track_info.get(
+                        "visibility",
+                        ""
+                    ),
+
+                    "quality_score": track_info.get(
+                        "confidence",
+                        {}
+                    ).get(
+                        "object",
+                        0.0
+                    ),
+
+                    "description": (
+                        f"{track_info.get('object_type','')} "
+                        f"{track_info.get('action','')} "
+                        f"{track_info.get('orientation','')} "
+                        f"{track_info.get('visibility','')}"
+                    ).strip()
                 }
             )
-
             image_count += 1
 
         embeddings = np.array(

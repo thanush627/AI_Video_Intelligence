@@ -1,0 +1,8 @@
+{
+    "query_time_ms": 17.153,
+    "sql_time_ms": 0.251,
+    "vector_time_ms": 0.0,
+    "total_time_ms": 17.153,
+    "results_returned": 0,
+    "pipeline_time_ms": 21.337
+}
