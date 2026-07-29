@@ -1,157 +1,36 @@
-import json
 import os
-import time
+import yaml
+from typing import Dict, Any, Optional
 
-from ai.retrieval.langgraph_agent import LangGraphRetrievalAgent
-from ai.retrieval.result_formatter import ResultFormatter
-
+from ai.retrieval.langgraph_agent import VideoIntelligenceGraph
+from ai.retrieval.video_clip_generator import VideoClipGenerator
 
 class Phase7Pipeline:
-
-    def __init__(
-        self,
-        event_database_path,
-        chroma_path,
-        output_dir,
-        collection_name="video_embeddings",
-        top_k=10,
-    ):
-
-        self.output_dir = output_dir
-
-        os.makedirs(self.output_dir, exist_ok=True)
-
-        self.agent = LangGraphRetrievalAgent(
-            event_database_path=event_database_path,
-            chroma_path=chroma_path,
-            collection_name=collection_name,
-            top_k=top_k,
+    def __init__(self, config_path: str = "ai/configs/phase7.yaml", postgres_mgr=None, chroma_mgr=None):
+        self.config = self._load_config(config_path)
+        self.postgres_mgr = postgres_mgr
+        self.chroma_mgr = chroma_mgr
+        
+        clip_cfg = self.config.get("clip_generation", {})
+        self.clip_generator = VideoClipGenerator(
+            output_dir=clip_cfg.get("output_dir", "uploads/clips"),
+            padding=clip_cfg.get("padding_seconds", 1.5)
         )
 
-        self.formatter = ResultFormatter()
-
-    def run(self, query):
-
-        total_start = time.perf_counter()
-
-        response = self.agent.run(query)
-
-        retrieval_results_file = os.path.join(
-            self.output_dir,
-            "retrieval_results.json"
+        self.agent = VideoIntelligenceGraph(
+            postgres_mgr=self.postgres_mgr,
+            chroma_mgr=self.chroma_mgr,
+            clip_generator=self.clip_generator,
+            config=self.config.get("retrieval", {})
         )
 
-        ranked_results_file = os.path.join(
-            self.output_dir,
-            "ranked_results.json"
-        )
+    def _load_config(self, path: str) -> Dict[str, Any]:
+        if os.path.exists(path):
+            with open(path, "r") as f:
+                return yaml.safe_load(f)
+        return {}
 
-        statistics_file = os.path.join(
-            self.output_dir,
-            "retrieval_statistics.json"
-        )
-
-        with open(
-            retrieval_results_file,
-            "w",
-            encoding="utf-8"
-        ) as f:
-
-            json.dump(
-                response,
-                f,
-                indent=4,
-                ensure_ascii=False
-            )
-
-        ranked_results = response.get("results", [])
-
-        ranked_results.sort(
-            key=lambda x: x.get("ranking_score", 0),
-            reverse=True
-        )
-
-        with open(
-            ranked_results_file,
-            "w",
-            encoding="utf-8"
-        ) as f:
-
-            json.dump(
-                ranked_results,
-                f,
-                indent=4,
-                ensure_ascii=False
-            )
-
-        total_time = (
-            time.perf_counter() - total_start
-        ) * 1000
-
-        statistics = response.get("statistics", {})
-
-        statistics["pipeline_time_ms"] = round(
-            total_time,
-            3
-        )
-
-        statistics["results_returned"] = len(
-            ranked_results
-        )
-
-        with open(
-            statistics_file,
-            "w",
-            encoding="utf-8"
-        ) as f:
-
-            json.dump(
-                statistics,
-                f,
-                indent=4
-            )
-
-        print(
-
-            self.formatter.format_console(
-
-                query=query,
-
-                results=ranked_results,
-
-                statistics=statistics,
-            )
-
-        )
-
-        return response
-
-
-if __name__ == "__main__":
-
-    pipeline = Phase7Pipeline(
-
-        event_database_path="outputs/phase6/event_database.json",
-
-        chroma_path="database/chromadb",
-
-        output_dir="outputs/phase7",
-
-        collection_name="video_embeddings",
-
-        top_k=10,
-    )
-
-    while True:
-
-        print("\n" + "=" * 80)
-
-        query = input("Enter Query (or 'exit'): ").strip()
-
-        if query.lower() == "exit":
-            break
-
-        if not query:
-            continue
-
-        pipeline.run(query)
+    def query(self, natural_language_query: str, video_path: Optional[str] = None) -> Dict[str, Any]:
+        print(f"\n[Phase 7 Pipeline] Processing Query: '{natural_language_query}'")
+        results = self.agent.run(user_query=natural_language_query, video_path=video_path)
+        return results

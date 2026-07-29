@@ -1,252 +1,208 @@
-import time
-from typing import Dict, List
+import os
+import json
+import subprocess
+from typing import TypedDict, List, Dict, Any, Optional
+from langgraph.graph import StateGraph, END
 
-from langgraph.graph import END, StateGraph
-
-from ai.retrieval.query_parser import QueryParser
-from ai.retrieval.planner import QueryPlanner
-from ai.retrieval.sql_retriever import SQLRetriever
-from ai.retrieval.chroma_retriever import ChromaRetriever
-from ai.retrieval.hybrid_retriever import HybridRetriever
-from ai.retrieval.reranker import ReRanker
-from ai.retrieval.clip_selector import ClipSelector
-from ai.retrieval.response_generator import ResponseGenerator
-
-
-from typing import TypedDict, Optional, List, Dict, Any
-
-
-class RetrievalState(TypedDict, total=False):
-    query: str
-    parsed_query: Dict[str, Any]
-    plan: Dict[str, Any]
+# --- Graph State Definition ---
+class RetrievalState(TypedDict):
+    user_query: str
+    video_path: Optional[str]
+    sql_filters: Dict[str, Any]
+    vector_query_text: str
     sql_results: List[Dict[str, Any]]
     vector_results: List[Dict[str, Any]]
     merged_results: List[Dict[str, Any]]
-    ranked_results: List[Dict[str, Any]]
-    clips: List[Dict[str, Any]]
-    response: Dict[str, Any]
-    sql_time: float
-    vector_time: float
-    total_time: float
+    clip_paths: List[str]
+    final_response: str
 
 
-class LangGraphRetrievalAgent:
-
-    def __init__(
-        self,
-        event_database_path: str,
-        chroma_path: str,
-        collection_name: str = "video_embeddings",
-        top_k: int = 10,
-    ):
-
-        self.parser = QueryParser()
-
-        self.planner = QueryPlanner()
-
-        self.sql = SQLRetriever(
-            event_database_path=event_database_path
-        )
-
-        self.chroma = ChromaRetriever(
-            chroma_path=chroma_path,
-            collection_name=collection_name,
-        )
-
-        self.hybrid = HybridRetriever()
-
-        self.reranker = ReRanker()
-
-        self.clip_selector = ClipSelector(top_k=top_k)
-
-        self.response_generator = ResponseGenerator()
-
+class VideoIntelligenceGraph:
+    def __init__(self, postgres_mgr=None, chroma_mgr=None, clip_generator=None, config: Optional[Dict[str, Any]] = None):
+        self.postgres_mgr = postgres_mgr
+        self.chroma_mgr = chroma_mgr
+        self.clip_generator = clip_generator
+        self.config = config or {}
         self.graph = self._build_graph()
 
-    ####################################################################
-    # Nodes
-    ####################################################################
+    def _parse_query_node(self, state: RetrievalState) -> Dict[str, Any]:
+        """
+        Parses raw user query into structured SQL filter dict and semantic text.
+        """
+        query = state["user_query"].lower()
+        sql_filters = {}
+        
+        # Color extraction heuristic / rules
+        colors = ["red", "blue", "green", "black", "white", "yellow", "silver", "grey", "gray"]
+        for color in colors:
+            if color in query:
+                sql_filters["color"] = color
+                break
 
-    def parse_query(self, state: RetrievalState):
+        # Object category extraction
+        objects = ["car", "bus", "truck", "person", "bicycle", "motorcycle"]
+        for obj in objects:
+            if obj in query:
+                sql_filters["object_type"] = obj
+                break
 
-        parsed = self.parser.parse(state["query"])
+        # Action / Motion heuristic
+        actions = ["walking", "running", "stopped", "speeding", "turning", "parking"]
+        for action in actions:
+            if action in query:
+                sql_filters["action"] = action
+                break
 
-        state["parsed_query"] = parsed
-
-        return state
-
-    def create_plan(self, state: RetrievalState):
-
-        plan = self.planner.plan(state["parsed_query"])
-
-        state["plan"] = plan
-
-        return state
-
-    def retrieve_sql(self, state: RetrievalState):
-
-        if not state["plan"]["use_sql"]:
-
-            state["sql_results"] = []
-
-            return state
-
-        start = time.perf_counter()
-
-        state["sql_results"] = self.sql.retrieve(
-            state["parsed_query"]
-        )
-
-        state["sql_time"] = (
-            time.perf_counter() - start
-        ) * 1000
-
-        return state
-
-    def retrieve_chromadb(self, state: RetrievalState):
-
-        if not state["plan"]["use_chromadb"]:
-
-            state["vector_results"] = []
-
-            return state
-
-        start = time.perf_counter()
-
-        state["vector_results"] = self.chroma.retrieve(
-            query=state["query"]
-        )
-
-        state["vector_time"] = (
-            time.perf_counter() - start
-        ) * 1000
-
-        return state
-
-    def hybrid_merge(self, state: RetrievalState):
-
-        state["merged_results"] = self.hybrid.retrieve(
-            sql_results=state.get("sql_results", []),
-            chroma_results=state.get("vector_results", [])
-        )
-
-        return state
-
-    def rerank(self, state: RetrievalState):
-
-        state["ranked_results"] = self.reranker.rerank(
-            state["merged_results"]
-        )
-
-        return state
-
-    def select_clips(self, state: RetrievalState):
-
-        state["clips"] = self.clip_selector.select(
-            state["ranked_results"]
-        )
-
-        return state
-
-    def generate_response(self, state: RetrievalState):
-
-        statistics = {
-            "query_time_ms": 0.0,
-            "sql_time_ms": round(state.get("sql_time", 0.0), 3),
-            "vector_time_ms": round(state.get("vector_time", 0.0), 3),
-            "total_time_ms": 0.0,
-            "results_returned": len(state.get("clips", []))
+        return {
+            "sql_filters": sql_filters,
+            "vector_query_text": state["user_query"]
         }
 
-        state["response"] = self.response_generator.generate(
-            query=state["query"],
-            parsed_query=state["parsed_query"],
-            retrieval_plan=state["plan"],
-            clips=state["clips"],
-            statistics=statistics,
-        )
+    def _sql_search_node(self, state: RetrievalState) -> Dict[str, Any]:
+        """
+        Queries PostgreSQL metadata database using extracted attributes.
+        """
+        filters = state.get("sql_filters", {})
+        results = []
+        if self.postgres_mgr and hasattr(self.postgres_mgr, "search_events"):
+            try:
+                results = self.postgres_mgr.search_events(filters, limit=self.config.get("top_k_sql", 20))
+            except Exception as e:
+                print(f"[SQL Search Warning] {e}")
+        return {"sql_results": results}
 
-        return state
+    def _vector_search_node(self, state: RetrievalState) -> Dict[str, Any]:
+        """
+        Queries ChromaDB vector collection using text query embeddings.
+        """
+        query_text = state.get("vector_query_text", "")
+        results = []
+        if self.chroma_mgr and hasattr(self.chroma_mgr, "search_by_text"):
+            try:
+                results = self.chroma_mgr.search_by_text(query_text, top_k=self.config.get("top_k_vector", 20))
+            except Exception as e:
+                print(f"[Vector Search Warning] {e}")
+        return {"vector_results": results}
 
-    ####################################################################
-    # Graph
-    ####################################################################
+    def _hybrid_rerank_node(self, state: RetrievalState) -> Dict[str, Any]:
+        """
+        Merges SQL and Vector search results using Reciprocal Rank Fusion (RRF).
+        """
+        sql_res = state.get("sql_results", [])
+        vec_res = state.get("vector_results", [])
+        rrf_k = self.config.get("rrf_k", 60)
 
-    def _build_graph(self):
+        scores: Dict[str, float] = {}
+        item_map: Dict[str, Dict[str, Any]] = {}
 
-        graph = StateGraph(RetrievalState)
+        # Process SQL RRF
+        for rank, item in enumerate(sql_res):
+            track_id = str(item.get("track_id", f"sql_{rank}"))
+            scores[track_id] = scores.get(track_id, 0.0) + (0.5 / (rrf_k + rank + 1))
+            item_map[track_id] = item
 
-        graph.add_node("parse", self.parse_query)
+        # Process Vector RRF
+        for rank, item in enumerate(vec_res):
+            track_id = str(item.get("track_id", f"vec_{rank}"))
+            scores[track_id] = scores.get(track_id, 0.0) + (0.5 / (rrf_k + rank + 1))
+            if track_id not in item_map:
+                item_map[track_id] = item
 
-        graph.add_node("plan", self.create_plan)
+        # Sort combined items by fused score
+        sorted_track_ids = sorted(scores.keys(), key=lambda x: scores[x], reverse=True)
+        top_k = self.config.get("final_top_k", 5)
+        
+        merged = []
+        for tid in sorted_track_ids[:top_k]:
+            record = item_map[tid]
+            record["rrf_score"] = round(scores[tid], 4)
+            merged.append(record)
 
-        graph.add_node("sql", self.retrieve_sql)
+        return {"merged_results": merged}
 
-        graph.add_node("vector", self.retrieve_chromadb)
+    def _generate_clips_node(self, state: RetrievalState) -> Dict[str, Any]:
+        """
+        Calls FFmpeg video generator for the top ranked event results.
+        """
+        video_path = state.get("video_path")
+        merged = state.get("merged_results", [])
+        clip_paths = []
 
-        graph.add_node("merge", self.hybrid_merge)
+        if video_path and os.path.exists(video_path) and self.clip_generator:
+            for idx, event in enumerate(merged):
+                start_t = event.get("start_time", 0.0)
+                end_t = event.get("end_time", start_t + 5.0)
+                out_path = f"uploads/clips/event_{event.get('track_id', idx)}.mp4"
+                
+                generated = self.clip_generator.extract_clip(
+                    video_path=video_path,
+                    start_time=start_t,
+                    end_time=end_t,
+                    output_path=out_path
+                )
+                if generated:
+                    clip_paths.append(generated)
 
-        graph.add_node("rerank", self.rerank)
+        return {"clip_paths": clip_paths}
 
-        graph.add_node("clips", self.select_clips)
+    def _generate_response_node(self, state: RetrievalState) -> Dict[str, Any]:
+        """
+        Formats final structured response for backend/UI consumption.
+        """
+        query = state["user_query"]
+        results = state.get("merged_results", [])
+        clips = state.get("clip_paths", [])
 
-        graph.add_node("response", self.generate_response)
+        if not results:
+            response_str = f"No events found matching query: '{query}'."
+        else:
+            response_str = f"Found {len(results)} relevant event(s) for query: '{query}'.\n\n"
+            for i, res in enumerate(results, 1):
+                track_id = res.get("track_id", "N/A")
+                label = res.get("object_type", res.get("label", "object"))
+                start = res.get("start_time", 0.0)
+                end = res.get("end_time", 0.0)
+                score = res.get("rrf_score", 0.0)
+                response_str += f"{i}. [{label.upper()}] Track #{track_id} | Time: {start:.1f}s - {end:.1f}s | Confidence: {score}\n"
 
-        graph.set_entry_point("parse")
+        return {"final_response": response_str}
 
-        graph.add_edge("parse", "plan")
+    def _build_graph(self) -> Any:
+        workflow = StateGraph(RetrievalState)
 
-        graph.add_edge("plan", "sql")
+        # Add Nodes
+        workflow.add_node("parse_query", self._parse_query_node)
+        workflow.add_node("sql_search", self._sql_search_node)
+        workflow.add_node("vector_search", self._vector_search_node)
+        workflow.add_node("hybrid_rerank", self._hybrid_rerank_node)
+        workflow.add_node("generate_clips", self._generate_clips_node)
+        workflow.add_node("generate_response", self._generate_response_node)
 
-        graph.add_edge("sql", "vector")
+        # Build Edges
+        workflow.set_entry_point("parse_query")
+        
+        # Branch to parallel searches
+        workflow.add_edge("parse_query", "sql_search")
+        workflow.add_edge("parse_query", "vector_search")
+        
+        # Converge into hybrid reranker
+        workflow.add_edge(["sql_search", "vector_search"], "hybrid_rerank")
+        workflow.add_edge("hybrid_rerank", "generate_clips")
+        workflow.add_edge("generate_clips", "generate_response")
+        workflow.add_edge("generate_response", END)
 
-        graph.add_edge("vector", "merge")
+        return workflow.compile()
 
-        graph.add_edge("merge", "rerank")
-
-        graph.add_edge("rerank", "clips")
-
-        graph.add_edge("clips", "response")
-
-        graph.add_edge("response", END)
-
-        return graph.compile()
-
-    ####################################################################
-    # Run
-    ####################################################################
-
-    def run(self, query: str):
-
-        start = time.perf_counter()
-
-        state = {
-            "query": query
+    def run(self, user_query: str, video_path: Optional[str] = None) -> Dict[str, Any]:
+        initial_state: RetrievalState = {
+            "user_query": user_query,
+            "video_path": video_path,
+            "sql_filters": {},
+            "vector_query_text": "",
+            "sql_results": [],
+            "vector_results": [],
+            "merged_results": [],
+            "clip_paths": [],
+            "final_response": ""
         }
-
-        result = self.graph.invoke(state)
-
-        total_time = (time.perf_counter() - start) * 1000
-
-        result["total_time"] = total_time
-
-        if "response" in result:
-            result["response"]["statistics"]["query_time_ms"] = round(total_time, 3)
-            result["response"]["statistics"]["total_time_ms"] = round(total_time,3)
-
-        return result["response"]
-
-
-if __name__ == "__main__":
-
-    agent = LangGraphRetrievalAgent(
-        event_database_path="../../outputs/phase6/event_database.json",
-        chroma_path="../../database/chromadb",
-    )
-
-    response = agent.run(
-        "Show me person wearing blue backpack"
-    )
-
-    print(response)
+        return self.graph.invoke(initial_state)
