@@ -11,13 +11,11 @@ def main():
     print("      AI VIDEO INTELLIGENCE - PHASE 7 RETRIEVAL TEST")
     print("="*60)
 
-    # Path to sample video
     test_video = "test_videos/test.mp4" if os.path.exists("test_videos/test.mp4") else None
 
     # Initialize Phase 7 Pipeline
     pipeline = Phase7Pipeline(config_path="ai/configs/phase7.yaml")
 
-    # Sample Test Queries
     test_queries = [
         "Find a red car moving past the frame",
         "Show me a person walking near the sidewalk",
@@ -30,7 +28,7 @@ def main():
         print(output["final_response"])
         if output.get("clip_paths"):
             print("Extracted Clips:", output["clip_paths"])
-        print("-" * 40)
+        print("-" * 60)
 
 if __name__ == "__main__":
     main()

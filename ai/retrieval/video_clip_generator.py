@@ -1,42 +1,173 @@
 import os
+import shutil
 import subprocess
-from typing import Optional
+from datetime import timedelta
+from pathlib import Path
+
 
 class VideoClipGenerator:
-    def __init__(self, output_dir: str = "uploads/clips", padding: float = 1.5):
-        self.output_dir = output_dir
-        self.padding = padding
-        os.makedirs(self.output_dir, exist_ok=True)
 
-    def extract_clip(self, video_path: str, start_time: float, end_time: float, output_path: Optional[str] = None) -> Optional[str]:
-        if not os.path.exists(video_path):
-            print(f"[FFmpeg Error] Source video not found: {video_path}")
-            return None
+    def __init__(
+        self,
+        output_directory,
+        context_before_seconds=2.0,
+        context_after_seconds=2.0,
+        minimum_clip_duration_seconds=1.0,
+        overwrite=True,
+    ):
 
-        padded_start = max(0.0, start_time - self.padding)
-        duration = (end_time - start_time) + (2 * self.padding)
+        self.output_directory = Path(
+            output_directory
+        ).resolve()
 
-        if not output_path:
-            filename = f"clip_{int(start_time)}_{int(end_time)}.mp4"
-            output_path = os.path.join(self.output_dir, filename)
+        self.output_directory.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
 
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        self.context_before_seconds = float(
+            context_before_seconds
+        )
 
-        cmd = [
-            "ffmpeg",
-            "-y",                     # Overwrite output files
-            "-ss", str(padded_start),  # Fast seek before input
-            "-i", video_path,
-            "-t", str(duration),      # Duration
-            "-c:v", "libx264",        # Ensure H.264 video encoding
-            "-c:a", "aac",            # AAC audio
-            "-preset", "fast",
-            output_path
+        self.context_after_seconds = float(
+            context_after_seconds
+        )
+
+        self.minimum_clip_duration_seconds = float(
+            minimum_clip_duration_seconds
+        )
+
+        self.overwrite = bool(
+            overwrite
+        )
+
+        self.ffmpeg_path = shutil.which(
+            "ffmpeg"
+        )
+
+        if self.ffmpeg_path is None:
+            raise RuntimeError(
+                "FFmpeg executable not found."
+            )
+
+
+    @staticmethod
+    def _safe_float(
+        value,
+        default=0.0,
+    ):
+        try:
+            return float(value)
+
+        except (
+            TypeError,
+            ValueError,
+        ):
+            return default
+
+
+    @staticmethod
+    def _format_timestamp(
+        seconds,
+    ):
+        seconds = max(
+            0.0,
+            float(seconds),
+        )
+
+        td = timedelta(
+            seconds=seconds
+        )
+
+        total_seconds = int(
+            td.total_seconds()
+        )
+
+        milliseconds = int(
+            round(
+                (seconds - total_seconds)
+                * 1000
+            )
+        )
+
+        hours = (
+            total_seconds
+            // 3600
+        )
+
+        minutes = (
+            total_seconds
+            % 3600
+        ) // 60
+
+        secs = (
+            total_seconds
+            % 60
+        )
+
+        return (
+            f"{hours:02d}:"
+            f"{minutes:02d}:"
+            f"{secs:02d}."
+            f"{milliseconds:03d}"
+        )
+
+
+    def _clip_filename(
+        self,
+        event_id,
+    ):
+        return (
+            f"{event_id}.mp4"
+        )
+
+
+    def _clip_path(
+        self,
+        event_id,
+    ):
+        return (
+            self.output_directory
+            / self._clip_filename(
+                event_id
+            )
+        )
+
+
+    def _build_ffmpeg_command(
+        self,
+        video_path,
+        clip_start,
+        duration,
+        output_path,
+    ):
+
+        command = [
+            self.ffmpeg_path,
+            "-y",
+            "-ss",
+            str(
+                round(
+                    clip_start,
+                    3,
+                )
+            ),
+            "-i",
+            str(video_path),
+            "-t",
+            str(
+                round(
+                    duration,
+                    3,
+                )
+            ),
+            "-c:v",
+            "libx264",
+            "-c:a",
+            "aac",
+            "-preset",
+            "fast",
+            str(output_path),
         ]
 
-        try:
-            subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
-            return output_path
-        except Exception as e:
-            print(f"[FFmpeg Clip Extraction Failed]: {e}")
-            return None
+        return command
