@@ -17,9 +17,9 @@ def main():
     pipeline = Phase7Pipeline(config_path="ai/configs/phase7.yaml")
 
     test_queries = [
-        "Find a red car moving past the frame",
-        "Show me a person walking near the sidewalk",
-        "Locate a bus stopping"
+        "find bicycle",
+        "bicycle",
+        "bus"
     ]
 
     for q in test_queries:

@@ -9,49 +9,42 @@ class VideoClipGenerator:
 
     def __init__(
         self,
-        output_directory,
+        output_directory=None,
+        output_dir=None,
         context_before_seconds=2.0,
         context_after_seconds=2.0,
         minimum_clip_duration_seconds=1.0,
         overwrite=True,
+        padding=None,
     ):
 
-        self.output_directory = Path(
-            output_directory
-        ).resolve()
+        if output_directory is None:
+            output_directory = output_dir
 
+        if output_directory is None:
+            output_directory = "uploads/clips"
+
+        if padding is not None:
+            context_before_seconds = padding
+            context_after_seconds = padding
+
+        self.output_directory = Path(output_directory).resolve()
         self.output_directory.mkdir(
             parents=True,
             exist_ok=True,
         )
 
-        self.context_before_seconds = float(
-            context_before_seconds
-        )
-
-        self.context_after_seconds = float(
-            context_after_seconds
-        )
-
+        self.context_before_seconds = float(context_before_seconds)
+        self.context_after_seconds = float(context_after_seconds)
         self.minimum_clip_duration_seconds = float(
             minimum_clip_duration_seconds
         )
+        self.overwrite = bool(overwrite)
 
-        self.overwrite = bool(
-            overwrite
-        )
-
-        self.ffmpeg_path = shutil.which(
-            "ffmpeg"
-        )
+        self.ffmpeg_path = shutil.which("ffmpeg")
 
         if self.ffmpeg_path is None:
-            raise RuntimeError(
-                "FFmpeg executable not found."
-            )
-
-
-    @staticmethod
+            raise RuntimeError("FFmpeg executable not found.")
     def _safe_float(
         value,
         default=0.0,

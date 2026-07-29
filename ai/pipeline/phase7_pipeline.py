@@ -32,7 +32,7 @@ class Phase7Pipeline:
         elif PostgresManager is not None:
             try:
                 pg_cfg = self.config.get("database", {}).get("postgres", {})
-                self.postgres_mgr = PostgresManager(config=pg_cfg)
+                self.postgres_mgr = PostgresManager()
                 print("[Phase 7 Pipeline] PostgreSQL Manager connected successfully.")
             except Exception as e:
                 print(f"[Phase 7 Pipeline Warning] Could not connect to PostgreSQL: {e}")
@@ -45,11 +45,22 @@ class Phase7Pipeline:
             self.chroma_mgr = chroma_mgr
         elif ChromaManager is not None:
             try:
+                from ai.retrieval.semantic_event_search import SemanticEventSearch
+
                 chroma_cfg = self.config.get("database", {}).get("chromadb", {})
-                self.chroma_mgr = ChromaManager(config=chroma_cfg)
-                print("[Phase 7 Pipeline] ChromaDB Manager connected successfully.")
+
+                self.chroma_mgr = SemanticEventSearch(
+                    database_directory=chroma_cfg.get("db_path", "database/chromadb"),
+                    collection_name=chroma_cfg.get(
+                        "collection_name",
+                        "image_embeddings",
+                    ),
+                )
+
+                print("[Phase 7 Pipeline] Semantic Search connected successfully.")
+
             except Exception as e:
-                print(f"[Phase 7 Pipeline Warning] Could not connect to ChromaDB: {e}")
+                print(f"[Phase 7 Pipeline Warning] Could not initialize Semantic Search: {e}")
                 self.chroma_mgr = None
         else:
             self.chroma_mgr = None

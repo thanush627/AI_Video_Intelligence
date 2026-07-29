@@ -91,13 +91,32 @@ class VideoIntelligenceGraph:
     def _vector_search_node(self, state: RetrievalState) -> Dict[str, Any]:
         query_text = state.get("vector_query_text", "")
         results = []
-        
+
         if self.chroma_mgr:
             try:
-                if hasattr(self.chroma_mgr, "search_by_text"):
-                    results = self.chroma_mgr.search_by_text(query_text, top_k=self.config.get("top_k_vector", 20))
+                if hasattr(self.chroma_mgr, "semantic_search"):
+                    results = self.chroma_mgr.semantic_search(
+                        query=query_text,
+                        top_k=self.config.get("top_k_vector", 20),
+                    )
+
+                elif hasattr(self.chroma_mgr, "search"):
+                    results = self.chroma_mgr.search(
+                        query=query_text,
+                        top_k=self.config.get("top_k_vector", 20),
+                    )
+
+                elif hasattr(self.chroma_mgr, "search_by_text"):
+                    results = self.chroma_mgr.search_by_text(
+                        query_text,
+                        top_k=self.config.get("top_k_vector", 20),
+                    )
+
                 elif hasattr(self.chroma_mgr, "query"):
                     results = self.chroma_mgr.query(query_text)
+
+                print(f"[Vector Search] Retrieved {len(results)} results")
+
             except Exception as e:
                 print(f"[Vector Search Exception] {e}")
 
