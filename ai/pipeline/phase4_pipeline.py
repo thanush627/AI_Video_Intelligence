@@ -51,7 +51,9 @@ class Phase4Pipeline:
         self.statistics_generator = StatisticsGenerator()
         self.exporter = MetadataExporter(self.output_dir)
 
-        self.track_class_mapping = self.load_track_class_mapping()
+        self.track_class_mapping = {}
+        self.track_timing_mapping = {}
+        self.load_phase3_track_context()
 
     def run(self):
 
@@ -132,8 +134,23 @@ class Phase4Pipeline:
 
                 metadata["object"] = self.track_class_mapping.get(
                     track_number,
-                    "unknown"
+                    metadata.get("object", "unknown")
                 )
+
+                timing_info = self.track_timing_mapping.get(track_number, {})
+
+                if "start_time_seconds" in timing_info:
+                    metadata["start_time_seconds"] = timing_info["start_time_seconds"]
+                if "end_time_seconds" in timing_info:
+                    metadata["end_time_seconds"] = timing_info["end_time_seconds"]
+                if "duration_seconds" in timing_info:
+                    metadata["duration_seconds"] = timing_info["duration_seconds"]
+                if "start_timestamp" in timing_info:
+                    metadata["start_timestamp"] = timing_info["start_timestamp"]
+                if "end_timestamp" in timing_info:
+                    metadata["end_timestamp"] = timing_info["end_timestamp"]
+                if "timestamp" in timing_info:
+                    metadata["timestamp"] = timing_info["timestamp"]
 
                 track_metadata.append(metadata)
 
@@ -230,7 +247,7 @@ class Phase4Pipeline:
         print("Tracks stored:", len(self.track_generator.tracks))
         print("Objects stored:", len(self.object_generator.get()))
 
-    def load_track_class_mapping(self):
+    def load_phase3_track_context(self):
 
         metadata_file = (
             Path("outputs")
@@ -241,17 +258,60 @@ class Phase4Pipeline:
             / "track_metadata.json"
         )
 
+        if not metadata_file.exists():
+            logger.warning(f"Phase 3 track metadata not found: {metadata_file}")
+            return
+
         with open(metadata_file, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        mapping = {}
+        class_mapping = {}
+        timing_mapping = {}
 
-        for track in data["tracks"].values():
-            mapping[int(track["track_id"])] = track["class_name"]
+        for track in data.get("tracks", {}).values():
+            track_id = int(track["track_id"])
+            class_mapping[track_id] = track.get("class_name", "unknown")
 
-        logger.info(f"Loaded {len(mapping)} track class mappings")
+            first_seen = track.get("first_seen_seconds")
+            last_seen = track.get("last_seen_seconds")
 
-        return mapping
+            if first_seen is not None:
+                timing_mapping[track_id] = {
+                    "start_time_seconds": float(first_seen),
+                    "end_time_seconds": float(last_seen if last_seen is not None else first_seen),
+                    "duration_seconds": float(last_seen - first_seen) if last_seen is not None and first_seen is not None else 0.0,
+                    "start_timestamp": self._format_timestamp(first_seen),
+                    "end_timestamp": self._format_timestamp(last_seen if last_seen is not None else first_seen),
+                    "timestamp": self._format_timestamp(first_seen),
+                }
+
+        self.track_class_mapping = class_mapping
+        self.track_timing_mapping = timing_mapping
+
+        logger.info(
+            f"Loaded {len(class_mapping)} track class mappings and {len(timing_mapping)} timing mappings"
+        )
+
+    @staticmethod
+    def _format_timestamp(seconds):
+        if seconds is None:
+            return None
+
+        try:
+            seconds = float(seconds)
+        except (TypeError, ValueError):
+            return None
+
+        if seconds < 0:
+            return None
+
+        total_seconds = int(seconds)
+        milliseconds = int(round((seconds - total_seconds) * 1000))
+        hours = total_seconds // 3600
+        minutes = (total_seconds % 3600) // 60
+        secs = total_seconds % 60
+
+        return f"{hours:02d}:{minutes:02d}:{secs:02d}.{milliseconds:03d}"
 
 
 if __name__ == "__main__":

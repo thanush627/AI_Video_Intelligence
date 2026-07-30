@@ -26,10 +26,21 @@ class EmbeddingPipeline:
             parents=True,
             exist_ok=True,
         )
-        track_metadata_file = (
+        phase5_track_metadata_file = (
+            Path("outputs")
+            / "phase5"
+            / "clean_track_metadata.json"
+        )
+        phase4_track_metadata_file = (
             Path("outputs")
             / "phase4"
             / "track_metadata.json"
+        )
+
+        track_metadata_file = (
+            phase5_track_metadata_file
+            if phase5_track_metadata_file.exists()
+            else phase4_track_metadata_file
         )
 
         with open(track_metadata_file, "r", encoding="utf-8") as f:
@@ -127,6 +138,32 @@ class EmbeddingPipeline:
                         ""
                     ),
 
+                    "start_time_seconds": track_info.get(
+                        "start_time_seconds"
+                    ),
+
+                    "end_time_seconds": track_info.get(
+                        "end_time_seconds"
+                    ),
+
+                    "duration_seconds": track_info.get(
+                        "duration_seconds"
+                    ),
+
+                    "timestamp": track_info.get(
+                        "timestamp"
+                    ) or track_info.get(
+                        "start_timestamp"
+                    ),
+
+                    "start_timestamp": track_info.get(
+                        "start_timestamp"
+                    ),
+
+                    "end_timestamp": track_info.get(
+                        "end_timestamp"
+                    ),
+
                     "quality_score": track_info.get(
                         "confidence",
                         {}
@@ -139,7 +176,8 @@ class EmbeddingPipeline:
                         f"{track_info.get('object_type','')} "
                         f"{track_info.get('action','')} "
                         f"{track_info.get('orientation','')} "
-                        f"{track_info.get('visibility','')}"
+                        f"{track_info.get('visibility','')} "
+                        f"{track_info.get('timestamp','')}"
                     ).strip()
                 }
             )

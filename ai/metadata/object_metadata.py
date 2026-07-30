@@ -24,7 +24,13 @@ class ObjectMetadataGenerator:
                 "action": metadata["action"],
                 "orientation": metadata["orientation"],
                 "visibility": metadata["visibility"],
-                "confidence": metadata["confidence"]
+                "confidence": metadata["confidence"],
+                "start_time_seconds": metadata.get("start_time_seconds"),
+                "end_time_seconds": metadata.get("end_time_seconds"),
+                "duration_seconds": metadata.get("duration_seconds"),
+                "start_timestamp": metadata.get("start_timestamp"),
+                "end_timestamp": metadata.get("end_timestamp"),
+                "timestamp": metadata.get("timestamp"),
             }
         )
 
