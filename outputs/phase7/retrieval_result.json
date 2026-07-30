@@ -1,0 +1,13 @@
+{
+  "user_query": "find a person with backpack",
+  "video_path": "test_videos/test.mp4",
+  "sql_filters": {
+    "object_type": "person"
+  },
+  "vector_query_text": "find a person with backpack",
+  "sql_results": [],
+  "vector_results": [],
+  "merged_results": [],
+  "clip_paths": [],
+  "final_response": "No events found matching query: 'find a person with backpack'."
+}
