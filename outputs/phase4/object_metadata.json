@@ -15,7 +15,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 1.9352666666666667,
+        "end_time_seconds": 4.0040000000000004,
+        "duration_seconds": 2.0687333333333338,
+        "start_timestamp": "00:00:01.935",
+        "end_timestamp": "00:00:04.004",
+        "timestamp": "00:00:01.935"
     },
     {
         "track_id": "bicycle_track_18",
@@ -33,7 +39,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 1.9352666666666667,
+        "end_time_seconds": 4.0040000000000004,
+        "duration_seconds": 2.0687333333333338,
+        "start_timestamp": "00:00:01.935",
+        "end_timestamp": "00:00:04.004",
+        "timestamp": "00:00:01.935"
     },
     {
         "track_id": "bicycle_track_18",
@@ -51,7 +63,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 1.9352666666666667,
+        "end_time_seconds": 4.0040000000000004,
+        "duration_seconds": 2.0687333333333338,
+        "start_timestamp": "00:00:01.935",
+        "end_timestamp": "00:00:04.004",
+        "timestamp": "00:00:01.935"
     },
     {
         "track_id": "bicycle_track_189",
@@ -69,7 +87,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 10.143466666666667,
+        "end_time_seconds": 10.243566666666666,
+        "duration_seconds": 0.10009999999999941,
+        "start_timestamp": "00:00:10.143",
+        "end_timestamp": "00:00:10.244",
+        "timestamp": "00:00:10.143"
     },
     {
         "track_id": "bicycle_track_189",
@@ -87,7 +111,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.143466666666667,
+        "end_time_seconds": 10.243566666666666,
+        "duration_seconds": 0.10009999999999941,
+        "start_timestamp": "00:00:10.143",
+        "end_timestamp": "00:00:10.244",
+        "timestamp": "00:00:10.143"
     },
     {
         "track_id": "bicycle_track_189",
@@ -105,7 +135,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 10.143466666666667,
+        "end_time_seconds": 10.243566666666666,
+        "duration_seconds": 0.10009999999999941,
+        "start_timestamp": "00:00:10.143",
+        "end_timestamp": "00:00:10.244",
+        "timestamp": "00:00:10.143"
     },
     {
         "track_id": "bicycle_track_195",
@@ -123,7 +159,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.343666666666667,
+        "end_time_seconds": 10.410400000000001,
+        "duration_seconds": 0.06673333333333353,
+        "start_timestamp": "00:00:10.344",
+        "end_timestamp": "00:00:10.410",
+        "timestamp": "00:00:10.344"
     },
     {
         "track_id": "bicycle_track_195",
@@ -141,7 +183,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.343666666666667,
+        "end_time_seconds": 10.410400000000001,
+        "duration_seconds": 0.06673333333333353,
+        "start_timestamp": "00:00:10.344",
+        "end_timestamp": "00:00:10.410",
+        "timestamp": "00:00:10.344"
     },
     {
         "track_id": "bicycle_track_195",
@@ -159,7 +207,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.343666666666667,
+        "end_time_seconds": 10.410400000000001,
+        "duration_seconds": 0.06673333333333353,
+        "start_timestamp": "00:00:10.344",
+        "end_timestamp": "00:00:10.410",
+        "timestamp": "00:00:10.344"
     },
     {
         "track_id": "bicycle_track_40",
@@ -177,7 +231,13 @@
             "colors": 1.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 4.2042,
+        "end_time_seconds": 4.371033333333333,
+        "duration_seconds": 0.16683333333333294,
+        "start_timestamp": "00:00:04.204",
+        "end_timestamp": "00:00:04.371",
+        "timestamp": "00:00:04.204"
     },
     {
         "track_id": "bicycle_track_40",
@@ -195,7 +255,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 4.2042,
+        "end_time_seconds": 4.371033333333333,
+        "duration_seconds": 0.16683333333333294,
+        "start_timestamp": "00:00:04.204",
+        "end_timestamp": "00:00:04.371",
+        "timestamp": "00:00:04.204"
     },
     {
         "track_id": "bus_track_128",
@@ -217,7 +283,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 7.6076,
+        "end_time_seconds": 8.1081,
+        "duration_seconds": 0.5005000000000006,
+        "start_timestamp": "00:00:07.608",
+        "end_timestamp": "00:00:08.108",
+        "timestamp": "00:00:07.608"
     },
     {
         "track_id": "bus_track_128",
@@ -235,7 +307,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.6076,
+        "end_time_seconds": 8.1081,
+        "duration_seconds": 0.5005000000000006,
+        "start_timestamp": "00:00:07.608",
+        "end_timestamp": "00:00:08.108",
+        "timestamp": "00:00:07.608"
     },
     {
         "track_id": "bus_track_128",
@@ -253,7 +331,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.6076,
+        "end_time_seconds": 8.1081,
+        "duration_seconds": 0.5005000000000006,
+        "start_timestamp": "00:00:07.608",
+        "end_timestamp": "00:00:08.108",
+        "timestamp": "00:00:07.608"
     },
     {
         "track_id": "bus_track_138",
@@ -271,7 +355,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.841166666666667,
+        "end_time_seconds": 7.841166666666667,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:07.841",
+        "end_timestamp": "00:00:07.841",
+        "timestamp": "00:00:07.841"
     },
     {
         "track_id": "bus_track_148",
@@ -291,7 +381,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 8.1081,
+        "end_time_seconds": 10.677333333333333,
+        "duration_seconds": 2.569233333333333,
+        "start_timestamp": "00:00:08.108",
+        "end_timestamp": "00:00:10.677",
+        "timestamp": "00:00:08.108"
     },
     {
         "track_id": "bus_track_148",
@@ -311,7 +407,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 8.1081,
+        "end_time_seconds": 10.677333333333333,
+        "duration_seconds": 2.569233333333333,
+        "start_timestamp": "00:00:08.108",
+        "end_timestamp": "00:00:10.677",
+        "timestamp": "00:00:08.108"
     },
     {
         "track_id": "bus_track_148",
@@ -329,7 +431,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 8.1081,
+        "end_time_seconds": 10.677333333333333,
+        "duration_seconds": 2.569233333333333,
+        "start_timestamp": "00:00:08.108",
+        "end_timestamp": "00:00:10.677",
+        "timestamp": "00:00:08.108"
     },
     {
         "track_id": "bus_track_177",
@@ -347,7 +455,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 9.576233333333333,
+        "end_time_seconds": 10.176833333333333,
+        "duration_seconds": 0.6006,
+        "start_timestamp": "00:00:09.576",
+        "end_timestamp": "00:00:10.177",
+        "timestamp": "00:00:09.576"
     },
     {
         "track_id": "bus_track_177",
@@ -368,7 +482,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 9.576233333333333,
+        "end_time_seconds": 10.176833333333333,
+        "duration_seconds": 0.6006,
+        "start_timestamp": "00:00:09.576",
+        "end_timestamp": "00:00:10.177",
+        "timestamp": "00:00:09.576"
     },
     {
         "track_id": "bus_track_177",
@@ -386,7 +506,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 9.576233333333333,
+        "end_time_seconds": 10.176833333333333,
+        "duration_seconds": 0.6006,
+        "start_timestamp": "00:00:09.576",
+        "end_timestamp": "00:00:10.177",
+        "timestamp": "00:00:09.576"
     },
     {
         "track_id": "bus_track_178",
@@ -404,7 +530,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 9.642966666666666,
+        "end_time_seconds": 9.642966666666666,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:09.643",
+        "end_timestamp": "00:00:09.643",
+        "timestamp": "00:00:09.643"
     },
     {
         "track_id": "bus_track_20",
@@ -422,7 +554,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 2.5692333333333335,
+        "end_time_seconds": 4.337666666666666,
+        "duration_seconds": 1.7684333333333329,
+        "start_timestamp": "00:00:02.569",
+        "end_timestamp": "00:00:04.338",
+        "timestamp": "00:00:02.569"
     },
     {
         "track_id": "bus_track_20",
@@ -440,7 +578,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 2.5692333333333335,
+        "end_time_seconds": 4.337666666666666,
+        "duration_seconds": 1.7684333333333329,
+        "start_timestamp": "00:00:02.569",
+        "end_timestamp": "00:00:04.338",
+        "timestamp": "00:00:02.569"
     },
     {
         "track_id": "bus_track_20",
@@ -458,7 +602,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 2.5692333333333335,
+        "end_time_seconds": 4.337666666666666,
+        "duration_seconds": 1.7684333333333329,
+        "start_timestamp": "00:00:02.569",
+        "end_timestamp": "00:00:04.338",
+        "timestamp": "00:00:02.569"
     },
     {
         "track_id": "bus_track_33",
@@ -476,7 +626,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.6703333333333332,
+        "end_time_seconds": 3.7037,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:03.670",
+        "end_timestamp": "00:00:03.704",
+        "timestamp": "00:00:03.670"
     },
     {
         "track_id": "bus_track_33",
@@ -494,7 +650,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.6703333333333332,
+        "end_time_seconds": 3.7037,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:03.670",
+        "end_timestamp": "00:00:03.704",
+        "timestamp": "00:00:03.670"
     },
     {
         "track_id": "bus_track_66",
@@ -516,7 +678,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 6.006,
+        "end_time_seconds": 6.773433333333333,
+        "duration_seconds": 0.767433333333333,
+        "start_timestamp": "00:00:06.006",
+        "end_timestamp": "00:00:06.773",
+        "timestamp": "00:00:06.006"
     },
     {
         "track_id": "bus_track_66",
@@ -538,7 +706,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 6.006,
+        "end_time_seconds": 6.773433333333333,
+        "duration_seconds": 0.767433333333333,
+        "start_timestamp": "00:00:06.006",
+        "end_timestamp": "00:00:06.773",
+        "timestamp": "00:00:06.006"
     },
     {
         "track_id": "bus_track_66",
@@ -556,7 +730,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.006,
+        "end_time_seconds": 6.773433333333333,
+        "duration_seconds": 0.767433333333333,
+        "start_timestamp": "00:00:06.006",
+        "end_timestamp": "00:00:06.773",
+        "timestamp": "00:00:06.006"
     },
     {
         "track_id": "bus_track_72",
@@ -574,7 +754,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.1061000000000005,
+        "end_time_seconds": 7.4074,
+        "duration_seconds": 1.3012999999999995,
+        "start_timestamp": "00:00:06.106",
+        "end_timestamp": "00:00:07.407",
+        "timestamp": "00:00:06.106"
     },
     {
         "track_id": "bus_track_72",
@@ -592,7 +778,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.1061000000000005,
+        "end_time_seconds": 7.4074,
+        "duration_seconds": 1.3012999999999995,
+        "start_timestamp": "00:00:06.106",
+        "end_timestamp": "00:00:07.407",
+        "timestamp": "00:00:06.106"
     },
     {
         "track_id": "bus_track_72",
@@ -610,7 +802,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.1061000000000005,
+        "end_time_seconds": 7.4074,
+        "duration_seconds": 1.3012999999999995,
+        "start_timestamp": "00:00:06.106",
+        "end_timestamp": "00:00:07.407",
+        "timestamp": "00:00:06.106"
     },
     {
         "track_id": "car_track_1",
@@ -635,7 +833,13 @@
             "colors": 0.9,
             "attributes": 0.9,
             "action": 0.8
-        }
+        },
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.6006,
+        "duration_seconds": 0.6006,
+        "start_timestamp": "00:00:00.000",
+        "end_timestamp": "00:00:00.601",
+        "timestamp": "00:00:00.000"
     },
     {
         "track_id": "car_track_1",
@@ -665,7 +869,13 @@
             "colors": 0.9,
             "attributes": 0.9,
             "action": 0.8
-        }
+        },
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.6006,
+        "duration_seconds": 0.6006,
+        "start_timestamp": "00:00:00.000",
+        "end_timestamp": "00:00:00.601",
+        "timestamp": "00:00:00.000"
     },
     {
         "track_id": "car_track_1",
@@ -687,7 +897,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.6006,
+        "duration_seconds": 0.6006,
+        "start_timestamp": "00:00:00.000",
+        "end_timestamp": "00:00:00.601",
+        "timestamp": "00:00:00.000"
     },
     {
         "track_id": "car_track_13",
@@ -708,7 +924,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 0.9009,
+        "end_time_seconds": 2.8695333333333335,
+        "duration_seconds": 1.9686333333333335,
+        "start_timestamp": "00:00:00.901",
+        "end_timestamp": "00:00:02.870",
+        "timestamp": "00:00:00.901"
     },
     {
         "track_id": "car_track_13",
@@ -732,7 +954,13 @@
             "colors": 0.9,
             "attributes": 0.9,
             "action": 0.8
-        }
+        },
+        "start_time_seconds": 0.9009,
+        "end_time_seconds": 2.8695333333333335,
+        "duration_seconds": 1.9686333333333335,
+        "start_timestamp": "00:00:00.901",
+        "end_timestamp": "00:00:02.870",
+        "timestamp": "00:00:00.901"
     },
     {
         "track_id": "car_track_13",
@@ -754,7 +982,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 0.9009,
+        "end_time_seconds": 2.8695333333333335,
+        "duration_seconds": 1.9686333333333335,
+        "start_timestamp": "00:00:00.901",
+        "end_timestamp": "00:00:02.870",
+        "timestamp": "00:00:00.901"
     },
     {
         "track_id": "car_track_17",
@@ -776,7 +1010,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 1.8018,
+        "end_time_seconds": 1.8018,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:01.802",
+        "end_timestamp": "00:00:01.802",
+        "timestamp": "00:00:01.802"
     },
     {
         "track_id": "car_track_6",
@@ -796,7 +1036,13 @@
             "colors": 0.8,
             "attributes": 0.9,
             "action": 0.5
-        }
+        },
+        "start_time_seconds": 0.6339666666666667,
+        "end_time_seconds": 0.6339666666666667,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:00.634",
+        "end_timestamp": "00:00:00.634",
+        "timestamp": "00:00:00.634"
     },
     {
         "track_id": "pedestrian_track_114",
@@ -814,7 +1060,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.273933333333334,
+        "end_time_seconds": 7.273933333333334,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:07.274",
+        "end_timestamp": "00:00:07.274",
+        "timestamp": "00:00:07.274"
     },
     {
         "track_id": "pedestrian_track_117",
@@ -832,7 +1084,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.3406666666666665,
+        "end_time_seconds": 7.4074,
+        "duration_seconds": 0.06673333333333353,
+        "start_timestamp": "00:00:07.341",
+        "end_timestamp": "00:00:07.407",
+        "timestamp": "00:00:07.341"
     },
     {
         "track_id": "pedestrian_track_117",
@@ -850,7 +1108,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.3406666666666665,
+        "end_time_seconds": 7.4074,
+        "duration_seconds": 0.06673333333333353,
+        "start_timestamp": "00:00:07.341",
+        "end_timestamp": "00:00:07.407",
+        "timestamp": "00:00:07.341"
     },
     {
         "track_id": "pedestrian_track_132",
@@ -868,7 +1132,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.7077,
+        "end_time_seconds": 7.741066666666667,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:07.708",
+        "end_timestamp": "00:00:07.741",
+        "timestamp": "00:00:07.708"
     },
     {
         "track_id": "pedestrian_track_132",
@@ -886,7 +1156,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.7077,
+        "end_time_seconds": 7.741066666666667,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:07.708",
+        "end_timestamp": "00:00:07.741",
+        "timestamp": "00:00:07.708"
     },
     {
         "track_id": "pedestrian_track_139",
@@ -904,7 +1180,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.874533333333334,
+        "end_time_seconds": 8.608600000000001,
+        "duration_seconds": 0.7340666666666671,
+        "start_timestamp": "00:00:07.875",
+        "end_timestamp": "00:00:08.609",
+        "timestamp": "00:00:07.875"
     },
     {
         "track_id": "pedestrian_track_139",
@@ -922,7 +1204,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.874533333333334,
+        "end_time_seconds": 8.608600000000001,
+        "duration_seconds": 0.7340666666666671,
+        "start_timestamp": "00:00:07.875",
+        "end_timestamp": "00:00:08.609",
+        "timestamp": "00:00:07.875"
     },
     {
         "track_id": "pedestrian_track_139",
@@ -940,7 +1228,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.874533333333334,
+        "end_time_seconds": 8.608600000000001,
+        "duration_seconds": 0.7340666666666671,
+        "start_timestamp": "00:00:07.875",
+        "end_timestamp": "00:00:08.609",
+        "timestamp": "00:00:07.875"
     },
     {
         "track_id": "pedestrian_track_141",
@@ -958,7 +1252,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.874533333333334,
+        "end_time_seconds": 7.9412666666666665,
+        "duration_seconds": 0.06673333333333265,
+        "start_timestamp": "00:00:07.875",
+        "end_timestamp": "00:00:07.941",
+        "timestamp": "00:00:07.875"
     },
     {
         "track_id": "pedestrian_track_141",
@@ -976,7 +1276,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.874533333333334,
+        "end_time_seconds": 7.9412666666666665,
+        "duration_seconds": 0.06673333333333265,
+        "start_timestamp": "00:00:07.875",
+        "end_timestamp": "00:00:07.941",
+        "timestamp": "00:00:07.875"
     },
     {
         "track_id": "pedestrian_track_141",
@@ -994,7 +1300,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.874533333333334,
+        "end_time_seconds": 7.9412666666666665,
+        "duration_seconds": 0.06673333333333265,
+        "start_timestamp": "00:00:07.875",
+        "end_timestamp": "00:00:07.941",
+        "timestamp": "00:00:07.875"
     },
     {
         "track_id": "pedestrian_track_158",
@@ -1012,7 +1324,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 8.375033333333333,
+        "end_time_seconds": 8.4084,
+        "duration_seconds": 0.033366666666667655,
+        "start_timestamp": "00:00:08.375",
+        "end_timestamp": "00:00:08.408",
+        "timestamp": "00:00:08.375"
     },
     {
         "track_id": "pedestrian_track_158",
@@ -1030,7 +1348,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 8.375033333333333,
+        "end_time_seconds": 8.4084,
+        "duration_seconds": 0.033366666666667655,
+        "start_timestamp": "00:00:08.375",
+        "end_timestamp": "00:00:08.408",
+        "timestamp": "00:00:08.375"
     },
     {
         "track_id": "pedestrian_track_164",
@@ -1048,7 +1372,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 8.575233333333333,
+        "end_time_seconds": 9.1091,
+        "duration_seconds": 0.5338666666666665,
+        "start_timestamp": "00:00:08.575",
+        "end_timestamp": "00:00:09.109",
+        "timestamp": "00:00:08.575"
     },
     {
         "track_id": "pedestrian_track_164",
@@ -1066,7 +1396,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 8.575233333333333,
+        "end_time_seconds": 9.1091,
+        "duration_seconds": 0.5338666666666665,
+        "start_timestamp": "00:00:08.575",
+        "end_timestamp": "00:00:09.109",
+        "timestamp": "00:00:08.575"
     },
     {
         "track_id": "pedestrian_track_164",
@@ -1084,7 +1420,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 8.575233333333333,
+        "end_time_seconds": 9.1091,
+        "duration_seconds": 0.5338666666666665,
+        "start_timestamp": "00:00:08.575",
+        "end_timestamp": "00:00:09.109",
+        "timestamp": "00:00:08.575"
     },
     {
         "track_id": "pedestrian_track_19",
@@ -1102,7 +1444,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 2.0020000000000002,
+        "end_time_seconds": 2.0353666666666665,
+        "duration_seconds": 0.03336666666666632,
+        "start_timestamp": "00:00:02.002",
+        "end_timestamp": "00:00:02.035",
+        "timestamp": "00:00:02.002"
     },
     {
         "track_id": "pedestrian_track_19",
@@ -1120,7 +1468,13 @@
             "colors": 1.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 2.0020000000000002,
+        "end_time_seconds": 2.0353666666666665,
+        "duration_seconds": 0.03336666666666632,
+        "start_timestamp": "00:00:02.002",
+        "end_timestamp": "00:00:02.035",
+        "timestamp": "00:00:02.002"
     },
     {
         "track_id": "pedestrian_track_197",
@@ -1138,7 +1492,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.343666666666667,
+        "end_time_seconds": 11.044366666666667,
+        "duration_seconds": 0.7006999999999994,
+        "start_timestamp": "00:00:10.344",
+        "end_timestamp": "00:00:11.044",
+        "timestamp": "00:00:10.344"
     },
     {
         "track_id": "pedestrian_track_197",
@@ -1156,7 +1516,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.343666666666667,
+        "end_time_seconds": 11.044366666666667,
+        "duration_seconds": 0.7006999999999994,
+        "start_timestamp": "00:00:10.344",
+        "end_timestamp": "00:00:11.044",
+        "timestamp": "00:00:10.344"
     },
     {
         "track_id": "pedestrian_track_197",
@@ -1174,7 +1540,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.343666666666667,
+        "end_time_seconds": 11.044366666666667,
+        "duration_seconds": 0.7006999999999994,
+        "start_timestamp": "00:00:10.344",
+        "end_timestamp": "00:00:11.044",
+        "timestamp": "00:00:10.344"
     },
     {
         "track_id": "pedestrian_track_206",
@@ -1192,7 +1564,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.477133333333333,
+        "end_time_seconds": 10.844166666666666,
+        "duration_seconds": 0.36703333333333354,
+        "start_timestamp": "00:00:10.477",
+        "end_timestamp": "00:00:10.844",
+        "timestamp": "00:00:10.477"
     },
     {
         "track_id": "pedestrian_track_206",
@@ -1210,7 +1588,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.477133333333333,
+        "end_time_seconds": 10.844166666666666,
+        "duration_seconds": 0.36703333333333354,
+        "start_timestamp": "00:00:10.477",
+        "end_timestamp": "00:00:10.844",
+        "timestamp": "00:00:10.477"
     },
     {
         "track_id": "pedestrian_track_206",
@@ -1228,7 +1612,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.477133333333333,
+        "end_time_seconds": 10.844166666666666,
+        "duration_seconds": 0.36703333333333354,
+        "start_timestamp": "00:00:10.477",
+        "end_timestamp": "00:00:10.844",
+        "timestamp": "00:00:10.477"
     },
     {
         "track_id": "pedestrian_track_208",
@@ -1246,7 +1636,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.5105,
+        "end_time_seconds": 10.944266666666667,
+        "duration_seconds": 0.4337666666666671,
+        "start_timestamp": "00:00:10.511",
+        "end_timestamp": "00:00:10.944",
+        "timestamp": "00:00:10.511"
     },
     {
         "track_id": "pedestrian_track_208",
@@ -1264,7 +1660,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.5105,
+        "end_time_seconds": 10.944266666666667,
+        "duration_seconds": 0.4337666666666671,
+        "start_timestamp": "00:00:10.511",
+        "end_timestamp": "00:00:10.944",
+        "timestamp": "00:00:10.511"
     },
     {
         "track_id": "pedestrian_track_214",
@@ -1282,7 +1684,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 10.777433333333333,
+        "end_time_seconds": 10.9109,
+        "duration_seconds": 0.13346666666666707,
+        "start_timestamp": "00:00:10.777",
+        "end_timestamp": "00:00:10.911",
+        "timestamp": "00:00:10.777"
     },
     {
         "track_id": "pedestrian_track_214",
@@ -1300,7 +1708,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.777433333333333,
+        "end_time_seconds": 10.9109,
+        "duration_seconds": 0.13346666666666707,
+        "start_timestamp": "00:00:10.777",
+        "end_timestamp": "00:00:10.911",
+        "timestamp": "00:00:10.777"
     },
     {
         "track_id": "pedestrian_track_214",
@@ -1318,7 +1732,13 @@
             "colors": 1.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.777433333333333,
+        "end_time_seconds": 10.9109,
+        "duration_seconds": 0.13346666666666707,
+        "start_timestamp": "00:00:10.777",
+        "end_timestamp": "00:00:10.911",
+        "timestamp": "00:00:10.777"
     },
     {
         "track_id": "pedestrian_track_23",
@@ -1336,7 +1756,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.3033,
+        "end_time_seconds": 3.4701333333333335,
+        "duration_seconds": 0.1668333333333334,
+        "start_timestamp": "00:00:03.303",
+        "end_timestamp": "00:00:03.470",
+        "timestamp": "00:00:03.303"
     },
     {
         "track_id": "pedestrian_track_23",
@@ -1354,7 +1780,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.3033,
+        "end_time_seconds": 3.4701333333333335,
+        "duration_seconds": 0.1668333333333334,
+        "start_timestamp": "00:00:03.303",
+        "end_timestamp": "00:00:03.470",
+        "timestamp": "00:00:03.303"
     },
     {
         "track_id": "pedestrian_track_23",
@@ -1372,7 +1804,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.3033,
+        "end_time_seconds": 3.4701333333333335,
+        "duration_seconds": 0.1668333333333334,
+        "start_timestamp": "00:00:03.303",
+        "end_timestamp": "00:00:03.470",
+        "timestamp": "00:00:03.303"
     },
     {
         "track_id": "pedestrian_track_232",
@@ -1390,7 +1828,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 11.4114,
+        "end_time_seconds": 11.978633333333333,
+        "duration_seconds": 0.5672333333333324,
+        "start_timestamp": "00:00:11.411",
+        "end_timestamp": "00:00:11.979",
+        "timestamp": "00:00:11.411"
     },
     {
         "track_id": "pedestrian_track_232",
@@ -1408,7 +1852,13 @@
             "colors": 1.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.4114,
+        "end_time_seconds": 11.978633333333333,
+        "duration_seconds": 0.5672333333333324,
+        "start_timestamp": "00:00:11.411",
+        "end_timestamp": "00:00:11.979",
+        "timestamp": "00:00:11.411"
     },
     {
         "track_id": "pedestrian_track_232",
@@ -1426,7 +1876,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.4114,
+        "end_time_seconds": 11.978633333333333,
+        "duration_seconds": 0.5672333333333324,
+        "start_timestamp": "00:00:11.411",
+        "end_timestamp": "00:00:11.979",
+        "timestamp": "00:00:11.411"
     },
     {
         "track_id": "pedestrian_track_234",
@@ -1444,7 +1900,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.444766666666666,
+        "end_time_seconds": 11.444766666666666,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:11.445",
+        "end_timestamp": "00:00:11.445",
+        "timestamp": "00:00:11.445"
     },
     {
         "track_id": "pedestrian_track_240",
@@ -1462,7 +1924,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.611600000000001,
+        "end_time_seconds": 11.878533333333333,
+        "duration_seconds": 0.26693333333333236,
+        "start_timestamp": "00:00:11.612",
+        "end_timestamp": "00:00:11.879",
+        "timestamp": "00:00:11.612"
     },
     {
         "track_id": "pedestrian_track_240",
@@ -1480,7 +1948,13 @@
             "colors": 1.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.611600000000001,
+        "end_time_seconds": 11.878533333333333,
+        "duration_seconds": 0.26693333333333236,
+        "start_timestamp": "00:00:11.612",
+        "end_timestamp": "00:00:11.879",
+        "timestamp": "00:00:11.612"
     },
     {
         "track_id": "pedestrian_track_240",
@@ -1498,7 +1972,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.611600000000001,
+        "end_time_seconds": 11.878533333333333,
+        "duration_seconds": 0.26693333333333236,
+        "start_timestamp": "00:00:11.612",
+        "end_timestamp": "00:00:11.879",
+        "timestamp": "00:00:11.612"
     },
     {
         "track_id": "pedestrian_track_25",
@@ -1516,7 +1996,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.336666666666667,
+        "end_time_seconds": 4.671333333333333,
+        "duration_seconds": 1.3346666666666662,
+        "start_timestamp": "00:00:03.337",
+        "end_timestamp": "00:00:04.671",
+        "timestamp": "00:00:03.337"
     },
     {
         "track_id": "pedestrian_track_25",
@@ -1534,7 +2020,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.336666666666667,
+        "end_time_seconds": 4.671333333333333,
+        "duration_seconds": 1.3346666666666662,
+        "start_timestamp": "00:00:03.337",
+        "end_timestamp": "00:00:04.671",
+        "timestamp": "00:00:03.337"
     },
     {
         "track_id": "pedestrian_track_25",
@@ -1552,7 +2044,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.336666666666667,
+        "end_time_seconds": 4.671333333333333,
+        "duration_seconds": 1.3346666666666662,
+        "start_timestamp": "00:00:03.337",
+        "end_timestamp": "00:00:04.671",
+        "timestamp": "00:00:03.337"
     },
     {
         "track_id": "pedestrian_track_265",
@@ -1570,7 +2068,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.579233333333333,
+        "end_time_seconds": 12.946266666666666,
+        "duration_seconds": 0.36703333333333354,
+        "start_timestamp": "00:00:12.579",
+        "end_timestamp": "00:00:12.946",
+        "timestamp": "00:00:12.579"
     },
     {
         "track_id": "pedestrian_track_265",
@@ -1588,7 +2092,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.579233333333333,
+        "end_time_seconds": 12.946266666666666,
+        "duration_seconds": 0.36703333333333354,
+        "start_timestamp": "00:00:12.579",
+        "end_timestamp": "00:00:12.946",
+        "timestamp": "00:00:12.579"
     },
     {
         "track_id": "pedestrian_track_265",
@@ -1606,7 +2116,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.579233333333333,
+        "end_time_seconds": 12.946266666666666,
+        "duration_seconds": 0.36703333333333354,
+        "start_timestamp": "00:00:12.579",
+        "end_timestamp": "00:00:12.946",
+        "timestamp": "00:00:12.579"
     },
     {
         "track_id": "pedestrian_track_272",
@@ -1624,7 +2140,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.679333333333334,
+        "end_time_seconds": 12.779433333333333,
+        "duration_seconds": 0.10009999999999941,
+        "start_timestamp": "00:00:12.679",
+        "end_timestamp": "00:00:12.779",
+        "timestamp": "00:00:12.679"
     },
     {
         "track_id": "pedestrian_track_272",
@@ -1642,7 +2164,13 @@
             "colors": 1.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.679333333333334,
+        "end_time_seconds": 12.779433333333333,
+        "duration_seconds": 0.10009999999999941,
+        "start_timestamp": "00:00:12.679",
+        "end_timestamp": "00:00:12.779",
+        "timestamp": "00:00:12.679"
     },
     {
         "track_id": "pedestrian_track_272",
@@ -1660,7 +2188,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.679333333333334,
+        "end_time_seconds": 12.779433333333333,
+        "duration_seconds": 0.10009999999999941,
+        "start_timestamp": "00:00:12.679",
+        "end_timestamp": "00:00:12.779",
+        "timestamp": "00:00:12.679"
     },
     {
         "track_id": "pedestrian_track_277",
@@ -1678,7 +2212,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.779433333333333,
+        "end_time_seconds": 12.812800000000001,
+        "duration_seconds": 0.033366666666667655,
+        "start_timestamp": "00:00:12.779",
+        "end_timestamp": "00:00:12.813",
+        "timestamp": "00:00:12.779"
     },
     {
         "track_id": "pedestrian_track_278",
@@ -1696,7 +2236,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.879533333333333,
+        "end_time_seconds": 13.179833333333333,
+        "duration_seconds": 0.3003,
+        "start_timestamp": "00:00:12.880",
+        "end_timestamp": "00:00:13.180",
+        "timestamp": "00:00:12.880"
     },
     {
         "track_id": "pedestrian_track_278",
@@ -1714,7 +2260,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.879533333333333,
+        "end_time_seconds": 13.179833333333333,
+        "duration_seconds": 0.3003,
+        "start_timestamp": "00:00:12.880",
+        "end_timestamp": "00:00:13.180",
+        "timestamp": "00:00:12.880"
     },
     {
         "track_id": "pedestrian_track_278",
@@ -1732,7 +2284,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.879533333333333,
+        "end_time_seconds": 13.179833333333333,
+        "duration_seconds": 0.3003,
+        "start_timestamp": "00:00:12.880",
+        "end_timestamp": "00:00:13.180",
+        "timestamp": "00:00:12.880"
     },
     {
         "track_id": "pedestrian_track_279",
@@ -1750,7 +2308,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.946266666666666,
+        "end_time_seconds": 13.179833333333333,
+        "duration_seconds": 0.23356666666666648,
+        "start_timestamp": "00:00:12.946",
+        "end_timestamp": "00:00:13.180",
+        "timestamp": "00:00:12.946"
     },
     {
         "track_id": "pedestrian_track_279",
@@ -1768,7 +2332,13 @@
             "colors": 1.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.946266666666666,
+        "end_time_seconds": 13.179833333333333,
+        "duration_seconds": 0.23356666666666648,
+        "start_timestamp": "00:00:12.946",
+        "end_timestamp": "00:00:13.180",
+        "timestamp": "00:00:12.946"
     },
     {
         "track_id": "pedestrian_track_279",
@@ -1786,7 +2356,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.946266666666666,
+        "end_time_seconds": 13.179833333333333,
+        "duration_seconds": 0.23356666666666648,
+        "start_timestamp": "00:00:12.946",
+        "end_timestamp": "00:00:13.180",
+        "timestamp": "00:00:12.946"
     },
     {
         "track_id": "pedestrian_track_28",
@@ -1804,7 +2380,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.4701333333333335,
+        "end_time_seconds": 4.037366666666666,
+        "duration_seconds": 0.5672333333333328,
+        "start_timestamp": "00:00:03.470",
+        "end_timestamp": "00:00:04.037",
+        "timestamp": "00:00:03.470"
     },
     {
         "track_id": "pedestrian_track_28",
@@ -1822,7 +2404,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.4701333333333335,
+        "end_time_seconds": 4.037366666666666,
+        "duration_seconds": 0.5672333333333328,
+        "start_timestamp": "00:00:03.470",
+        "end_timestamp": "00:00:04.037",
+        "timestamp": "00:00:03.470"
     },
     {
         "track_id": "pedestrian_track_28",
@@ -1840,7 +2428,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.4701333333333335,
+        "end_time_seconds": 4.037366666666666,
+        "duration_seconds": 0.5672333333333328,
+        "start_timestamp": "00:00:03.470",
+        "end_timestamp": "00:00:04.037",
+        "timestamp": "00:00:03.470"
     },
     {
         "track_id": "pedestrian_track_283",
@@ -1858,7 +2452,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.979633333333334,
+        "end_time_seconds": 13.113100000000001,
+        "duration_seconds": 0.13346666666666707,
+        "start_timestamp": "00:00:12.980",
+        "end_timestamp": "00:00:13.113",
+        "timestamp": "00:00:12.980"
     },
     {
         "track_id": "pedestrian_track_283",
@@ -1876,7 +2476,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.979633333333334,
+        "end_time_seconds": 13.113100000000001,
+        "duration_seconds": 0.13346666666666707,
+        "start_timestamp": "00:00:12.980",
+        "end_timestamp": "00:00:13.113",
+        "timestamp": "00:00:12.980"
     },
     {
         "track_id": "pedestrian_track_283",
@@ -1894,7 +2500,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 12.979633333333334,
+        "end_time_seconds": 13.113100000000001,
+        "duration_seconds": 0.13346666666666707,
+        "start_timestamp": "00:00:12.980",
+        "end_timestamp": "00:00:13.113",
+        "timestamp": "00:00:12.980"
     },
     {
         "track_id": "pedestrian_track_284",
@@ -1912,7 +2524,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 13.013,
+        "end_time_seconds": 13.079733333333333,
+        "duration_seconds": 0.06673333333333353,
+        "start_timestamp": "00:00:13.013",
+        "end_timestamp": "00:00:13.080",
+        "timestamp": "00:00:13.013"
     },
     {
         "track_id": "pedestrian_track_284",
@@ -1930,7 +2548,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 13.013,
+        "end_time_seconds": 13.079733333333333,
+        "duration_seconds": 0.06673333333333353,
+        "start_timestamp": "00:00:13.013",
+        "end_timestamp": "00:00:13.080",
+        "timestamp": "00:00:13.013"
     },
     {
         "track_id": "pedestrian_track_285",
@@ -1948,7 +2572,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 13.013,
+        "end_time_seconds": 13.179833333333333,
+        "duration_seconds": 0.16683333333333294,
+        "start_timestamp": "00:00:13.013",
+        "end_timestamp": "00:00:13.180",
+        "timestamp": "00:00:13.013"
     },
     {
         "track_id": "pedestrian_track_285",
@@ -1966,7 +2596,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 13.013,
+        "end_time_seconds": 13.179833333333333,
+        "duration_seconds": 0.16683333333333294,
+        "start_timestamp": "00:00:13.013",
+        "end_timestamp": "00:00:13.180",
+        "timestamp": "00:00:13.013"
     },
     {
         "track_id": "pedestrian_track_285",
@@ -1984,7 +2620,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 13.013,
+        "end_time_seconds": 13.179833333333333,
+        "duration_seconds": 0.16683333333333294,
+        "start_timestamp": "00:00:13.013",
+        "end_timestamp": "00:00:13.180",
+        "timestamp": "00:00:13.013"
     },
     {
         "track_id": "pedestrian_track_29",
@@ -2002,7 +2644,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.4701333333333335,
+        "end_time_seconds": 3.5035000000000003,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:03.470",
+        "end_timestamp": "00:00:03.504",
+        "timestamp": "00:00:03.470"
     },
     {
         "track_id": "pedestrian_track_29",
@@ -2020,7 +2668,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.4701333333333335,
+        "end_time_seconds": 3.5035000000000003,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:03.470",
+        "end_timestamp": "00:00:03.504",
+        "timestamp": "00:00:03.470"
     },
     {
         "track_id": "pedestrian_track_31",
@@ -2038,7 +2692,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.636966666666667,
+        "end_time_seconds": 3.6703333333333332,
+        "duration_seconds": 0.03336666666666632,
+        "start_timestamp": "00:00:03.637",
+        "end_timestamp": "00:00:03.670",
+        "timestamp": "00:00:03.637"
     },
     {
         "track_id": "pedestrian_track_31",
@@ -2056,7 +2716,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.636966666666667,
+        "end_time_seconds": 3.6703333333333332,
+        "duration_seconds": 0.03336666666666632,
+        "start_timestamp": "00:00:03.637",
+        "end_timestamp": "00:00:03.670",
+        "timestamp": "00:00:03.637"
     },
     {
         "track_id": "pedestrian_track_37",
@@ -2074,7 +2740,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.937266666666667,
+        "end_time_seconds": 4.938266666666666,
+        "duration_seconds": 1.0009999999999994,
+        "start_timestamp": "00:00:03.937",
+        "end_timestamp": "00:00:04.938",
+        "timestamp": "00:00:03.937"
     },
     {
         "track_id": "pedestrian_track_37",
@@ -2092,7 +2764,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.937266666666667,
+        "end_time_seconds": 4.938266666666666,
+        "duration_seconds": 1.0009999999999994,
+        "start_timestamp": "00:00:03.937",
+        "end_timestamp": "00:00:04.938",
+        "timestamp": "00:00:03.937"
     },
     {
         "track_id": "pedestrian_track_37",
@@ -2110,7 +2788,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.937266666666667,
+        "end_time_seconds": 4.938266666666666,
+        "duration_seconds": 1.0009999999999994,
+        "start_timestamp": "00:00:03.937",
+        "end_timestamp": "00:00:04.938",
+        "timestamp": "00:00:03.937"
     },
     {
         "track_id": "pedestrian_track_39",
@@ -2128,7 +2812,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 4.0040000000000004,
+        "end_time_seconds": 4.471133333333333,
+        "duration_seconds": 0.46713333333333296,
+        "start_timestamp": "00:00:04.004",
+        "end_timestamp": "00:00:04.471",
+        "timestamp": "00:00:04.004"
     },
     {
         "track_id": "pedestrian_track_39",
@@ -2146,7 +2836,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 4.0040000000000004,
+        "end_time_seconds": 4.471133333333333,
+        "duration_seconds": 0.46713333333333296,
+        "start_timestamp": "00:00:04.004",
+        "end_timestamp": "00:00:04.471",
+        "timestamp": "00:00:04.004"
     },
     {
         "track_id": "pedestrian_track_39",
@@ -2164,7 +2860,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 4.0040000000000004,
+        "end_time_seconds": 4.471133333333333,
+        "duration_seconds": 0.46713333333333296,
+        "start_timestamp": "00:00:04.004",
+        "end_timestamp": "00:00:04.471",
+        "timestamp": "00:00:04.004"
     },
     {
         "track_id": "pedestrian_track_48",
@@ -2182,7 +2884,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 4.7047,
+        "end_time_seconds": 5.171833333333334,
+        "duration_seconds": 0.46713333333333384,
+        "start_timestamp": "00:00:04.705",
+        "end_timestamp": "00:00:05.172",
+        "timestamp": "00:00:04.705"
     },
     {
         "track_id": "pedestrian_track_48",
@@ -2200,7 +2908,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 4.7047,
+        "end_time_seconds": 5.171833333333334,
+        "duration_seconds": 0.46713333333333384,
+        "start_timestamp": "00:00:04.705",
+        "end_timestamp": "00:00:05.172",
+        "timestamp": "00:00:04.705"
     },
     {
         "track_id": "pedestrian_track_48",
@@ -2218,7 +2932,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 4.7047,
+        "end_time_seconds": 5.171833333333334,
+        "duration_seconds": 0.46713333333333384,
+        "start_timestamp": "00:00:04.705",
+        "end_timestamp": "00:00:05.172",
+        "timestamp": "00:00:04.705"
     },
     {
         "track_id": "pedestrian_track_56",
@@ -2236,7 +2956,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 5.739066666666667,
+        "end_time_seconds": 5.8058000000000005,
+        "duration_seconds": 0.06673333333333353,
+        "start_timestamp": "00:00:05.739",
+        "end_timestamp": "00:00:05.806",
+        "timestamp": "00:00:05.739"
     },
     {
         "track_id": "pedestrian_track_96",
@@ -2254,7 +2980,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.040366666666666,
+        "end_time_seconds": 7.040366666666666,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:07.040",
+        "end_timestamp": "00:00:07.040",
+        "timestamp": "00:00:07.040"
     },
     {
         "track_id": "pedestrian_track_97",
@@ -2272,7 +3004,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.040366666666666,
+        "end_time_seconds": 7.440766666666667,
+        "duration_seconds": 0.4004000000000003,
+        "start_timestamp": "00:00:07.040",
+        "end_timestamp": "00:00:07.441",
+        "timestamp": "00:00:07.040"
     },
     {
         "track_id": "pedestrian_track_97",
@@ -2290,7 +3028,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.040366666666666,
+        "end_time_seconds": 7.440766666666667,
+        "duration_seconds": 0.4004000000000003,
+        "start_timestamp": "00:00:07.040",
+        "end_timestamp": "00:00:07.441",
+        "timestamp": "00:00:07.040"
     },
     {
         "track_id": "pedestrian_track_97",
@@ -2308,7 +3052,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.040366666666666,
+        "end_time_seconds": 7.440766666666667,
+        "duration_seconds": 0.4004000000000003,
+        "start_timestamp": "00:00:07.040",
+        "end_timestamp": "00:00:07.441",
+        "timestamp": "00:00:07.040"
     },
     {
         "track_id": "people_track_146",
@@ -2326,7 +3076,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 8.1081,
+        "end_time_seconds": 8.141466666666666,
+        "duration_seconds": 0.03336666666666588,
+        "start_timestamp": "00:00:08.108",
+        "end_timestamp": "00:00:08.141",
+        "timestamp": "00:00:08.108"
     },
     {
         "track_id": "people_track_146",
@@ -2344,7 +3100,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 8.1081,
+        "end_time_seconds": 8.141466666666666,
+        "duration_seconds": 0.03336666666666588,
+        "start_timestamp": "00:00:08.108",
+        "end_timestamp": "00:00:08.141",
+        "timestamp": "00:00:08.108"
     },
     {
         "track_id": "people_track_15",
@@ -2362,7 +3124,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 1.4347666666666667,
+        "end_time_seconds": 1.4681333333333333,
+        "duration_seconds": 0.033366666666666545,
+        "start_timestamp": "00:00:01.435",
+        "end_timestamp": "00:00:01.468",
+        "timestamp": "00:00:01.435"
     },
     {
         "track_id": "people_track_15",
@@ -2380,7 +3148,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 1.4347666666666667,
+        "end_time_seconds": 1.4681333333333333,
+        "duration_seconds": 0.033366666666666545,
+        "start_timestamp": "00:00:01.435",
+        "end_timestamp": "00:00:01.468",
+        "timestamp": "00:00:01.435"
     },
     {
         "track_id": "people_track_16",
@@ -2402,7 +3176,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 1.6016000000000001,
+        "end_time_seconds": 1.6349666666666667,
+        "duration_seconds": 0.033366666666666545,
+        "start_timestamp": "00:00:01.602",
+        "end_timestamp": "00:00:01.635",
+        "timestamp": "00:00:01.602"
     },
     {
         "track_id": "people_track_16",
@@ -2423,7 +3203,13 @@
             "colors": 1.0,
             "attributes": 1.0,
             "action": 1.0
-        }
+        },
+        "start_time_seconds": 1.6016000000000001,
+        "end_time_seconds": 1.6349666666666667,
+        "duration_seconds": 0.033366666666666545,
+        "start_timestamp": "00:00:01.602",
+        "end_timestamp": "00:00:01.635",
+        "timestamp": "00:00:01.602"
     },
     {
         "track_id": "people_track_176",
@@ -2441,7 +3227,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 9.542866666666667,
+        "end_time_seconds": 9.542866666666667,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:09.543",
+        "end_timestamp": "00:00:09.543",
+        "timestamp": "00:00:09.543"
     },
     {
         "track_id": "people_track_2",
@@ -2459,7 +3251,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.20020000000000002,
+        "duration_seconds": 0.20020000000000002,
+        "start_timestamp": "00:00:00.000",
+        "end_timestamp": "00:00:00.200",
+        "timestamp": "00:00:00.000"
     },
     {
         "track_id": "people_track_2",
@@ -2477,7 +3275,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.20020000000000002,
+        "duration_seconds": 0.20020000000000002,
+        "start_timestamp": "00:00:00.000",
+        "end_timestamp": "00:00:00.200",
+        "timestamp": "00:00:00.000"
     },
     {
         "track_id": "people_track_2",
@@ -2495,7 +3299,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 0.0,
+        "end_time_seconds": 0.20020000000000002,
+        "duration_seconds": 0.20020000000000002,
+        "start_timestamp": "00:00:00.000",
+        "end_timestamp": "00:00:00.200",
+        "timestamp": "00:00:00.000"
     },
     {
         "track_id": "people_track_215",
@@ -2513,7 +3323,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 10.777433333333333,
+        "end_time_seconds": 10.777433333333333,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:10.777",
+        "end_timestamp": "00:00:10.777",
+        "timestamp": "00:00:10.777"
     },
     {
         "track_id": "people_track_223",
@@ -2531,7 +3347,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.077733333333333,
+        "end_time_seconds": 11.277933333333333,
+        "duration_seconds": 0.2002000000000006,
+        "start_timestamp": "00:00:11.078",
+        "end_timestamp": "00:00:11.278",
+        "timestamp": "00:00:11.078"
     },
     {
         "track_id": "people_track_223",
@@ -2549,7 +3371,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.077733333333333,
+        "end_time_seconds": 11.277933333333333,
+        "duration_seconds": 0.2002000000000006,
+        "start_timestamp": "00:00:11.078",
+        "end_timestamp": "00:00:11.278",
+        "timestamp": "00:00:11.078"
     },
     {
         "track_id": "people_track_223",
@@ -2567,7 +3395,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.077733333333333,
+        "end_time_seconds": 11.277933333333333,
+        "duration_seconds": 0.2002000000000006,
+        "start_timestamp": "00:00:11.078",
+        "end_timestamp": "00:00:11.278",
+        "timestamp": "00:00:11.078"
     },
     {
         "track_id": "people_track_238",
@@ -2585,7 +3419,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.5115,
+        "end_time_seconds": 11.544866666666667,
+        "duration_seconds": 0.033366666666667655,
+        "start_timestamp": "00:00:11.511",
+        "end_timestamp": "00:00:11.545",
+        "timestamp": "00:00:11.511"
     },
     {
         "track_id": "people_track_238",
@@ -2603,7 +3443,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 11.5115,
+        "end_time_seconds": 11.544866666666667,
+        "duration_seconds": 0.033366666666667655,
+        "start_timestamp": "00:00:11.511",
+        "end_timestamp": "00:00:11.545",
+        "timestamp": "00:00:11.511"
     },
     {
         "track_id": "people_track_24",
@@ -2621,7 +3467,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.3033,
+        "end_time_seconds": 3.336666666666667,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:03.303",
+        "end_timestamp": "00:00:03.337",
+        "timestamp": "00:00:03.303"
     },
     {
         "track_id": "people_track_24",
@@ -2639,7 +3491,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.3033,
+        "end_time_seconds": 3.336666666666667,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:03.303",
+        "end_timestamp": "00:00:03.337",
+        "timestamp": "00:00:03.303"
     },
     {
         "track_id": "people_track_286",
@@ -2657,7 +3515,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 13.046366666666668,
+        "end_time_seconds": 13.079733333333333,
+        "duration_seconds": 0.03336666666666588,
+        "start_timestamp": "00:00:13.046",
+        "end_timestamp": "00:00:13.080",
+        "timestamp": "00:00:13.046"
     },
     {
         "track_id": "people_track_286",
@@ -2675,7 +3539,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 13.046366666666668,
+        "end_time_seconds": 13.079733333333333,
+        "duration_seconds": 0.03336666666666588,
+        "start_timestamp": "00:00:13.046",
+        "end_timestamp": "00:00:13.080",
+        "timestamp": "00:00:13.046"
     },
     {
         "track_id": "people_track_35",
@@ -2693,7 +3563,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 3.7037,
+        "end_time_seconds": 3.7037,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:03.704",
+        "end_timestamp": "00:00:03.704",
+        "timestamp": "00:00:03.704"
     },
     {
         "track_id": "people_track_73",
@@ -2711,7 +3587,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.2062,
+        "end_time_seconds": 6.2062,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:06.206",
+        "end_timestamp": "00:00:06.206",
+        "timestamp": "00:00:06.206"
     },
     {
         "track_id": "people_track_76",
@@ -2729,7 +3611,13 @@
             "colors": 0.9,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.2729333333333335,
+        "end_time_seconds": 6.2729333333333335,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:06.273",
+        "end_timestamp": "00:00:06.273",
+        "timestamp": "00:00:06.273"
     },
     {
         "track_id": "people_track_99",
@@ -2747,7 +3635,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.073733333333333,
+        "end_time_seconds": 7.1071,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:07.074",
+        "end_timestamp": "00:00:07.107",
+        "timestamp": "00:00:07.074"
     },
     {
         "track_id": "people_track_99",
@@ -2765,7 +3659,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.073733333333333,
+        "end_time_seconds": 7.1071,
+        "duration_seconds": 0.03336666666666677,
+        "start_timestamp": "00:00:07.074",
+        "end_timestamp": "00:00:07.107",
+        "timestamp": "00:00:07.074"
     },
     {
         "track_id": "van_track_106",
@@ -2783,7 +3683,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.2072,
+        "end_time_seconds": 7.440766666666667,
+        "duration_seconds": 0.23356666666666648,
+        "start_timestamp": "00:00:07.207",
+        "end_timestamp": "00:00:07.441",
+        "timestamp": "00:00:07.207"
     },
     {
         "track_id": "van_track_106",
@@ -2801,7 +3707,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.2072,
+        "end_time_seconds": 7.440766666666667,
+        "duration_seconds": 0.23356666666666648,
+        "start_timestamp": "00:00:07.207",
+        "end_timestamp": "00:00:07.441",
+        "timestamp": "00:00:07.207"
     },
     {
         "track_id": "van_track_106",
@@ -2819,7 +3731,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 7.2072,
+        "end_time_seconds": 7.440766666666667,
+        "duration_seconds": 0.23356666666666648,
+        "start_timestamp": "00:00:07.207",
+        "end_timestamp": "00:00:07.441",
+        "timestamp": "00:00:07.207"
     },
     {
         "track_id": "van_track_69",
@@ -2837,7 +3755,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.006,
+        "end_time_seconds": 7.073733333333333,
+        "duration_seconds": 1.067733333333333,
+        "start_timestamp": "00:00:06.006",
+        "end_timestamp": "00:00:07.074",
+        "timestamp": "00:00:06.006"
     },
     {
         "track_id": "van_track_69",
@@ -2855,7 +3779,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.006,
+        "end_time_seconds": 7.073733333333333,
+        "duration_seconds": 1.067733333333333,
+        "start_timestamp": "00:00:06.006",
+        "end_timestamp": "00:00:07.074",
+        "timestamp": "00:00:06.006"
     },
     {
         "track_id": "van_track_69",
@@ -2873,7 +3803,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.006,
+        "end_time_seconds": 7.073733333333333,
+        "duration_seconds": 1.067733333333333,
+        "start_timestamp": "00:00:06.006",
+        "end_timestamp": "00:00:07.074",
+        "timestamp": "00:00:06.006"
     },
     {
         "track_id": "van_track_77",
@@ -2891,7 +3827,13 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.3063,
+        "end_time_seconds": 6.3063,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:06.306",
+        "end_timestamp": "00:00:06.306",
+        "timestamp": "00:00:06.306"
     },
     {
         "track_id": "van_track_83",
@@ -2909,6 +3851,12 @@
             "colors": 0.0,
             "attributes": 0.0,
             "action": 0.0
-        }
+        },
+        "start_time_seconds": 6.5065,
+        "end_time_seconds": 6.5065,
+        "duration_seconds": 0.0,
+        "start_timestamp": "00:00:06.506",
+        "end_timestamp": "00:00:06.506",
+        "timestamp": "00:00:06.506"
     }
 ]
